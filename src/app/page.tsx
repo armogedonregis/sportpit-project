@@ -1,0 +1,22 @@
+import { AthletesAndRetailerBlock } from "@/components/screens/home_screen/athletes_retailer_block";
+import { BicarbSystemBlock } from "@/components/screens/home_screen/bicarb_system_block";
+import { DrinkMixes } from "@/components/screens/home_screen/drink_mixes_block";
+import { GelsBlock } from "@/components/screens/home_screen/gels_block";
+import { HeroBlock } from "@/components/screens/home_screen/hero_block";
+import { ProductShowcaseBlock } from "@/components/screens/home_screen/product_show_case_block";
+import { SolidsBlock } from "@/components/screens/home_screen/solids_block";
+
+
+export default function Home() {
+  return (
+    <>
+      <HeroBlock />
+      <DrinkMixes />
+      <SolidsBlock />
+      <GelsBlock />
+      <BicarbSystemBlock />
+      <ProductShowcaseBlock />
+      <AthletesAndRetailerBlock />
+    </>
+  );
+}
