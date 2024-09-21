@@ -1,6 +1,24 @@
-import Link from 'next/link';
-import Image from 'next/image';
+'use client';
+
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { Canvas, useFrame } from '@react-three/fiber'
+import { useGLTF } from '@react-three/drei'
+import * as THREE from 'three'
+import { useRef } from 'react';
+import Link from 'next/link';
+
+function Model() {
+    const { scene } = useGLTF('./images/M.glb')
+    const modelRef = useRef<THREE.Group>()
+
+    useFrame((state, delta) => {
+        if (modelRef.current) {
+            modelRef.current.rotation.y += delta * 0.5 // Скорость вращения
+        }
+    })
+
+    return <primitive object={scene} ref={modelRef} scale={[1, 1, 1]} />
+}
 
 export const Footer = () => {
     return (
@@ -96,7 +114,15 @@ export const Footer = () => {
             </div>
             <div className="mx-auto mt-16 flex justify-between items-center">
                 <p className="text-xs text-gray-400">Copyright © 2024 Maurten. All rights reserved.</p>
-                <Image src="/icons/logo.svg" alt="Maurten" width={100} height={40} />
+                {/* <Image src="/icons/logo.svg" alt="Maurten" width={100} height={40} /> */}
+                <Canvas
+                        camera={{ position: [0, 0, 5], fov: 50 }}
+                        style={{ width: '150px', height: '100px' }}
+                    >
+                        <ambientLight intensity={0.5} />
+                        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+                        <Model />
+                    </Canvas>
             </div>
             <div className="mx-auto mt-8 flex space-x-4 text-xs">
                 <Link href="#" className="text-gray-400 hover:underline">FAQ</Link>
