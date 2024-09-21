@@ -5,7 +5,9 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 export const Footer = () => {
     return (
         <footer className="bg-black text-white py-16 px-8">
-            <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
+            <div className="container">
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
                 <div className="max-w-md">
                     <h3 className="text-2xl font-bold mb-4">Stay on pace</h3>
                     <p className="mb-4">Sign up for our newsletter for all the latest Maurten related news.</p>
@@ -102,6 +104,7 @@ export const Footer = () => {
                 <Link href="#" className="text-gray-400 hover:underline">Terms of Service</Link>
                 <Link href="#" className="text-gray-400 hover:underline">Refund policy</Link>
                 <Link href="#" className="text-gray-400 hover:underline">Privacy Policy</Link>
+            </div>
             </div>
         </footer>
     );

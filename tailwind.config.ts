@@ -11,7 +11,18 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        bg_message: "#222"
+        bg_message: "#222",
+        text_primary: "#333333"
+      },
+      container: {
+        center: true,
+        padding: '20px',
+        screens: {
+          sm: '640px',
+          md: '768px',
+          lg: '1024px',
+          xl: '1200px',
+        },
       },
     },
   },
