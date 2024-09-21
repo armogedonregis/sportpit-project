@@ -1,8 +1,25 @@
 'use client'
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useCartState } from '@/context/cartContext';
+import { Canvas, useFrame } from '@react-three/fiber'
+import { useGLTF } from '@react-three/drei'
+import * as THREE from 'three'
+import { usePathname } from 'next/navigation';
+
+function Model() {
+    const { scene } = useGLTF('./images/M.glb')
+    const modelRef = useRef<THREE.Group>()
+
+    useFrame((state, delta) => {
+        if (modelRef.current) {
+            modelRef.current.rotation.y += delta * 0.5 // Скорость вращения
+        }
+    })
+
+    return <primitive object={scene} ref={modelRef} scale={[1, 1, 1]} />
+}
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,16 +29,30 @@ export const Header = () => {
     const { items } = useCartState();
     const cartItemCount = items.length;
 
+    const pathname = usePathname();
+    
+    useEffect(() => {
+        setIsMenuOpen(false);
+    }, [pathname]);
+
     return (
         <header className="bg-black text-white py-4 relative z-50">
             <div className="lg:max-w-[2560px] w-full px-5 lg:px-12 mx-auto flex justify-between items-center">
                 <Link href="/">
-                    <div className="text-3xl font-bold fill-white relative z-[1000]">
+                    {/* <div className="text-3xl font-bold fill-white relative z-[1000]">
                         <svg width="43" height="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
                             <path d="M38.47,296.6a19.63,19.63,0,0,1-19.25-20h0L20.55,94.77,178.7,227.22l120.75-225,60.13,206.2a19.92,19.92,0,0,1-13,24.7,19.31,19.31,0,0,1-24.14-13.31L288.81,104.5,190.22,288.16,58.75,178,58,276.9a19.6,19.6,0,0,1-19.52,19.7Z"></path>
                             <ellipse cx="360.72" cy="277.22" rx="20.06" ry="20.53"></ellipse>
                         </svg>
-                    </div>
+                    </div> */}
+                    <Canvas
+                        camera={{ position: [0, 0, 5], fov: 50 }}
+                        style={{ width: '53px', height: '50px' }}
+                    >
+                        <ambientLight intensity={0.5} />
+                        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+                        <Model />
+                    </Canvas>
                 </Link>
                 <nav className="flex items-center gap-7">
                     {cartItemCount > 0 && (
