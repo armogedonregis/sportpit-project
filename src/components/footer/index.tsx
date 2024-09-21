@@ -28,7 +28,7 @@ export const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
                 <div className="max-w-md">
                     <h3 className="text-2xl font-bold mb-4">Stay on pace</h3>
-                    <p className="mb-4">Sign up for our newsletter for all the latest Maurten related news.</p>
+                    <p className="mb-4">Sign up for our newsletter for all the latest Mamostong related news.</p>
                     <form className="mb-4">
                         <h4 className="text-xs uppercase mb-2 text-gray-400">FOCUS</h4>
                         <div className="flex space-x-4 mb-4">
@@ -87,25 +87,25 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div className="mx-auto mt-16">
-                        <h3 className="text-lg font-bold mb-4 text-gray-400">Maurten Global</h3>
+                        <h3 className="text-lg font-bold mb-4 text-gray-400">Mamostong Global</h3>
                         <p className="mb-8">
-                            <a href="mailto:info@maurten.com" className="underline text-sm text-white">info@maurten.com</a>
+                            <a href="mailto:info@Mamostong.com" className="underline text-sm text-white">info@Mamostong.com</a>
                         </p>
                         <div className="grid grid-cols-2 gap-8">
                             <div>
-                                <h4 className="font-bold mb-2 text-sm text-white">Maurten AB</h4>
+                                <h4 className="font-bold mb-2 text-sm text-white">Mamostong AB</h4>
                                 <p className="text-sm text-gray-400">Gibraltargatan 1A<br />411 32 Gothenburg<br />Sweden</p>
                             </div>
                             <div>
-                                <h4 className="font-bold mb-2 text-sm text-white">Maurten US Corp</h4>
+                                <h4 className="font-bold mb-2 text-sm text-white">Mamostong US Corp</h4>
                                 <p className="text-sm text-gray-400">1000 N. West Street, Suite 1200<br />Wilmington, Delaware, 19801<br />United States</p>
                             </div>
                             <div>
-                                <h4 className="font-bold mb-2 text-sm text-white">Maurten Canada Inc.</h4>
+                                <h4 className="font-bold mb-2 text-sm text-white">Mamostong Canada Inc.</h4>
                                 <p className="text-sm text-gray-400">2 Bloor Street West<br />Suite 2120<br />Toronto, ON M4W 3E2</p>
                             </div>
                             <div>
-                                <h4 className="font-bold mb-2 text-sm text-white">Maurten UK Ltd.</h4>
+                                <h4 className="font-bold mb-2 text-sm text-white">Mamostong UK Ltd.</h4>
                                 <p className="text-sm text-gray-400">Sweden House<br />5 Upper Montagu Street<br />London W1H 2AG</p>
                             </div>
                         </div>
@@ -113,8 +113,8 @@ export const Footer = () => {
                 </div>
             </div>
             <div className="mx-auto mt-16 flex justify-between items-center">
-                <p className="text-xs text-gray-400">Copyright © 2024 Maurten. All rights reserved.</p>
-                {/* <Image src="/icons/logo.svg" alt="Maurten" width={100} height={40} /> */}
+                <p className="text-xs text-gray-400">Copyright © 2024 Mamostong. All rights reserved.</p>
+                {/* <Image src="/icons/logo.svg" alt="Mamostong" width={100} height={40} /> */}
                 <Canvas
                         camera={{ position: [0, 0, 5], fov: 50 }}
                         style={{ width: '150px', height: '100px' }}

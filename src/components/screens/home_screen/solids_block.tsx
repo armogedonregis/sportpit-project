@@ -8,7 +8,7 @@ export const SolidsBlock = () => {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 lg:mb-0 text-white">Solids</h2>
           <div className="text-center lg:text-right">
             <p className="text-2xl md:text-3xl lg:text-4xl font-light max-w-md lg:ml-auto text-white">
-              0% Hydrogel, 100% Maurten.
+              0% Hydrogel, 100% Mamostong.
             </p>
           </div>
         </div>

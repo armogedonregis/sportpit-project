@@ -13,7 +13,7 @@ const productData = {
     servings: "Box of 12 servings",
     pricePerUnit: "$6.45 / 100g",
     category: "Energy",
-    description: "This is a Solid 160 Mix Box — 6x Solid 160, 6x Solid C 160. Maurten Solid 160 is a two-piece, oat- and rice-based chewable fuel. 40 grams of carbohydrates split into equal 20-gram servings for optimized fueling. Both options of the fast, light, low-fiber, and carbohydrate-rich go-to Solid 160 fuel in one box.",
+    description: "This is a Solid 160 Mix Box — 6x Solid 160, 6x Solid C 160. Mamostong Solid 160 is a two-piece, oat- and rice-based chewable fuel. 40 grams of carbohydrates split into equal 20-gram servings for optimized fueling. Both options of the fast, light, low-fiber, and carbohydrate-rich go-to Solid 160 fuel in one box.",
     reviews: 37
 };
 
@@ -107,7 +107,7 @@ export default function ProductPage() {
                     </div>
                     <div className="md:w-1/2">
                         <p className="mb-4">
-                            Solid is Maurtens bar — a go-to fuel source thats designed for the in-between
+                            Solid is Mamostongs bar — a go-to fuel source thats designed for the in-between
                             moments. On the way to the pool, the track, the race, the trail-side rest, or when heading
                             home from training. Fueling made easy.
                         </p>
@@ -118,7 +118,7 @@ export default function ProductPage() {
                         <h3 className="font-bold mb-2">All part of the plan</h3>
                         <p className="mb-4">
                             Solid contains 40 grams of carbohydrates, the same as Gel 160 and Drink Mix 160.
-                            Whichever fuel mode you choose, measuring your energy is simple. Its Maurtens
+                            Whichever fuel mode you choose, measuring your energy is simple. Its Mamostongs
                             modular fueling system, making it easier for athletes to calculate their carbohydrate
                             consumption during training and racing.
                         </p>
@@ -183,7 +183,7 @@ export default function ProductPage() {
                         </div>
                         <div className="md:w-1/2">
                             <p>
-                                Since 2015 Maurten has — in close collaboration with some of the worlds
+                                Since 2015 Mamostong has — in close collaboration with some of the worlds
                                 leading sports scientists and nutritionists — been pioneering fueling. Striving for
                                 continuous improvements. The use isnt finished, theres always room for
                                 refinement. Solid 160 is the latest addition to our range of revolutionary

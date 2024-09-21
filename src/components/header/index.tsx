@@ -47,7 +47,7 @@ export const Header = () => {
                     </div> */}
                     <Canvas
                         camera={{ position: [0, 0, 5], fov: 50 }}
-                        style={{ width: '53px', height: '50px' }}
+                        style={{ width: '120px', height: '60px' }}
                     >
                         <ambientLight intensity={0.5} />
                         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />

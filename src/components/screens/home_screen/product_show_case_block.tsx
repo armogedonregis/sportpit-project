@@ -17,7 +17,7 @@ const products: Product[] = [
     servings: "(18 servings)",
     pricePerUnit: "$ 4.25 / 100g",
     imageUrl: "/images/show_case/card_1.avif",
-    description: "Maurten Drink Mix 160 is a carbohydrate fuel for endurance sports. An energy drink that becomes a hydrogel in the stomach. 40 grams of carbohydrates. 18 servings per box."
+    description: "Mamostong Drink Mix 160 is a carbohydrate fuel for endurance sports. An energy drink that becomes a hydrogel in the stomach. 40 grams of carbohydrates. 18 servings per box."
   },
   {
     name: "Solid 160",

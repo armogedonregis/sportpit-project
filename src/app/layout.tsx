@@ -6,7 +6,7 @@ import { HeaderRaiting } from "@/components/headerRaiting";
 import localFont from 'next/font/local'
 import { CartProvider } from "@/context/cartContext";
 
-export const maurtenSans = localFont({
+export const MamostongSans = localFont({
   src: [
     {
       path: '../styles/fonts/MaurtenSansRegular.woff2',
@@ -28,7 +28,7 @@ export const maurtenSans = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Hydrogel Sports Fuel – New Carbohydrate fuel for endurance… / Maurten",
+  title: "Hydrogel Sports Fuel – New Carbohydrate fuel for endurance… / Mamostong",
   description: "Hydrogel Sports Fuel – Carbohydrate-rich fuel for endurance sports, based on natural ingredients for energy, hydration and recovery.",
 };
 
@@ -38,8 +38,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={maurtenSans.variable}>
-      <body className={maurtenSans.className}>
+    <html lang="en" className={MamostongSans.variable}>
+      <body className={MamostongSans.className}>
       <CartProvider>
         <div className="min-h-screen flex flex-col bg-white text-black overflow-hidden">
           <HeaderRaiting />
