@@ -1,25 +1,15 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useCartState } from '@/context/cartContext';
-import { Canvas, useFrame } from '@react-three/fiber'
-import { useGLTF } from '@react-three/drei'
-import * as THREE from 'three'
 import { usePathname } from 'next/navigation';
+import dynamic from 'next/dynamic';
+import { Canvas } from '@react-three/fiber';
 
-function Model() {
-    const { scene } = useGLTF('./images/M.glb')
-    const modelRef = useRef<THREE.Group>()
-
-    useFrame((state, delta) => {
-        if (modelRef.current) {
-            modelRef.current.rotation.y += delta * 0.5 // Скорость вращения
-        }
-    })
-
-    return <primitive object={scene} ref={modelRef} scale={[1, 1, 1]} />
-}
+const DynamicCanvas = dynamic(() => import('../../utils/headerLogo').then((mod) => mod.HeaderLogo), {
+    ssr: false,
+})
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,10 +20,11 @@ export const Header = () => {
     const cartItemCount = items.length;
 
     const pathname = usePathname();
-    
+
     useEffect(() => {
         setIsMenuOpen(false);
     }, [pathname]);
+
 
     return (
         <header className="bg-black text-white py-4 relative z-50">
@@ -49,9 +40,8 @@ export const Header = () => {
                         camera={{ position: [0, 0, 5], fov: 50 }}
                         style={{ width: '120px', height: '60px' }}
                     >
-                        <ambientLight intensity={0.5} />
-                        <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-                        <Model />
+
+                        <DynamicCanvas />
                     </Canvas>
                 </Link>
                 <nav className="flex items-center gap-7">
