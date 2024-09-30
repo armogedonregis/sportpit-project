@@ -105,8 +105,8 @@ export const Footer = () => {
                     <p className="text-xs text-gray-400">Copyright © 2024 Mamostong. All rights reserved.</p>
                     {/* <Image src="/icons/logo.svg" alt="Mamostong" width={100} height={40} /> */}
                     <Canvas
-                        camera={{ position: [0, 0, 5], fov: 50 }}
-                        style={{ width: '150px', height: '100px' }}
+                        camera={{ position: [0, 0, 7], fov: 50 }}
+                        style={{ width: '150px', height: '100px', cursor: 'pointer' }}
                     >
                         <FooterLogo />
                     </Canvas>

@@ -37,8 +37,8 @@ export const Header = () => {
                         </svg>
                     </div> */}
                     <Canvas
-                        camera={{ position: [0, 0, 5], fov: 50 }}
-                        style={{ width: '120px', height: '60px' }}
+                        camera={{ position: [0, 0, 7], fov: 50 }}
+                        style={{ width: '120px', height: '75px' }}
                     >
 
                         <DynamicCanvas />

@@ -40,7 +40,7 @@ export default function ProductPage() {
                     <div className="flex flex-col md:flex-row gap-8">
                         <div className="md:w-1/2">
                             <Image
-                                src={`/images/product/product-${productData.img}.avif`}
+                                src={`/images/product/product-${productData.img}.jpg`}
                                 alt={productData.name}
                                 width={500}
                                 height={500}
@@ -98,7 +98,7 @@ export default function ProductPage() {
                 <div className="mt-16 flex flex-col md:flex-row gap-8">
                     <div className="md:w-1/2 flex justify-center">
                         <Image
-                            src={`/images/product/product-${productData.img}.avif`}
+                            src={`/images/product/product-${productData.img}.jpg`}
                             alt={productData.name}
                             width={500}
                             height={500}
@@ -138,7 +138,7 @@ export default function ProductPage() {
                     <div className="flex flex-col md:flex-row items-center gap-8">
                         <div className="md:w-1/2">
                             <Image
-                                src={`/images/product/product-${productData.img}.avif`}
+                                src={`/images/product/product-${productData.img}.jpg`}
                                 alt="Solid 160 - your go-to fuel"
                                 width={800}
                                 height={600}

@@ -28,7 +28,7 @@ export const ProductList: React.FC<ProductListProps> = ({ products }) => {
                     <div className="relative overflow-hidden">
                         <div className="relative aspect-square">
                             <Image
-                                src={`/images/product/product-${product.img}.avif`}
+                                src={`/images/product/product-${product.img}.jpg`}
                                 alt={product.name}
                                 fill
                                 objectFit="cover"

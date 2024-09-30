@@ -16,7 +16,7 @@ const products: Product[] = [
     price: "$ 45.00",
     servings: "(18 servings)",
     pricePerUnit: "$ 4.25 / 100g",
-    imageUrl: "/images/show_case/card_1.avif",
+    imageUrl: "/images/product/product-1.jpg",
     description: "Mamostong Drink Mix 160 is a carbohydrate fuel for endurance sports. An energy drink that becomes a hydrogel in the stomach. 40 grams of carbohydrates. 18 servings per box."
   },
   {
@@ -24,7 +24,7 @@ const products: Product[] = [
     price: "$ 36.00",
     servings: "(Box of 12 servings)",
     pricePerUnit: "$ 5.45 / 100g",
-    imageUrl: "/images/show_case/card_2.avif",
+    imageUrl: "/images/product/product-2.jpg",
     isNew: true
   },
   {
@@ -32,7 +32,7 @@ const products: Product[] = [
     price: "$ 36.00",
     servings: "(Box of 12 servings)",
     pricePerUnit: "$ 5.45 / 100g",
-    imageUrl: "/images/show_case/card_3.avif",
+    imageUrl: "/images/product/product-3.jpg",
     isNew: true
   },
   {
@@ -40,7 +40,7 @@ const products: Product[] = [
     price: "$ 36.00",
     servings: "(Box of 12 servings)",
     pricePerUnit: "$ 5.45 / 100g",
-    imageUrl: "/images/show_case/card_4.avif",
+    imageUrl: "/images/product/product-4.jpg",
     isNew: true
   }
 ];
