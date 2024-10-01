@@ -10,6 +10,33 @@ import { getAllProducts } from '@/utils/productData';
 
 
 
+// const productTwo: Product[] = [
+//     {
+//       name: "7516M Prefomance Suit",
+//       price: "€ 159.99",
+//       img: "/images/product/shop_1.png",
+//       link: "/product/7516m-prefomance-suit"
+//     },
+//     {
+//       name: "7516M Breathable T-Shirt",
+//       price: "€ 59.99",
+//       img: "/images/product/shop_2.png",
+//       link: "/product/7516m-breathable-t-shirt"
+//     },
+//     {
+//       name: "7516M Zip Sweatshirt",
+//       price: "€ 79.99",
+//       img: "/images/product/shop_3.png",
+//       link: "/product/7516m-zip-sweatshirt"
+//     },
+//     {
+//       name: "7516M Tight Gym Suit",
+//       price: "€ 139.99",
+//       img: "/images/product/shop_4.png",
+//       link: "/product/7516m-tight-gym-suit"
+//     }
+//   ]
+
 export default function ProductPage() {
     const [quantity, setQuantity] = useState(1);
     const [product, setProduct] = useState<Product | null>(null);

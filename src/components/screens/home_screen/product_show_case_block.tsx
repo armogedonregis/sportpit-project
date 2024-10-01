@@ -4,20 +4,12 @@ import Link from 'next/link';
 interface Product {
   name: string;
   price: string;
-  servings: string;
-  pricePerUnit: string;
+  servings?: string;
+  pricePerUnit?: string;
   imageUrl: string;
   isNew?: boolean;
   description?: string;
-}
-
-interface ProductTwo {
-  name: string;
-  price: string;
-  imageUrl: string;
-  isNew?: boolean;
   link?: string;
-  description?: string;
 }
 
 const products: Product[] = [
@@ -55,7 +47,7 @@ const products: Product[] = [
   }
 ];
 
-const productTwo: ProductTwo[] = [
+const productTwo: Product[] = [
   {
     name: "7516M Prefomance Suit",
     price: "€ 159.99",

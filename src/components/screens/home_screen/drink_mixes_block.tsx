@@ -1,7 +1,7 @@
 export const DrinkMixes = () => {
     return (
         <section className="relative bg-gray-200 h-[416px] lg:min-h-screen bg-center lg:bg-cover bg-no-repeat" style={{
-            backgroundImage: "url('/images/drink-mix-pile.avif')"
+            backgroundImage: "url('/images/7516M.png')"
         }}>
             <div className="absolute top-0 left-0 p-8 md:p-16 w-full">
                 <div className="flex items-center lg:flex-row flex-col lg:justify-between">
