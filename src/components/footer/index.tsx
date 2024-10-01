@@ -60,7 +60,12 @@ export const Footer = () => {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             <div>
                                 <h3 className="text-lg font-bold mb-4 text-gray-400">Products</h3>
-                                {['Drink Mix 160', 'Drink Mix 320', 'Drink Mix 320 Caf 100', 'Gel 100', 'Gel 100 Caf 100', 'Gel 160', 'Solid 160', 'Solid C 160', 'Bicarb System'].map((product) => (
+                                {[
+                                    'Dream Spray',
+                                    'Performance Blend Sachet',
+                                    'Plants Power Protein',
+                                    'Vegan D3'
+                                ].map((product) => (
                                     <Link key={product} href="#" className="block mb-2 text-sm text-white hover:underline">{product}</Link>
                                 ))}
                             </div>

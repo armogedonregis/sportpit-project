@@ -1,10 +1,10 @@
 import Image from 'next/image';
 
 const athleteImages = [
-  { src: '/images/athletes/athlete1.webp', tag: '@apairofcyclists' },
-  { src: '/images/athletes/athlete2.webp', tag: 'apairofcyclists' },
-  { src: '/images/athletes/athlete3.webp', tag: 'apairofcyclists' },
-  { src: '/images/athletes/athlete4.webp', tag: 'apairofcyclists' }
+  { src: '/images/athletes/athlete1.jpg', tag: '@apairofcyclists' },
+  { src: '/images/athletes/athlete2.jpg', tag: 'apairofcyclists' },
+  { src: '/images/athletes/athlete3.jpg', tag: 'apairofcyclists' },
+  { src: '/images/athletes/athlete4.png', tag: 'apairofcyclists' }
 ];
 
 export const AthletesAndRetailerBlock = () => {
