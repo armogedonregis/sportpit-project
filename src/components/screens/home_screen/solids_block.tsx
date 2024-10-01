@@ -3,7 +3,7 @@ export const SolidsBlock = () => {
     <section className="relative bg-black h-[416px] lg:min-h-screen bg-center bg-cover bg-no-repeat" style={{
       backgroundImage: "url('/images/summit_bg.png')"
     }}>
-      <div className="absolute top-0 left-0 p-8 md:p-16 w-full">
+      <div className="absolute top-0 left-0 p-6 md:p-16 w-full">
         <div className="flex items-start lg:items-center lg:flex-row flex-col lg:justify-between">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 lg:mb-0 text-black">Summit</h2>
           <div className="text-left lg:text-right">

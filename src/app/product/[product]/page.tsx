@@ -48,6 +48,7 @@ const productTwo: Product[] = [
 export default function ProductPage() {
     const [quantity, setQuantity] = useState(1);
     const [product, setProduct] = useState<Product | null>(null);
+    const [selectedOption, setSelectedOption] = useState(product?.cloth ? 'M' : 'Solid 160 Mix Box');
     const dispatch = useCartDispatch();
 
     const params = useParams();
@@ -58,6 +59,7 @@ export default function ProductPage() {
         const foundProduct = allProducts.find(p => p.link === `/${productId}`);
         if (foundProduct) {
             setProduct(foundProduct);
+            setSelectedOption(foundProduct.cloth ? 'M' : 'Solid 160 Mix Box');
         }
     }, [productId]);
 
@@ -69,6 +71,11 @@ export default function ProductPage() {
     const handleAddToCart = () => {
         dispatch({ type: 'ADD_ITEM', payload: { ...product } });
     };
+
+    const handleOptionSelect = (option: string) => {
+        setSelectedOption(option);
+    };
+
 
 
     return (
@@ -118,15 +125,27 @@ export default function ProductPage() {
                                 <div className="flex gap-2">
                                     {product.cloth ? (
                                         <>
-                                            <button className="px-4 py-2 border border-white bg-white text-black">M</button>
-                                            <button className="px-4 py-2 border border-white">L</button>
-                                            <button className="px-4 py-2 border border-white">XL</button>
+                                            {['M', 'L', 'XL'].map((size) => (
+                                                <button
+                                                    key={size}
+                                                    className={`px-4 py-2 border border-white ${selectedOption === size ? 'bg-white text-black' : 'text-white'}`}
+                                                    onClick={() => handleOptionSelect(size)}
+                                                >
+                                                    {size}
+                                                </button>
+                                            ))}
                                         </>
                                     ) : (
                                         <>
-                                            <button className="px-4 py-2 border border-white bg-white text-black">Solid 160 Mix Box</button>
-                                            <button className="px-4 py-2 border border-white">Solid 160</button>
-                                            <button className="px-4 py-2 border border-white">Solid C 160</button>
+                                            {['Solid 160 Mix Box', 'Solid 160', 'Solid C 160'].map((option) => (
+                                                <button
+                                                    key={option}
+                                                    className={`px-4 py-2 border border-white ${selectedOption === option ? 'bg-white text-black' : 'text-white'}`}
+                                                    onClick={() => handleOptionSelect(option)}
+                                                >
+                                                    {option}
+                                                </button>
+                                            ))}
                                         </>
                                     )}
                                 </div>
