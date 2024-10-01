@@ -70,7 +70,7 @@ export const Header = () => {
                         <div className="flex items-center gap-2">
                             <div className="relative group">
                                 <Link href="/">
-                                    <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+                                    <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="none" aria-hidden="true">
                                         <g>
                                             <path d="M19 6C19 8.20914 17.2091 10 15 10C12.7909 10 11 8.20914 11 6C11 3.79086 12.7909 2 15 2C17.2091 2 19 3.79086 19 6Z" stroke="currentColor"></path>
                                             <path d="M15 12C11.134 12 8 15.1091 8 18.9443V26.5H22V18.9443C22 15.1091 18.866 12 15 12Z" stroke="currentColor"></path>
@@ -83,11 +83,11 @@ export const Header = () => {
                             </div>
                             <div className="relative group">
                                 <Link href="/cart" className="mr-4 relative block">
-                                    <svg className="header-icon header-icon-full" width="30" height="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="none">
+                                    <svg className="header-icon header-icon-full" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="none">
                                         <path d="M22 9.5C22 5.35786 18.6421 2 14.5 2C10.3579 2 7 5.35786 7 9.5" stroke="currentColor"></path>
                                         <path d="M2 10L5 26.5H24L27 10" stroke="currentColor"></path>
                                     </svg>
-                                    <span className={`absolute -top-2 -right-2 ${isScrolled ? 'bg-white text-black' : 'bg-black text-white'} rounded-full w-5 h-5 flex items-center justify-center text-xs`}>
+                                    <span className={`absolute -top-2 -right-2 ${isScrolled ? 'bg-white text-black' : 'bg-black text-white'} rounded-full w-4 h-4 flex items-center justify-center text-[10px]`}>
                                         {cartItemCount}
                                     </span>
                                 </Link>
