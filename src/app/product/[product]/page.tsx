@@ -16,28 +16,28 @@ const productTwo: Product[] = [
         name: "7516M Prefomance Suit",
         price: "€ 159.99",
         img: "/images/product/shop_1.png",
-        link: "/product/7516m-prefomance-suit"
+        link: "/7516m-prefomance-suit"
     },
     {
         id: 16,
         name: "7516M Breathable T-Shirt",
         price: "€ 59.99",
         img: "/images/product/shop_2.png",
-        link: "/product/7516m-breathable-t-shirt"
+        link: "/7516m-breathable-t-shirt"
     },
     {
         id: 17,
         name: "7516M Zip Sweatshirt",
         price: "€ 79.99",
         img: "/images/product/shop_3.png",
-        link: "/product/7516m-zip-sweatshirt"
+        link: "/7516m-zip-sweatshirt"
     },
     {
         id: 18,
         name: "7516M Tight Gym Suit",
         price: "€ 139.99",
         img: "/images/product/shop_4.png",
-        link: "/product/7516m-tight-gym-suit"
+        link: "/7516m-tight-gym-suit"
     }
 ]
 
@@ -51,7 +51,7 @@ export default function ProductPage() {
 
     useEffect(() => {
         const allProducts = [...getAllProducts(), ...productTwo];
-        const foundProduct = allProducts.find(p => p.link === `/product/${productId}`);
+        const foundProduct = allProducts.find(p => p.link === `/${productId}`);
         if (foundProduct) {
             setProduct(foundProduct);
         }
@@ -139,13 +139,13 @@ export default function ProductPage() {
 
                 <div className="mt-16 flex flex-col md:flex-row gap-8">
                     <div className="md:w-1/2 flex justify-center">
-                        <Image
-                            src={`/images/product/product-${product.img}.jpg`}
+                        {product.img && <Image
+                            src={isNaN(Number(product.img)) ? product.img : `/images/product/product-${product.img}.jpg`}
                             alt={product.name}
                             width={500}
                             height={500}
                             className="w-full max-w-md"
-                        />
+                        />}
                     </div>
                     <div className="md:w-1/2">
                         <p className="mb-4">
@@ -179,13 +179,13 @@ export default function ProductPage() {
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col md:flex-row items-center gap-8">
                         <div className="md:w-1/2">
-                            <Image
-                                src={`/images/product/product-${product.img}.jpg`}
+                            {product.img && <Image
+                                src={isNaN(Number(product.img)) ? product.img : `/images/product/product-${product.img}.jpg`}
                                 alt="Solid 160 - your go-to fuel"
                                 width={800}
                                 height={600}
                                 className="w-full"
-                            />
+                            />}
                         </div>
                         <div className="md:w-1/2">
                             <h2 className="text-4xl font-bold mb-4">
