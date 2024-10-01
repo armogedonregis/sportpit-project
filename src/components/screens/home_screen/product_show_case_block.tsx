@@ -12,34 +12,34 @@ interface Product {
 
 const products: Product[] = [
   {
-    name: "Drink Mix 160",
-    price: "$ 45.00",
-    servings: "(18 servings)",
+    name: "Dream Spray",
+    price: "€ 29.99",
+    servings: "(25 ml)",
     pricePerUnit: "$ 4.25 / 100g",
     imageUrl: "/images/product/product-1.jpg",
     description: "Mamostong Drink Mix 160 is a carbohydrate fuel for endurance sports. An energy drink that becomes a hydrogel in the stomach. 40 grams of carbohydrates. 18 servings per box."
   },
   {
-    name: "Solid 160",
-    price: "$ 36.00",
-    servings: "(Box of 12 servings)",
-    pricePerUnit: "$ 5.45 / 100g",
+    name: "Performance Blend Sachet",
+    price: "€ 3.99",
+    servings: "(50g)",
+    pricePerUnit: "",
     imageUrl: "/images/product/product-2.jpg",
     isNew: true
   },
   {
-    name: "Solid 160 Mix Box",
-    price: "$ 36.00",
+    name: "Plants Power Protein",
+    price: "€ 32.99",
     servings: "(Box of 12 servings)",
-    pricePerUnit: "$ 5.45 / 100g",
+    pricePerUnit: "€ 2.75 / 50g",
     imageUrl: "/images/product/product-3.jpg",
     isNew: true
   },
   {
-    name: "Solid C 160",
-    price: "$ 36.00",
-    servings: "(Box of 12 servings)",
-    pricePerUnit: "$ 5.45 / 100g",
+    name: "Vegan D3",
+    price: "€ 27.99",
+    servings: "(60 capsules)",
+    pricePerUnit: "€ 0.46 / 1 capsule",
     imageUrl: "/images/product/product-4.jpg",
     isNew: true
   }
