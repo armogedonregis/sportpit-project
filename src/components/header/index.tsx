@@ -6,6 +6,7 @@ import { useCartState } from '@/context/cartContext';
 import { usePathname } from 'next/navigation';
 import dynamic from 'next/dynamic';
 import { Canvas } from '@react-three/fiber';
+import Image from 'next/image';
 
 const DynamicCanvas = dynamic(() => import('../../utils/headerLogo').then((mod) => mod.HeaderLogo), {
     ssr: false,
@@ -47,8 +48,14 @@ export const Header = () => {
         <header className={`bg-black text-white p-4 w-full z-50 top-0 ${scrollY > 0 ? 'fixed' : ''}`}>
             <div className="lg:max-w-[2560px] w-full px-5 lg:px-12 mx-auto flex justify-between items-center">
                 <Link href="/" className="flex items-center h-[75px]">
-                {!isScrolled ? (
-                        <span className="text-white text-2xl font-bold">MAMOSTONG</span>
+                    {!isScrolled ? (
+                        <Image
+                            src="/images/logo.jpg"
+                            alt="MAMOSTONG"
+                            width={150}
+                            height={100}
+                            className="object-contain"
+                        />
                     ) : (
                         <Canvas
                             camera={{ position: [0, 0, 7], fov: 50 }}
