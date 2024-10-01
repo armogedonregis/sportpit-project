@@ -14,6 +14,10 @@ const allProducts: Product[] = [
     { id: 11, img: 3, name: 'Plants Power Protein', price: '€32.99', servings: 'Box of 12 servings', pricePerUnit: '€2.75 / 50g', category: 'essentials', isNew: true, link: '/plants-power-protein-essential-2' },
     { id: 12, img: 4, name: 'Vegan D3', price: '€27.99', servings: '60 capsules', pricePerUnit: '€0.46 / 1 capsule', category: 'drink-mixes', link: '/vegan-d3-drink-mix' },
     { id: 13, img: 1, name: 'Dream Spray', price: '€29.99', servings: '25 ml', pricePerUnit: '€1,2 / 1 ml', category: 'drink-mixes', link: '/dream-spray-drink-mix' },
+    { id: 15, name: "7516M Prefomance Suit", price: "€159.99", img: "/images/product/shop_1.png", category: 'solids', link: "/7516m-prefomance-suit" },
+    { id: 16, name: "7516M Breathable T-Shirt", price: "€59.99", img: "/images/product/shop_2.png", category: 'essentials', link: "/7516m-breathable-t-shirt" },
+    { id: 17, name: "7516M Zip Sweatshirt", price: "€79.99", img: "/images/product/shop_3.png", category: 'bundles', link: "/7516m-zip-sweatshirt" },
+    { id: 18, name: "7516M Tight Gym Suit", price: "€139.99", img: "/images/product/shop_4.png", category: 'gels', link: "/7516m-tight-gym-suit" },
 ];
 
 

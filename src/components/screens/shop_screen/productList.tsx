@@ -14,7 +14,7 @@ export const ProductList: React.FC<ProductListProps> = ({ products }) => {
     const dispatch = useCartDispatch();
 
     const addToCart = (product: Product) => {
-      dispatch({ type: 'ADD_ITEM', payload: product });
+        dispatch({ type: 'ADD_ITEM', payload: product });
     };
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
@@ -27,12 +27,12 @@ export const ProductList: React.FC<ProductListProps> = ({ products }) => {
                     )}
                     <div className="relative overflow-hidden">
                         <div className="relative aspect-square">
-                            <Image
-                                src={`/images/product/product-${product.img}.jpg`}
+                            {product.img && <Image
+                                src={isNaN(Number(product.img)) ? product.img : `/images/product/product-${product.img}.jpg`}
                                 alt={product.name}
                                 fill
                                 objectFit="cover"
-                            />
+                            />}
                             {product.isNew && (
                                 <span className="absolute z-10 top-4 left-4 bg-black text-white text-xs px-2 py-1">
                                     New
@@ -40,7 +40,7 @@ export const ProductList: React.FC<ProductListProps> = ({ products }) => {
                             )}
                             <div className="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-start justify-center h-full p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <p className="text-white text-sm mb-2">{product.name} is a two-piece, oat- and rice-based chewable fuel. 40 grams of carbohydrates split into equal...</p>
-                                <Link  href={`/product/${product.link}`} className="text-white text-sm underline hover:no-underline">
+                                <Link href={`/product/${product.link}`} className="text-white text-sm underline hover:no-underline">
                                     Read more →
                                 </Link>
                                 <button onClick={() => addToCart(product)} className="mt-4 border-white border text-white px-4 py-2 text-sm font-semibold hover:bg-black transition-colors">
