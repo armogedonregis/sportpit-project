@@ -83,7 +83,7 @@ export const Header = () => {
                             </div>
                             <div className="relative group">
                                 <Link href="/cart" className="mr-4 relative block">
-                                    <svg className="header-icon header-icon-full" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="none">
+                                    <svg className="header-icon header-icon-full" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="none">
                                         <path d="M22 9.5C22 5.35786 18.6421 2 14.5 2C10.3579 2 7 5.35786 7 9.5" stroke="currentColor"></path>
                                         <path d="M2 10L5 26.5H24L27 10" stroke="currentColor"></path>
                                     </svg>
