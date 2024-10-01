@@ -104,7 +104,8 @@ export default function CartPage() {
                             {items.map((item) => (
                                 <div key={item.id} className="flex items-center justify-between mb-4">
                                     <div className="flex items-center">
-                                        <Image src={`/images/product/product-${item.img}.jpg`} alt={item.name} width={50} height={50} className="mr-4" />
+                                        {item.img && <Image
+                                            src={isNaN(Number(item.img)) ? item.img : `/images/product/product-${item.img}.jpg`} alt={item.name} width={50} height={50} className="mr-4" />}
                                         <p>{item.quantity} x {item.name}</p>
                                     </div>
                                     <p>{item.price}</p>

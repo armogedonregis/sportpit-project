@@ -16,28 +16,32 @@ const productTwo: Product[] = [
         name: "7516M Prefomance Suit",
         price: "€ 159.99",
         img: "/images/product/shop_1.png",
-        link: "/7516m-prefomance-suit"
+        link: "/7516m-prefomance-suit",
+        cloth: true
     },
     {
         id: 16,
         name: "7516M Breathable T-Shirt",
         price: "€ 59.99",
         img: "/images/product/shop_2.png",
-        link: "/7516m-breathable-t-shirt"
+        link: "/7516m-breathable-t-shirt",
+        cloth: true
     },
     {
         id: 17,
         name: "7516M Zip Sweatshirt",
         price: "€ 79.99",
         img: "/images/product/shop_3.png",
-        link: "/7516m-zip-sweatshirt"
+        link: "/7516m-zip-sweatshirt",
+        cloth: true
     },
     {
         id: 18,
         name: "7516M Tight Gym Suit",
         price: "€ 139.99",
         img: "/images/product/shop_4.png",
-        link: "/7516m-tight-gym-suit"
+        link: "/7516m-tight-gym-suit",
+        cloth: true
     }
 ]
 
@@ -92,15 +96,39 @@ export default function ProductPage() {
 
                         <div className="md:w-1/2">
                             <h1 className="text-4xl font-bold mb-4">{product.name}</h1>
-                            <p className="mb-4">This is a Dream Spray Mix Box — 6x Dream Spray, 6x Solid C 160. Mamostong Dream Spray is a two-piece, oat- and rice-based chewable fuel. 40 grams of carbohydrates split into equal 20-gram servings for optimized fueling. Both options of the fast, light, low-fiber, and carbohydrate-rich go-to Solid 160 fuel in one box.</p>
+                            {product.cloth ? (
+                                <>
+                                    <p className="mb-4">
+                                        No matter the workout, the {product.name} is equipped for the challenge. It&lsquo;s made with soft, breathable Conquer performance fabric that keeps up with every move. With a crew neck, wide arm holes and a straight, finished hem, it wears well with the matching short and a chill hoodie for gym days and rest days.
+                                    </p>
+                                    <ul className="list-disc list-inside mb-4">
+                                        <li>Airy, performance engineered Conquer tank</li>
+                                        <li>Ultra-soft & breathable for working out & wearing out</li>
+                                        <li>Designed & uniquely fit for every size</li>
+                                        <li>Wear-tested by our in-house team for the perfect fit</li>
+                                    </ul>
+                                </>
+                            ) : (
+                                <p className="mb-4">This is a Dream Spray Mix Box — 6x Dream Spray, 6x Solid C 160. Mamostong Dream Spray is a two-piece, oat- and rice-based chewable fuel. 40 grams of carbohydrates split into equal 20-gram servings for optimized fueling. Both options of the fast, light, low-fiber, and carbohydrate-rich go-to Solid 160 fuel in one box.</p>
+                            )}
                             <p className="mb-4">{product.servings}</p>
 
                             <div className="mb-4">
                                 <h3 className="font-semibold mb-2">Select</h3>
                                 <div className="flex gap-2">
-                                    <button className="px-4 py-2 border border-white bg-white text-black">Solid 160 Mix Box</button>
-                                    <button className="px-4 py-2 border border-white">Solid 160</button>
-                                    <button className="px-4 py-2 border border-white">Solid C 160</button>
+                                    {product.cloth ? (
+                                        <>
+                                            <button className="px-4 py-2 border border-white bg-white text-black">M</button>
+                                            <button className="px-4 py-2 border border-white">L</button>
+                                            <button className="px-4 py-2 border border-white">XL</button>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <button className="px-4 py-2 border border-white bg-white text-black">Solid 160 Mix Box</button>
+                                            <button className="px-4 py-2 border border-white">Solid 160</button>
+                                            <button className="px-4 py-2 border border-white">Solid C 160</button>
+                                        </>
+                                    )}
                                 </div>
                             </div>
 
@@ -148,28 +176,44 @@ export default function ProductPage() {
                         />}
                     </div>
                     <div className="md:w-1/2">
-                        <p className="mb-4">
-                            Dream Spray is Mamostongs bar — a go-to fuel source thats designed for the in-between
-                            moments. On the way to the pool, the track, the race, the trail-side rest, or when heading
-                            home from training. Fueling made easy.
-                        </p>
-                        <p className="mb-4">
-                            There are two options in the Mix Box — Dream Spray and Dream Spray (with cocoa).
-                            Cocoa acts as a flavour reset. A variation to break up endurance fueling.
-                        </p>
-                        <h3 className="font-bold mb-2">All part of the plan</h3>
-                        <p className="mb-4">
-                            Solid contains 40 grams of carbohydrates, the same as Gel 160 and Drink Mix 160.
-                            Whichever fuel mode you choose, measuring your energy is simple. Its Mamostongs
-                            modular fueling system, making it easier for athletes to calculate their carbohydrate
-                            consumption during training and racing.
-                        </p>
-                        <h3 className="font-bold mb-2">Break it down</h3>
-                        <p>
-                            A Solid wrapper encapsulates 2 mini-bars — 20 grams of carbohydrates in each. Eat it
-                            all or save half for later. Break down your training. Break down your race. Break down
-                            your fuel.
-                        </p>
+                        {product.cloth ? (
+                            <>
+                                <p className="mb-4">
+                                    No matter the workout, the {product.name} is equipped for the challenge. It&lsquo;s made with soft, breathable Conquer performance fabric that keeps up with every move. With a crew neck, wide arm holes and a straight, finished hem, it wears well with the matching short and a chill hoodie for gym days and rest days.
+                                </p>
+                                <ul className="list-disc list-inside mb-4">
+                                    <li>Airy, performance engineered Conquer tank</li>
+                                    <li>Ultra-soft & breathable for working out & wearing out</li>
+                                    <li>Designed & uniquely fit for every size</li>
+                                    <li>Wear-tested by our in-house team for the perfect fit</li>
+                                </ul>
+                            </>
+                        ) : (
+                            <>
+                                <p className="mb-4">
+                                    Dream Spray is Mamostongs bar — a go-to fuel source that&#39;s designed for the in-between
+                                    moments. On the way to the pool, the track, the race, the trail-side rest, or when heading
+                                    home from training. Fueling made easy.
+                                </p>
+                                <p className="mb-4">
+                                    There are two options in the Mix Box — Dream Spray and Dream Spray (with cocoa).
+                                    Cocoa acts as a flavour reset. A variation to break up endurance fueling.
+                                </p>
+                                <h3 className="font-bold mb-2">All part of the plan</h3>
+                                <p className="mb-4">
+                                    Solid contains 40 grams of carbohydrates, the same as Gel 160 and Drink Mix 160.
+                                    Whichever fuel mode you choose, measuring your energy is simple. It&#39;s Mamostong&#39;s
+                                    modular fueling system, making it easier for athletes to calculate their carbohydrate
+                                    consumption during training and racing.
+                                </p>
+                                <h3 className="font-bold mb-2">Break it down</h3>
+                                <p>
+                                    A Solid wrapper encapsulates 2 mini-bars — 20 grams of carbohydrates in each. Eat it
+                                    all or save half for later. Break down your training. Break down your race. Break down
+                                    your fuel.
+                                </p>
+                            </>
+                        )}
                     </div>
                 </div>
             </div>
@@ -189,29 +233,55 @@ export default function ProductPage() {
                         </div>
                         <div className="md:w-1/2">
                             <h2 className="text-4xl font-bold mb-4">
-                                Dream Spray —<br />
-                                your go-to<br />
-                                fuel.
+                                {product.cloth ? (
+                                    <>
+                                        {product.name} —<br />
+                                        your go-to<br />
+                                        athletic wear.
+                                    </>
+                                ) : (
+                                    <>
+                                        Dream Spray —<br />
+                                        your go-to<br />
+                                        fuel.
+                                    </>
+                                )}
                             </h2>
-                            <p className="mb-4">
-                                Athletes are always on-the-go. Dream Spray is designed to work with those
-                                moments. Training and racing fits often around everyday life — Dream Spray
-                                fits around that as well.
-                            </p>
-                            <p className="mb-4">
-                                Before: Dream Spray can be used before training to load carbohydrates and
-                                keep fiber low. Its a great pre-race breakfast or snack in the days leading
-                                up to a big goal.
-                            </p>
-                            <p className="mb-4">
-                                During: Solid is an ideal fuel to consume during low-to-medium intensity
-                                endurance sessions over 2 hours. It helps add variety into your fueling
-                                without compromising the absorption rate of the carbohydrates.
-                            </p>
-                            <p>
-                                After: Hard training sessions or races should be rewarded. Dream Spray is a great
-                                tool for replenishing carbohydrate quickly.
-                            </p>
+                            {product.cloth ? (
+                                <>
+                                    <p className="mb-4">
+                                        No matter the workout, the {product.name} is equipped for the challenge. It&lsquo;s made with soft, breathable Conquer performance fabric that keeps up with every move. With a crew neck, wide arm holes and a straight, finished hem, it wears well with the matching short and a chill hoodie for gym days and rest days.
+                                    </p>
+                                    <ul className="list-disc list-inside mb-4">
+                                        <li>Airy, performance engineered Conquer tank</li>
+                                        <li>Ultra-soft & breathable for working out & wearing out</li>
+                                        <li>Designed & uniquely fit for every size</li>
+                                        <li>Wear-tested by our in-house team for the perfect fit</li>
+                                    </ul>
+                                </>
+                            ) : (
+                                <>
+                                    <p className="mb-4">
+                                        Athletes are always on-the-go. Dream Spray is designed to work with those
+                                        moments. Training and racing fits often around everyday life — Dream Spray
+                                        fits around that as well.
+                                    </p>
+                                    <p className="mb-4">
+                                        Before: Dream Spray can be used before training to load carbohydrates and
+                                        keep fiber low. It&lsquo;s a great pre-race breakfast or snack in the days leading
+                                        up to a big goal.
+                                    </p>
+                                    <p className="mb-4">
+                                        During: Solid is an ideal fuel to consume during low-to-medium intensity
+                                        endurance sessions over 2 hours. It helps add variety into your fueling
+                                        without compromising the absorption rate of the carbohydrates.
+                                    </p>
+                                    <p>
+                                        After: Hard training sessions or races should be rewarded. Dream Spray is a great
+                                        tool for replenishing carbohydrate quickly.
+                                    </p>
+                                </>
+                            )}
                         </div>
                     </div>
                 </div>
@@ -224,19 +294,35 @@ export default function ProductPage() {
                             <h2 className="text-4xl font-bold mb-4">Stay ahead of the times.</h2>
                         </div>
                         <div className="md:w-1/2">
-                            <p>
-                                Since 2015 Mamostong has — in close collaboration with some of the worlds
-                                leading sports scientists and nutritionists — been pioneering fueling. Striving for
-                                continuous improvements. The use isnt finished, theres always room for
-                                refinement. Dream Spray is the latest addition to our range of revolutionary
-                                sports fuels — a direct result of athlete collaboration.
-                            </p>
-                            <p className="mt-4">
-                                To stay at the front of a fast-developing endurance landscape,
-                                you need to stay ahead of the times. Dream Spray is designed to help you do
-                                so. Were here to supply you with the necessary tools. Dream Spray is
-                                an evolution — a direct result of athlete collaboration.
-                            </p>
+                            {product.cloth ? (
+                                <>
+                                    <p className="mb-4">
+                                        No matter the workout, the {product.name} is equipped for the challenge. It&lsquo;s made with soft, breathable Conquer performance fabric that keeps up with every move. With a crew neck, wide arm holes and a straight, finished hem, it wears well with the matching short and a chill hoodie for gym days and rest days.
+                                    </p>
+                                    <ul className="list-disc list-inside mb-4">
+                                        <li>Airy, performance engineered Conquer tank</li>
+                                        <li>Ultra-soft & breathable for working out & wearing out</li>
+                                        <li>Designed & uniquely fit for every size</li>
+                                        <li>Wear-tested by our in-house team for the perfect fit</li>
+                                    </ul>
+                                </>
+                            ) : (
+                                <>
+                                    <p>
+                                        Since 2015 Mamostong has — in close collaboration with some of the world&apos;s
+                                        leading sports scientists and nutritionists — been pioneering fueling. Striving for
+                                        continuous improvements. The use isn&apos;t finished, there&apos;s always room for
+                                        refinement. Dream Spray is the latest addition to our range of revolutionary
+                                        sports fuels — a direct result of athlete collaboration.
+                                    </p>
+                                    <p className="mt-4">
+                                        To stay at the front of a fast-developing endurance landscape,
+                                        you need to stay ahead of the times. Dream Spray is designed to help you do
+                                        so. We&apos;re here to supply you with the necessary tools. Dream Spray is
+                                        an evolution — a direct result of athlete collaboration.
+                                    </p>
+                                </>
+                            )}
                         </div>
                     </div>
                 </div>

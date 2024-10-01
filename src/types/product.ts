@@ -8,4 +8,5 @@ export interface Product {
     link?: string;
     category?: string;
     isNew?: boolean;
+    cloth?: boolean;
 }

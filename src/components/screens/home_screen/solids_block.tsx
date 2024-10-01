@@ -4,9 +4,9 @@ export const SolidsBlock = () => {
       backgroundImage: "url('/images/summit_bg.png')"
     }}>
       <div className="absolute top-0 left-0 p-8 md:p-16 w-full">
-        <div className="flex items-center lg:flex-row flex-col lg:justify-between">
+        <div className="flex items-start lg:items-center lg:flex-row flex-col lg:justify-between">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 lg:mb-0 text-black">Summit</h2>
-          <div className="text-center lg:text-right">
+          <div className="text-left lg:text-right">
             <p className="text-2xl md:text-3xl lg:text-4xl font-light max-w-md lg:ml-auto text-black">
               Pro Athetles Essentials.
             </p>
