@@ -9,6 +9,7 @@ import { Product } from '@/types/product';
 import { getAllProducts } from '@/utils/productData';
 
 
+
 export default function ProductPage() {
     const [quantity, setQuantity] = useState(1);
     const [product, setProduct] = useState<Product | null>(null);

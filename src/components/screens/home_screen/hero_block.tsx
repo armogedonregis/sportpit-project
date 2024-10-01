@@ -15,7 +15,7 @@ export const HeroBlock = () => {
             <div 
                 className="bg-image absolute inset-0 md:w-1/2 md:left-1/2 bg-cover bg-center h-1/2 md:h-full top-1/2 md:top-0"
                 style={{
-                    backgroundImage: "url('/images/bg_hero.avif')",
+                    backgroundImage: "url('/images/bg_hero.png')",
                 }}
             />
         </section>

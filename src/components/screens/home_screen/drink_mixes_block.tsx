@@ -5,10 +5,10 @@ export const DrinkMixes = () => {
         }}>
             <div className="absolute top-0 left-0 p-8 md:p-16 w-full">
                 <div className="flex items-center lg:flex-row flex-col lg:justify-between">
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">Drink Mixes</h2>
+                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">7516M</h2>
                     <div className="text-center lg:text-right">
                         <p className="text-2xl md:text-3xl lg:text-4xl font-light max-w-md ml-auto text-white">
-                            The product that revolutionized fueling.
+                        Simbiosis of technical fabrics, comfort and style.
                         </p>
                     </div>
                 </div>

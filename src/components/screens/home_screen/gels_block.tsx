@@ -4,9 +4,9 @@ export const GelsBlock = () => {
           backgroundImage: "url('/images/gel-image.avif')"
         }}>
           <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-black mb-4 lg:mb-0">Gels</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-black mb-4 lg:mb-0">Rise</h2>
             <p className="text-xl md:text-2xl lg:text-3xl font-light text-black lg:text-right max-w-md">
-              The world&apos;s rapidest, realest gels.
+              Get the summit.
             </p>
           </div>
           
