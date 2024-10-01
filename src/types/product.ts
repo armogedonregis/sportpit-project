@@ -5,6 +5,7 @@ export interface Product {
     price: string;
     servings: string;
     pricePerUnit: string;
+    link: string;
     category: string;
     isNew?: boolean;
 }

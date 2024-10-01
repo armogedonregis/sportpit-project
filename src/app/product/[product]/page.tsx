@@ -1,29 +1,39 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useCartDispatch } from '@/context/cartContext';
+import { useParams } from 'next/navigation';
+import { Product } from '@/types/product';
+import { getAllProducts } from '@/utils/productData';
 
-const productData = {
-    id: 1,
-    img: 1,
-    name: "Dream Spray",
-    price: "€29.99",
-    servings: "25 ml",
-    pricePerUnit: "€1,2 / 1 ml",
-    category: "Energy",
-    description: "This is a Dream Spray Mix Box — 6x Dream Spray, 6x Solid C 160. Mamostong Dream Spray is a two-piece, oat- and rice-based chewable fuel. 40 grams of carbohydrates split into equal 20-gram servings for optimized fueling. Both options of the fast, light, low-fiber, and carbohydrate-rich go-to Solid 160 fuel in one box.",
-    reviews: 37
-};
 
 export default function ProductPage() {
     const [quantity, setQuantity] = useState(1);
+    const [product, setProduct] = useState<Product | null>(null);
     const dispatch = useCartDispatch();
 
+    const params = useParams();
+    const productId = params.product as string;
+
+    useEffect(() => {
+        const allProducts = getAllProducts();
+        const foundProduct = allProducts.find(p => p.link === `/${productId}`);
+        if (foundProduct) {
+            setProduct(foundProduct);
+        }
+    }, [productId]);
+
+    
+    if (!product) {
+        return <div>Loading...</div>;
+    }
+
     const handleAddToCart = () => {
-        dispatch({ type: 'ADD_ITEM', payload: { ...productData } });
+        dispatch({ type: 'ADD_ITEM', payload: { ...product } });
     };
+
 
     return (
         <>
@@ -34,14 +44,14 @@ export default function ProductPage() {
                         <span className="mx-2">/</span>
                         <Link href="/shop" className="hover:text-white">SHOP</Link>
                         <span className="mx-2">/</span>
-                        <span className="text-white">{productData.name.toUpperCase()}</span>
+                        <span className="text-white">{product.name.toUpperCase()}</span>
                     </div>
 
                     <div className="flex flex-col md:flex-row gap-8">
                         <div className="md:w-1/2">
                             <Image
-                                src={`/images/product/product-${productData.img}.jpg`}
-                                alt={productData.name}
+                                src={`/images/product/product-${product.img}.jpg`}
+                                alt={product.name}
                                 width={500}
                                 height={500}
                                 className="w-full"
@@ -49,9 +59,9 @@ export default function ProductPage() {
                         </div>
 
                         <div className="md:w-1/2">
-                            <h1 className="text-4xl font-bold mb-4">{productData.name}</h1>
-                            <p className="mb-4">{productData.description}</p>
-                            <p className="mb-4">{productData.servings}</p>
+                            <h1 className="text-4xl font-bold mb-4">{product.name}</h1>
+                            <p className="mb-4">This is a Dream Spray Mix Box — 6x Dream Spray, 6x Solid C 160. Mamostong Dream Spray is a two-piece, oat- and rice-based chewable fuel. 40 grams of carbohydrates split into equal 20-gram servings for optimized fueling. Both options of the fast, light, low-fiber, and carbohydrate-rich go-to Solid 160 fuel in one box.</p>
+                            <p className="mb-4">{product.servings}</p>
 
                             <div className="mb-4">
                                 <h3 className="font-semibold mb-2">Select</h3>
@@ -66,11 +76,11 @@ export default function ProductPage() {
                                 {[1, 2, 3, 4, 5].map((star) => (
                                     <span key={star} className="text-yellow-400 font-sans">★</span>
                                 ))}
-                                <span className="ml-2">{productData.reviews} reviews</span>
+                                <span className="ml-2">37 reviews</span>
                             </div>
 
-                            <p className="text-2xl font-bold mb-2">{productData.price}</p>
-                            <p className="text-sm text-gray-400 mb-4">{productData.pricePerUnit}</p>
+                            <p className="text-2xl font-bold mb-2">{product.price}</p>
+                            <p className="text-sm text-gray-400 mb-4">{product.pricePerUnit}</p>
 
                             <div className="flex items-center gap-4 mb-4">
                                 <div className="flex items-center border border-white">
@@ -98,8 +108,8 @@ export default function ProductPage() {
                 <div className="mt-16 flex flex-col md:flex-row gap-8">
                     <div className="md:w-1/2 flex justify-center">
                         <Image
-                            src={`/images/product/product-${productData.img}.jpg`}
-                            alt={productData.name}
+                            src={`/images/product/product-${product.img}.jpg`}
+                            alt={product.name}
                             width={500}
                             height={500}
                             className="w-full max-w-md"
@@ -138,7 +148,7 @@ export default function ProductPage() {
                     <div className="flex flex-col md:flex-row items-center gap-8">
                         <div className="md:w-1/2">
                             <Image
-                                src={`/images/product/product-${productData.img}.jpg`}
+                                src={`/images/product/product-${product.img}.jpg`}
                                 alt="Solid 160 - your go-to fuel"
                                 width={800}
                                 height={600}

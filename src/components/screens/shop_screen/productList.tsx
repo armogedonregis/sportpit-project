@@ -40,7 +40,7 @@ export const ProductList: React.FC<ProductListProps> = ({ products }) => {
                             )}
                             <div className="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-start justify-center h-full p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                 <p className="text-white text-sm mb-2">{product.name} is a two-piece, oat- and rice-based chewable fuel. 40 grams of carbohydrates split into equal...</p>
-                                <Link href="/product/1" className="text-white text-sm underline hover:no-underline">
+                                <Link  href={`/product/${product.link}`} className="text-white text-sm underline hover:no-underline">
                                     Read more →
                                 </Link>
                                 <button onClick={() => addToCart(product)} className="mt-4 border-white border text-white px-4 py-2 text-sm font-semibold hover:bg-black transition-colors">
