@@ -12,7 +12,8 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         bg_message: "#222",
-        text_primary: "#333333"
+        text_primary: "#333333",
+        text_gray: "#808080"
       },
       container: {
         center: true,
