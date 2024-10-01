@@ -10,32 +10,36 @@ import { getAllProducts } from '@/utils/productData';
 
 
 
-// const productTwo: Product[] = [
-//     {
-//       name: "7516M Prefomance Suit",
-//       price: "€ 159.99",
-//       img: "/images/product/shop_1.png",
-//       link: "/product/7516m-prefomance-suit"
-//     },
-//     {
-//       name: "7516M Breathable T-Shirt",
-//       price: "€ 59.99",
-//       img: "/images/product/shop_2.png",
-//       link: "/product/7516m-breathable-t-shirt"
-//     },
-//     {
-//       name: "7516M Zip Sweatshirt",
-//       price: "€ 79.99",
-//       img: "/images/product/shop_3.png",
-//       link: "/product/7516m-zip-sweatshirt"
-//     },
-//     {
-//       name: "7516M Tight Gym Suit",
-//       price: "€ 139.99",
-//       img: "/images/product/shop_4.png",
-//       link: "/product/7516m-tight-gym-suit"
-//     }
-//   ]
+const productTwo: Product[] = [
+    {
+        id: 15,
+        name: "7516M Prefomance Suit",
+        price: "€ 159.99",
+        img: "/images/product/shop_1.png",
+        link: "/product/7516m-prefomance-suit"
+    },
+    {
+        id: 16,
+        name: "7516M Breathable T-Shirt",
+        price: "€ 59.99",
+        img: "/images/product/shop_2.png",
+        link: "/product/7516m-breathable-t-shirt"
+    },
+    {
+        id: 17,
+        name: "7516M Zip Sweatshirt",
+        price: "€ 79.99",
+        img: "/images/product/shop_3.png",
+        link: "/product/7516m-zip-sweatshirt"
+    },
+    {
+        id: 18,
+        name: "7516M Tight Gym Suit",
+        price: "€ 139.99",
+        img: "/images/product/shop_4.png",
+        link: "/product/7516m-tight-gym-suit"
+    }
+]
 
 export default function ProductPage() {
     const [quantity, setQuantity] = useState(1);
@@ -46,14 +50,14 @@ export default function ProductPage() {
     const productId = params.product as string;
 
     useEffect(() => {
-        const allProducts = getAllProducts();
-        const foundProduct = allProducts.find(p => p.link === `/${productId}`);
+        const allProducts = [...getAllProducts(), ...productTwo];
+        const foundProduct = allProducts.find(p => p.link === `/product/${productId}`);
         if (foundProduct) {
             setProduct(foundProduct);
         }
     }, [productId]);
 
-    
+
     if (!product) {
         return <div>Loading...</div>;
     }
@@ -72,18 +76,18 @@ export default function ProductPage() {
                         <span className="mx-2">/</span>
                         <Link href="/shop" className="hover:text-white">SHOP</Link>
                         <span className="mx-2">/</span>
-                        <span className="text-white">{product.name.toUpperCase()}</span>
+                        <span className="text-white">{product?.name?.toUpperCase()}</span>
                     </div>
 
                     <div className="flex flex-col md:flex-row gap-8">
                         <div className="md:w-1/2">
-                            <Image
-                                src={`/images/product/product-${product.img}.jpg`}
+                            {product.img && <Image
+                                src={isNaN(Number(product.img)) ? product.img : `/images/product/product-${product.img}.jpg`}
                                 alt={product.name}
                                 width={500}
                                 height={500}
                                 className="w-full"
-                            />
+                            />}
                         </div>
 
                         <div className="md:w-1/2">

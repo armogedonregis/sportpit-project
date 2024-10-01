@@ -1,7 +1,7 @@
 export const SolidsBlock = () => {
   return (
     <section className="relative bg-black h-[416px] lg:min-h-screen bg-center bg-cover bg-no-repeat" style={{
-      backgroundImage: "url('/images/summit-background.png')"
+      backgroundImage: "url('/images/summit_bg.png')"
     }}>
       <div className="absolute top-0 left-0 p-8 md:p-16 w-full">
         <div className="flex items-center lg:flex-row flex-col lg:justify-between">

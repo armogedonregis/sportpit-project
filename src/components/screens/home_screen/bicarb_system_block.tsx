@@ -1,7 +1,7 @@
 export const BicarbSystemBlock = () => {
   return (
     <section className="relative bg-white h-[416px] lg:min-h-screen flex flex-col justify-between p-6 md:p-8 lg:p-16 bg-center bg-cover bg-no-repeat" style={{
-      backgroundImage: "url('/images/bicarb-system-background.avif')"
+      backgroundImage: "url('/images/ground_bg.png')"
     }}>
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start">
         <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-black mb-4 lg:mb-0">Ground</h2>
