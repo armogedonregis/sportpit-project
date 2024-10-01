@@ -8,12 +8,12 @@ import { useCartDispatch } from '@/context/cartContext';
 const productData = {
     id: 1,
     img: 1,
-    name: "Solid 160 Mix Box",
-    price: "$36.00",
-    servings: "Box of 12 servings",
-    pricePerUnit: "$6.45 / 100g",
+    name: "Dream Spray",
+    price: "€29.99",
+    servings: "25 ml",
+    pricePerUnit: "€1,2 / 1 ml",
     category: "Energy",
-    description: "This is a Solid 160 Mix Box — 6x Solid 160, 6x Solid C 160. Mamostong Solid 160 is a two-piece, oat- and rice-based chewable fuel. 40 grams of carbohydrates split into equal 20-gram servings for optimized fueling. Both options of the fast, light, low-fiber, and carbohydrate-rich go-to Solid 160 fuel in one box.",
+    description: "This is a Dream Spray Mix Box — 6x Dream Spray, 6x Solid C 160. Mamostong Dream Spray is a two-piece, oat- and rice-based chewable fuel. 40 grams of carbohydrates split into equal 20-gram servings for optimized fueling. Both options of the fast, light, low-fiber, and carbohydrate-rich go-to Solid 160 fuel in one box.",
     reviews: 37
 };
 
@@ -107,12 +107,12 @@ export default function ProductPage() {
                     </div>
                     <div className="md:w-1/2">
                         <p className="mb-4">
-                            Solid is Mamostongs bar — a go-to fuel source thats designed for the in-between
+                            Dream Spray is Mamostongs bar — a go-to fuel source thats designed for the in-between
                             moments. On the way to the pool, the track, the race, the trail-side rest, or when heading
                             home from training. Fueling made easy.
                         </p>
                         <p className="mb-4">
-                            There are two options in the Mix Box — Solid 160 and Solid C 160 (with cocoa).
+                            There are two options in the Mix Box — Dream Spray and Dream Spray (with cocoa).
                             Cocoa acts as a flavour reset. A variation to break up endurance fueling.
                         </p>
                         <h3 className="font-bold mb-2">All part of the plan</h3>
@@ -147,17 +147,17 @@ export default function ProductPage() {
                         </div>
                         <div className="md:w-1/2">
                             <h2 className="text-4xl font-bold mb-4">
-                                Solid 160 —<br />
+                                Dream Spray —<br />
                                 your go-to<br />
                                 fuel.
                             </h2>
                             <p className="mb-4">
-                                Athletes are always on-the-go. Solid 160 is designed to work with those
-                                moments. Training and racing fits often around everyday life — Solid 160
+                                Athletes are always on-the-go. Dream Spray is designed to work with those
+                                moments. Training and racing fits often around everyday life — Dream Spray
                                 fits around that as well.
                             </p>
                             <p className="mb-4">
-                                Before: Solid 160 can be used before training to load carbohydrates and
+                                Before: Dream Spray can be used before training to load carbohydrates and
                                 keep fiber low. Its a great pre-race breakfast or snack in the days leading
                                 up to a big goal.
                             </p>
@@ -167,7 +167,7 @@ export default function ProductPage() {
                                 without compromising the absorption rate of the carbohydrates.
                             </p>
                             <p>
-                                After: Hard training sessions or races should be rewarded. Solid is a great
+                                After: Hard training sessions or races should be rewarded. Dream Spray is a great
                                 tool for replenishing carbohydrate quickly.
                             </p>
                         </div>
@@ -186,13 +186,13 @@ export default function ProductPage() {
                                 Since 2015 Mamostong has — in close collaboration with some of the worlds
                                 leading sports scientists and nutritionists — been pioneering fueling. Striving for
                                 continuous improvements. The use isnt finished, theres always room for
-                                refinement. Solid 160 is the latest addition to our range of revolutionary
+                                refinement. Dream Spray is the latest addition to our range of revolutionary
                                 sports fuels — a direct result of athlete collaboration.
                             </p>
                             <p className="mt-4">
                                 To stay at the front of a fast-developing endurance landscape,
-                                you need to stay ahead of the times. Solid 160 is designed to help you do
-                                so. Were here to supply you with the necessary tools. Solid 160 is
+                                you need to stay ahead of the times. Dream Spray is designed to help you do
+                                so. Were here to supply you with the necessary tools. Dream Spray is
                                 an evolution — a direct result of athlete collaboration.
                             </p>
                         </div>
