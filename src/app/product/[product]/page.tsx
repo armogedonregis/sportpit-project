@@ -59,7 +59,7 @@ export default function ProductPage() {
         const foundProduct = allProducts.find(p => p.link === `/${productId}`);
         if (foundProduct) {
             setProduct(foundProduct);
-            setSelectedOption(foundProduct.cloth ? 'M' : 'Solid 160 Mix Box');
+            setSelectedOption(foundProduct.cloth ? 'M' : 'Cacao & Banana');
         }
     }, [productId]);
 
@@ -137,7 +137,7 @@ export default function ProductPage() {
                                         </>
                                     ) : (
                                         <>
-                                            {['Solid 160 Mix Box', 'Solid 160', 'Solid C 160'].map((option) => (
+                                            {['Cacao & Banana', 'Vanilla', 'Pure'].map((option) => (
                                                 <button
                                                     key={option}
                                                     className={`px-4 py-2 border border-white ${selectedOption === option ? 'bg-white text-black' : 'text-white'}`}
