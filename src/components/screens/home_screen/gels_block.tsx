@@ -1,7 +1,7 @@
 export const GelsBlock = () => {
     return (
       <section className="relative bg-white h-[416px] lg:min-h-screen flex flex-col justify-between p-6 md:p-8 lg:p-16 bg-center bg-cover bg-no-repeat" style={{
-          backgroundImage: "url('/images/rise_bg.jpg')"
+          backgroundImage: "url('/images/rise_bg.png')"
         }}>
           <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start">
             <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 lg:mb-0">Rise</h2>
