@@ -11,8 +11,8 @@ export default function CartPage() {
     const [isEditing, setIsEditing] = useState(false);
 
     const totalPrice = items.reduce((sum, item) => {
-        const price = parseFloat(item.price.replace('$', ''));
-        return sum + price * item.quantity;
+        const price = item.price && parseFloat(item.price.replace('$', ''));
+        return sum + Number(price) * item.quantity;
     }, 0);
 
     const shippingCost = 5.00;
