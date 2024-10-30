@@ -97,7 +97,7 @@ export const AssistantDialog = ({ onClose }: AssistantDialogProps) => {
             className="fixed lg:bottom-24 lg:right-8 lg:w-[450px] lg:h-[600px] bottom-0 right-0 w-full h-[100dvh] bg-white rounded-lg shadow-xl flex flex-col z-[1500]"
         >
             <div className="px-4 py-3 border-b flex justify-between items-center bg-black text-white lg:rounded-t-lg">
-                <h3 className="font-medium text-base">Mamostong Assistant</h3>
+                <h3 className="font-medium text-base">Master - Mamostong AI Assistant</h3>
                 <button
                     onClick={onClose}
                     className="text-white hover:text-gray-300"
