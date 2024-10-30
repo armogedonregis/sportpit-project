@@ -13,7 +13,7 @@ interface ProductHeaderProps {
     quantity: number;
     selectedOption: string;
     onQuantityChange: (quantity: number) => void;
-    onOptionSelect: (option: string) => void;
+    onOptionSelect: (option: string | undefined) => void;
     onAddToCart: () => void;
 }
 
@@ -26,7 +26,7 @@ export default function ProductHeader({
     onAddToCart
 }: ProductHeaderProps) {
     return (
-        <div className="bg-black text-white">
+        <div className="bg-black text-white py-10">
             <div className="container mx-auto px-4">
                 <div className="text-xs text-gray-400 mb-4">
                     <Link href="/" className="hover:text-white">HOME</Link>

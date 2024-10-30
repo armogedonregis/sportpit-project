@@ -1,13 +1,20 @@
-import Image from 'next/image';
+import { Product } from '@/types/product';
 import { useState } from 'react';
 
-export default function ProductDetailContent() {
-    const [activeLanguage, setActiveLanguage] = useState<'en' | 'se'>('en');
+
+interface ProductDetailsProps {
+    product: Product;
+}
+
+export default function ProductDetailContent({ product }: ProductDetailsProps) {
     const [expandedSections, setExpandedSections] = useState({
         ingredients: true,
         nutrition: false,
         certification: false
     });
+
+
+    const ingredientsList = product.ingredients && product.ingredients.split(', ');
 
     const toggleSection = (section: keyof typeof expandedSections) => {
         setExpandedSections(prev => ({
@@ -22,19 +29,7 @@ export default function ProductDetailContent() {
             <div className="mb-16">
                 <h3 className="font-bold mb-4">Product Description</h3>
                 <p className="mb-4">
-                    Drink Mix changed the game for endurance sport. It enables athletes to consume
-                    carbohydrate liquid fuel during training and racing with less risk of discomfort.
-                    Delivering 40 grams of carbohydrates per 500ml, Drink Mix 160 favors longer,
-                    lower intensity sessions or races.
-                </p>
-                <p className="mb-4">
-                    The Drink Mix becomes a hydrogel upon contact with stomach acid, encapsulating
-                    the carbohydrates, and helping to reduce the sensation of liquid sloshing in
-                    the stomach when exercising at a high intensity.
-                </p>
-                <p className="mb-4">
-                    The hydrogel limits contact between the carbohydrates and the stomach acid,
-                    promoting faster transfer to the intestines where the energy is absorbed.
+                    {product.description2}
                 </p>
             </div>
 
@@ -51,38 +46,14 @@ export default function ProductDetailContent() {
 
                     {expandedSections.ingredients && (
                         <div className="pb-4">
-                            <div className={activeLanguage === 'en' ? 'block' : 'hidden'}>
+                            <div>
                                 <ul className="list-disc list-inside">
-                                    <li>Maltodextrin</li>
-                                    <li>Fructose</li>
-                                    <li>Gelling agent: Pectin</li>
-                                    <li>Gelling agent: Sodium alginate</li>
-                                    <li>Sodium chloride</li>
+                                    {ingredientsList && ingredientsList.map((ingredient, index) => (
+                                        <li key={index} className="text-gray-700">
+                                            {ingredient}
+                                        </li>
+                                    ))}
                                 </ul>
-                            </div>
-                            <div className={activeLanguage === 'se' ? 'block' : 'hidden'}>
-                                <ul className="list-disc list-inside">
-                                    <li>Maltodextrin</li>
-                                    <li>Fruktos</li>
-                                    <li>Geleringsmedel: Pektin</li>
-                                    <li>Geleringsmedel: Natriumalginat</li>
-                                    <li>Natriumklorid</li>
-                                </ul>
-                            </div>
-
-                            <div className="flex gap-2 mt-4">
-                                <button
-                                    className={`px-4 py-2 border ${activeLanguage === 'en' ? 'border-black' : 'border-gray-300'}`}
-                                    onClick={() => setActiveLanguage('en')}
-                                >
-                                    EN
-                                </button>
-                                <button
-                                    className={`px-4 py-2 border ${activeLanguage === 'se' ? 'border-black' : 'border-gray-300'}`}
-                                    onClick={() => setActiveLanguage('se')}
-                                >
-                                    SE
-                                </button>
                             </div>
                         </div>
                     )}
@@ -98,84 +69,21 @@ export default function ProductDetailContent() {
 
                     {expandedSections.nutrition && (
                         <div className="pb-4">
-                            <div className={activeLanguage === 'en' ? 'block' : 'hidden'}>
-                                <Image
-                                    src="/images/product_single/SOLID_160_C_US.webp"
-                                    alt="Nutrition facts"
-                                    width={260}
-                                    height={400}
-                                    className="mb-4"
-                                />
-                            </div>
-                            <div className={activeLanguage === 'se' ? 'block' : 'hidden'}>
-                                <table className="w-full nutrition-facts">
-                                    <thead>
-                                        <tr>
-                                            <th colSpan={2} className="text-left pb-4">
-                                                Innehåll<br />
-                                                Per 100g / Portion (40g)
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td className="py-2">
-                                                <b>Energi</b>
-                                            </td>
-                                            <td className="text-right">
-                                                1683 kJ, 400 kcal /<br />
-                                                663 kJ, 160 kcal
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td className="py-2">
-                                                <b>Fett</b><br />
-                                                – varav mättat fett
-                                            </td>
-                                            <td className="text-right">
-                                                0 g / 0 g<br />
-                                                0 g / 0 g
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td className="py-2">
-                                                <b>Kolhydrater</b><br />
-                                                – varav sockerarter
-                                            </td>
-                                            <td className="text-right">
-                                                99 g / 39 g<br />
-                                                32 g / 13 g
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td className="py-2"><b>Protein</b></td>
-                                            <td className="text-right">0 g / 0 g</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="py-2"><b>Salt</b></td>
-                                            <td className="text-right">1 g / 0.4 g</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-
-                            <div className="flex gap-2 mt-4">
-                                <button
-                                    className={`px-4 py-2 border ${activeLanguage === 'en' ? 'border-black' : 'border-gray-300'}`}
-                                    onClick={() => setActiveLanguage('en')}
-                                >
-                                    EN
-                                </button>
-                                <button
-                                    className={`px-4 py-2 border ${activeLanguage === 'se' ? 'border-black' : 'border-gray-300'}`}
-                                    onClick={() => setActiveLanguage('se')}
-                                >
-                                    SE
-                                </button>
-                            </div>
+                            {expandedSections.nutrition && (
+                                <div className="pb-4">
+                                    <p className="text-gray-700">
+                                        {product.servings}
+                                    </p>
+                                    {product.pricePerUnit && (
+                                        <p className="text-gray-700 mt-2">
+                                            Price per serving: {product.pricePerUnit}
+                                        </p>
+                                    )}
+                                </div>
+                            )}
 
                             <div className="mt-4 text-sm text-gray-600">
-                                <p>All Maurten products are delivered with a minimum shelf life of at least four months. But if you dont use them before — they are often still good after.</p>
+                                <p>{product.finalMessage}</p>
                             </div>
                         </div>
                     )}
@@ -192,6 +100,13 @@ export default function ProductDetailContent() {
 
                     {expandedSections.certification && (
                         <div className="pb-4">
+                            <p className="text-gray-700">
+                                {product.certifications}
+                            </p>
+                        </div>
+                    )}
+                    {/* {expandedSections.certification && (
+                        <div className="pb-4">
                             <div className="flex justify-center">
                                 <Image
                                     src="/images/product_single/informed-sport-logo-im-page.webp"
@@ -202,7 +117,7 @@ export default function ProductDetailContent() {
                                 />
                             </div>
                         </div>
-                    )}
+                    )} */}
                 </div>
 
             </div>

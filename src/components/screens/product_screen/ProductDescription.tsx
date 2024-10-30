@@ -17,7 +17,7 @@ export default function ProductDescription({ product }: { product: Product }) {
                 </>
             ) : (
                 <p className="mb-4">
-                    This is a Dream Spray Mix Box — 6x Dream Spray, 6x Solid C 160. Mamostong Dream Spray is a two-piece, oat- and rice-based chewable fuel. 40 grams of carbohydrates split into equal 20-gram servings for optimized fueling. Both options of the fast, light, low-fiber, and carbohydrate-rich go-to Solid 160 fuel in one box.
+                     {product.description}
                 </p>
             )}
         </>

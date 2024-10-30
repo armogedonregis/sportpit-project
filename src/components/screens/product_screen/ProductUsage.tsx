@@ -3,16 +3,16 @@ import Link from "next/link";
 
 export default function ProductUsage() {
     return (
-        <section className="bg-white text-black py-16">
+        <section className="bg-white text-black py-8 md:py-16">
              <div className="container mx-auto">
                 {/* Fueling right from the start */}
-                <div className="flex h-[435px]">
-                    <div className="w-1/2 flex items-center bg-[#f5f5f5]">
-                        <div className="max-w-[75%] ml-auto pr-16">
-                            <h2 className="text-4xl font-bold mb-6">
+                <div className="flex flex-col md:flex-row md:h-[435px]">
+                    <div className="w-full md:w-1/2 flex items-center bg-[#f5f5f5] py-8 md:py-0">
+                        <div className="w-[90%] md:max-w-[75%] mx-auto md:ml-auto md:pr-16">
+                            <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-6">
                                 Fueling right from<br />the start.
                             </h2>
-                            <p className="text-sm mb-8">
+                            <p className="text-sm mb-6 md:mb-8">
                                 The following guidelines outline fueling strategies for common training sessions and 
                                 race plans. Remember that a fuel guide is highly personal and varies depending on 
                                 individual diets and also on specific training programs. The following information is for 
@@ -27,7 +27,7 @@ export default function ProductUsage() {
                             </Link>
                         </div>
                     </div>
-                    <div className="w-1/2 relative h-full">
+                    <div className="w-full md:w-1/2 relative h-[300px] md:h-full">
                         <Image
                             src="/images/product_single/newsletter_berlin.avif"
                             alt="Fueling right from the start"
@@ -39,8 +39,8 @@ export default function ProductUsage() {
                 </div>
 
                 {/* Science is a part of our nature */}
-                <div className="flex h-[435px]">
-                    <div className="w-1/2 relative h-full">
+                <div className="flex flex-col-reverse md:flex-row md:h-[435px] mt-8 md:mt-0">
+                    <div className="w-full md:w-1/2 relative h-[300px] md:h-full">
                         <Image
                             src="/images/product_single/Get-used-to-it_hydrogel_top_2022-05-23-122314_mtbi.avif"
                             alt="Science is a part of our nature"
@@ -49,12 +49,12 @@ export default function ProductUsage() {
                             priority
                         />
                     </div>
-                    <div className="w-1/2 flex items-center">
-                        <div className="h-full w-full flex flex-col justify-center px-16 bg-[#f5f5f5]">
-                            <h2 className="text-4xl font-bold mb-6">
+                    <div className="w-full md:w-1/2 flex items-center">
+                        <div className="h-full w-full flex flex-col justify-center px-6 md:px-16 py-8 md:py-0 bg-[#f5f5f5]">
+                            <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-6">
                                 Science is a part of our<br />nature. And vice versa.
                             </h2>
-                            <p className="text-sm mb-8">
+                            <p className="text-sm mb-6 md:mb-8">
                                 In 2015, we discovered how to make sports fuels easier to tolerate by encapsulating high 
                                 concentrations of carbohydrates in hydrogels. The sports fuels, based on only natural 
                                 ingredients, became popular and one year later some of the worlds best runners started 

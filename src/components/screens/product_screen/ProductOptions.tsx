@@ -3,7 +3,7 @@ import { Product } from "@/types/product";
 interface ProductOptionsProps {
     product: Product;
     selectedOption: string;
-    onOptionSelect: (option: string) => void;
+    onOptionSelect: (option: string | undefined) => void;
 }
 
 export default function ProductOptions({ product, selectedOption, onOptionSelect }: ProductOptionsProps) {
@@ -25,15 +25,14 @@ export default function ProductOptions({ product, selectedOption, onOptionSelect
                     </>
                 ) : (
                     <>
-                        {['Cacao & Banana', 'Vanilla', 'Pure'].map((option) => (
+                        {product.size && (
                             <button
-                                key={option}
-                                className={`px-4 py-2 border border-white ${selectedOption === option ? 'bg-white text-black' : 'text-white'}`}
-                                onClick={() => onOptionSelect(option)}
+                                className={`px-4 py-2 border border-white ${selectedOption === product.size ? 'bg-white text-black' : 'text-white'}`}
+                                onClick={() => onOptionSelect(product.size)}
                             >
-                                {option}
+                                {product.size}
                             </button>
-                        ))}
+                        )}
                     </>
                 )}
             </div>

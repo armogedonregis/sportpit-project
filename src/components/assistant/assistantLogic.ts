@@ -1,3 +1,4 @@
+import { Product } from "@/types/product";
 import { getAllProducts } from "@/utils/productData";
 
 const products = getAllProducts();
@@ -23,6 +24,25 @@ const productCategories = {
     'drink-mixes': 'Drink mix supplements'
 };
 
+const weightLossResponse = (product: Product) => `
+Looking to lose weight? I recommend trying our ${product.name}!
+
+${product.description}
+
+Price: ${product.price}
+${product.servings ? `Servings: ${product.servings}` : ''}
+
+<div class="my-4">
+    <img src="${product.img}" alt="${product.name}" class="w-full h-48 object-cover rounded-lg" />
+</div>
+
+<a href="/product/${product.link}" class="inline-block bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors mt-2">
+    View Product
+</a>
+
+Would you like to know more about our other supplements for weight management?
+`;
+
 const responses: Record<string, string> = {
     'hello': 'Hi! How can I help you today?',
     'shipping': 'We offer worldwide shipping. Standard delivery takes 3-5 business days.',
@@ -42,6 +62,24 @@ const responses: Record<string, string> = {
     'default': 'I can help you with our products, supplements, clothing, shipping, or payment options. What would you like to know?',
 };
 
+
+const weightLossKeywords = [
+    'want to lose weight',
+    'need to lose weight',
+    'help me lose weight',
+    'weight loss',
+    'losing weight',
+    'shed some pounds',
+    'drop a few pounds',
+    'slim down',
+    'get in shape',
+    'burn fat',
+    'weight management',
+    'diet help',
+    'weight loss products',
+    'slimming products'
+];
+
 export const getResponse = async (message: string): Promise<{ text: string; showResetOption: boolean }> => {
     const lowercaseMessage = message.toLowerCase();
 
@@ -53,6 +91,16 @@ export const getResponse = async (message: string): Promise<{ text: string; show
             text: initialMessages.join('\n\n'),
             showResetOption: false
         };
+    }
+
+    if (weightLossKeywords.some(keyword => lowercaseMessage.includes(keyword))) {
+        const weightLossProduct = products.find(p => p.name === 'GROUND BEAUTY MATCHA');
+        if (weightLossProduct) {
+            return {
+                text: weightLossResponse(weightLossProduct),
+                showResetOption: true
+            };
+        }
     }
 
     // Поиск по категориям
@@ -137,8 +185,8 @@ export const getSuggestions = async (message: string): Promise<string[]> => {
         ];
     }
 
-    if (lowercaseMessage.includes('shop') || 
-        lowercaseMessage.includes('catalog') || 
+    if (lowercaseMessage.includes('shop') ||
+        lowercaseMessage.includes('catalog') ||
         lowercaseMessage.includes('store') ||
         lowercaseMessage.includes('products')) {
         return [
@@ -146,6 +194,16 @@ export const getSuggestions = async (message: string): Promise<string[]> => {
             'Tell me about clothing',
             'Visit shop page',
             resetOption
+        ];
+    }
+
+
+    if (weightLossKeywords.some(keyword => lowercaseMessage.includes(keyword))) {
+        return [
+            'How does it work?',
+            'Show me customer reviews',
+            'Are there any side effects?',
+            'Whats the recommended dosage?'
         ];
     }
 

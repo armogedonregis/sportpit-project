@@ -34,6 +34,10 @@ export default function ProductPage() {
         return <div>Loading...</div>;
     }
 
+    const handleOptionSelect = (option: string | undefined) => {
+        setSelectedOption(option || '');  // Если option undefined, используем пустую строку
+    };
+
     const handleAddToCart = () => {
         dispatch({ type: 'ADD_ITEM', payload: { ...product } });
     };
@@ -45,10 +49,10 @@ export default function ProductPage() {
                 quantity={quantity}
                 selectedOption={selectedOption}
                 onQuantityChange={setQuantity}
-                onOptionSelect={setSelectedOption}
+                onOptionSelect={handleOptionSelect}
                 onAddToCart={handleAddToCart}
             />
-            <ProductDetails />
+            <ProductDetails product={product} />
             <ProductFeatures  />
             <ProductUsage />
             <ProductInfo product={product} />

@@ -1,8 +1,13 @@
 import Image from "next/image";
 import { ImageGallery } from "./ImageGallery";
 import ProductDetailContent from "./ProductDetailContent";
+import { Product } from "@/types/product";
 
-export default function ProductDetails() {
+interface ProductDetailsProps {
+    product: Product;
+}
+
+export default function ProductDetails({ product }: ProductDetailsProps) {
     const productImages = [
         '/images/product_single/dm160-single.avif',
         '/images/product_single/DrinkMix_160_Box_Webb.gif',
@@ -19,12 +24,12 @@ export default function ProductDetails() {
                     <ImageGallery images={productImages} />
                 </div>
                 <div className="md:w-1/4 py-16">
-                    <ProductDetailContent />
+                    <ProductDetailContent product={product} />
 
                     {/* Similar Product Section */}
                     <div className="mt-16">
                         <h2 className="text-sm font-bold uppercase mb-6">Similar product</h2>
-                        <div className="product-card">
+                        <div className="">
                             <div className="relative aspect-[3/4] mb-4">
                                 <Image
                                     src="/images/product_single/DM320_2.0_Single.avif"
@@ -33,7 +38,7 @@ export default function ProductDetails() {
                                     className="object-cover"
                                 />
                             </div>
-                            <div className="product-info">
+                            <div className="">
                                 <h3 className="text-lg mb-2">Drink Mix 320</h3>
                                 <div className="text-sm">
                                     <p className="mb-1">$51.00 (14 servings)</p>

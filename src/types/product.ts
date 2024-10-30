@@ -1,12 +1,18 @@
 export interface Product {
     id: number;
-    img: any;
     name: string;
-    price?: string;
+    price: string;
     servings?: string;
     pricePerUnit?: string;
-    link?: string;
-    category?: string;
-    isNew?: boolean;
+    category: string;
+    img: string;
+    link: string;
     cloth?: boolean;
+    description?: string;
+    description2?: string;
+    ingredients?: string;
+    certifications?: string;
+    isNew?: boolean;
+    size?: string;
+    finalMessage?: string;
 }
