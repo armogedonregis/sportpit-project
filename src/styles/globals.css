@@ -2,3 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.nutrition-facts {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.nutrition-facts th {
+    font-weight: normal;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.nutrition-facts td {
+    border-bottom: 1px solid #e5e5e5;
+    vertical-align: top;
+}
+
+.nutrition-facts tr:last-child td {
+    border-bottom: none;
+}
+
+.nutrition-facts td:last-child {
+    text-align: right;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 46px;
+    height: 34px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.swiper-button-next {
+    right: 20px;
+}
+
+.swiper-button-prev {
+    left: 20px;
+}
+
+.swiper-slide {
+    height: 100vh;
+}
