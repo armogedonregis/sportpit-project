@@ -5,6 +5,7 @@ import { Footer } from "@/components/footer";
 import { HeaderRaiting } from "@/components/headerRaiting";
 import localFont from 'next/font/local'
 import { CartProvider } from "@/context/cartContext";
+import { Assistant } from "@/components/assistant";
 
 export const MamostongSans = localFont({
   src: [
@@ -48,6 +49,7 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
+          <Assistant />
         </div>
       </CartProvider>
       </body>

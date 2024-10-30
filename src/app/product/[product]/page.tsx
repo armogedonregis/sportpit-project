@@ -85,7 +85,7 @@ export default function ProductPage() {
                     <div className="text-xs text-gray-400 mb-4">
                         <Link href="/" className="hover:text-white">HOME</Link>
                         <span className="mx-2">/</span>
-                        <Link href="/shop" className="hover:text-white">SHOP</Link>
+                        <Link href="/products" className="hover:text-white">SHOP</Link>
                         <span className="mx-2">/</span>
                         <span className="text-white">{product?.name?.toUpperCase()}</span>
                     </div>
