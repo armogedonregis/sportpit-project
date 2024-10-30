@@ -59,7 +59,7 @@ const products: Product[] = [
   }
 ];
 
-const productTwo: Product[] = [
+const productTwo: any[] = [
   {
     id: 5,
     name: "7516M Prefomance Suit",
@@ -93,7 +93,7 @@ const productTwo: Product[] = [
 export const ProductShowcaseBlock = () => {
   const dispatch = useCartDispatch();
 
-  const addToCart = (event: React.MouseEvent, product: Product) => {
+  const addToCart = (event: React.MouseEvent, product: any) => {
     event.preventDefault();
     event.stopPropagation();
     dispatch({ type: 'ADD_ITEM', payload: product });
