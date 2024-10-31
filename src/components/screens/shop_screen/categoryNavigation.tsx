@@ -6,13 +6,11 @@ import { usePathname } from 'next/navigation';
 
 const categories = [
     { name: 'All products', slug: '' },
-    { name: 'Solids', slug: 'solids' },
-    { name: 'Gels', slug: 'gels' },
-    { name: 'Drink Mixes', slug: 'drink-mixes' },
-    { name: 'Bundles', slug: 'bundles' },
-    { name: 'Bicarb', slug: 'bicarb-system' },
-    { name: 'Essentials', slug: 'essentials' }
-  ];
+    { name: 'RISE', slug: 'rise' },
+    { name: 'SUMMIT', slug: 'summit' },
+    { name: 'CORE', slug: 'core' },
+    { name: '7516M', slug: '7516M' }
+];
 
 export function CategoryNavigation() {
     const pathname = usePathname();

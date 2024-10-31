@@ -53,7 +53,7 @@ export default function ProductPage() {
                 onAddToCart={handleAddToCart}
             />
             <ProductDetails product={product} />
-            <ProductFeatures  />
+            <ProductFeatures category={product.category}  />
             <ProductUsage />
             <ProductInfo product={product} />
             <ProductSocial />

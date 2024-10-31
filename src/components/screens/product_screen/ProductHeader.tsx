@@ -27,15 +27,18 @@ export default function ProductHeader({
 }: ProductHeaderProps) {
     return (
         <div className="bg-black text-white py-10">
-            <div className="container mx-auto px-4">
+            <div className="lg:max-w-[2560px] w-full px-5 lg:px-24 mx-auto mb-8 -mt-10">
                 <div className="text-xs text-gray-400 mb-4">
                     <Link href="/" className="hover:text-white">HOME</Link>
                     <span className="mx-2">/</span>
                     <Link href="/products" className="hover:text-white">SHOP</Link>
                     <span className="mx-2">/</span>
+                    <span className="text-gray-400 ">{product?.category?.toUpperCase()}</span>
+                    <span className="mx-2">/</span>
                     <span className="text-white">{product?.name?.toUpperCase()}</span>
                 </div>
-
+            </div>
+            <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row gap-8">
                     <div className="md:w-1/2">
                         <Image

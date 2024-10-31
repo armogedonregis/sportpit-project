@@ -10,17 +10,13 @@ export default function ProductUsage() {
                     <div className="w-full md:w-1/2 flex items-center bg-[#f5f5f5] py-8 md:py-0">
                         <div className="w-[90%] md:max-w-[75%] mx-auto md:ml-auto md:pr-16">
                             <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-6">
-                                Fueling right from<br />the start.
+                                Starting Strong with Mamostong.
                             </h2>
                             <p className="text-sm mb-6 md:mb-8">
-                                The following guidelines outline fueling strategies for common training sessions and 
-                                race plans. Remember that a fuel guide is highly personal and varies depending on 
-                                individual diets and also on specific training programs. The following information is for 
-                                reference only and can help empower your training, by creating, refining, and help you 
-                                execute your fuel strategy.
+                                Unlock your potential from the start with Mamostongs science-backed approach to wellness. Our guidelines offer insights into balancing energy, recovery, and endurance tailored to your unique goals. Whether you’re gearing up for a workout or winding down after one, each product line is crafted to support your body and mind, empowering every stage of your journey. Let these strategies help you build a foundation that fuels your strength, focus, and resilience.
                             </p>
                             <Link href="/fuel-guide" className="inline-flex items-center text-sm hover:opacity-70 transition-opacity">
-                                To the Fuel Guide 
+                                Explore the Mamostong Guide
                                 <svg className="ml-2 w-4 h-4" viewBox="0 0 16 16" fill="none">
                                     <path d="M1 8H15M8 1L15 8L8 15" stroke="currentColor" strokeWidth="2"/>
                                 </svg>
@@ -52,16 +48,13 @@ export default function ProductUsage() {
                     <div className="w-full md:w-1/2 flex items-center">
                         <div className="h-full w-full flex flex-col justify-center px-6 md:px-16 py-8 md:py-0 bg-[#f5f5f5]">
                             <h2 className="text-2xl md:text-4xl font-bold mb-4 md:mb-6">
-                                Science is a part of our<br />nature. And vice versa.
+                                Science Meets Nature in Every Dose.
                             </h2>
                             <p className="text-sm mb-6 md:mb-8">
-                                In 2015, we discovered how to make sports fuels easier to tolerate by encapsulating high 
-                                concentrations of carbohydrates in hydrogels. The sports fuels, based on only natural 
-                                ingredients, became popular and one year later some of the worlds best runners started 
-                                using our products. The technology is patent pending.
+                                At Mamostong, we merge the purity of nature with scientific innovation. In our commitment to holistic wellness, we’ve created formulations that harness the power of natural ingredients while maximizing absorption and efficacy. Our approach, developed through years of research, ensures each product is as effective as it is pure. Trusted by athletes and wellness enthusiasts alike, Mamostong continues to lead with integrity, pushing boundaries in natural health.
                             </p>
                             <Link href="/science" className="inline-flex items-center text-sm hover:opacity-70 transition-opacity">
-                                Read more
+                                Learn More About Our Process
                                 <svg className="ml-2 w-4 h-4" viewBox="0 0 16 16" fill="none">
                                     <path d="M1 8H15M8 1L15 8L8 15" stroke="currentColor" strokeWidth="2"/>
                                 </svg>
