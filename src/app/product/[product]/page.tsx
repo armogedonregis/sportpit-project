@@ -10,7 +10,7 @@ import ProductDetails from '@/components/screens/product_screen/ProductDetails';
 import ProductFeatures from '@/components/screens/product_screen/ProductFeatures';
 import ProductInfo from '@/components/screens/product_screen/ProductInfo';
 import ProductUsage from '@/components/screens/product_screen/ProductUsage';
-import ProductSocial from '@/components/screens/product_screen/ProductSocial';
+// import ProductSocial from '@/components/screens/product_screen/ProductSocial';
 
 export default function ProductPage() {
     const [quantity, setQuantity] = useState(1);
@@ -56,7 +56,7 @@ export default function ProductPage() {
             <ProductFeatures category={product.category}  />
             <ProductUsage />
             <ProductInfo product={product} />
-            <ProductSocial />
+            {/* <ProductSocial /> */}
         </>
     );
 }
