@@ -4,13 +4,13 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useCartState } from '@/context/cartContext';
 import { usePathname } from 'next/navigation';
-import dynamic from 'next/dynamic';
-import { Canvas } from '@react-three/fiber';
+// import dynamic from 'next/dynamic';
+// import { Canvas } from '@react-three/fiber';
 import Image from 'next/image';
 
-const DynamicCanvas = dynamic(() => import('../../utils/headerLogo').then((mod) => mod.HeaderLogo), {
-    ssr: false,
-})
+// const DynamicCanvas = dynamic(() => import('../../utils/headerLogo').then((mod) => mod.HeaderLogo), {
+//     ssr: false,
+// })
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -57,12 +57,19 @@ export const Header = () => {
                             className="object-contain"
                         />
                     ) : (
-                        <Canvas
-                            camera={{ position: [0, 0, 7], fov: 50 }}
-                            style={{ width: '120px', height: '75px' }}
-                        >
-                            <DynamicCanvas isScrolled={isScrolled} scrollY={scrollY} />
-                        </Canvas>
+                        // <Canvas
+                        //     camera={{ position: [0, 0, 7], fov: 50 }}
+                        //     style={{ width: '120px', height: '75px' }}
+                        // >
+                        //     <DynamicCanvas isScrolled={isScrolled} scrollY={scrollY} />
+                        // </Canvas>
+                        <Image
+                        src="/logo.svg"
+                        alt="MAMOSTONG"
+                        width={60}
+                        height={40}
+                        className="object-contain"
+                    />
                     )}
                 </Link>
                 <nav className="flex items-center gap-7">
