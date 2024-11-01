@@ -2,17 +2,27 @@
 
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import Link from 'next/link';
-import { Canvas } from '@react-three/fiber';
-import dynamic from 'next/dynamic';
+// import { Canvas } from '@react-three/fiber';
+// import dynamic from 'next/dynamic';
+import Image from 'next/image';
 
-const FooterLogo = dynamic(() => import('../../utils/footerLogo').then((mod) => mod.FooterLogo), {
-    ssr: false,
-})
+// const FooterLogo = dynamic(() => import('../../utils/footerLogo').then((mod) => mod.FooterLogo), {
+//     ssr: false,
+// })
 
 export const Footer = () => {
     return (
-        <footer className="bg-black text-white py-16 px-8">
-            <div className="container">
+        <footer className="bg-black relative text-white py-16 px-8">
+            <div className="absolute inset-0 -left-1/2 z-0 opacity-30">
+                <Image
+                    src="/images/footer_bg.png"
+                    alt="Footer background"
+                    fill
+                    className="object-contain mix-blend-overlay"
+                    priority
+                />
+            </div>
+            <div className="container relative z-10">
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
                     <div className="max-w-md">
@@ -108,13 +118,18 @@ export const Footer = () => {
                 </div>
                 <div className="mx-auto mt-16 flex justify-between items-center">
                     <p className="text-xs text-gray-400">Copyright © 2024 Mamostong. All rights reserved.</p>
-                    {/* <Image src="/icons/logo.svg" alt="Mamostong" width={100} height={40} /> */}
-                    <Canvas
+                    <Image
+                        src="/logo.svg"
+                        width={80}
+                        height={60}
+                        alt=""
+                    />
+                    {/* <Canvas
                         camera={{ position: [0, 0, 7], fov: 50 }}
                         style={{ width: '150px', height: '100px', cursor: 'pointer' }}
                     >
                         <FooterLogo />
-                    </Canvas>
+                    </Canvas> */}
                 </div>
                 <div className="mx-auto mt-8 flex space-x-4 text-xs">
                     <Link href="#" className="text-gray-400 hover:underline">FAQ</Link>
