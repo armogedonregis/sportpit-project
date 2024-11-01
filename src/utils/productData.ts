@@ -15,7 +15,14 @@ const allProducts: Product[] = [
         ingredients: 'Organic Matcha Green Tea Powder, Ceramide-rich Rice Extract, Collagen Peptides, Hyaluronic Acid, Vitamin C (as Ascorbic Acid), Biotin, Bamboo Extract (Silica), Natural Antioxidants',
         certifications: 'Organic Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Glow from within with Mamostong GROUND Beauty Matcha. This antioxidant-rich matcha promotes skin health and fights the effects of aging, leaving you feeling radiant and youthful.',
-        size: 'MEDIUM SIZE (POWDER)'
+        size: 'MEDIUM SIZE (POWDER)',
+        images: [
+            "/images/herbal/beauty_matcha.png",
+            "/images/herbal/hand.png",
+            "/images/herbal/ground_puck_1.png", // порошок
+            "/video/ground_product.mp4",
+            "/images/people/1.png"
+        ]
     },
     {
         id: 2,
@@ -31,7 +38,14 @@ const allProducts: Product[] = [
         ingredients: 'Organic Dandelion Root, Organic Ginger Root, Burdock Root, Milk Thistle Extract, Licorice Root, Nettle Leaf, Fennel Seed, Green Tea Extract, Organic Lemon Peel, Peppermint Leaf',
         certifications: 'Organic Certified, Non-GMO, Caffeine-Free',
         finalMessage: 'Detoxify and refresh your body with Mamostong GROUND Herbal Tea Detox. This natural blend of herbs cleanses your system, leaving you feeling lighter and revitalized.',
-        size: 'MEDIUM SIZE (TEA)'
+        size: 'MEDIUM SIZE (TEA)',
+        images: [
+            "/images/herbal/herbal_tea_detox.png",
+            "/images/herbal/hand.png",
+            "/images/herbal/ground_puck_2.png", // порошок
+            "/video/ground_product.mp4",
+            "/images/people/2.png"
+        ]
     },
     {
         id: 3,
@@ -47,7 +61,14 @@ const allProducts: Product[] = [
         ingredients: 'Chamomile Flower, Valerian Root, Lemon Balm Leaf, Passionflower, Lavender Flower, Hops Extract, Magnesium Glycinate, Ashwagandha Root Extract',
         certifications: 'Organic Certified, Non-GMO, Caffeine-Free',
         finalMessage: 'Relax and drift off to a peaceful sleep with Mamostong GROUND Herbal Tea Sleep. This soothing blend calms your body and mind, helping you achieve restful and deep sleep.',
-        size: 'MEDIUM SIZE (TEA)'
+        size: 'MEDIUM SIZE (TEA)',
+        images: [
+            "/images/herbal/herbal_tea_sleep.png",
+            "/images/herbal/hand.png",
+            "/images/herbal/ground_puck_3.png", // порошок
+            "/video/ground_product.mp4",
+            "/images/people/3.png"
+        ]
     },
     {
         id: 4,
@@ -63,7 +84,14 @@ const allProducts: Product[] = [
         ingredients: 'Hibiscus Flower, Rooibos Leaf, Organic Rosehip, Organic Schisandra Berry, Goji Berry Extract, Resveratrol, CoQ10, Green Tea Extract, Vitamin E (Tocopherol), Hyaluronic Acid',
         certifications: 'Organic Certified, Non-GMO, Caffeine-Free',
         finalMessage: 'Fight the signs of aging with Mamostong GROUND Herbal Tea Anti-Age. Packed with antioxidants, this rejuvenating tea helps protect your skin and keep it looking young and vibrant.',
-        size: 'MEDIUM SIZE (TEA)'
+        size: 'MEDIUM SIZE (TEA)',
+        images: [
+            "/images/herbal/herbal_anti_age.png",
+            "/images/herbal/hand.png",
+            "/images/herbal/ground_puck_4.png", // порошок
+            "/video/ground_product.mp4",
+            "/images/people/4.png"
+        ]
     },
     {
         id: 5,
@@ -79,56 +107,84 @@ const allProducts: Product[] = [
         ingredients: 'Organic Holy Basil (Tulsi) Leaf, Lemon Balm Leaf, Ashwagandha Root, Organic Rosemary, Rhodiola Rosea',
         certifications: 'Organic Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Find your inner balance with Mamostong GROUND Meditation Tea. This calming herbal blend helps reduce stress and improve mental clarity, perfect for your meditation practice.',
-        size: 'MEDIUM SIZE (TEA)'
+        size: 'MEDIUM SIZE (TEA)',
+        images: [
+            "/images/herbal/herbal_mediation_tea.png",
+            "/images/herbal/hand.png",
+            "/images/herbal/ground_puck_5.png", // порошок
+            "/video/ground_product.mp4",
+            "/images/people/5.png"
+        ]
     },
-    {
-        id: 6,
-        name: 'GROUND DROPS / SPRAY YOUTH',
-        price: '€45.00',
-        servings: '10 Calories, 2mg Hyaluronic Acid, 200mg Vitamin C',
-        pricePerUnit: '€3.00 / serving',
-        category: 'ground',
-        img: "/images/product/product-2.jpg",
-        link: '/ground-drops-spray-youth',
-        description: 'Mamostong GROUND Drops / Spray Youth is a rejuvenating formula designed to promote skin health and support anti-aging. This protective spray is rich in antioxidants and skin-boosting ingredients to keep your skin looking youthful and radiant.',
-        description2: 'GROUND Youth Spray provides an antioxidant-rich formula with vitamin C, hyaluronic acid, and natural plant extracts designed to nourish and revitalize the skin. Perfect for on-the-go use, this spray helps combat the effects of environmental stress, supporting collagen production to maintain elasticity and firmness. With daily application, it reduces the appearance of fine lines and promotes a vibrant, youthful glow. GROUND Youth Spray is a simple addition to any skincare routine, providing an easy, fast-absorbing solution for age-defying skincare that captures timeless beauty.',
-        ingredients: 'Hyaluronic Acid, Vitamin C (Ascorbic Acid), CoQ10, Grape Seed Extract, Collagen Peptides, Green Tea Extract, Sea Buckthorn Oil, Pomegranate Extract, Natural Flavor',
-        certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
-        finalMessage: 'Stay youthful and radiant with Mamostong GROUND Drops / Spray Youth. This anti-aging spray helps rejuvenate your skin, keeping it looking fresh and glowing.',
-        size: 'SPRAY - 30ml BOTTLE + BOX'
-    },
-    {
-        id: 7,
-        name: 'GROUND DROPS / SPRAY CALM',
-        price: '€45.00',
-        servings: '5 Calories, 50mg L-Theanine, 100mg Lemon Balm',
-        pricePerUnit: '€2.80 / serving',
-        category: 'ground',
-        img: "/images/product/product-3.jpg",
-        link: '/ground-drops-spray-calm',
-        description: 'Mamostong GROUND Drops / Spray Calm is a calming and stress-relieving formula. This natural blend helps reduce anxiety and promote relaxation, making it perfect for unwinding after a long day.',
-        description2: 'GROUND Calm Spray is formulated with lavender oil, chamomile extract, and magnesium, providing instant relaxation and stress relief. Designed for those moments when you need a quick reset, this spray offers a calming experience that helps manage daily stressors. With a gentle botanical blend, it supports a balanced mood, helping you stay composed. Use it any time during the day to boost your mood and promote relaxation, perfect for unwinding after a busy day.',
-        ingredients: 'Lavender Essential Oil, Chamomile Extract, Magnesium Glycinate, L-Theanine, Passionflower Extract, Lemon Balm Extract, Natural Peppermint Oil',
-        certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
-        finalMessage: 'Calm your mind and relax with Mamostong GROUND Drops / Spray Calm. This natural spray helps reduce stress and promote relaxation, perfect for unwinding after a busy day.',
-        size: 'SPRAY - 30ml BOTTLE + BOX'
-    },
-    {
-        id: 8,
-        name: 'GROUND DROPS / SPRAY DREAM',
-        price: '€45.00',
-        servings: '5 Calories, 2mg Melatonin, 100mg Chamomile',
-        pricePerUnit: '€3.10 / serving',
-        category: 'ground',
-        img: "/images/product/product-4.jpg",
-        link: '/ground-drops-spray-dream',
-        description: 'Mamostong GROUND Drops / Spray Dream is a sleep-enhancing formula that helps you relax and achieve deep, restful sleep. Its natural ingredients promote a calm mind and body for a peaceful nights rest.',
-        description2: 'GROUND Dream Spray combines melatonin, valerian root, and passionflower extract in a soothing blend to support deep, restful sleep. Ideal for nightly use, this spray encourages natural sleep cycles and reduces nighttime awakenings, providing a calming effect that prepares the body for a full nights rest. A few sprays before bed help you relax and ease into deep sleep without dependency. Designed to support a healthy sleep routine, GROUND Dream Spray is a convenient solution for those seeking better rest and relaxation, allowing you to wake up feeling refreshed and ready.',
-        ingredients: 'Melatonin, Valerian Root Extract, GABA, 5-HTP, Passionflower, Lemon Balm, Chamomile Extract, Magnesium Citrate, Natural Lavender Flavor',
-        certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
-        finalMessage: 'Achieve a deep and restful sleep with Mamostong GROUND Drops / Spray Dream. This deep-enhancing formula helps you relax and enjoy a peaceful nights rest.',
-        size: 'SPRAY - 30ml BOTTLE + BOX'
-    },
+    // {
+    //     id: 6,
+    //     name: 'GROUND DROPS / SPRAY YOUTH',
+    //     price: '€45.00',
+    //     servings: '10 Calories, 2mg Hyaluronic Acid, 200mg Vitamin C',
+    //     pricePerUnit: '€3.00 / serving',
+    //     category: 'ground',
+    //     img: "/images/product/product-2.jpg",
+    //     link: '/ground-drops-spray-youth',
+    //     description: 'Mamostong GROUND Drops / Spray Youth is a rejuvenating formula designed to promote skin health and support anti-aging. This protective spray is rich in antioxidants and skin-boosting ingredients to keep your skin looking youthful and radiant.',
+    //     description2: 'GROUND Youth Spray provides an antioxidant-rich formula with vitamin C, hyaluronic acid, and natural plant extracts designed to nourish and revitalize the skin. Perfect for on-the-go use, this spray helps combat the effects of environmental stress, supporting collagen production to maintain elasticity and firmness. With daily application, it reduces the appearance of fine lines and promotes a vibrant, youthful glow. GROUND Youth Spray is a simple addition to any skincare routine, providing an easy, fast-absorbing solution for age-defying skincare that captures timeless beauty.',
+    //     ingredients: 'Hyaluronic Acid, Vitamin C (Ascorbic Acid), CoQ10, Grape Seed Extract, Collagen Peptides, Green Tea Extract, Sea Buckthorn Oil, Pomegranate Extract, Natural Flavor',
+    //     certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
+    //     finalMessage: 'Stay youthful and radiant with Mamostong GROUND Drops / Spray Youth. This anti-aging spray helps rejuvenate your skin, keeping it looking fresh and glowing.',
+    //     size: 'SPRAY - 30ml BOTTLE + BOX',
+    //     images: [
+    //         "/images/product/product-2.jpg",
+    //         "/images/herbal/hand.png",
+    //         "",
+    //         "/video/ground_product.mp4",
+    //         "/images/people/6.png"
+    //     ]
+    // },
+    // {
+    //     id: 7,
+    //     name: 'GROUND DROPS / SPRAY CALM',
+    //     price: '€45.00',
+    //     servings: '5 Calories, 50mg L-Theanine, 100mg Lemon Balm',
+    //     pricePerUnit: '€2.80 / serving',
+    //     category: 'ground',
+    //     img: "/images/product/product-3.jpg",
+    //     link: '/ground-drops-spray-calm',
+    //     description: 'Mamostong GROUND Drops / Spray Calm is a calming and stress-relieving formula. This natural blend helps reduce anxiety and promote relaxation, making it perfect for unwinding after a long day.',
+    //     description2: 'GROUND Calm Spray is formulated with lavender oil, chamomile extract, and magnesium, providing instant relaxation and stress relief. Designed for those moments when you need a quick reset, this spray offers a calming experience that helps manage daily stressors. With a gentle botanical blend, it supports a balanced mood, helping you stay composed. Use it any time during the day to boost your mood and promote relaxation, perfect for unwinding after a busy day.',
+    //     ingredients: 'Lavender Essential Oil, Chamomile Extract, Magnesium Glycinate, L-Theanine, Passionflower Extract, Lemon Balm Extract, Natural Peppermint Oil',
+    //     certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
+    //     finalMessage: 'Calm your mind and relax with Mamostong GROUND Drops / Spray Calm. This natural spray helps reduce stress and promote relaxation, perfect for unwinding after a busy day.',
+    //     size: 'SPRAY - 30ml BOTTLE + BOX',
+    //     images: [
+    //         "/images/product/product-3.jpg",
+    //         "/images/herbal/hand.png",
+    //         "",
+    //         "/video/ground_product.mp4",
+    //         "/images/people/7.png"
+    //     ]
+    // },
+    // {
+    //     id: 8,
+    //     name: 'GROUND DROPS / SPRAY DREAM',
+    //     price: '€45.00',
+    //     servings: '5 Calories, 2mg Melatonin, 100mg Chamomile',
+    //     pricePerUnit: '€3.10 / serving',
+    //     category: 'ground',
+    //     img: "/images/product/product-4.jpg",
+    //     link: '/ground-drops-spray-dream',
+    //     description: 'Mamostong GROUND Drops / Spray Dream is a sleep-enhancing formula that helps you relax and achieve deep, restful sleep. Its natural ingredients promote a calm mind and body for a peaceful nights rest.',
+    //     description2: 'GROUND Dream Spray combines melatonin, valerian root, and passionflower extract in a soothing blend to support deep, restful sleep. Ideal for nightly use, this spray encourages natural sleep cycles and reduces nighttime awakenings, providing a calming effect that prepares the body for a full nights rest. A few sprays before bed help you relax and ease into deep sleep without dependency. Designed to support a healthy sleep routine, GROUND Dream Spray is a convenient solution for those seeking better rest and relaxation, allowing you to wake up feeling refreshed and ready.',
+    //     ingredients: 'Melatonin, Valerian Root Extract, GABA, 5-HTP, Passionflower, Lemon Balm, Chamomile Extract, Magnesium Citrate, Natural Lavender Flavor',
+    //     certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
+    //     finalMessage: 'Achieve a deep and restful sleep with Mamostong GROUND Drops / Spray Dream. This deep-enhancing formula helps you relax and enjoy a peaceful nights rest.',
+    //     size: 'SPRAY - 30ml BOTTLE + BOX',
+    //     images: [
+    //         "/images/product/product-4.jpg",
+    //         "/images/herbal/hand.png",
+    //         "",
+    //         "/video/ground_product.mp4",
+    //         "/images/people/8.png"
+    //     ]
+    // },
 
     {
         id: 9,
@@ -144,7 +200,14 @@ const allProducts: Product[] = [
         ingredients: 'Marine Collagen Peptides, Hyaluronic Acid, Vitamin C (as Ascorbic Acid), Biotin, Bamboo Extract (Silica), Seaweed Extract, Aloe-Vera, Astaxanthin, Organic Blueberry Extract',
         certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Stay youthful and energetic with Mamostong CORE Sea Collagen. Sourced from the purest marine environments, this product is your ultimate companion for maintaining radiant skin and flexible joints. Stay ahead with premium, bioavailable collagen.',
-        size: 'MEDIUM SIZE (POWDER)'
+        size: 'MEDIUM SIZE (POWDER)',
+        images: [
+            "/images/core/sea_collagen.png",
+            "/images/core/hand.png",
+            "/images/core/core_puck_1.png", // порошок
+            "/video/core_product.mp4",
+            "/images/people/9.png"
+        ]
     },
     {
         id: 10,
@@ -160,7 +223,14 @@ const allProducts: Product[] = [
         ingredients: 'Bovine Collagen Peptides, MSM (Methylsulfonylmethane), Vitamin C, Bamboo Extract (Silica), Zinc, Biotin, Horsetail Extract, Hydrolyzed Elastin, Coenzyme Q10',
         certifications: 'GMP Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Elevate your health with Mamostong CORE Collagen Peptide. Ideal for daily use, it enhances skin firmness, strengthens hair and nails, and supports joint function. Add it to your daily routine and enjoy the lasting benefits of vibrant, youthful vitality.',
-        size: 'MEDIUM SIZE (POWDER)'
+        size: 'MEDIUM SIZE (POWDER)',
+        images: [
+            "/images/core/collagen_peptide.png",
+            "/images/core/hand.png",
+            "/images/core/core_puck_2.png", // порошок
+            "/video/core_product.mp4",
+            "/images/people/9.png"
+        ]
     },
     {
         id: 11,
@@ -176,7 +246,14 @@ const allProducts: Product[] = [
         ingredients: 'Coenzyme Q10, Pyrroloquinoline Quinone (PPQ), Vitamin E (Tocopherol), Alpha Lipoic Acid, Grape Seed Extract, Turmeric Extract (Curcumin), L-Carnitine, Black Pepper Extract (Piperine)',
         certifications: 'ISO 22000 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Boost your energy and mental clarity with Mamostong CORE Q10 + PPQ. This high-absorption formula supports your body and mind and heart. Perfect for those who want to stay sharp and focused throughout their day.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/core/q10_ppq.png",
+            "/images/core/hand.png",
+            "/images/core/core_puck_3.png", // порошок
+            "/video/core_product.mp4",
+            "/images/people/10.png"
+        ]
     },
     {
         id: 12,
@@ -192,7 +269,14 @@ const allProducts: Product[] = [
         ingredients: 'Magnesium Glycinate, Vitamin B6 (Pyridoxine), Calcium Citrate, L-Theanine, Chamomile Extract, Zinc, Potassium, Lemon Balm Extract',
         certifications: 'NSF Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Experience relief and calm with Mamostong CORE Magnesium Glycinate. This highly absorbable form of magnesium supports muscle relaxation and restful sleep. A targeted solution for those seeking quality rest and digestive comfort.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/core/magnesium_glycinate.png",
+            "/images/core/hand.png",
+            "/images/core/core_puck_4.png", // порошок
+            "/video/core_product.mp4",
+            "/images/people/11.png"
+        ]
     },
     {
         id: 13,
@@ -208,7 +292,14 @@ const allProducts: Product[] = [
         ingredients: 'Psyllium Husk, Inulin (from Chicory Root), Apple Fiber, Flaxseed Powder, Pectin, Dandelion Root, Oat Bran, Aloe Vera, Bromelain',
         certifications: 'Non-GMO, Gluten-Free, Vegan',
         finalMessage: 'Support your digestion and feel fuller longer with Mamostong CORE Fiber Caps. These gentle fiber capsules promote regularity and digestive health, making them a great addition to your wellness routine.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/core/fiber_caps.png",
+            "/images/core/hand.png",
+            "/images/core/core_puck_5.png", // порошок
+            "/video/core_product.mp4",
+            "/images/people/12.png"
+        ]
     },
     {
         id: 14,
@@ -224,7 +315,14 @@ const allProducts: Product[] = [
         ingredients: 'Vegan Vitamin D3 (from Lichen), Calcium Citrate, Magnesium Citrate, Vitamin K2 (MK-7), Organic Kelp Powder',
         certifications: 'ISO 9001 Certified, Vegan, Gluten-Free',
         finalMessage: 'Boost your immune system and strengthen your bones with Mamostong CORE Vegan Vitamin D3. This plant-based formula is ideal for those seeking a sustainable source of vitamin D.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/core/d3.png",
+            "/images/core/hand.png",
+            "/images/core/core_puck_6.png", // порошок
+            "/video/core_product.mp4",
+            "/images/people/13.png"
+        ]
     },
     {
         id: 15,
@@ -240,7 +338,14 @@ const allProducts: Product[] = [
         ingredients: 'Fish Oil (providing EPA and DHA), Vitamin E (Tocopherol), Rosemary Extract, Lemon Oil (for freshness), Organic Flaxseed Oil',
         certifications: 'ISO 22000 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Promote heart, brain, and joint health with Mamostong CORE Alpha Omega-3. These omega-3 capsules provide a concentrated dose of EPA and DHA to support overall wellness.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/core/alpha_omega.png",
+            "/images/core/hand.png",
+            "/images/core/core_puck_7.png", // порошок
+            "/video/core_product.mp4",
+            "/images/people/14.png"
+        ]
     },
     {
         id: 16,
@@ -256,7 +361,14 @@ const allProducts: Product[] = [
         ingredients: 'Hydrolyzed Collagen Tripeptides, Hyaluronic Acid, Vitamin C, Green Tea Extract, MSM (from Pine Bark), Bamboo Extract',
         certifications: 'GMP Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Rejuvenate your skin, hair, and joints with Mamostong CORE Collagen Tripeptide. This fast-absorbing formula delivers collagen deep into your tissues for visible and long-lasting results.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/core/collagen_tripeptide.png",
+            "/images/core/hand.png",
+            "/images/core/core_puck_8.png", // порошок
+            "/video/core_product.mp4",
+            "/images/people/1.png"
+        ]
     },
     {
         id: 17,
@@ -272,7 +384,14 @@ const allProducts: Product[] = [
         ingredients: 'Vitamins A, C, D3, E, K2, B-Complex (B1, B2, B6, B12, Biotin, Folate), Calcium, Magnesium, Zinc, Selenium, Chromium, Manganese, Molybdenum, Copper, Organic Grape Seed Extract',
         certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Stay balanced and energized with Mamostong CORE Multivitamin 2/Day. This comprehensive multivitamin provides essential nutrients to support your busy lifestyle and enhance overall well-being.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/core/multivitamin_2_day.png",
+            "/images/core/hand.png",
+            "/images/core/core_puck_9.png", // порошок
+            "/video/core_product.mp4",
+            "/images/people/2.png"
+        ]
     },
     {
         id: 18,
@@ -288,7 +407,14 @@ const allProducts: Product[] = [
         ingredients: 'Protease, Amylase, Lipase, Bromelain, Papain, Betaine HCl, Ginger Root Extract, Peppermint Leaf, Fennel Seed',
         certifications: 'GMP Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Enhance your digestion with Mamostong CORE Super Enzym. This powerful enzyme blend ensures that your body can effectively break down and absorb nutrients from your food.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/core/super_enzym.png",
+            "/images/core/hand.png",
+            "/images/core/core_puck_10.png", // порошок
+            "/video/core_product.mp4",
+            "/images/people/3.png"
+        ]
     },
     {
         id: 19,
@@ -304,7 +430,14 @@ const allProducts: Product[] = [
         ingredients: 'Vitamins A, C, D3, E, K2, B-Complex, Calcium, Magnesium, Zinc, Iron, Biotin, Manganese, Cranberry Extract, Ginkgo Biloba, Grape Seed Extract',
         certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Support your health with Mamostong CORE Women\'s Multi 50+. Specifically formulated for women over 50, this multivitamin promotes bone health, energy, and overall wellness.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/core/womens_multi.png",
+            "/images/core/hand.png",
+            "/images/core/core_puck_11.png", // порошок
+            "/video/core_product.mp4",
+            "/images/people/4.png"
+        ]
     },
     {
         id: 20,
@@ -320,7 +453,14 @@ const allProducts: Product[] = [
         ingredients: 'Vitamins A, C, D3, E, K2, B-Complex, Magnesium, Zinc, Selenium, Lycopene, Saw Palmetto, L-Arginine, Ginseng Root Extract',
         certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Keep your energy up and your prostate healthy with Mamostong CORE Men\'s Multi 50+. This comprehensive multivitamin provides key nutrients for men\'s health and well-being.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/core/mens_multi.png",
+            "/images/core/hand.png",
+            "/images/core/core_puck_12.png", // порошок
+            "/video/core_product.mp4",
+            "/images/people/5.png"
+        ]
     },
     {
         id: 21,
@@ -336,7 +476,14 @@ const allProducts: Product[] = [
         ingredients: 'L-Carnitine, Magnesium Stearate, Silicon Dioxide, Microcrystalline Cellulose, Curcumin C3 Complex',
         certifications: 'ISO 9001 Certified, Non-GMO, Vegan',
         finalMessage: 'Enhance your endurance and burn fat with Mamostong RISE L-Carnitine. This powerful supplement boosts energy and supports weight management, making it an essential part of your fitness journey.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/rise/l_carnitine.png",
+            "/images/rise/hand.png",
+            "/images/rise/rise_puck_1.png", // порошок
+            "/video/rise_product.mp4",
+            "/images/people/6.png"
+        ]
     },
     {
         id: 22,
@@ -352,7 +499,14 @@ const allProducts: Product[] = [
         ingredients: 'Curcumin C3 Complex (Turmeric Root Extract), Black Pepper Extract (Piperine), Boswellia Serrata Extract, Ginger Root Powder, Quercetin, BioPerine, Cellulose capsule',
         certifications: 'ISO 9001 Certified, Non-GMO, Vegan',
         finalMessage: 'Support your joints and reduce inflammation with Mamostong RISE Curcumin C3 Complex. This potent anti-inflammatory formula helps protect your joints, making it perfect for a active lifestyle.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/rise/curcumin_c3_complex.png",
+            "/images/rise/hand.png",
+            "/images/rise/rise_puck_2.png", // порошок
+            "/video/rise_product.mp4",
+            "/images/people/7.png"
+        ]
     },
     {
         id: 23,
@@ -368,7 +522,14 @@ const allProducts: Product[] = [
         ingredients: 'L-Glutamine, Vitamin C, Calcium Ascorbate, Magnesium Stearate, Vegetable Capsule, Pea Protein Isolate, Brown Rice Protein',
         certifications: 'ISO 9001 Certified, Non-GMO, Vegan',
         finalMessage: 'Speed up recovery and support gut health with Mamostong RISE L-Glutamine. This formula helps you bounce back when intense workouts and ensures you stay at the top of your game.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/rise/l_glytamine.png",
+            "/images/rise/hand.png",
+            "/images/rise/rise_puck_3.png", // порошок
+            "/video/rise_product.mp4",
+            "/images/people/8.png"
+        ]
     },
     {
         id: 24,
@@ -384,7 +545,15 @@ const allProducts: Product[] = [
         ingredients: 'Pea Protein Isolate, Hemp Protein, Natural Flavors, Stevia Leaf Extract, Organic Sunflower Lecithin, Enzyme Blend (Bromelain), Amylase (Lipase)',
         certifications: 'ISO 22000 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Fuel your body with plant-based power using Mamostong RISE Plant Blend Protein. This complete protein supports muscle recovery and growth while providing essential nutrients for an active lifestyle.',
-        size: 'LARGE TUBE (POWDER) + BOX (PORTION NUTRITION)'
+        size: 'LARGE TUBE (POWDER) + BOX (PORTION NUTRITION)',
+        sachet: true,
+        images: [
+            "/images/rise/plant_blend_protein.png",
+            "/images/rise/hand.png",
+            "/images/rise/rise_plant_blend_protein_sachet.png",
+            "/images/rise/rise_puck_4.png",
+            "/video/rise_product.mp4",
+        ]
     },
     {
         id: 25,
@@ -400,7 +569,14 @@ const allProducts: Product[] = [
         ingredients: 'Beta-Alanine, Caffeine Anhydrous, L-Citrulline Malate, Taurine, Rhodiola Rosea Extract, Vitamin B12, Beet Root Powder, Stevia Leaf Extract, Natural Flavor',
         certifications: 'GMP Certified, Non-GMO, Vegan',
         finalMessage: 'Train harder and longer with Mamostong RISE Pre-Workout. This performance-enhancing blend helps increase endurance, focus, and energy, ensuring you get the most out of every workout.',
-        size: 'MEDIUM TUBE (POWDER)'
+        size: 'MEDIUM TUBE (POWDER)',
+        images: [
+            "/images/rise/pre_workout.png",
+            "/images/rise/hand.png",
+            "/images/rise/rise_puck_5.png", // порошок
+            "/video/rise_product.mp4",
+            "/images/people/10.png"
+        ]
     },
     {
         id: 26,
@@ -416,7 +592,14 @@ const allProducts: Product[] = [
         ingredients: 'BCAAs, L-Leucine, L-Isoleucine, L-Valine, Electrolyte Blend (Sodium, Potassium, Magnesium), L-Glutamine, Tart Cherry Extract, Coconut Water Powder, Stevia Leaf Extract',
         certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Recover faster and stronger with Mamostong RISE Post Workout. Packed with BCAAs and electrolytes, this post-workout formula helps reduce soreness and supports faster recovery.',
-        size: 'MEDIUM TUBE (POWDER)'
+        size: 'MEDIUM TUBE (POWDER)',
+        images: [
+            "/images/rise/post_workout.png",
+            "/images/rise/hand.png",
+            "/images/rise/rise_puck_6.png", // порошок
+            "/video/rise_product.mp4",
+            "/images/people/11.png"
+        ]
     },
     {
         id: 27,
@@ -432,7 +615,14 @@ const allProducts: Product[] = [
         ingredients: 'Pea Protein Isolate, Organic Pumpkin Seed Protein, Quinoa Powder, Organic Flaxseed Powder, Organic MCT Powder, Coconut Oil, Organic Key Lime Flavor, Monk Fruit Extract, Inulin (from Chicory Root)',
         certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Fuel your day with Mamostong RISE Plant Protein Meal Key Lime. This nutritious meal replacement shake provides a complete source of protein and energy to keep you going strong.',
-        size: 'LARGE TUBE (POWDER)'
+        size: 'LARGE TUBE (POWDER)',
+        images: [
+            "/images/rise/plant_protein_meal_key_lime.png",
+            "/images/rise/hand.png",
+            "/images/rise/rise_puck_7.png", // порошок
+            "/video/rise_product.mp4",
+            "/images/people/12.png"
+        ]
     },
     {
         id: 28,
@@ -448,7 +638,14 @@ const allProducts: Product[] = [
         ingredients: 'Pea Protein Isolate, Brown Rice Protein, Pumpkin Seed Protein, Organic Vanilla Bean Extract, Inulin, Monk Fruit Extract, Digestive Enzyme Blend',
         certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Stay energized and build muscle with Mamostong RISE Plant Protein Meal Vanilla. This versatile protein shake is perfect for meal replacement, providing plant-based nutrition for a balanced diet.',
-        size: 'LARGE TUBE (POWDER)'
+        size: 'LARGE TUBE (POWDER)',
+        images: [
+            "/images/rise/plant_protein_meal_vanilla.png",
+            "/images/rise/hand.png",
+            "/images/rise/rise_puck_8.png", // порошок
+            "/video/rise_product.mp4",
+            "/images/people/13.png"
+        ]
     },
     {
         id: 29,
@@ -464,7 +661,14 @@ const allProducts: Product[] = [
         ingredients: 'Pea Protein Isolate, Pumpkin Seed Protein, Cocoa Powder, Natural Chocolate Salted Caramel Flavor, Coconut MCT Powder, Chicory Root Fiber, Monk Fruit Extract, Digestive Enzyme Blend',
         certifications: 'ISO 22000 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Satisfy your cravings and recover faster with Mamostong RISE Plant Protein Meal Chocolate Salted Caramel. This rich protein shake offers plant-based nutrition to help you refuel after workouts.',
-        size: 'LARGE TUBE (POWDER)'
+        size: 'LARGE TUBE (POWDER)',
+        images: [
+            "/images/rise/plant_protein_meal_chocolate_salted_caramel.png",
+            "/images/rise/hand.png",
+            "/images/rise/rise_puck_9.png", // порошок
+            "/video/rise_product.mp4",
+            "/images/people/14.png"
+        ]
     },
     {
         id: 30,
@@ -480,7 +684,14 @@ const allProducts: Product[] = [
         ingredients: 'Pea Protein Isolate, Brown Rice Protein, Organic Peanut Powder, Cocoa Powder, Monk Fruit Extract, MCT Oil Powder, Chicory Root Fiber, Digestive Enzyme Blend',
         certifications: 'ISO 22000 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Enjoy the delicious taste of chocolate and peanut while supporting muscle recovery with Mamostong RISE Plant Protein Meal Chocolate Peanut. A perfect meal replacement for fitness enthusiasts.',
-        size: 'LARGE TUBE (POWDER)'
+        size: 'LARGE TUBE (POWDER)',
+        images: [
+            "/images/rise/plant_protein_meal_chocolate_peanut.png",
+            "/images/rise/hand.png",
+            "/images/rise/rise_puck_10.png", // порошок
+            "/video/rise_product.mp4",
+            "/images/people/1.png"
+        ]
     },
     {
         id: 31,
@@ -496,7 +707,14 @@ const allProducts: Product[] = [
         ingredients: 'Kre-Alkalyn (Buffered Creatine Monohydrate), Beta-Alanine, Taurine, Alpha GPC, Calcium Phosphate, Microcrystalline Cellulose, Vitamins A, C, D, E, K2, B-Complex',
         certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Achieve your peak performance with Mamostong SUMMIT Kre-Alkalyn. This buffered creatine helps enhance strength and endurance without common side effects like bloating and water retention. Perfect for athletes seeking efficient creatine delivery.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/summit/kre_alkalyn.png",
+            "/images/summit/hand.png",
+            "/images/summit/summit_puck_1.png", // порошок
+            "/video/summit_product.mp4",
+            "/images/people/2.png"
+        ]
     },
     {
         id: 32,
@@ -512,7 +730,14 @@ const allProducts: Product[] = [
         ingredients: 'Magnesium, Zinc, Selenium, Chromium, Organic Spirulina, Grape Seed Extract, Quercetin, CoQ10, Caffeine Anhydrous, L-Theanine',
         certifications: 'ISO 9001 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Boost your daily wellness with Mamostong SUMMIT Vitamine Complex. Packed with essential vitamins and minerals, this daily multivitamin helps you stay energized, support your immune system, and ensures overall health maintenance.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/summit/vitamin_complex.png",
+            "/images/summit/hand.png",
+            "/images/summit/summit_puck_2.png", // порошок
+            "/video/summit_product.mp4",
+            "/images/people/3.png"
+        ]
     },
     {
         id: 33,
@@ -528,7 +753,14 @@ const allProducts: Product[] = [
         ingredients: 'Caffeine Anhydrous, L-Theanine, Rhodiola Rosea, Ginseng Root Extract, Black Pepper Extract (Piperine), Microcrystalline Cellulose',
         certifications: 'ISO 22000 Certified, Non-GMO, Vegan',
         finalMessage: 'Stay energized and focused with Mamostong SUMMIT Caffein. This quick-acting caffeine supplement enhances your mental and physical performance, making it ideal for pre-workout energy or a productivity boost throughout the day.',
-        size: 'SMALL TUBE (CAPSULES)'
+        size: 'SMALL TUBE (CAPSULES)',
+        images: [
+            "/images/summit/coffein.png",
+            "/images/summit/hand.png",
+            "/images/summit/summit_puck_3.png", // порошок
+            "/video/summit_product.mp4",
+            "/images/people/4.png"
+        ]
     },
     {
         id: 34,
@@ -544,7 +776,15 @@ const allProducts: Product[] = [
         ingredients: 'Pea Protein Isolate, Brown Rice Protein, Organic Pumpkin Seed Protein, Organic MCT, Powder (from Coconut Oil), Natural Banana Flavor, Chicory Root Fiber, Monk Fruit Extract, Digestive Enzyme Blend',
         certifications: 'ISO 22000 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Refuel and recover with Mamostong SUMMIT Plant Protein Performance Banoffee Flavour. This plant-based protein is designed for muscle recovery, providing the nutrients your body needs after a workout with a delicious banoffee taste.',
-        size: 'LARGE TUBE (POWDER) + BOX (PORTION NUTRITION)'
+        size: 'LARGE TUBE (POWDER) + BOX (PORTION NUTRITION)',
+        sachet: true,
+        images: [
+            "/images/summit/plant_protein_perfomance_banoffee_flavour.png",
+            "/images/summit/hand.png",
+            "/images/summit/plant_protein_perfomance_banoffee_flavour_sachet.png",
+            "/images/summit/summit_puck_4.png",
+            "/video/summit_product.mp4",
+        ]
     },
     {
         id: 35,
@@ -560,7 +800,15 @@ const allProducts: Product[] = [
         ingredients: 'Pea Protein Isolate, Brown Rice Protein, Natural Chocolate Hazelnut Flavor, Cocoa Powder, Stevia Leaf Extract, Inulin, Digestive Enzyme Blend',
         certifications: 'ISO 22000 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Enjoy the rich taste of chocolate hazelnut while fueling your recovery with Mamostong SUMMIT Plant Protein Performance Chocolate Hazelnut Flavour. Perfect for athletes who want a nutritious, plant-based protein post-workout.',
-        size: 'LARGE TUBE (POWDER) + BOX (PORTION NUTRITION)'
+        size: 'LARGE TUBE (POWDER) + BOX (PORTION NUTRITION)',
+        sachet: true,
+        images: [
+            "/images/summit/plant_protein_perfomance_chocolate_flavour.png",
+            "/images/summit/hand.png",
+            "/images/summit/plant_protein_perfomance_chocolate_flavour_sachet.png",
+            "/images/summit/summit_puck_5.png",
+            "/video/summit_product.mp4",
+        ]
     },
     {
         id: 36,
@@ -576,7 +824,15 @@ const allProducts: Product[] = [
         ingredients: 'Pea Protein Isolate, Brown Rice Protein, Organic Quinoa Powder, Natural Tiramisu Flavor, MCT Oil Powder, Chicory Root Fiber, Monk Fruit Extract, Digestive Enzyme Blend (Protease, Lipase)',
         certifications: 'ISO 22000 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Indulge in the luxurious tiramisu flavor while supporting muscle recovery with Mamostong SUMMIT Plant Protein Performance Tiramisu Flavour. This plant-based protein is designed to help your muscles recover and grow after intense training.',
-        size: 'LARGE TUBE (POWDER) + BOX (PORTION NUTRITION)'
+        size: 'LARGE TUBE (POWDER) + BOX (PORTION NUTRITION)',
+        sachet: true,
+        images: [
+            "/images/summit/plant_protein_perfomance_tiramisu_flavour.png",
+            "/images/summit/hand.png",
+            "/images/summit/plant_protein_perfomance_tiramisu_flavour_sachet.png",
+            "/images/summit/summit_puck_6.png",
+            "/video/summit_product.mp4",
+        ]
     },
     {
         id: 37,
@@ -592,7 +848,15 @@ const allProducts: Product[] = [
         ingredients: 'Pea Protein Isolate, Brown Rice Protein, Organic Peanut Powder, Cocoa Powder, Natural Chocolate Peanut Flavor, MCT Oil Powder, Chicory Root Fiber, Monk Fruit Extract, Digestive Enzyme Blend',
         certifications: 'ISO 22000 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Enjoy a delicious and nutritious protein shake with Mamostong SUMMIT Plant Protein Performance Chocolate Peanut. This balanced shake helps fuel muscle recovery and delivers a satisfying post-workout treat.',
-        size: 'LARGE TUBE (POWDER) + BOX (PORTION NUTRITION)'
+        size: 'LARGE TUBE (POWDER) + BOX (PORTION NUTRITION)',
+        sachet: true,
+        images: [
+            "/images/summit/plant_protein_perfomance_chocolate_peanut_flavour.png",
+            "/images/summit/hand.png",
+            "/images/summit/plant_protein_perfomance_chocolate_peanut_flavour_sachet.png",
+            "/images/summit/summit_puck_7.png", // порошок
+            "/video/summit_product.mp4",
+        ]
     },
     {
         id: 38,
@@ -608,29 +872,277 @@ const allProducts: Product[] = [
         ingredients: 'Pure Pea Protein Isolate, Brown Rice Protein, Organic Hemp Protein, Natural Flavor, Organic Sunflower Lecithin, Stevia Leaf Extract',
         certifications: 'ISO 22000 Certified, Non-GMO, Gluten-Free',
         finalMessage: 'Meet your protein needs with Mamostong SUMMIT Pure Blend Protein. This high-protein formula is perfect for post-workout recovery or daily nutrition, helping you repair muscles and stay energized throughout the day.',
-        size: 'LARGE TUBE (POWDER) + BOX (PORTION NUTRITION)'
+        size: 'LARGE TUBE (POWDER) + BOX (PORTION NUTRITION)',
+        sachet: true,
+        images: [
+            "/images/summit/pure_blend_protein.png",
+            "/images/summit/hand.png",
+            "/images/summit/pure_blend_protein_sachet.png",
+            "/images/summit/summit_puck_8.png", // порошок
+            "/video/summit_product.mp4",
+        ]
     },
     {
         id: 39,
-        name: 'TASTE BOX',
-        price: '€30.00',
-        servings: 'Varies by product',
-        category: '',
-        img: "/images/product/product-1.jpg",
-        link: '/taste-box',
-        description: 'Mamostong Taste Box is a curated assortment of health and wellness products designed to offer a taste of the Mamostong experience. Perfect for those new to the brand or looking to sample a range of our premium offerings.',
-        description2: 'Each Taste Box includes a selection of carefully chosen products crafted with natural ingredients and backed by science. May include natural extracts, plant-based proteins, vitamins, minerals, antioxidants, and more. Each product is formulated with Mamostong\'s commitment to purity and effectiveness.',
-        ingredients: 'Varies by product: may include natural extracts, plant-based proteins, vitamins, minerals, antioxidants, and more.',
-        certifications: 'Organic Certified, Non-GMO, Gluten-Free',
-        finalMessage: 'Discover the purity and effectiveness of Mamostong\'s bestsellers. Fuel your wellness journey with versatile samples perfect for any time, anywhere.',
-        size: 'TASTE BOX - 12 STICKS (5g PER STICK)'
+        name: "MEN'S SHORTS",
+        price: '€89.99',
+        category: '7516m',
+        img: "/images/7516m/Men's_Shorts/M6095R_01320_b1_s3_a1_1.png",
+        link: '/mens-shorts',
+        description: 'Lightweight, versatile shorts designed for high mobility and breathability. Ideal for both the gym and outdoor activities, offering a comfortable and efficient fit.',
+        description2: 'Engineered for freedom of movement, these mens shorts feature a breathable, sweat-wicking fabric blend that feels weightless yet durable. The material supports high-intensity activities, from sprinting to lifting, while maintaining a refined, casual look for versatile wear beyond the gym.',
+        fabrication: '90% Polyester, 10% Spandex',
+        fit: 'Regular, mid-rise waist',
+        sizes: ['S', 'M', 'L', 'XL'],
+        cloth: true,
+        images: [
+            "/images/7516m/Men's_Shorts/M6095R_01320_b1_s3_a1_1.png",
+            "/images/7516m/Men's_Shorts/M6095R_01320_b1_s3_a2_1.png",
+            "/images/7516m/Men's_Shorts/M6095R_01320_b1_s3_a3_1.png",
+            "/images/7516m/Men's_Shorts/M6095R_01320_b1_s3_a4_1.png",
+            "/images/7516m/Men's_Shorts/M6127R_01_b1_s3_a1_1.png"
+        ]
     },
+    {
+        id: 40,
+        name: "MEN'S ZIP-NECK LONG SLEEVE",
+        price: '€109.99',
+        category: '7516m',
+        img: "/images/7516m/Men's_Zip-Neck_Long_Sleeve/M3193R_01_b1_s3_a1_1.png",
+        link: '/mens-zip-neck-long-sleeve',
+        description: 'A high-performance zip-neck long sleeve for adaptive comfort and warmth during cool-weather workouts.',
+        description2: 'This zip-neck long sleeve offers versatile coverage with breathable warmth, perfect for layering or solo wear. The half-zip design allows adjustable ventilation, while the stretch fabric contours comfortably, supporting the bodys movements. A premium addition to both training and casual wear, this piece embodies Mamostongs commitment to functionality and elegance.',
+        fabrication: '88% Polyester, 12% Elastane',
+        fit: 'Slim, contoured to the body',
+        sizes: ['S', 'M', 'L', 'XL'],
+        cloth: true,
+        images: [
+            "/images/7516m/Men's_Zip-Neck_Long_Sleeve/M3193R_01_b1_s3_a1_1.png",
+            "/images/7516m/Men's_Zip-Neck_Long_Sleeve/M3193R_01_b1_s3_a2_1.png",
+            "/images/7516m/Men's_Zip-Neck_Long_Sleeve/M3193R_01_b1_s3_a3_1.png",
+            "/images/7516m/Men's_Zip-Neck_Long_Sleeve/M3193R_03040_b1_s1_a1_1.png",
+            "/images/7516m/Men's_Zip-Neck_Long_Sleeve/M3193R_03842_b1_s3_a1_1.png"
+        ]
+    },
+    {
+        id: 41,
+        name: "MEN'S SWEATSHIRT",
+        price: '€104.99',
+        category: '7516m',
+        img: "/images/7516m/Men's_Sweatshirt/M3193R_01_b1_s3_a1_1.png",
+        link: '/mens-sweatshirt',
+        description: 'A comfortable, structured sweatshirt, balancing warmth and breathability for everyday wear.',
+        description2: 'This sweatshirt combines style and performance in a structured yet soft fabric thats gentle on the skin. Its design allows for effortless layering, maintaining its shape and feel even with regular use. This sweatshirt aligns with Mamostongs dedication to high-quality, eco-conscious materials.',
+        fabrication: '80% Cotton, 20% Recycled Polyester',
+        fit: 'Relaxed',
+        sizes: ['S', 'M', 'L', 'XL'],
+        cloth: true,
+        images: [
+            "/images/7516m/Men's_Sweatshirt/M3193R_01_b1_s3_a1_1.png",
+            "/images/7516m/Men's_Sweatshirt/M3193R_01_b1_s3_a2_1.png",
+            "/images/7516m/Men's_Sweatshirt/M3193R_01_b1_s3_a3_1.png",
+            "/images/7516m/Men's_Sweatshirt/M3193R_03040_b1_s1_a1_1.png",
+            "/images/7516m/Men's_Sweatshirt/M3193R_03842_b1_s3_a1_1.png"
+        ]
+    },
+    {
+        id: 42,
+        name: "MEN'S CARGO PANTS",
+        price: '€104.99',
+        category: '7516m',
+        img: "/images/7516m/Men's_Cargo_Pants/M1243R_03040_b1_s1_a1_1.png",
+        link: '/mens-cargo-pants',
+        description: 'Functional cargo pants, designed for outdoor activities and relaxed urban style, featuring ample storage and durable comfort.',
+        description2: 'These cargo pants offer spacious pockets and reinforced stitching for durability. The design ensures easy movement and breathability, balancing rugged utility with modern style, suitable for both active days and casual settings.',
+        fabrication: '100% Cotton',
+        fit: 'Relaxed, tapered ankle',
+        sizes: ['S', 'M', 'L', 'XL'],
+        cloth: true,
+        images: [
+            "/images/7516m/Men's_Cargo_Pants/M1243R_03040_b1_s1_a1_1.png",
+            "/images/7516m/Men's_Cargo_Pants/M1243R_03040_b1_s1_a2_1.png",
+            "/images/7516m/Men's_Cargo_Pants/M1243R_03040_b1_s1_a3_1.png",
+            "/images/7516m/Men's_Cargo_Pants/ezgif-4-86ffbd5984.jpg"
+        ]
+    },
+    {
+        id: 43,
+        name: "MEN'S SPORTS TANK",
+        price: '€99.99',
+        category: '7516m',
+        img: "/images/7516m/Men's_Sports_Tank/M2033R_05541_b1_s1_a1_1.jpg",
+        link: '/mens-sports-tank',
+        description: 'Lightweight and moisture-wicking, designed for high-energy workouts.',
+        description2: 'This sports tank top is crafted for breathability and freedom of movement, with a quick-drying fabric that keeps you comfortable throughout intense training. Its minimalistic design makes it easy to pair with any sportswear, embracing Mamostongs vision for versatile, performance-based style.',
+        fabrication: '95% Polyester, 5% Elastane',
+        fit: 'Slim',
+        sizes: ['S', 'M', 'L', 'XL'],
+        cloth: true,
+        images: [
+            "/images/7516m/Men's_Sports_Tank/M2033R_05541_b1_s1_a1_1.jpg",
+            "/images/7516m/Men's_Sports_Tank/M2033R_05541_b1_s1_a2_1.jpg",
+            "/images/7516m/Men's_Sports_Tank/M2033R_05541_b1_s1_a4_1.jpg",
+            "/images/7516m/Men's_Sports_Tank/M2033R_10061_b1_s3_a2_1.png",
+            "/images/7516m/Men's_Sports_Tank/M2033R_10061_b1_s3_a3_1.png"
+        ]
+    },
+    {
+        id: 44,
+        name: "MEN'S 2-IN-1 SHORTS",
+        price: '€109.99',
+        category: '7516m',
+        img: "/images/7516m/Men's_2-in-1_Shorts/M3193R_0101_b1_s1_a1_1.png",
+        link: '/mens-2-in-1-shorts',
+        description: 'Dual-layer shorts offering support and flexibility for all activity levels.',
+        description2: 'Designed with an inner layer for support and an outer shell for style, these shorts are perfect for both high-intensity training and casual wear. Breathable and flexible, they provide the stability you need with the freedom to move.',
+        fit: 'Regular, supportive inner layer',
+        sizes: ['S', 'M', 'L', 'XL'],
+        cloth: true,
+        images: [
+            "/images/7516m/Men's_2-in-1_Shorts/M3193R_0101_b1_s1_a1_1.png",
+            "/images/7516m/Men's_2-in-1_Shorts/M3193R_0101_b1_s1_a2_1.png",
+            "/images/7516m/Men's_2-in-1_Shorts/M3193R_0101_b1_s1_a3_1.png",
+            "/images/7516m/Men's_2-in-1_Shorts/M6114R_04660_b1_s1_a1_1.png",
+            "/images/7516m/Men's_2-in-1_Shorts/M6114R_04917_b1_s3_a2_1.png"
+        ]
+    },
+    {
+        id: 45,
+        name: "MEN'S STANDARD LONG SLEEVE",
+        price: '€119.99',
+        category: '7516m',
+        img: "/images/7516m/Men's_Standard_Long_Sleeve/M3181R_04064_b1_s3_a1_1.png",
+        link: '/mens-standard-long-sleeve',
+        description: 'Classic long sleeve made from breathable fabric for everyday wear.',
+        description2: 'This staple long sleeve offers comfort and breathability with a timeless design that transitions from gym to casual settings seamlessly. With a soft, durable fabric, its a versatile essential for any wardrobe.',
+        fit: 'Regular',
+        sizes: ['S', 'M', 'L', 'XL'],
+        cloth: true,
+        images: [
+            "/images/7516m/Men's_Standard_Long_Sleeve/M3181R_04064_b1_s3_a1_1.png",
+            "/images/7516m/Men's_Standard_Long_Sleeve/M3181R_04064_b1_s3_a2_1.png",
+            "/images/7516m/Men's_Standard_Long_Sleeve/M3181R_04064_b1_s3_a3_1.png",
+            "/images/7516m/Men's_Standard_Long_Sleeve/M3181R_04064_b1_s3_a4_1.png",
+            "/images/7516m/Men's_Standard_Long_Sleeve/M3181R_04064_b1_s3_a5_1.png"
+        ]
+    },
+    {
+        id: 46,
+        name: "MEN'S SPORTS HOODIE",
+        price: '€89.99',
+        category: '7516m',
+        img: "/images/7516m/Men's_Sports_Hoodie/M3199R_00_b1_s3_a1_1.png",
+        link: '/mens-sports-hoodie',
+        description: 'Lightweight hoodie, perfect for warm-ups and post-workout comfort.',
+        description2: 'This hoodie offers a lightweight layer of warmth, designed with breathable fabric to keep you comfortable during and after workouts. Its versatile design embodies Mamostongs philosophy of function meeting style, perfect for active and casual wear.',
+        fit: 'Relaxed',
+        sizes: ['S', 'M', 'L', 'XL'],
+        cloth: true,
+        images: [
+            "/images/7516m/Men's_Sports_Hoodie/M3199R_00_b1_s3_a1_1.png",
+            "/images/7516m/Men's_Sports_Hoodie/M3199R_00_b1_s3_a2_1.png",
+            "/images/7516m/Men's_Sports_Hoodie/M3199R_00_b1_s3_a3_1.png",
+            "/images/7516m/Men's_Sports_Hoodie/M3199R_01300_b1_s3_a1_1.png",
+            "/images/7516m/Men's_Sports_Hoodie/M3199R_01300_b1_s3_a2_1.png"
+        ]
+    },
+    {
+        id: 47,
+        name: "MEN'S RECOVER HOODIE",
+        price: '€94.99',
+        category: '7516m',
+        img: "/images/7516m/Men's_Recover_Hoodie/M3243R_01_b1_s1_a2_1.png",
+        link: '/mens-recover-hoodie',
+        description: 'Recovery-focused hoodie designed for post-workout relaxation and all-day comfort.',
+        description2: 'This hoodie supports recovery with ultra-soft fabric, crafted for a cozy feel and gentle stretch. Bamboo fiber provides natural breathability, making it ideal for cooling down after training or as an everyday piece with a wellness focus.',
+        fabrication: '75% Organic Cotton, 25% Bamboo Fiber',
+        fit: 'Relaxed',
+        sizes: ['S', 'M', 'L', 'XL'],
+        cloth: true,
+        images: [
+            "/images/7516m/Men's_Recover_Hoodie/M3243R_01_b1_s1_a2_1.png",
+            "/images/7516m/Men's_Recover_Hoodie/M3243R_01_b1_s1_a3_1.png",
+            "/images/7516m/Men's_Recover_Hoodie/M3243R_01_b1_s1_a4_1.png"
+        ]
+    },
+    {
+        id: 48,
+        name: "WOMEN'S SPORT SKIRT",
+        price: '€74.99',
+        category: '7516w', // новая категория для женской одежды
+        img: "/images/7516m/Women's_Gym_Suit/W3735R_05541_b1_s1_a1_1.png",
+        link: '/womens-sport-skirt',
+        description: 'Lightweight and functional sport skirt, ideal for active days.',
+        description2: 'Combining performance with style, this skirt features a supportive waistband and lightweight fabric, perfect for everything from tennis to casual outings. Mamostongs commitment to quality is evident in the skirts durability and comfort.',
+        fit: 'Regular',
+        sizes: ['XS', 'S', 'M', 'L'],
+        cloth: true,
+        images: [
+            "/images/7516m/Women's_Gym_Suit/W3735R_05541_b1_s1_a1_1.png",
+            "/images/7516m/Women's_Gym_Suit/W3735R_05541_b1_s1_a4_1.png",
+            "/images/7516m/Women's_Gym_Suit/W9681R_01_b1_s1_a1_1.jpg",
+            "/images/7516m/Women's_Gym_Suit/W9681R_01_b1_s1_a4_1.jpg",
+            "/images/7516m/Women's_Gym_Suit/W9360R_0100_b1_s1_a1_1.jpg"
+        ]
+    },
+    {
+        id: 49,
+        name: "WOMEN'S YOGA TOP",
+        price: '€89.99',
+        category: '7516w',
+        img: "/images/7516m/Women's_Gym_Suit/W3735R_05541_b1_s1_a1_1.png",
+        link: '/womens-yoga-top',
+        description: 'Soft and stretchy yoga top for seamless movement.',
+        description2: 'This yoga top provides lightweight support with a fabric that moves with you, designed to keep you comfortable and focused during practice. Ideal for both the studio and casual wear, it aligns with Mamostongs standards for function and style.',
+        fit: 'Slim',
+        sizes: ['XS', 'S', 'M', 'L'],
+        cloth: true,
+        images: [
+            "/images/7516m/Women's_Gym_Suit/W3735R_05541_b1_s1_a1_1.png",
+            "/images/7516m/Women's_Gym_Suit/W3735R_05541_b1_s1_a4_1.png",
+            "/images/7516m/Women's_Gym_Suit/W9360R_0100_b1_s1_a4_1.jpg",
+            "/images/7516m/Women's_Gym_Suit/W9681R_01_b1_s1_a1_1.jpg",
+            "/images/7516m/Women's_Gym_Suit/W9681R_01_b1_s1_a4_1.jpg"
+        ]
+    },
+    {
+        id: 50,
+        name: "WOMEN'S YOGA PANTS",
+        price: '€44.99',
+        category: '7516w',
+        img: "/images/7516m/Women's_Yoga_Suit/W9557R_05131_b1_s1_a1_1.png",
+        link: '/womens-yoga-pants',
+        description: 'High-waisted yoga pants that combine comfort and style for studio or street.',
+        description2: 'These yoga pants provide a flattering, high-waisted fit with breathable, stretchy fabric. Perfect for flexibility and support, theyre crafted to adapt to your movements in the studio while being stylish enough for everyday wear.',
+        fit: 'High-waisted, slim',
+        sizes: ['XS', 'S', 'M', 'L'],
+        cloth: true,
+        images: [
+            "/images/7516m/Women's_Yoga_Suit/W9557R_05131_b1_s1_a1_1.png",
+            "/images/7516m/Women's_Yoga_Suit/W9557R_05131_b1_s1_a2_1.png",
+            "/images/7516m/Women's_Yoga_Suit/W9557R_05131_b1_s1_a3_1.png",
+            "/images/7516m/Women's_Yoga_Suit/W9679R_05442_b1_s1_a3_1.png",
+            "/images/7516m/Women's_Yoga_Suit/W9679R_05602_b1_s1_a1_1.png"
+        ]
+    }
 
+    // {
+    //     id: 39,
+    //     name: 'TASTE BOX',
+    //     price: '€30.00',
+    //     servings: 'Varies by product',
+    //     category: '',
+    //     img: "/images/product/product-1.jpg",
+    //     link: '/taste-box',
+    //     description: 'Mamostong Taste Box is a curated assortment of health and wellness products designed to offer a taste of the Mamostong experience. Perfect for those new to the brand or looking to sample a range of our premium offerings.',
+    //     description2: 'Each Taste Box includes a selection of carefully chosen products crafted with natural ingredients and backed by science. May include natural extracts, plant-based proteins, vitamins, minerals, antioxidants, and more. Each product is formulated with Mamostong\'s commitment to purity and effectiveness.',
+    //     ingredients: 'Varies by product: may include natural extracts, plant-based proteins, vitamins, minerals, antioxidants, and more.',
+    //     certifications: 'Organic Certified, Non-GMO, Gluten-Free',
+    //     finalMessage: 'Discover the purity and effectiveness of Mamostong\'s bestsellers. Fuel your wellness journey with versatile samples perfect for any time, anywhere.',
+    //     size: 'TASTE BOX - 12 STICKS (5g PER STICK)',
+    //     images: []
+    // },
 
-    { id: 15, name: "7516M Prefomance Suit", category: "7516M", price: "€159.99", img: "/images/product/shop_1.png", link: "/7516m-prefomance-suit", cloth: true },
-    { id: 16, name: "7516M Breathable T-Shirt", category: "7516M", price: "€59.99", img: "/images/product/shop_2.png", link: "/7516m-breathable-t-shirt", cloth: true },
-    { id: 17, name: "7516M Zip Sweatshirt", category: "7516M", price: "€79.99", img: "/images/product/shop_3.png", link: "/7516m-zip-sweatshirt", cloth: true },
-    { id: 18, name: "7516M Tight Gym Suit", category: "7516M", price: "€139.99", img: "/images/product/shop_4.png", link: "/7516m-tight-gym-suit", cloth: true },
 ];
 
 // Остальные функции остаются без изменений
@@ -643,4 +1155,15 @@ export function getProductsByCategory(category: string): Product[] {
 
 export function getAllProducts(): Product[] {
     return allProducts;
+}
+
+export function getRandomProductFromCategory(category: string, currentProductId: number): Product | null {
+    const productsInCategory = allProducts.filter(
+        product => product.category === category && product.id !== currentProductId
+    );
+    
+    if (productsInCategory.length === 0) return null;
+    
+    const randomIndex = Math.floor(Math.random() * productsInCategory.length);
+    return productsInCategory[randomIndex];
 }

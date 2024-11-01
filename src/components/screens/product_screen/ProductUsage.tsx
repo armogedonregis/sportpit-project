@@ -25,8 +25,8 @@ export default function ProductUsage() {
                     </div>
                     <div className="w-full md:w-1/2 relative h-[300px] md:h-full">
                         <Image
-                            src="/images/product_single/newsletter_berlin.avif"
-                            alt="Fueling right from the start"
+                            src="/images/product_single/detailed_post_1.jpg"
+                            alt=""
                             fill
                             className="object-cover"
                             priority
@@ -38,8 +38,8 @@ export default function ProductUsage() {
                 <div className="flex flex-col-reverse md:flex-row md:h-[435px] mt-8 md:mt-0">
                     <div className="w-full md:w-1/2 relative h-[300px] md:h-full">
                         <Image
-                            src="/images/product_single/Get-used-to-it_hydrogel_top_2022-05-23-122314_mtbi.avif"
-                            alt="Science is a part of our nature"
+                            src="/images/product_single/detailed_post_2.png"
+                            alt=""
                             fill
                             className="object-cover"
                             priority

@@ -8,6 +8,8 @@ export interface Product {
     img: string;
     link: string;
     cloth?: boolean;
+    sachet?: boolean;
+    images: string[];
     description?: string;
     description2?: string;
     ingredients?: string;
@@ -15,4 +17,7 @@ export interface Product {
     isNew?: boolean;
     size?: string;
     finalMessage?: string;
+    fabrication?: string;
+    fit?: string;
+    sizes?: string[];
 }

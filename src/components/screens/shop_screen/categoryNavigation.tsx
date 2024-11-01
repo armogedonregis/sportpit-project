@@ -6,10 +6,11 @@ import { usePathname } from 'next/navigation';
 
 const categories = [
     { name: 'All products', slug: '' },
+    { name: 'GROUND', slug: 'ground' },
     { name: 'RISE', slug: 'rise' },
     { name: 'SUMMIT', slug: 'summit' },
     { name: 'CORE', slug: 'core' },
-    { name: '7516M', slug: '7516M' }
+    { name: '7516M', slug: '7516m' }
 ];
 
 export function CategoryNavigation() {

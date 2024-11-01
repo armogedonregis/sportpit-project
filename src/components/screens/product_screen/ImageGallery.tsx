@@ -2,25 +2,141 @@ import Image from 'next/image';
 
 interface ImageGalleryProps {
     images: string[];
+    sachet?: boolean;
 }
 
-export function ImageGallery({ images }: ImageGalleryProps) {
+
+const isVideo = (url: string) => {
+    return url.match(/\.(mp4|webm|ogg)$/i) !== null;
+};
+
+const MediaElement = ({ src, alt, width, height }: { src: string; alt: string; width: number; height: number }) => {
+    if (isVideo(src)) {
+        return (
+            <video
+                src={src}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="object-cover w-full h-full"
+            />
+        );
+    }
+
     return (
-        <div className="grid grid-cols-2 gap-[5px] grid-rows-[auto] items-start justify-start">
-            {images.map((image, index) => (
-                <div 
-                    key={index}
-                    className="relative"
-                >
-                    <Image
-                        src={image}
-                        alt={`Product view ${index + 1}`}
-                        width={325}
-                        height={444}
-                        className="object-cover w-full"
-                    />
-                </div>
-            ))}
+        <Image
+            src={src}
+            alt={alt}
+            width={width}
+            height={height}
+            className="object-cover w-full"
+        />
+    );
+};
+
+export function ImageGallery({ images, sachet }: ImageGalleryProps) {
+    return (
+        <div className="grid grid-cols-2 gap-[5px]">
+            {sachet ? (
+                <>
+                    <div className="relative">
+                        <Image
+                            src={images[0]}
+                            alt="Product view 1"
+                            width={325}
+                            height={444}
+                            className="object-cover w-full"
+                        />
+                    </div>
+                    <div className="relative">
+                        <Image
+                            src={images[1]}
+                            alt="Product view 2"
+                            width={325}
+                            height={444}
+                            className="object-cover w-full"
+                        />
+                    </div>
+
+                    <div className="relative col-span-2">
+                        <Image
+                            src={images[2]}
+                            alt="Product view 3"
+                            width={650}
+                            height={444}
+                            className="object-cover w-full"
+                        />
+                    </div>
+
+                    <div className="relative">
+                        <Image
+                            src={images[3]}
+                            alt="Product view 4"
+                            width={325}
+                            height={444}
+                            className="object-cover w-full"
+                        />
+                    </div>
+                    <div className="relative">
+                        <MediaElement
+                            src={images[4]}
+                            alt="Product view 4"
+                            width={325}
+                            height={444}
+                        />
+                    </div>
+                </>
+            ) : (
+                <>
+                    <div className="relative">
+                        <Image
+                            src={images[0]}
+                            alt="Product view 1"
+                            width={325}
+                            height={444}
+                            className="object-cover w-full"
+                        />
+                    </div>
+                    <div className="relative">
+                        <Image
+                            src={images[1]}
+                            alt="Product view 2"
+                            width={325}
+                            height={444}
+                            className="object-cover w-full"
+                        />
+                    </div>
+
+                    <div className="relative">
+                        <Image
+                            src={images[2]}
+                            alt="Product view 3"
+                            width={325}
+                            height={444}
+                            className="object-cover w-full"
+                        />
+                    </div>
+                    <div className="relative">
+                        <MediaElement
+                            src={images[3]}
+                            alt="Product view 4"
+                            width={325}
+                            height={444}
+                        />
+                    </div>
+
+                    <div className="relative col-span-2">
+                        <Image
+                            src={images[4]}
+                            alt="Product view 5"
+                            width={650}
+                            height={444}
+                            className="object-cover w-full"
+                        />
+                    </div>
+                </>
+            )}
         </div>
     );
 }

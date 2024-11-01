@@ -1,4 +1,5 @@
 import { Product } from '@/types/product';
+import Image from 'next/image';
 import { useState } from 'react';
 
 
@@ -105,7 +106,7 @@ export default function ProductDetailContent({ product }: ProductDetailsProps) {
                             </p>
                         </div>
                     )}
-                    {/* {expandedSections.certification && (
+                    {expandedSections.certification && (
                         <div className="pb-4">
                             <div className="flex justify-center">
                                 <Image
@@ -117,7 +118,7 @@ export default function ProductDetailContent({ product }: ProductDetailsProps) {
                                 />
                             </div>
                         </div>
-                    )} */}
+                    )}
                 </div>
 
             </div>
