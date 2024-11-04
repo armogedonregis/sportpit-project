@@ -954,7 +954,7 @@ const allProducts: Product[] = [
         name: "MEN'S CARGO PANTS",
         price: '€104.99',
         category: '7516m',
-        img: "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a1_1_m214_b70d5037-9ab5-4974-aca1-c538080424e2_750.png",
+        img: "/images/7516m/mens_cargo_pants/ezgif-4-86ffbd5984.jpg",
         link: '/mens-cargo-pants',
         description: 'Functional cargo pants, designed for outdoor activities and relaxed urban style, featuring ample storage and durable comfort.',
         description2: 'These cargo pants offer spacious pockets and reinforced stitching for durability. The design ensures easy movement and breathability, balancing rugged utility with modern style, suitable for both active days and casual settings.',
@@ -1127,14 +1127,14 @@ const allProducts: Product[] = [
         sizes: ['XS', 'S', 'M', 'L'],
         cloth: true,
         images: [
-            "/images/7516m/womens_yoga_suit/w9557r_05131_b1_s1_a1_1_m191_750x.png",
-            "/images/7516m/womens_yoga_suit/w9557r_05131_b1_s1_a2_1_m191_750x.png",
-            "/images/7516m/womens_yoga_suit/w9557r_05131_b1_s1_a3_1_m191_750x.png",
-            "/images/7516m/womens_yoga_suit/w9557r_05131_b1_s1_a4_1_m191_750x.png",
-            "/images/7516m/womens_yoga_suit/w9557r_05131_b2_s1_a1_1_m210_750x.png",
-            "/images/7516m/womens_yoga_suit/w9679r_05602_b1_s1_a1_1_m199_750x.png",
-            "/images/7516m/womens_yoga_suit/w9679r_05602_b1_s1_a2_1_m199_750x.png",
-            "/images/7516m/womens_yoga_suit/w9679r_05602_b1_s1_a3_1_m199_750x.png"
+            "/images/7516m/womens_yoga_suit/w9681r_03842_b1_s1_a1_1_m173_750x.png",
+            "/images/7516m/womens_yoga_suit/w9681r_05131_b1_s1_a2_1_m191_750x.png",
+            "/images/7516m/womens_yoga_suit/w9681r_05131_b1_s1_a3_1_m191_750x.png",
+            "/images/7516m/womens_yoga_suit/w9681r_05131_b1_s1_a4_1_m191_750x.png",
+            "/images/7516m/womens_yoga_suit/w9681r_05131_b2_s1_a1_1_m210_750x.png",
+            "/images/7516m/womens_yoga_suit/w9681r_05602_b1_s1_a1_1_m199_750x.png",
+            "/images/7516m/womens_yoga_suit/w9681r_05602_b1_s1_a2_1_m199_750x.png",
+            "/images/7516m/womens_yoga_suit/w9681r_05602_b1_s1_a3_1_m199_750x.png"
         ]
     }
 
