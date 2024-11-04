@@ -3,6 +3,7 @@
 import { useCartDispatch } from '@/context/cartContext';
 import Image from 'next/image';
 import Link from 'next/link';
+import { getAllProducts } from '@/utils/productData'; 
 
 interface Product {
   id: number;
@@ -16,79 +17,25 @@ interface Product {
   link?: string;
 }
 
+const allProducts = getAllProducts();
+
 const products: Product[] = [
-  {
-    id: 1,
-    name: "Dream Spray",
-    price: "€ 29.99",
-    servings: "(25 ml)",
-    pricePerUnit: "€ 1.19 / 1ml",
-    img: "/images/product/product-1.jpg",
-    link: '/product/dream-spray',
-    description: "Mamostong Drink Mix 160 is a carbohydrate fuel for endurance sports. An energy drink that becomes a hydrogel in the stomach. 40 grams of carbohydrates. 18 servings per box."
-  },
-  {
-    id: 2,
-    name: "Performance Blend Sachet",
-    price: "€ 3.99",
-    servings: "(50g)",
-    pricePerUnit: "€ 0.12 / 1g",
-    link: '/product/performance-blend-sachet',
-    img: "/images/product/product-2.jpg",
-    isNew: true
-  },
-  {
-    id: 3,
-    name: "Plants Power Protein",
-    price: "€ 32.99",
-    servings: "(Box of 12 servings)",
-    pricePerUnit: "€ 2.75 / 50g",
-    link: '/product/plants-power-protein',
-    img: "/images/product/product-3.jpg",
-    isNew: true
-  },
-  {
-    id: 4,
-    name: "Vegan D3",
-    price: "€ 27.99",
-    servings: "(60 capsules)",
-    pricePerUnit: "€ 0.46 / 1 capsule",
-    link: '/product/vegan-d3',
-    img: "/images/product/product-4.jpg",
-    isNew: true
-  }
+  // GROUND
+  allProducts.find(p => p.id === 1)!,
+  // CORE
+  allProducts.find(p => p.id === 15)!,
+  // RISE
+  allProducts.find(p => p.id === 21)!,
+  // SUMMIT
+  allProducts.find(p => p.id === 34)!,
 ];
 
-const productTwo: any[] = [
-  {
-    id: 5,
-    name: "7516M Prefomance Suit",
-    price: "€ 159.99",
-    img: "/images/product/shop_1.png",
-    link: "/product/7516m-prefomance-suit"
-  },
-  {
-    id: 6,
-    name: "7516M Breathable T-Shirt",
-    price: "€ 59.99",
-    img: "/images/product/shop_2.png",
-    link: "/product/7516m-breathable-t-shirt"
-  },
-  {
-    id: 7,
-    name: "7516M Zip Sweatshirt",
-    price: "€ 79.99",
-    img: "/images/product/shop_3.png",
-    link: "/product/7516m-zip-sweatshirt"
-  },
-  {
-    id: 8,
-    name: "7516M Tight Gym Suit",
-    price: "€ 139.99",
-    img: "/images/product/shop_4.png",
-    link: "/product/7516m-tight-gym-suit"
-  }
-]
+const productTwo: Product[] = [
+  allProducts.find(p => p.id === 42)!,
+  allProducts.find(p => p.id === 45)!,
+  allProducts.find(p => p.id === 48)!,
+  allProducts.find(p => p.id === 50)!,
+];
 
 export const ProductShowcaseBlock = () => {
   const dispatch = useCartDispatch();
@@ -103,7 +50,7 @@ export const ProductShowcaseBlock = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {products.map((product, index) => (
-            <Link href={`${product.link}`} key={index} className="bg-white flex flex-col group">
+            <Link href={`/product${product.link}`} key={index} className="bg-white flex flex-col group">
               <div className="relative aspect-square overflow-hidden">
                 <Image
                   src={product.img}
@@ -137,7 +84,7 @@ export const ProductShowcaseBlock = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {productTwo.map((product, index) => (
-            <Link href={`${product.link}`} key={index} className="bg-white flex flex-col group">
+            <Link href={`/product${product.link}`} key={index} className="bg-white flex flex-col group">
               <div className="relative aspect-square overflow-hidden">
                 <Image
                   src={product.img}
