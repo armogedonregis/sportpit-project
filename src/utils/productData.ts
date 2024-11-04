@@ -887,7 +887,7 @@ const allProducts: Product[] = [
         name: "MEN'S SHORTS",
         price: '€89.99',
         category: '7516m',
-        img: "/images/7516m/Men's_Shorts/M6095R_01320_b1_s3_a1_1.png",
+        img: "/images/7516m/mens_shorts/m6095r_01320_b1_s3_a1_1_m93_750x.png",
         link: '/mens-shorts',
         description: 'Lightweight, versatile shorts designed for high mobility and breathability. Ideal for both the gym and outdoor activities, offering a comfortable and efficient fit.',
         description2: 'Engineered for freedom of movement, these mens shorts feature a breathable, sweat-wicking fabric blend that feels weightless yet durable. The material supports high-intensity activities, from sprinting to lifting, while maintaining a refined, casual look for versatile wear beyond the gym.',
@@ -896,11 +896,13 @@ const allProducts: Product[] = [
         sizes: ['S', 'M', 'L', 'XL'],
         cloth: true,
         images: [
-            "/images/7516m/Men's_Shorts/M6095R_01320_b1_s3_a1_1.png",
-            "/images/7516m/Men's_Shorts/M6095R_01320_b1_s3_a2_1.png",
-            "/images/7516m/Men's_Shorts/M6095R_01320_b1_s3_a3_1.png",
-            "/images/7516m/Men's_Shorts/M6095R_01320_b1_s3_a4_1.png",
-            "/images/7516m/Men's_Shorts/M6127R_01_b1_s3_a1_1.png"
+            "/images/7516m/mens_shorts/m6095r_01320_b1_s3_a1_1_m93_750x.png",
+            "/images/7516m/mens_shorts/m6095r_01320_b1_s3_a2_1_m93_750x.png",
+            "/images/7516m/mens_shorts/m6095r_01320_b1_s3_a3_1_m93_750x.png",
+            "/images/7516m/mens_shorts/m6095r_01320_b1_s3_a4_1_m93_750x.png",
+            "/images/7516m/mens_shorts/m6127r_01_b1_s3_a1_1_m93_750x.png",
+            "/images/7516m/mens_shorts/m6127r_01_b1_s3_a2_1_m93_750x.png",
+            "/images/7516m/mens_shorts/m6127r_01_b1_s3_a3_1_m93_750x.png"
         ]
     },
     {
@@ -908,7 +910,7 @@ const allProducts: Product[] = [
         name: "MEN'S ZIP-NECK LONG SLEEVE",
         price: '€109.99',
         category: '7516m',
-        img: "/images/7516m/Men's_Zip-Neck_Long_Sleeve/M3193R_01_b1_s3_a1_1.png",
+        img: "/images/7516m/mens_zip_neck_long_sleeve/m3193r_01_b1_s3_a1_1_m93_750x.png",
         link: '/mens-zip-neck-long-sleeve',
         description: 'A high-performance zip-neck long sleeve for adaptive comfort and warmth during cool-weather workouts.',
         description2: 'This zip-neck long sleeve offers versatile coverage with breathable warmth, perfect for layering or solo wear. The half-zip design allows adjustable ventilation, while the stretch fabric contours comfortably, supporting the bodys movements. A premium addition to both training and casual wear, this piece embodies Mamostongs commitment to functionality and elegance.',
@@ -917,11 +919,18 @@ const allProducts: Product[] = [
         sizes: ['S', 'M', 'L', 'XL'],
         cloth: true,
         images: [
-            "/images/7516m/Men's_Zip-Neck_Long_Sleeve/M3193R_01_b1_s3_a1_1.png",
-            "/images/7516m/Men's_Zip-Neck_Long_Sleeve/M3193R_01_b1_s3_a2_1.png",
-            "/images/7516m/Men's_Zip-Neck_Long_Sleeve/M3193R_01_b1_s3_a3_1.png",
-            "/images/7516m/Men's_Zip-Neck_Long_Sleeve/M3193R_03040_b1_s1_a1_1.png",
-            "/images/7516m/Men's_Zip-Neck_Long_Sleeve/M3193R_03842_b1_s3_a1_1.png"
+            "/images/7516m/mens_zip_neck_long_sleeve/m3193r_01_b1_s3_a1_1_m93_750x.png",
+            "/images/7516m/mens_zip_neck_long_sleeve/m3193r_01_b1_s3_a2_1_m93_750x.png",
+            "/images/7516m/mens_zip_neck_long_sleeve/m3193r_01_b1_s3_a3_1_m93_750x.png",
+            "/images/7516m/mens_zip_neck_long_sleeve/m3193r_01_b1_s3_a4_1_m93_750x.png",
+            "/images/7516m/mens_zip_neck_long_sleeve/m3193r_03040_b1_s1_a1_1_m198_750x.png",
+            "/images/7516m/mens_zip_neck_long_sleeve/m3193r_03040_b1_s1_a2_1_m198_750x.png",
+            "/images/7516m/mens_zip_neck_long_sleeve/m3193r_03040_b1_s1_a3_1_m198_750x.png",
+            "/images/7516m/mens_zip_neck_long_sleeve/m3193r_03040_b1_s1_a4_1_m198_750x.png",
+            "/images/7516m/mens_zip_neck_long_sleeve/m3193r_03842_b1_s3_a2_1_m195_750x.png",
+            "/images/7516m/mens_zip_neck_long_sleeve/m3193r_03842_b1_s3_a3_1_m195_750x.png",
+            "/images/7516m/mens_zip_neck_long_sleeve/m3193r_03842_b1_s3_a4_1_m195_750x.png",
+            "/images/7516m/mens_zip_neck_long_sleeve/m3193r_03842_b1_s3_a5_1_m195_750x.png"
         ]
     },
     {
@@ -929,7 +938,7 @@ const allProducts: Product[] = [
         name: "MEN'S SWEATSHIRT",
         price: '€104.99',
         category: '7516m',
-        img: "/images/7516m/Men's_Sweatshirt/M3193R_01_b1_s3_a1_1.png",
+        img: "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a1_1_m214_b70d5037-9ab5-4974-aca1-c538080424e2_750.png",
         link: '/mens-sweatshirt',
         description: 'A comfortable, structured sweatshirt, balancing warmth and breathability for everyday wear.',
         description2: 'This sweatshirt combines style and performance in a structured yet soft fabric thats gentle on the skin. Its design allows for effortless layering, maintaining its shape and feel even with regular use. This sweatshirt aligns with Mamostongs dedication to high-quality, eco-conscious materials.',
@@ -938,11 +947,6 @@ const allProducts: Product[] = [
         sizes: ['S', 'M', 'L', 'XL'],
         cloth: true,
         images: [
-            "/images/7516m/Men's_Sweatshirt/M3193R_01_b1_s3_a1_1.png",
-            "/images/7516m/Men's_Sweatshirt/M3193R_01_b1_s3_a2_1.png",
-            "/images/7516m/Men's_Sweatshirt/M3193R_01_b1_s3_a3_1.png",
-            "/images/7516m/Men's_Sweatshirt/M3193R_03040_b1_s1_a1_1.png",
-            "/images/7516m/Men's_Sweatshirt/M3193R_03842_b1_s3_a1_1.png"
         ]
     },
     {
@@ -950,7 +954,7 @@ const allProducts: Product[] = [
         name: "MEN'S CARGO PANTS",
         price: '€104.99',
         category: '7516m',
-        img: "/images/7516m/Men's_Cargo_Pants/M1243R_03040_b1_s1_a1_1.png",
+        img: "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a1_1_m214_b70d5037-9ab5-4974-aca1-c538080424e2_750.png",
         link: '/mens-cargo-pants',
         description: 'Functional cargo pants, designed for outdoor activities and relaxed urban style, featuring ample storage and durable comfort.',
         description2: 'These cargo pants offer spacious pockets and reinforced stitching for durability. The design ensures easy movement and breathability, balancing rugged utility with modern style, suitable for both active days and casual settings.',
@@ -959,10 +963,10 @@ const allProducts: Product[] = [
         sizes: ['S', 'M', 'L', 'XL'],
         cloth: true,
         images: [
-            "/images/7516m/Men's_Cargo_Pants/M1243R_03040_b1_s1_a1_1.png",
-            "/images/7516m/Men's_Cargo_Pants/M1243R_03040_b1_s1_a2_1.png",
-            "/images/7516m/Men's_Cargo_Pants/M1243R_03040_b1_s1_a3_1.png",
-            "/images/7516m/Men's_Cargo_Pants/ezgif-4-86ffbd5984.jpg"
+            "/images/7516m/mens_cargo_pants/ezgif-4-86ffbd5984.jpg",
+            "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a1_1_m214_b70d5037-9ab5-4974-aca1-c538080424e2_750.png",
+            "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a2_1_m214_7bd81931-e8d2-4b99-955f-fd5b40f6640d_750.png",
+            "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a3_1_m214_87d2419a-9515-456a-978a-2434960abee4_750.png"
         ]
     },
     {
@@ -970,7 +974,7 @@ const allProducts: Product[] = [
         name: "MEN'S SPORTS TANK",
         price: '€99.99',
         category: '7516m',
-        img: "/images/7516m/Men's_Sports_Tank/M2033R_05541_b1_s1_a1_1.jpg",
+        img: "/images/7516m/mens_sports_tank/m2033r_05541_b1_s1_a1_1_m93_750x.jpg",
         link: '/mens-sports-tank',
         description: 'Lightweight and moisture-wicking, designed for high-energy workouts.',
         description2: 'This sports tank top is crafted for breathability and freedom of movement, with a quick-drying fabric that keeps you comfortable throughout intense training. Its minimalistic design makes it easy to pair with any sportswear, embracing Mamostongs vision for versatile, performance-based style.',
@@ -979,11 +983,14 @@ const allProducts: Product[] = [
         sizes: ['S', 'M', 'L', 'XL'],
         cloth: true,
         images: [
-            "/images/7516m/Men's_Sports_Tank/M2033R_05541_b1_s1_a1_1.jpg",
-            "/images/7516m/Men's_Sports_Tank/M2033R_05541_b1_s1_a2_1.jpg",
-            "/images/7516m/Men's_Sports_Tank/M2033R_05541_b1_s1_a4_1.jpg",
-            "/images/7516m/Men's_Sports_Tank/M2033R_10061_b1_s3_a2_1.png",
-            "/images/7516m/Men's_Sports_Tank/M2033R_10061_b1_s3_a3_1.png"
+            "/images/7516m/mens_sports_tank/m2033r_05541_b1_s1_a1_1_m93_750x.jpg",
+            "/images/7516m/mens_sports_tank/m2033r_05541_b1_s1_a2_1_m93_750x.jpg",
+            "/images/7516m/mens_sports_tank/m2033r_05541_b1_s1_a4_1_m93_750x.png",
+            "/images/7516m/mens_sports_tank/m2033r_05541_b2_s1_a1_1_m93_750x.png",
+            "/images/7516m/mens_sports_tank/m2033r_10061_b1_s3_a1_1_m12_750x.png",
+            "/images/7516m/mens_sports_tank/m2033r_10061_b1_s3_a2_1_m12_750x.png",
+            "/images/7516m/mens_sports_tank/m2033r_10061_b1_s3_a3_1_m12_750x.png",
+            "/images/7516m/mens_sports_tank/m2033r_10061_b1_s4_a3_1_m12_750x.png"
         ]
     },
     {
@@ -991,7 +998,7 @@ const allProducts: Product[] = [
         name: "MEN'S 2-IN-1 SHORTS",
         price: '€109.99',
         category: '7516m',
-        img: "/images/7516m/Men's_2-in-1_Shorts/M3193R_0101_b1_s1_a1_1.png",
+        img: "/images/7516m/mens_2_in_1_shorts/m3193r_0101_b1_s1_a1_1.png",
         link: '/mens-2-in-1-shorts',
         description: 'Dual-layer shorts offering support and flexibility for all activity levels.',
         description2: 'Designed with an inner layer for support and an outer shell for style, these shorts are perfect for both high-intensity training and casual wear. Breathable and flexible, they provide the stability you need with the freedom to move.',
@@ -999,11 +1006,11 @@ const allProducts: Product[] = [
         sizes: ['S', 'M', 'L', 'XL'],
         cloth: true,
         images: [
-            "/images/7516m/Men's_2-in-1_Shorts/M3193R_0101_b1_s1_a1_1.png",
-            "/images/7516m/Men's_2-in-1_Shorts/M3193R_0101_b1_s1_a2_1.png",
-            "/images/7516m/Men's_2-in-1_Shorts/M3193R_0101_b1_s1_a3_1.png",
-            "/images/7516m/Men's_2-in-1_Shorts/M6114R_04660_b1_s1_a1_1.png",
-            "/images/7516m/Men's_2-in-1_Shorts/M6114R_04917_b1_s3_a2_1.png"
+            "/images/7516m/mens_2_in_1_shorts/m3193r_0101_b1_s1_a1_1.png",
+            "/images/7516m/mens_2_in_1_shorts/m3193r_0101_b1_s1_a2_1.png",
+            "/images/7516m/mens_2_in_1_shorts/m3193r_0101_b1_s1_a3_1.png",
+            "/images/7516m/mens_2_in_1_shorts/m3193r_0101_b1_s1_a4_1.png",
+            "/images/7516m/mens_2_in_1_shorts/m6114r_04660_b1_s1_a1_1.png"
         ]
     },
     {
@@ -1011,7 +1018,7 @@ const allProducts: Product[] = [
         name: "MEN'S STANDARD LONG SLEEVE",
         price: '€119.99',
         category: '7516m',
-        img: "/images/7516m/Men's_Standard_Long_Sleeve/M3181R_04064_b1_s3_a1_1.png",
+        img: "/images/7516m/mens_standard_long_sleeve/m3181r_04064_b1_s3_a1_1_m195_750x.png",
         link: '/mens-standard-long-sleeve',
         description: 'Classic long sleeve made from breathable fabric for everyday wear.',
         description2: 'This staple long sleeve offers comfort and breathability with a timeless design that transitions from gym to casual settings seamlessly. With a soft, durable fabric, its a versatile essential for any wardrobe.',
@@ -1019,11 +1026,11 @@ const allProducts: Product[] = [
         sizes: ['S', 'M', 'L', 'XL'],
         cloth: true,
         images: [
-            "/images/7516m/Men's_Standard_Long_Sleeve/M3181R_04064_b1_s3_a1_1.png",
-            "/images/7516m/Men's_Standard_Long_Sleeve/M3181R_04064_b1_s3_a2_1.png",
-            "/images/7516m/Men's_Standard_Long_Sleeve/M3181R_04064_b1_s3_a3_1.png",
-            "/images/7516m/Men's_Standard_Long_Sleeve/M3181R_04064_b1_s3_a4_1.png",
-            "/images/7516m/Men's_Standard_Long_Sleeve/M3181R_04064_b1_s3_a5_1.png"
+            "/images/7516m/mens_standard_long_sleeve/m3181r_04064_b1_s3_a1_1_m195_750x.png",
+            "/images/7516m/mens_standard_long_sleeve/m3181r_04064_b1_s3_a2_1_m195_750x.png",
+            "/images/7516m/mens_standard_long_sleeve/m3181r_04064_b1_s3_a3_1_m195_750x.png",
+            "/images/7516m/mens_standard_long_sleeve/m3181r_04064_b1_s3_a4_1_m195_750x.png",
+            "/images/7516m/mens_standard_long_sleeve/m3181r_04064_b1_s3_a5_1_m195_750x.png"
         ]
     },
     {
@@ -1031,7 +1038,7 @@ const allProducts: Product[] = [
         name: "MEN'S SPORTS HOODIE",
         price: '€89.99',
         category: '7516m',
-        img: "/images/7516m/Men's_Sports_Hoodie/M3199R_00_b1_s3_a1_1.png",
+        img: "/images/7516m/mens_sports_hoodie/m3199r_00_b1_s3_a1_1_m108_750x.png",
         link: '/mens-sports-hoodie',
         description: 'Lightweight hoodie, perfect for warm-ups and post-workout comfort.',
         description2: 'This hoodie offers a lightweight layer of warmth, designed with breathable fabric to keep you comfortable during and after workouts. Its versatile design embodies Mamostongs philosophy of function meeting style, perfect for active and casual wear.',
@@ -1039,11 +1046,13 @@ const allProducts: Product[] = [
         sizes: ['S', 'M', 'L', 'XL'],
         cloth: true,
         images: [
-            "/images/7516m/Men's_Sports_Hoodie/M3199R_00_b1_s3_a1_1.png",
-            "/images/7516m/Men's_Sports_Hoodie/M3199R_00_b1_s3_a2_1.png",
-            "/images/7516m/Men's_Sports_Hoodie/M3199R_00_b1_s3_a3_1.png",
-            "/images/7516m/Men's_Sports_Hoodie/M3199R_01300_b1_s3_a1_1.png",
-            "/images/7516m/Men's_Sports_Hoodie/M3199R_01300_b1_s3_a2_1.png"
+            "/images/7516m/mens_sports_hoodie/m3199r_00_b1_s3_a1_1_m108_750x.png",
+            "/images/7516m/mens_sports_hoodie/m3199r_00_b1_s3_a2_1_m108_750x.png",
+            "/images/7516m/mens_sports_hoodie/m3199r_00_b1_s3_a3_1_m108_750x.png",
+            "/images/7516m/mens_sports_hoodie/m3199r_00_b1_s3_a4_1_m108_750x.png",
+            "/images/7516m/mens_sports_hoodie/m3199r_01300_b1_s3_a1_1_m93_750x.png",
+            "/images/7516m/mens_sports_hoodie/m3199r_01300_b1_s3_a2_1_m93_750x.png",
+            "/images/7516m/mens_sports_hoodie/m3199r_01300_b1_s3_a3_1_m93_750x.png"
         ]
     },
     {
@@ -1051,7 +1060,7 @@ const allProducts: Product[] = [
         name: "MEN'S RECOVER HOODIE",
         price: '€94.99',
         category: '7516m',
-        img: "/images/7516m/Men's_Recover_Hoodie/M3243R_01_b1_s1_a2_1.png",
+        img: "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a2_1_m204_750x.png",
         link: '/mens-recover-hoodie',
         description: 'Recovery-focused hoodie designed for post-workout relaxation and all-day comfort.',
         description2: 'This hoodie supports recovery with ultra-soft fabric, crafted for a cozy feel and gentle stretch. Bamboo fiber provides natural breathability, making it ideal for cooling down after training or as an everyday piece with a wellness focus.',
@@ -1060,17 +1069,17 @@ const allProducts: Product[] = [
         sizes: ['S', 'M', 'L', 'XL'],
         cloth: true,
         images: [
-            "/images/7516m/Men's_Recover_Hoodie/M3243R_01_b1_s1_a2_1.png",
-            "/images/7516m/Men's_Recover_Hoodie/M3243R_01_b1_s1_a3_1.png",
-            "/images/7516m/Men's_Recover_Hoodie/M3243R_01_b1_s1_a4_1.png"
+            "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a2_1_m204_750x.png",
+            "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a3_1_m204_750x.png",
+            "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a4_1_m204_750x.png"
         ]
     },
     {
         id: 48,
         name: "WOMEN'S SPORT SKIRT",
         price: '€74.99',
-        category: '7516w', // новая категория для женской одежды
-        img: "/images/7516m/Women's_Gym_Suit/W3735R_05541_b1_s1_a1_1.png",
+        category: '7516m',
+        img: "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a1_1_m76_750x.png",
         link: '/womens-sport-skirt',
         description: 'Lightweight and functional sport skirt, ideal for active days.',
         description2: 'Combining performance with style, this skirt features a supportive waistband and lightweight fabric, perfect for everything from tennis to casual outings. Mamostongs commitment to quality is evident in the skirts durability and comfort.',
@@ -1078,19 +1087,19 @@ const allProducts: Product[] = [
         sizes: ['XS', 'S', 'M', 'L'],
         cloth: true,
         images: [
-            "/images/7516m/Women's_Gym_Suit/W3735R_05541_b1_s1_a1_1.png",
-            "/images/7516m/Women's_Gym_Suit/W3735R_05541_b1_s1_a4_1.png",
-            "/images/7516m/Women's_Gym_Suit/W9681R_01_b1_s1_a1_1.jpg",
-            "/images/7516m/Women's_Gym_Suit/W9681R_01_b1_s1_a4_1.jpg",
-            "/images/7516m/Women's_Gym_Suit/W9360R_0100_b1_s1_a1_1.jpg"
+            "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a1_1_m76_750x.png",
+            "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a4_1_m76_750x.png",
+            "/images/7516m/womens_gym_suit/w9360r_0100_b1_s1_a4_1_m174_750x.jpg",
+            "/images/7516m/womens_gym_suit/w9681r_01_b1_s1_a1_1_m174_750x.jpg",
+            "/images/7516m/womens_gym_suit/w9681r_01_b1_s1_a4_1_m174_750x.jpg"
         ]
     },
     {
         id: 49,
         name: "WOMEN'S YOGA TOP",
         price: '€89.99',
-        category: '7516w',
-        img: "/images/7516m/Women's_Gym_Suit/W3735R_05541_b1_s1_a1_1.png",
+        category: '7516m',
+        img: "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a1_1_m76_750x.png",
         link: '/womens-yoga-top',
         description: 'Soft and stretchy yoga top for seamless movement.',
         description2: 'This yoga top provides lightweight support with a fabric that moves with you, designed to keep you comfortable and focused during practice. Ideal for both the studio and casual wear, it aligns with Mamostongs standards for function and style.',
@@ -1098,19 +1107,19 @@ const allProducts: Product[] = [
         sizes: ['XS', 'S', 'M', 'L'],
         cloth: true,
         images: [
-            "/images/7516m/Women's_Gym_Suit/W3735R_05541_b1_s1_a1_1.png",
-            "/images/7516m/Women's_Gym_Suit/W3735R_05541_b1_s1_a4_1.png",
-            "/images/7516m/Women's_Gym_Suit/W9360R_0100_b1_s1_a4_1.jpg",
-            "/images/7516m/Women's_Gym_Suit/W9681R_01_b1_s1_a1_1.jpg",
-            "/images/7516m/Women's_Gym_Suit/W9681R_01_b1_s1_a4_1.jpg"
+            "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a1_1_m76_750x.png",
+            "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a4_1_m76_750x.png",
+            "/images/7516m/womens_gym_suit/w9360r_0100_b1_s1_a4_1_m174_750x.jpg",
+            "/images/7516m/womens_gym_suit/w9681r_01_b1_s1_a1_1_m174_750x.jpg",
+            "/images/7516m/womens_gym_suit/w9681r_01_b1_s1_a4_1_m174_750x.jpg"
         ]
     },
     {
         id: 50,
         name: "WOMEN'S YOGA PANTS",
         price: '€44.99',
-        category: '7516w',
-        img: "/images/7516m/Women's_Yoga_Suit/W9557R_05131_b1_s1_a1_1.png",
+        category: '7516m',
+        img: "/images/7516m/womens_yoga_suit/w9557r_05131_b1_s1_a1_1_m191_750x.png",
         link: '/womens-yoga-pants',
         description: 'High-waisted yoga pants that combine comfort and style for studio or street.',
         description2: 'These yoga pants provide a flattering, high-waisted fit with breathable, stretchy fabric. Perfect for flexibility and support, theyre crafted to adapt to your movements in the studio while being stylish enough for everyday wear.',
@@ -1118,11 +1127,14 @@ const allProducts: Product[] = [
         sizes: ['XS', 'S', 'M', 'L'],
         cloth: true,
         images: [
-            "/images/7516m/Women's_Yoga_Suit/W9557R_05131_b1_s1_a1_1.png",
-            "/images/7516m/Women's_Yoga_Suit/W9557R_05131_b1_s1_a2_1.png",
-            "/images/7516m/Women's_Yoga_Suit/W9557R_05131_b1_s1_a3_1.png",
-            "/images/7516m/Women's_Yoga_Suit/W9679R_05442_b1_s1_a3_1.png",
-            "/images/7516m/Women's_Yoga_Suit/W9679R_05602_b1_s1_a1_1.png"
+            "/images/7516m/womens_yoga_suit/w9557r_05131_b1_s1_a1_1_m191_750x.png",
+            "/images/7516m/womens_yoga_suit/w9557r_05131_b1_s1_a2_1_m191_750x.png",
+            "/images/7516m/womens_yoga_suit/w9557r_05131_b1_s1_a3_1_m191_750x.png",
+            "/images/7516m/womens_yoga_suit/w9557r_05131_b1_s1_a4_1_m191_750x.png",
+            "/images/7516m/womens_yoga_suit/w9557r_05131_b2_s1_a1_1_m210_750x.png",
+            "/images/7516m/womens_yoga_suit/w9679r_05602_b1_s1_a1_1_m199_750x.png",
+            "/images/7516m/womens_yoga_suit/w9679r_05602_b1_s1_a2_1_m199_750x.png",
+            "/images/7516m/womens_yoga_suit/w9679r_05602_b1_s1_a3_1_m199_750x.png"
         ]
     }
 

@@ -13,7 +13,7 @@ export default function ProductOptions({ product, selectedOption, onOptionSelect
             <div className="flex gap-2">
                 {product.cloth ? (
                     <>
-                        {['M', 'L', 'XL'].map((size) => (
+                        {product.sizes && product.sizes.map((size) => (
                             <button
                                 key={size}
                                 className={`px-4 py-2 border border-white ${selectedOption === size ? 'bg-white text-black' : 'text-white'}`}
