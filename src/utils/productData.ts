@@ -1119,7 +1119,7 @@ const allProducts: Product[] = [
         name: "WOMEN'S YOGA PANTS",
         price: '€44.99',
         category: '7516m',
-        img: "/images/7516m/womens_yoga_suit/w9557r_05131_b1_s1_a1_1_m191_750x.png",
+        img: "/images/7516m/womens_yoga_suit/w9681r_05131_b1_s1_a1_1_m191_750x.png",
         link: '/womens-yoga-pants',
         description: 'High-waisted yoga pants that combine comfort and style for studio or street.',
         description2: 'These yoga pants provide a flattering, high-waisted fit with breathable, stretchy fabric. Perfect for flexibility and support, theyre crafted to adapt to your movements in the studio while being stylish enough for everyday wear.',
