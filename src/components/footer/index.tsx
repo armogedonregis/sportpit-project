@@ -2,13 +2,13 @@
 
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import Link from 'next/link';
-import { Canvas } from '@react-three/fiber';
-import dynamic from 'next/dynamic';
+// import { Canvas } from '@react-three/fiber';
+// import dynamic from 'next/dynamic';
 import Image from 'next/image';
 
-const FooterLogo = dynamic(() => import('../../utils/footerLogo').then((mod) => mod.FooterLogo), {
-    ssr: false,
-})
+// const FooterLogo = dynamic(() => import('../../utils/footerLogo').then((mod) => mod.FooterLogo), {
+//     ssr: false,
+// })
 
 export const Footer = () => {
     return (
@@ -124,12 +124,23 @@ export const Footer = () => {
                         height={60}
                         alt=""
                     /> */}
-                    <Canvas
+                    <div className="w-[150px] h-[120px] relative">
+                        <video 
+                            autoPlay 
+                            loop 
+                            muted 
+                            playsInline
+                            className="w-full h-full object-contain"
+                        >
+                            <source src="/video/logo_anim.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                    {/* <Canvas
                         camera={{ position: [0, 0, 7], fov: 50 }}
                         style={{ width: '150px', height: '100px', cursor: 'pointer' }}
                     >
                         <FooterLogo />
-                    </Canvas>
+                    </Canvas> */}
                 </div>
                 <div className="mx-auto mt-8 flex space-x-4 text-xs">
                     <Link href="#" className="text-gray-400 hover:underline">FAQ</Link>
