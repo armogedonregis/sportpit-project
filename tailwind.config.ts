@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        jost: ['var(--font-jost)'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

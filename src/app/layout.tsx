@@ -6,6 +6,12 @@ import { HeaderRaiting } from "@/components/headerRaiting";
 import localFont from 'next/font/local'
 import { CartProvider } from "@/context/cartContext";
 import { Assistant } from "@/components/assistant";
+import { Jost } from 'next/font/google'
+
+export const jost = Jost({
+  subsets: ['latin'],
+  variable: '--font-jost',
+})
 
 export const MamostongSans = localFont({
   src: [
@@ -39,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={MamostongSans.variable}>
+    <html lang="en" className={`${MamostongSans.variable} ${jost.variable}`}>
       <body className={MamostongSans.className}>
       <CartProvider>
         <div className="min-h-screen flex flex-col bg-white text-black overflow-hidden">

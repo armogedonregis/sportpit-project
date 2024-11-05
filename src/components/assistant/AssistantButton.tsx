@@ -20,7 +20,7 @@ export const AssistantButton = ({ onClick }: AssistantButtonProps) => {
                 loop 
                 muted 
                 playsInline
-                className="absolute inset-0 w-full h-full object-cover rounded-2xl"
+                className="absolute inset-0 w-full h-full object-contain rounded-2xl"
             >
                 <source src="/video/anim_ai.mp4" type="video/mp4" />
             </video>
@@ -37,7 +37,7 @@ export const AssistantButton = ({ onClick }: AssistantButtonProps) => {
                     height={24}
                     alt=""
                 />
-                <div className="text-center text-white w-full text-xl">Master</div>
+                <div className="text-center text-white w-full text-xl font-jost">Master</div>
             </div>
         </motion.button>
     );
