@@ -2,13 +2,13 @@
 
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import Link from 'next/link';
-// import { Canvas } from '@react-three/fiber';
-// import dynamic from 'next/dynamic';
+import { Canvas } from '@react-three/fiber';
+import dynamic from 'next/dynamic';
 import Image from 'next/image';
 
-// const FooterLogo = dynamic(() => import('../../utils/footerLogo').then((mod) => mod.FooterLogo), {
-//     ssr: false,
-// })
+const FooterLogo = dynamic(() => import('../../utils/footerLogo').then((mod) => mod.FooterLogo), {
+    ssr: false,
+})
 
 export const Footer = () => {
     return (
@@ -25,13 +25,13 @@ export const Footer = () => {
             <div className="container relative z-10">
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-                    <div className="max-w-md">
-                        <h3 className="text-2xl font-bold mb-4">Stay on pace</h3>
+                    <div className="max-w-lg">
+                        <h3 className="text-2xl font-bold mb-4">Stick to the route</h3>
                         <p className="mb-4">Sign up for our newsletter for all the latest Mamostong related news.</p>
                         <form className="mb-4">
                             <h4 className="text-xs uppercase mb-2 text-gray-400">FOCUS</h4>
                             <div className="flex space-x-4 mb-4">
-                                {['Runner', 'Cyclist', 'Triathlete', 'Other'].map((focus) => (
+                                {['Elite athlete', 'Fitness enthusiast', 'Wellness', 'Clothes', 'Other'].map((focus) => (
                                     <label key={focus} className="flex items-center">
                                         <input type="checkbox" className="mr-2 bg-transparent border-white" />
                                         <span className="text-sm">{focus}</span>
@@ -69,48 +69,48 @@ export const Footer = () => {
                     <div>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             <div>
-                                <h3 className="text-lg font-bold mb-4 text-gray-400">Products</h3>
+                                <h3 className="text-lg font-bold mb-4 text-gray-400">Supplements</h3>
                                 {[
-                                    'Dream Spray',
-                                    'Performance Blend Sachet',
-                                    'Plants Power Protein',
-                                    'Vegan D3'
+                                    'Summit',
+                                    'Rise',
+                                    'Core',
+                                    'Ground'
                                 ].map((product) => (
                                     <Link key={product} href="#" className="block mb-2 text-sm text-white hover:underline">{product}</Link>
                                 ))}
                             </div>
                             <div>
-                                <h3 className="text-lg font-bold mb-4 text-gray-400">Pages</h3>
-                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Shop</Link>
-                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Race Partners</Link>
-                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">The Fuel Guides</Link>
+                                <h3 className="text-lg font-bold mb-4 text-gray-400">Clothes</h3>
+                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Men</Link>
+                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Women</Link>
                             </div>
                             <div>
-                                <h3 className="text-lg font-bold mb-4 text-gray-400">Company</h3>
-                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Contact</Link>
+                                <h3 className="text-lg font-bold mb-4 text-gray-400">Pages</h3>
+                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Company</Link>
+                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Shop</Link>
                             </div>
                         </div>
                         <div className="mx-auto mt-16">
                             <h3 className="text-lg font-bold mb-4 text-gray-400">Mamostong Global</h3>
                             <p className="mb-8">
-                                <a href="mailto:info@Mamostong.com" className="underline text-sm text-white">info@Mamostong.com</a>
+                                <a href="mailto:info@Mamostong.com" className="underline text-sm text-white">info@mamostong.com</a>
                             </p>
                             <div className="grid grid-cols-2 gap-8">
                                 <div>
-                                    <h4 className="font-bold mb-2 text-sm text-white">Mamostong AB</h4>
-                                    <p className="text-sm text-gray-400">Gibraltargatan 1A<br />411 32 Gothenburg<br />Sweden</p>
+                                    <h4 className="font-bold mb-2 text-sm text-white">Mamostong EU Ltd</h4>
+                                    <p className="text-sm text-gray-400">Mamostong EU Ltd<br />Quellinstraat 49,<br />Antwerpen<br />Belgium</p>
                                 </div>
                                 <div>
                                     <h4 className="font-bold mb-2 text-sm text-white">Mamostong US Corp</h4>
-                                    <p className="text-sm text-gray-400">1000 N. West Street, Suite 1200<br />Wilmington, Delaware, 19801<br />United States</p>
+                                    <p className="text-sm text-gray-400">123 Park Avenue, Suite 1500<br />New York, NY, 10017<br />United States</p>
                                 </div>
                                 <div>
                                     <h4 className="font-bold mb-2 text-sm text-white">Mamostong Canada Inc.</h4>
-                                    <p className="text-sm text-gray-400">2 Bloor Street West<br />Suite 2120<br />Toronto, ON M4W 3E2</p>
+                                    <p className="text-sm text-gray-400">1 Yonge Street<br />Suite 1800<br />Toronto, ON M5E 1W7<br />Canada</p>
                                 </div>
                                 <div>
                                     <h4 className="font-bold mb-2 text-sm text-white">Mamostong UK Ltd.</h4>
-                                    <p className="text-sm text-gray-400">Sweden House<br />5 Upper Montagu Street<br />London W1H 2AG</p>
+                                    <p className="text-sm text-gray-400">Greenwich House<br />10 Great Western Road<br />London SW1W 9AX<br />United Kingdom</p>
                                 </div>
                             </div>
                         </div>
@@ -118,18 +118,18 @@ export const Footer = () => {
                 </div>
                 <div className="mx-auto mt-16 flex justify-between items-center">
                     <p className="text-xs text-gray-400">Copyright © 2024 Mamostong. All rights reserved.</p>
-                    <Image
+                    {/* <Image
                         src="/logo.svg"
                         width={80}
                         height={60}
                         alt=""
-                    />
-                    {/* <Canvas
+                    /> */}
+                    <Canvas
                         camera={{ position: [0, 0, 7], fov: 50 }}
                         style={{ width: '150px', height: '100px', cursor: 'pointer' }}
                     >
                         <FooterLogo />
-                    </Canvas> */}
+                    </Canvas>
                 </div>
                 <div className="mx-auto mt-8 flex space-x-4 text-xs">
                     <Link href="#" className="text-gray-400 hover:underline">FAQ</Link>
