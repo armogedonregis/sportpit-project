@@ -69,7 +69,7 @@ export const Header = () => {
                                 loop
                                 muted
                                 playsInline
-                                className="w-full h-full object-  [-webkit-media-controls:none] [-webkit-media-controls-start-playback-button:none]"
+                                className="w-full h-full object-contain pointer-events-none [&::-webkit-media-controls-start-playback-button]:hidden [&::-webkit-media-controls]:hidden [&::-webkit-media-controls-panel]:hidden"
                             >
                                 <source src="/video/logo_anim.mp4" type="video/mp4" />
                             </video>
