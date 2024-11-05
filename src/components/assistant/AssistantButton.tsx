@@ -20,7 +20,7 @@ export const AssistantButton = ({ onClick }: AssistantButtonProps) => {
                 loop 
                 muted 
                 playsInline
-                className="absolute inset-0 w-full h-full object-contain rounded-2xl"
+                className="absolute inset-0 w-full h-full object-contain rounded-2xl  [-webkit-media-controls:none] [-webkit-media-controls-start-playback-button:none]"
             >
                 <source src="/video/anim_ai.mp4" type="video/mp4" />
             </video>
