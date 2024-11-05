@@ -125,9 +125,15 @@ export const Footer = () => {
                         alt=""
                     /> */}
                     <div className="flex items-center">
-                        <div className="flex items-center gap-4 ml-auto">
+                        <div className="flex items-center gap-10 ml-auto">
                             <span className="text-white text-3xl tracking-wider hidden lg:block">MOVING MOUNTAINS</span>
-                            <div className="w-[150px] h-[120px] relative">
+                            <Image
+                                src="/logo.svg"
+                                width={80}
+                                height={60}
+                                alt=""
+                            />
+                            {/* <div className="w-[150px] h-[120px] relative">
                                 <video
                                     autoPlay
                                     loop
@@ -137,7 +143,7 @@ export const Footer = () => {
                                 >
                                     <source src="/video/logo_anim.mp4" type="video/mp4" />
                                 </video>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     {/* <Canvas
