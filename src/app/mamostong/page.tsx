@@ -68,7 +68,7 @@ export default function MamostongPage() {
 
     return (
         <>
-        <div className="text-center text-2xl lg:text-5xl uppercase font-bold py-20 lg:py-[100px]">
+        <div className="text-center text-2xl lg:text-5xl font-jost uppercase font-bold py-20 lg:py-[100px]">
             MAMOSTONG PATH
         </div>
             <section className="bg-black text-white">
@@ -83,7 +83,7 @@ export default function MamostongPage() {
                                 <div className={`w-full md:w-1/2 order-2 ${isEven ? 'md:order-1' : 'md:order-2'}`}>
                                     <div className="container mx-auto px-4 md:px-0">
                                         <div className="w-full md:ml-auto py-12 md:py-24 md:px-16">
-                                            <h2 className="text-2xl md:text-3xl font-bold">
+                                            <h2 className="text-2xl font-jost md:text-3xl font-bold">
                                                 {content.title}
                                             </h2>
                                             <div className="space-y-6 md:space-y-8 mt-6 md:mt-8">
