@@ -7,8 +7,12 @@ import { AnimatePresence } from 'framer-motion';
 
 export const Assistant = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
 
-    const handleToggle = () => {
+    const handleToggle = (video?: string) => {
+        if (video) {
+            setSelectedVideo(video);
+        }
         setIsOpen(prev => !prev);
     };
 
@@ -34,7 +38,7 @@ export const Assistant = () => {
         <>
             <AssistantButton onClick={handleToggle} />
             <AnimatePresence>
-                {isOpen && <AssistantDialog onClose={handleToggle} />}
+                {isOpen && <AssistantDialog onClose={handleToggle} selectedVideo={selectedVideo} />}
             </AnimatePresence>
         </>
     );
