@@ -4,13 +4,13 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useCartState } from '@/context/cartContext';
 import { usePathname } from 'next/navigation';
-import dynamic from 'next/dynamic';
-import { Canvas } from '@react-three/fiber';
+// import dynamic from 'next/dynamic';
+// import { Canvas } from '@react-three/fiber';
 import Image from 'next/image';
 
-const DynamicCanvas = dynamic(() => import('../../utils/headerLogo').then((mod) => mod.HeaderLogo), {
-    ssr: false,
-})
+// const DynamicCanvas = dynamic(() => import('../../utils/headerLogo').then((mod) => mod.HeaderLogo), {
+//     ssr: false,
+// })
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -57,23 +57,23 @@ export const Header = () => {
                             className="object-contain"
                         />
                     ) : (
-                        <Canvas
-                            camera={{ position: [0, 0, 7], fov: 50 }}
-                            style={{ width: '120px', height: '75px' }}
-                        >
-                            <DynamicCanvas isScrolled={isScrolled} scrollY={scrollY} />
-                        </Canvas>
-                        // <div className="w-[150px] h-[100px] relative">
-                        //     <video
-                        //         autoPlay
-                        //         loop
-                        //         muted
-                        //         playsInline
-                        //         className="w-full h-full object-contain pointer-events-none [&::-webkit-media-controls-start-playback-button]:hidden [&::-webkit-media-controls]:hidden [&::-webkit-media-controls-panel]:hidden"
-                        //     >
-                        //         <source src="/video/logo_anim.mp4" type="video/mp4" />
-                        //     </video>
-                        // </div>
+                        // <Canvas
+                        //     camera={{ position: [0, 0, 7], fov: 50 }}
+                        //     style={{ width: '120px', height: '75px' }}
+                        // >
+                        //     <DynamicCanvas isScrolled={isScrolled} scrollY={scrollY} />
+                        // </Canvas>
+                        <div className="w-[150px] h-[100px] relative">
+                            <video
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                className="w-full h-full object-contain pointer-events-none [&::-webkit-media-controls-start-playback-button]:hidden [&::-webkit-media-controls]:hidden [&::-webkit-media-controls-panel]:hidden"
+                            >
+                                <source src="/video/logo_anim.mp4" type="video/mp4" />
+                            </video>
+                        </div>
                         //     <Image
                         //     src="/logo.svg"
                         //     alt="MAMOSTONG"
