@@ -6,7 +6,7 @@ export const SolidsBlock = () => {
       <div className="absolute h-full top-0 left-0 p-6 md:p-16 w-full">
         <div className="flex h-full items-center justify-center">
           <div className="text-center">
-            <p className="text-2xl md:text-3xl lg:text-4xl font-light uppercase lg:ml-auto text-white">
+            <p className="text-2xl md:text-3xl lg:text-4xl font-bold uppercase lg:ml-auto text-white">
               REVOLUTION IN FITNESS: MASTER MAMOSTONG —<br />
               YOUR PERSONAL AI COACH & NUTRITIONIST
             </p>

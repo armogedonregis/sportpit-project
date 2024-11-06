@@ -6,7 +6,7 @@ export const DrinkMixes = () => {
             <div className="absolute top-0 left-0 p-6 md:p-16 w-full">
                 <div className="flex items-start lg:items-center lg:flex-row flex-col lg:justify-end">
                     <div className="text-left lg:text-right">
-                        <p className="text-2xl md:text-3xl lg:text-4xl font-light max-w-md ml-auto text-black">
+                        <p className="text-2xl md:text-3xl lg:text-4xl font-bold max-w-md ml-auto text-black">
                         PLANT BASED. ANY TASTE.
                         </p>
                     </div>
