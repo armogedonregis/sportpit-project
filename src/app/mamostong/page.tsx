@@ -109,7 +109,7 @@ export default function MamostongPage() {
                                                 src={content.image}
                                                 alt={``}
                                                 fill
-                                                className="object-cover"
+                                                className="object-cover object-top"
                                                 sizes="(max-width: 768px) 100vw, 50vw"
                                             />
                                         </div>
