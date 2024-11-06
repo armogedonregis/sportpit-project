@@ -119,7 +119,7 @@ export const AssistantButton = ({ onClick }: AssistantButtonProps) => {
                     height={24}
                     alt=""
                 /> */}
-                <button
+                {/* <button
                     onClick={(e) => {
                         e.stopPropagation();
                         setSelectedVideo(null);
@@ -127,7 +127,7 @@ export const AssistantButton = ({ onClick }: AssistantButtonProps) => {
                     className="text-white hover:text-gray-200 text-xl transition-colors"
                 >
                     ✕
-                </button>
+                </button> */}
             </div>
         </motion.button>
     );

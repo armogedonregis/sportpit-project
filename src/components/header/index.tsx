@@ -50,7 +50,7 @@ export const Header = () => {
                 <Link href="/" className="flex items-center h-[75px]">
                     {!isScrolled ? (
                         <Image
-                            src="/images/logo.jpg"
+                            src="/logo mamo.svg"
                             alt="MAMOSTONG"
                             width={150}
                             height={100}
