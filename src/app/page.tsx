@@ -10,19 +10,19 @@ import { SolidsBlock } from "@/components/screens/home_screen/solids_block";
 export default function Home() {
   return (
     <>
-      <HeroBlock />
+      <section className="relative bg-white h-[416px] lg:min-h-screen flex flex-col justify-between p-6 md:p-8 lg:p-16 bg-center bg-contain bg-no-repeat" style={{
+        backgroundImage: "url('/images/summit/summit_bg.jpg')"
+      }}>
+        <h2 className="text-lg md:text-4xl font-bold text-white mb-4 lg:mb-0">THE HIGHEST PROTEIN CONCENTRATE
+          IN PLANT-BASED NUTRITION-EVER!</h2>
+      </section>
       <DrinkMixes />
       <SolidsBlock />
       <GelsBlock />
       <BicarbSystemBlock />
       <ProductShowcaseBlock />
       <AthletesAndRetailerBlock />
-      <section className="relative bg-white h-[416px] lg:min-h-screen flex flex-col justify-between p-6 md:p-8 lg:p-16 bg-center bg-cover bg-no-repeat" style={{
-        backgroundImage: "url('/images/summit/summit_bg.jpg')"
-      }}>
-        <h2 className="text-lg md:text-4xl font-bold text-white mb-4 lg:mb-0">THE HIGHEST PROTEIN CONCENTRATE
-          IN PLANT-BASED NUTRITION-EVER!</h2>
-      </section>
+      <HeroBlock />
     </>
   );
 }
