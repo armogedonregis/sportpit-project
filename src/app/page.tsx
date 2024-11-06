@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <section className="relative bg-white h-[416px] lg:min-h-screen flex flex-col justify-between p-6 md:p-8 lg:p-16 bg-center bg-cover bg-no-repeat" style={{
-        backgroundImage: "url('/images/summit/summit_bg.jpg')"
+        backgroundImage: "url('/images/summit_bg.jpeg')"
       }}>
         <h2 className="text-lg md:text-4xl font-bold text-white mb-4 lg:mb-0">THE HIGHEST PROTEIN CONCENTRATE
           IN PLANT-BASED NUTRITION-EVER!</h2>
