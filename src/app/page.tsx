@@ -5,6 +5,7 @@ import { GelsBlock } from "@/components/screens/home_screen/gels_block";
 import { HeroBlock } from "@/components/screens/home_screen/hero_block";
 import { ProductShowcaseBlock } from "@/components/screens/home_screen/product_show_case_block";
 import { SolidsBlock } from "@/components/screens/home_screen/solids_block";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -13,12 +14,17 @@ export default function Home() {
       <section className="relative bg-white h-[416px] lg:min-h-screen flex flex-col justify-between bg-center bg-cover bg-no-repeat" style={{
         backgroundImage: "url('/images/summit_bg.jpeg')"
       }}>
-        <div className="lg:max-w-[2560px] w-full px-5 pt-6 md:pt-8 lg:pt-16 lg:px-12 mx-auto">
-            <h2 className="text-lg md:text-4xl font-bold text-white mb-4 lg:mb-0">THE HIGHEST PROTEIN CONCENTRATE IN PLANT-BASED NUTRITION-EVER!</h2>
+        <div className="lg:max-w-[2560px] flex flex-col justify-between h-full w-full px-5 pt-6 md:pt-8 lg:pt-16 pb-12 lg:pb-48 lg:px-24 mx-auto">
+          <h2 className="text-lg md:text-4xl font-bold text-white mb-4 font-jost lg:mb-0">THE HIGHEST PROTEIN CONCENTRATE IN PLANT-BASED NUTRITION-EVER!</h2>
+          <div className="flex justify-center">
+            <Link href="/products/summit" className="rounded-3xl uppercase font-bold text-lg lg:text-xl bg-[#6B5069] px-16 py-2 hover:opacity-80 transition-all text-white">
+              Shop protein
+            </Link>
+          </div>
         </div>
       </section>
-      <DrinkMixes />
       <SolidsBlock />
+      <DrinkMixes />
       <GelsBlock />
       <BicarbSystemBlock />
       <ProductShowcaseBlock />

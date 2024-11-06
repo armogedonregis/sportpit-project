@@ -1,19 +1,16 @@
 'use client'
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { AssistantButton } from './AssistantButton';
 import { AssistantDialog } from './AssistantDialog';
 import { AnimatePresence } from 'framer-motion';
+import { useAssistant } from '@/context/AssistantContext';
 
 export const Assistant = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
+    const { isOpen, setIsOpen, selectedVideo } = useAssistant();
 
-    const handleToggle = (video?: string) => {
-        if (video) {
-            setSelectedVideo(video);
-        }
-        setIsOpen(prev => !prev);
+    const handleToggle = () => {
+        setIsOpen(!isOpen);
     };
 
     useEffect(() => {

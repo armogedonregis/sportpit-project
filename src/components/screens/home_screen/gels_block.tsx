@@ -1,20 +1,16 @@
+import Link from "next/link";
+
 export const GelsBlock = () => {
-    return (
-      <section className="relative bg-white h-[416px] lg:min-h-screen flex flex-col justify-between p-6 md:p-8 lg:p-16 bg-center bg-cover bg-no-repeat" style={{
-          backgroundImage: "url('/images/rise_bg.png')"
-        }}>
-          <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 lg:mb-0">Rise</h2>
-            <p className="text-xl md:text-2xl lg:text-3xl font-light text-white lg:text-right max-w-md">
-              Get the summit.
-            </p>
-          </div>
-          
-          <div className="self-center lg:self-end">
-            <button className="bg-black text-white px-6 py-2 text-sm font-semibold hover:bg-gray-800 transition-colors duration-300">
-              Buy now
-            </button>
-          </div>
-        </section>
-    );
-  };
+  return (
+    <section className="relative bg-white h-[416px] lg:min-h-screen flex flex-col justify-between p-6 md:p-8 lg:p-16 bg-center bg-cover bg-no-repeat" style={{
+      backgroundImage: "url('/images/rise_bg_new.png')"
+    }}>
+      <div className="flex flex-col justify-center lg:gap-12 gap-5 h-full items-center">
+        <h2 className="text-lg md:text-4xl font-bold text-[#D9622B] font-jost">7516M. ELEVATE YOURSELF WITH COMFORT, TECH & STYLE</h2>
+          <Link href="/products/7516m" className="rounded-3xl uppercase font-bold text-lg lg:text-xl bg-[#D9622B] px-16 py-2 hover:opacity-80 transition-all text-white">
+            SHOP CLOTHES
+          </Link>
+      </div>
+    </section>
+  );
+};
