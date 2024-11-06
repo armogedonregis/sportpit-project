@@ -938,7 +938,7 @@ const allProducts: Product[] = [
         name: "MEN'S SWEATSHIRT",
         price: '€104.99',
         category: '7516m',
-        img: "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a1_1_m214_b70d5037-9ab5-4974-aca1-c538080424e2_750.png",
+        img: "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a1_1_m204_750x.png",
         link: '/mens-sweatshirt',
         description: 'A comfortable, structured sweatshirt, balancing warmth and breathability for everyday wear.',
         description2: 'This sweatshirt combines style and performance in a structured yet soft fabric thats gentle on the skin. Its design allows for effortless layering, maintaining its shape and feel even with regular use. This sweatshirt aligns with Mamostongs dedication to high-quality, eco-conscious materials.',
@@ -947,6 +947,14 @@ const allProducts: Product[] = [
         sizes: ['S', 'M', 'L', 'XL'],
         cloth: true,
         images: [
+            "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a1_1_m204_750x.png",
+            "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a2_1_m204_750x.png",
+            "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a3_1_m204_750x.png",
+            "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a4_1_m204_750x.png",
+            "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a1_1_m204_750x.png",
+            "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a2_1_m204_750x.png",
+            "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a3_1_m204_750x.png",
+            "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a4_1_m204_750x.png"
         ]
     },
     {
@@ -964,7 +972,10 @@ const allProducts: Product[] = [
         cloth: true,
         images: [
             "/images/7516m/mens_cargo_pants/ezgif-4-86ffbd5984.jpg",
-            "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a1_1_m214_b70d5037-9ab5-4974-aca1-c538080424e2_750.png",
+            "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a1_1_m214_b70d5037-9ab5-4974-aca1-c5380804242e_750.png",
+            "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a2_1_m214_7bd81931-e8d2-4b99-955f-fd5b40f6640d_750.png",
+            "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a3_1_m214_87d2419a-9515-456a-978a-2434960abee4_750.png",
+            "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a1_1_m214_b70d5037-9ab5-4974-aca1-c5380804242e_750.png",
             "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a2_1_m214_7bd81931-e8d2-4b99-955f-fd5b40f6640d_750.png",
             "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a3_1_m214_87d2419a-9515-456a-978a-2434960abee4_750.png"
         ]
@@ -1071,6 +1082,9 @@ const allProducts: Product[] = [
         images: [
             "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a2_1_m204_750x.png",
             "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a3_1_m204_750x.png",
+            "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a4_1_m204_750x.png",
+            "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a2_1_m204_750x.png",
+            "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a3_1_m204_750x.png",
             "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a4_1_m204_750x.png"
         ]
     },
@@ -1079,7 +1093,7 @@ const allProducts: Product[] = [
         name: "WOMEN'S SPORT SKIRT",
         price: '€74.99',
         category: '7516m',
-        img: "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a1_1_m76_750x.png",
+        img: "/images/7516m/womens_sport_skirt/w4593r_01_b1_s1_a1_1_m18_750x.png",
         link: '/womens-sport-skirt',
         description: 'Lightweight and functional sport skirt, ideal for active days.',
         description2: 'Combining performance with style, this skirt features a supportive waistband and lightweight fabric, perfect for everything from tennis to casual outings. Mamostongs commitment to quality is evident in the skirts durability and comfort.',
@@ -1087,11 +1101,12 @@ const allProducts: Product[] = [
         sizes: ['XS', 'S', 'M', 'L'],
         cloth: true,
         images: [
-            "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a1_1_m76_750x.png",
-            "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a4_1_m76_750x.png",
-            "/images/7516m/womens_gym_suit/w9360r_0100_b1_s1_a4_1_m174_750x.jpg",
-            "/images/7516m/womens_gym_suit/w9681r_01_b1_s1_a1_1_m174_750x.jpg",
-            "/images/7516m/womens_gym_suit/w9681r_01_b1_s1_a4_1_m174_750x.jpg"
+            "/images/7516m/womens_sport_skirt/w9601r_01_b1_s1_a1_1_m18_750x.png",
+            "/images/7516m/womens_sport_skirt/w9601r_01_b1_s1_a2_1_m18_750x.png",
+            "/images/7516m/womens_sport_skirt/w9601r_01_b1_s1_a3_1_m18_750x.png",
+            "/images/7516m/womens_sport_skirt/w9601r_01_b1_s1_a1_1_m18_750x.png",
+            "/images/7516m/womens_sport_skirt/w9601r_01_b1_s1_a2_1_m18_750x.png",
+            "/images/7516m/womens_sport_skirt/w9601r_01_b1_s1_a3_1_m18_750x.png",
         ]
     },
     {
@@ -1099,7 +1114,7 @@ const allProducts: Product[] = [
         name: "WOMEN'S YOGA TOP",
         price: '€89.99',
         category: '7516m',
-        img: "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a1_1_m76_750x.png",
+        img: "/images/7516m/womens_gym_suit/w3735r_01_b1_s1_a1_1_m174_750x.jpg",
         link: '/womens-yoga-top',
         description: 'Soft and stretchy yoga top for seamless movement.',
         description2: 'This yoga top provides lightweight support with a fabric that moves with you, designed to keep you comfortable and focused during practice. Ideal for both the studio and casual wear, it aligns with Mamostongs standards for function and style.',
@@ -1107,11 +1122,11 @@ const allProducts: Product[] = [
         sizes: ['XS', 'S', 'M', 'L'],
         cloth: true,
         images: [
+            "/images/7516m/womens_gym_suit/w3735r_01_b1_s1_a1_1_m174_750x.jpg",
+            "/images/7516m/womens_gym_suit/w3735r_0100_b1_s1_a4_1_m174_750x.jpg",
             "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a1_1_m76_750x.png",
             "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a4_1_m76_750x.png",
-            "/images/7516m/womens_gym_suit/w9360r_0100_b1_s1_a4_1_m174_750x.jpg",
-            "/images/7516m/womens_gym_suit/w9681r_01_b1_s1_a1_1_m174_750x.jpg",
-            "/images/7516m/womens_gym_suit/w9681r_01_b1_s1_a4_1_m174_750x.jpg"
+            "/images/7516m/womens_gym_suit/w3735r01_b1_s1_a4_1_m174_750x.jpg"
         ]
     },
     {
@@ -1135,6 +1150,48 @@ const allProducts: Product[] = [
             "/images/7516m/womens_yoga_suit/w9681r_05602_b1_s1_a1_1_m199_750x.png",
             "/images/7516m/womens_yoga_suit/w9681r_05602_b1_s1_a2_1_m199_750x.png",
             "/images/7516m/womens_yoga_suit/w9681r_05602_b1_s1_a3_1_m199_750x.png"
+        ]
+    },
+    {
+        id: 51,
+        name: "WOMEN'S TRACKSUIT",
+        price: '€79.99',
+        category: '7516m',
+        img: "/images/7516m/womens_tracksuit/w9679r_05602_b1_s1_a1_1_m199_750x.png",
+        link: '/womens-tracksuit',
+        description: 'A stylish and versatile tracksuit designed for comfort and mobility, perfect for workouts or casual wear.',
+        description2: 'This women\'s tracksuit offers a harmonious blend of style and functionality, crafted from sustainable, high-performance materials. With a relaxed fit that enhances freedom of movement, it\'s ideal for everything from light jogging to casual outings. The breathable fabric is designed to wick moisture, providing all-day comfort and a polished, sporty look. With Mamostong\'s commitment to quality, this tracksuit is built for durability and ease, reflecting the brand\'s dedication to both sustainability and refined athletic style.',
+        fabrication: '85% Recycled Polyester, 15% Spandex',
+        fit: 'Relaxed fit with a tapered leg and contoured waistband',
+        sizes: ['XS', 'S', 'M', 'L', 'XL'],
+        cloth: true,
+        images: [
+            "/images/7516m/womens_tracksuit/w9679r_05602_b1_s1_a1_1_m199_750x.png",
+            "/images/7516m/womens_tracksuit/w9679r_05602_b1_s1_a2_1_m199_750x.png",
+            "/images/7516m/womens_tracksuit/w9679r_05602_b1_s1_a3_1_m199_750x.png",
+            "/images/7516m/womens_tracksuit/w9679r_05602_b1_s1_a4_1_m199_750x.jpg",
+            "/images/7516m/womens_tracksuit/w9679r_05602_b1_s1_a5_1_m199_750x.jpg"
+        ]
+    },
+    {
+        id: 52,
+        name: "WOMEN'S YOGA COSTUME",
+        price: '€69.99',
+        category: '7516m',
+        img: "/images/7516m/womens_yoga_costume/w9679r_03842_b1_s1_a1_1_m173_750x.png",
+        link: '/womens-yoga-costume',
+        description: 'A seamless, ultra-soft yoga outfit designed to support flexibility and comfort during any practice.',
+        description2: 'Engineered for yoga and movement, the Women\'s Yoga Costume combines form and function in a stylish, comfortable design. Made from eco-friendly, organic cotton with a hint of stretch, this outfit contours to the body without restricting movement, enhancing flow and flexibility in every pose. The seamless construction reduces chafing, while the breathable, moisture-wicking fabric keeps you comfortable from the studio to the street. Perfect for yoga enthusiasts who value both performance and sustainability, this costume captures Mamostong\'s vision of innovation and mindful comfort.',
+        fabrication: '78% Organic Cotton, 22% Elastane',
+        fit: 'Form-fitting, full-length',
+        sizes: ['XS', 'S', 'M', 'L', 'XL'],
+        cloth: true,
+        images: [
+            "/images/7516m/womens_yoga_costume/w9679r_03842_b1_s1_a1_1_m173_750x.png",
+            "/images/7516m/womens_yoga_costume/w9679r_05541_b1_s1_a1_1_m191_750x.png",
+            "/images/7516m/womens_yoga_costume/w9679r_05541_b1_s1_a4_1_m191_750x.png",
+            "/images/7516m/womens_yoga_costume/w9679r_05541_b1_s1_a5_1_m191_750x.png",
+            "/images/7516m/womens_yoga_costume/w9679r_05541_b2_s1_a1_1_m209_750x.png"
         ]
     }
 
