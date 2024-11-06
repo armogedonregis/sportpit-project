@@ -1,13 +1,13 @@
 export const SolidsBlock = () => {
   return (
     <section className="relative bg-black h-[416px] lg:min-h-screen bg-center bg-cover bg-no-repeat" style={{
-      backgroundImage: "url('/images/summit_bg.png')"
+      backgroundImage: "url('/images/summit_bg.webp')"
     }}>
       <div className="absolute top-0 left-0 p-6 md:p-16 w-full">
         <div className="flex items-start lg:items-center lg:flex-row flex-col lg:justify-between">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 lg:mb-0 text-black">Summit</h2>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 lg:mb-0 text-white">Summit</h2>
           <div className="text-left lg:text-right">
-            <p className="text-2xl md:text-3xl lg:text-4xl font-light max-w-md lg:ml-auto text-black">
+            <p className="text-2xl md:text-3xl lg:text-4xl font-light max-w-md lg:ml-auto text-white">
               Pro Athetles Essentials.
             </p>
           </div>
