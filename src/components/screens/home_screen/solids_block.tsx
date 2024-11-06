@@ -4,7 +4,7 @@ export const SolidsBlock = () => {
       backgroundImage: "url('/images/summit_bg.webp')"
     }}>
       <div className="absolute h-full top-0 left-0 p-6 md:p-16 w-full">
-        <div className="flex items-start h-full lg:items-center lg:flex-row flex-col lg:justify-center">
+        <div className="flex h-full items-center justify-center">
           <div className="text-center">
             <p className="text-2xl md:text-3xl lg:text-4xl font-light uppercase lg:ml-auto text-white">
               REVOLUTION IN FITNESS: MASTER MAMOSTONG —<br />
