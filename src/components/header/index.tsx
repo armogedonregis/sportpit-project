@@ -116,8 +116,8 @@ export const Header = () => {
                         </div>
                     )}
                     <button className="text-2xl relative w-8 h-8 z-50" onClick={toggleMenu}>
-                        <span className={`block absolute h-0.5 w-8 bg-current transform transition duration-300 ease-in-out ${isMenuOpen ? 'rotate-45 translate-y-1.5' : '-translate-y-1.5'}`}></span>
-                        <span className={`block absolute h-0.5 w-8 bg-current transform transition duration-300 ease-in-out ${isMenuOpen ? '-rotate-45' : 'translate-y-1.5'}`}></span>
+                        <span className={`block absolute h-0.5 w-8 bg-current transform transition duration-300 ease-in-out ${isMenuOpen ? 'rotate-45 translate-y-0' : '-translate-y-1.5'}`}></span>
+                        <span className={`block absolute h-0.5 w-8 bg-current transform transition duration-300 ease-in-out ${isMenuOpen ? '-rotate-45 translate-y-0' : 'translate-y-1.5'}`}></span>
                     </button>
                 </nav>
                 <div className={`bg-black absolute top-0 left-0 w-screen text-white transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-y-0' : '-translate-y-full'}`} style={{ height: '80vh' }}>

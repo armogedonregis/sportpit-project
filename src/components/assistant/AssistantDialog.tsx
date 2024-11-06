@@ -95,7 +95,7 @@ export const AssistantDialog = ({ onClose, selectedVideo }: AssistantDialogProps
                     {/* Левая часть с чатом */}
                     <div className="lg:w-1/2 flex flex-col h-full bg-white rounded-2xl">
 
-                        <div className="px-4 py-3 border-b flex lg:rounded-tl-2xl justify-between items-center bg-black text-white lg:rounded-t-lg">
+                        <div className="px-4 py-3 border-b flex lg:rounded-tl-2xl justify-between items-center bg-black text-white">
                             <h3 className="font-medium text-base">Master - Mamostong AI Assistant</h3>
                             <button
                                 onClick={onClose}
@@ -146,7 +146,7 @@ export const AssistantDialog = ({ onClose, selectedVideo }: AssistantDialogProps
                             <div ref={messagesEndRef} />
                         </div>
 
-                        <div className="p-2 lg:rounded-2xl border-t bg-white">
+                        <div className="p-2 lg:rounded-bl-2xl border-t bg-white">
                             <div className="flex flex-wrap gap-2 mb-2 max-h-24 overflow-y-auto">
                                 {suggestions.map((suggestion, idx) => (
                                     <button
@@ -189,7 +189,7 @@ export const AssistantDialog = ({ onClose, selectedVideo }: AssistantDialogProps
                                 loop
                                 muted
                                 playsInline
-                                className="w-full h-full object-cover rounded-2xl"
+                                className="w-full h-full object-cover rounded-tr-2xl rounded-br-2xl"
                             >
                                 <source src={selectedVideo} type="video/mp4" />
                             </video>
