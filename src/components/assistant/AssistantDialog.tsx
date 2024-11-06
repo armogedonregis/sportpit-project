@@ -90,12 +90,12 @@ export const AssistantDialog = ({ onClose, selectedVideo }: AssistantDialogProps
             transformTemplate={() => "none"}
             className="fixed inset-0 z-[1500]"
         >
-            <div className="fixed lg:top-1/2 lg:left-1/2 right-0 bottom-0 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:w-[980px] lg:h-[655px] w-full h-screen bg-white rounded-lg shadow-xl flex flex-col">
+            <div className="fixed lg:top-1/2 lg:left-1/2 right-0 bottom-0 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:w-[980px] lg:h-[655px] w-full h-screen rounded-2xl shadow-xl flex flex-col">
                 <div className="flex h-full">
                     {/* Левая часть с чатом */}
-                    <div className="lg:w-1/2">
+                    <div className="lg:w-1/2 flex flex-col h-full bg-white rounded-2xl">
 
-                        <div className="px-4 py-3 border-b flex justify-between items-center bg-black text-white lg:rounded-t-lg">
+                        <div className="px-4 py-3 border-b flex lg:rounded-tl-2xl justify-between items-center bg-black text-white lg:rounded-t-lg">
                             <h3 className="font-medium text-base">Master - Mamostong AI Assistant</h3>
                             <button
                                 onClick={onClose}
@@ -107,11 +107,8 @@ export const AssistantDialog = ({ onClose, selectedVideo }: AssistantDialogProps
 
                         <div
                             ref={chatContainerRef}
-                            className="flex-1 overflow-y-auto p-4 space-y-4 scroll-smooth"
-                            style={{
-                                height: 'calc(100% - 140px)',
-                                maxHeight: 'calc(100vh - 200px)'
-                            }}
+                            className="flex-1 overflow-y-auto rounded-2xl p-4 space-y-4 scroll-smooth"
+                           
                         >
                             {messages.map((msg, idx) => (
                                 <div key={idx} className={`flex ${msg.isUser ? 'justify-end' : 'justify-start gap-2.5'}`}>
@@ -149,7 +146,7 @@ export const AssistantDialog = ({ onClose, selectedVideo }: AssistantDialogProps
                             <div ref={messagesEndRef} />
                         </div>
 
-                        <div className="p-2 border-t bg-white">
+                        <div className="p-2 lg:rounded-2xl border-t bg-white">
                             <div className="flex flex-wrap gap-2 mb-2 max-h-24 overflow-y-auto">
                                 {suggestions.map((suggestion, idx) => (
                                     <button
@@ -185,14 +182,14 @@ export const AssistantDialog = ({ onClose, selectedVideo }: AssistantDialogProps
                         </div>
                     </div>
 
-                    <div className="hidden lg:block lg:w-1/2 relative">
+                    <div className="hidden lg:block lg:w-1/2 h-full relative">
                         {selectedVideo && (
                             <video
                                 autoPlay
                                 loop
                                 muted
                                 playsInline
-                                className="w-full h-full object-cover"
+                                className="w-full h-full object-cover rounded-2xl"
                             >
                                 <source src={selectedVideo} type="video/mp4" />
                             </video>

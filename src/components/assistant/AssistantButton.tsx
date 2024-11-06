@@ -31,7 +31,7 @@ export const AssistantButton = ({ onClick }: AssistantButtonProps) => {
                                 width={24}
                                 height={24}
                                 alt=""
-                                className="ml-2 -mt-1"
+                                className="ml-2 -mt-2.5"
                             />
                             ASTER
                         </span>
@@ -54,14 +54,14 @@ export const AssistantButton = ({ onClick }: AssistantButtonProps) => {
                         >
                             <source src="/video/anim_ai_women.mp4" type="video/mp4" />
                         </video>
-                        <div className="relative flex flex-col justify-between items-start h-full z-10">
+                        {/* <div className="relative flex flex-col justify-between items-start h-full z-10">
                             <Image
                                 src="/logo.svg"
                                 width={24}
                                 height={24}
                                 alt=""
                             />
-                        </div>
+                        </div> */}
                     </motion.div>
 
                     <motion.div
@@ -80,14 +80,14 @@ export const AssistantButton = ({ onClick }: AssistantButtonProps) => {
                         >
                             <source src="/video/anim_ai.mp4" type="video/mp4" />
                         </video>
-                        <div className="relative flex flex-col justify-between items-start h-full z-10">
+                        {/* <div className="relative flex flex-col justify-between items-start h-full z-10">
                             <Image
                                 src="/logo.svg"
                                 width={24}
                                 height={24}
                                 alt=""
                             />
-                        </div>
+                        </div> */}
                     </motion.div>
                 </div>
             </div>
@@ -112,13 +112,13 @@ export const AssistantButton = ({ onClick }: AssistantButtonProps) => {
             >
                 <source src={selectedVideo} type="video/mp4" />
             </video>
-            <div className="relative flex justify-between items-start h-full z-10">
-                <Image
+            <div className="relative flex justify-end items-start h-full z-10">
+                {/* <Image
                     src="/logo.svg"
                     width={24}
                     height={24}
                     alt=""
-                />
+                /> */}
                 <button
                     onClick={(e) => {
                         e.stopPropagation();
