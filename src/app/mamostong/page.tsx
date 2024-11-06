@@ -68,6 +68,9 @@ export default function MamostongPage() {
 
     return (
         <>
+        <div className="text-center text-2xl lg:text-5xl uppercase font-bold py-20 lg:py-[100px]">
+            MAMOSTONG PATH
+        </div>
             <section className="bg-black text-white">
                 {categories.map((category, index) => {
                     const content = getCategoryContent(category);
