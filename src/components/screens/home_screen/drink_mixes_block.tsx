@@ -5,9 +5,9 @@ export const DrinkMixes = () => {
         }}>
             <div className="absolute top-0 left-0 p-6 md:p-16 w-full">
                 <div className="flex items-start lg:items-center lg:flex-row flex-col lg:justify-between">
-                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">7516M</h2>
+                    <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-black">7516M</h2>
                     <div className="text-left lg:text-right">
-                        <p className="text-2xl md:text-3xl lg:text-4xl font-light max-w-md ml-auto text-white">
+                        <p className="text-2xl md:text-3xl lg:text-4xl font-light max-w-md ml-auto text-black">
                         Simbiosis of technical fabrics, comfort and style.
                         </p>
                     </div>
