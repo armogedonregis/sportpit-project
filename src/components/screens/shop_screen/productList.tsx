@@ -54,6 +54,7 @@ export const ProductList: React.FC<ProductListProps> = ({ products }) => {
                                         src={isNaN(Number(product.img)) ? product.img : `/images/product/product-${product.img}.jpg`}
                                         alt={product.name}
                                         fill
+                                        className="object-top"
                                         objectFit="cover"
                                     />}
                                     {product.isNew && (
@@ -73,7 +74,7 @@ export const ProductList: React.FC<ProductListProps> = ({ products }) => {
                                 </div>
                                 <div className="pt-2">
                                     <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
-                                    <p className="text-gray-700">{product.price} {product.servings}</p>
+                                    <p className="text-gray-700">{product.price}</p>
                                     <p className="text-gray-500 text-sm">{product.pricePerUnit}</p>
                                 </div>
                             </div>

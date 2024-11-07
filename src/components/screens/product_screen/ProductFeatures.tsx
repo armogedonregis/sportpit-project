@@ -52,8 +52,8 @@ export default function ProductFeatures({ category }: ProductFeaturesProps) {
             default:
                 return {
                     title: 'Used by record-breaking Athletes',
-                    science: 'Drink Mix is a pH-sensitive liquid. When it meets the acidic environment of the stomach an instant reaction occurs that converts the liquid into a hydrogel. The hydrogel encapsulates the carbohydrates, preventing it from breaking down in the stomach and enabling the smooth transportation of fuel through to the intestines. Here, the hydrogel dissolves and the carbohydrate is released and absorbed.',
-                    comfort: 'Consuming large volumes of liquid during sport can cause a sloshing or bouncing sensation in the stomach. Its a feeling of discomfort that limits performance. By changing from a liquid to a hydrogel, Drink Mix reduces the stress in the stomach so athletes can consume liquid fuel with high concentrations of carbohydrates, and maintain high-intensity performance.',
+                    science: 'The 7516M line by Mamostong embodies the perfect balance of function and style, designed to meet the needs of active lifestyles without sacrificing aesthetic appeal. Each piece in the collection is crafted with versatile silhouettes that effortlessly transition from workout sessions to casual outings. This line combines contemporary design with Mamostong’s commitment to quality, offering sportswear that complements both athletic performance and everyday style.',
+                    comfort: 'The 7516M collection prioritizes comfort and movement. High-performance fabrics ensure durability and flexibility, allowing users to experience a full range of motion while feeling supported. The soft, breathable materials adapt to various physical activities, providing ease and comfort throughout the day. This line reflects Mamostong’s dedication to creating sportswear that not only meets rigorous standards but also enhances the experience of wearers who value functionality, style, and lasting comfort.',
                     image: '/images/core/core_bg.jpg'
                 };
         }
@@ -73,7 +73,7 @@ export default function ProductFeatures({ category }: ProductFeaturesProps) {
                             </h2>
                             <div className="space-y-6 md:space-y-8 mt-6 md:mt-8">
                                 <div>
-                                    <h3 className="text-gray-400 text-lg md:text-xl mb-2">The science</h3>
+                                    <h3 className="text-gray-400 text-lg md:text-xl mb-2">{category === '7516m' ? "The style" : "The science"}</h3>
                                     <p className="text-base md:text-lg leading-relaxed">
                                         {content.science}
                                     </p>

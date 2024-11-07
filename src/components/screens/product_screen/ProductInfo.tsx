@@ -20,7 +20,7 @@ export default function ProductInfo({ product }: { product: Product }) {
                                     src={isNaN(Number(product.img)) ? product.img : `/images/product/product-${product.img}.jpg`}
                                     alt={product.name}
                                     fill
-                                    className="object-cover"
+                                    className="object-cover object-top"
                                 />}
                                 {product.isNew && (
                                     <span className="absolute top-4 left-4 bg-black text-white text-xs px-2 py-1">
