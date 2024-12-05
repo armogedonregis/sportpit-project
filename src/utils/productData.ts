@@ -1,6 +1,8 @@
 import { Product } from "@/types/product";
 
 const allProducts: Product[] = [
+    // в первых двух продуктах пример как указывать фильтр.
+    // после такой скобки ], нужна запятая и со след строки указываем subCategory
     {
         id: 1,
         name: 'GROUND BEAUTY MATCHA',
@@ -22,7 +24,8 @@ const allProducts: Product[] = [
             "/images/herbal/ground_puck_1.png", // порошок
             "/video/ground_product.mp4",
             "/images/people/1.png"
-        ]
+        ],
+        subCategory: 'Cleansers' // укажите один из трех типов 'Cleansers' или 'Wellness' или 'Relaxation'
     },
     {
         id: 2,
@@ -45,7 +48,8 @@ const allProducts: Product[] = [
             "/images/herbal/ground_puck_2.png", // порошок
             "/video/ground_product.mp4",
             "/images/people/2.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 3,

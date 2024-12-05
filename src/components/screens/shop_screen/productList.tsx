@@ -14,7 +14,9 @@ export const ProductList: React.FC<ProductListProps> = ({ products }) => {
     const dispatch = useCartDispatch();
 
     const addToCart = (product: Product) => {
-        dispatch({ type: 'ADD_ITEM', payload: product });
+        const price = parseFloat(product.price.replace(/[^\d.-]/g, ''));
+        const productWithNumericPrice = { ...product, price: price.toString() };
+        dispatch({ type: 'ADD_ITEM', payload: productWithNumericPrice });
     };
 
     const rows: Product[][] = [];

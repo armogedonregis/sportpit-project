@@ -13,6 +13,27 @@ export const StoreLocatorScreen = () => {
     const locationsPerPage = 24;
     const [isMapModalOpen, setIsMapModalOpen] = useState(false);
     const [selectedLocation, setSelectedLocation] = useState<typeof locations[0] | null>(null);
+    const [userPosition, setUserPosition] = useState<{ lat: number, lng: number } | null>(null);
+
+    const handleFindInStores = () => {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    setUserPosition({
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    });
+                    setIsMapModalOpen(true);
+                },
+                (error) => {
+                    console.error("Error getting location:", error);
+                    setIsMapModalOpen(true);
+                }
+            );
+        } else {
+            setIsMapModalOpen(true);
+        }
+    };
 
     const handleMapOpen = (location?: typeof locations[0]) => {
         setSelectedLocation(location || null);
@@ -115,7 +136,7 @@ export const StoreLocatorScreen = () => {
                         </span>
                         Show stores on map
                     </button>
-                    <button className="flex items-center gap-2 px-4 py-2 border rounded hover:bg-gray-50">
+                    <button onClick={handleFindInStores} className="flex items-center gap-2 px-4 py-2 border rounded hover:bg-gray-50">
                         <span>
                             <Image src={'/icons/marker_map_icon.svg'} alt="" width={12} height={12} />
                         </span>
@@ -199,9 +220,11 @@ export const StoreLocatorScreen = () => {
                 onClose={() => {
                     setIsMapModalOpen(false);
                     setSelectedLocation(null);
+                    setUserPosition(null)
                 }}
             >
-                <MapModule selectedLocation={selectedLocation || undefined} />
+                <MapModule selectedLocation={selectedLocation || undefined} onLocationSelect={setSelectedLocation}
+                    userPosition={userPosition} />
             </Modal>
         </>
     );

@@ -5,6 +5,7 @@ export interface Product {
     servings?: string;
     pricePerUnit?: string;
     category: string;
+    subCategory?: 'Cleansers' | 'Wellness' | 'Relaxation'; 
     img: string;
     link: string;
     cloth?: boolean;

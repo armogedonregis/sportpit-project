@@ -31,12 +31,17 @@ function cartReducer(state: CartState, action: CartAction): CartState {
           ...state,
           items: state.items.map(item =>
             item.id === action.payload.id
-              ? { ...item, quantity: item.quantity + 1 }
+              ? { ...item, quantity: Number(item.quantity) + 1 }
               : item
           )
         };
       }
-      return { ...state, items: [...state.items, { ...action.payload, quantity: 1 }] };
+      const price = parseFloat(action.payload.price.replace(/[^\d.-]/g, ''));
+
+      return {
+        ...state,
+        items: [...state.items, { ...action.payload, price: price.toString(), quantity: 1 }]
+      };
     case 'REMOVE_ITEM':
       return { ...state, items: state.items.filter(item => item.id !== action.payload) };
     case 'UPDATE_QUANTITY':

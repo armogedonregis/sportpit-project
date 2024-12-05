@@ -4,11 +4,38 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useCartDispatch, useCartState } from '@/context/cartContext';
+import { Modal } from '@/components/Modal';
+import { MapModule } from '@/components/mapModule';
+import locations from '@/data/locations.json';
+
 
 export default function CartPage() {
     const { items } = useCartState();
     const dispatch = useCartDispatch();
     const [isEditing, setIsEditing] = useState(false);
+    const [isMapOpen, setIsMapOpen] = useState(false);
+    const [selectedLocation, setSelectedLocation] = useState<typeof locations[0] | undefined>();
+    const [userPosition, setUserPosition] = useState<{ lat: number, lng: number } | null>(null);
+
+    const handleFindInStores = () => {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    setUserPosition({
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    });
+                    setIsMapOpen(true);
+                },
+                (error) => {
+                    console.error("Error getting location:", error);
+                    setIsMapOpen(true);
+                }
+            );
+        } else {
+            setIsMapOpen(true);
+        }
+    };
 
     const totalPrice = items.reduce((sum, item) => {
         const price = item.price && parseFloat(item.price.replace('$', ''));
@@ -85,7 +112,7 @@ export default function CartPage() {
                             {items.map((item) => (
                                 <div key={item.id} className="flex items-center justify-between mb-4">
                                     <div className="flex items-center">
-                                        <Image src={`/images/product/product-${item.img}.jpg`} alt={item.name} width={50} height={50} className="mr-4" />
+                                        <Image src={isNaN(Number(item.img)) ? item.img : `/images/product/product-${item.img}.jpg`} alt={item.name} width={50} height={50} className="mr-4" />
                                         <p>{item.name}</p>
                                     </div>
                                     <div className="flex items-center">
@@ -93,7 +120,7 @@ export default function CartPage() {
                                         <button onClick={() => handleQuantityChange(item.id, item.quantity - 1)} className="px-2">-</button>
                                         <span className="mx-2">{item.quantity}</span>
                                         <button onClick={() => handleQuantityChange(item.id, item.quantity + 1)} className="px-2">+</button>
-                                        <span className="ml-4">{item.price}</span>
+                                        <span className="ml-4">€{item.price}</span>
                                     </div>
                                 </div>
                             ))}
@@ -108,14 +135,15 @@ export default function CartPage() {
                                             src={isNaN(Number(item.img)) ? item.img : `/images/product/product-${item.img}.jpg`} alt={item.name} width={50} height={50} className="mr-4" />}
                                         <p>{item.quantity} x {item.name}</p>
                                     </div>
-                                    <p>{item.price}</p>
+                                    <p>€{item.price}</p>
                                 </div>
                             ))}
                             <button onClick={() => setIsEditing(true)} className="text-blue-600 hover:underline block mb-4">Add or remove products</button>
+                            <button onClick={handleFindInStores} className="text-blue-600 hover:underline block mb-4">Find Nearest Store</button>
                         </>
                     )}
                     <div className="mt-4 border p-4 rounded">
-                        <p>Add ${(freeShippingThreshold - totalPrice).toFixed(2)} to get free shipping.</p>
+                        <p>Add €{(freeShippingThreshold - totalPrice).toFixed(2)} to get free shipping.</p>
                         <div className="flex justify-between mt-2 relative">
                             <span className="absolute left-0 right-0 border-t border-gray-300 top-1/2"></span>
                             <span className="bg-white px-2 z-10">Standard</span>
@@ -124,8 +152,8 @@ export default function CartPage() {
                         </div>
                     </div>
                     <div className="mt-4">
-                        <div className="flex justify-between"><span>Sales tax:</span><span>${salesTax.toFixed(2)}</span></div>
-                        <div className="flex justify-between font-bold"><span>Total:</span><span>${(totalPrice + shippingCost + salesTax).toFixed(2)}</span></div>
+                        <div className="flex justify-between"><span>Sales tax:</span><span>€{salesTax.toFixed(2)}</span></div>
+                        <div className="flex justify-between font-bold"><span>Total:</span><span>€{(totalPrice + shippingCost + salesTax).toFixed(2)}</span></div>
                         <p className="text-sm">Duties and taxes will be calculated later</p>
                     </div>
                     <div className="mt-8">
@@ -138,11 +166,18 @@ export default function CartPage() {
                             </div>
                             <span className="ml-2">Average rating 4.7</span>
                         </div>
-                        {/* Здесь можно добавить компонент с отзывами */}
                         <Link href="/reviews" className="text-blue-600 hover:underline">More reviews</Link>
                     </div>
                 </div>
             </div>
+
+            <Modal isOpen={isMapOpen} onClose={() => setIsMapOpen(false)}>
+                <MapModule 
+                    selectedLocation={selectedLocation}
+                    onLocationSelect={setSelectedLocation}
+                    userPosition={userPosition}
+                />
+            </Modal>
         </div>
     );
 };

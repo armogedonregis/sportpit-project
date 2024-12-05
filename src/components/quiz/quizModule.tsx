@@ -53,7 +53,7 @@ export const QuizModule = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#7C8B7C] py-8 px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#7C8B7C] py-8 px-4 sm:px-6 lg:px-8 lg:pt-24">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-8 animate-fadeIn">
           <h2 className="text-2xl font-bold text-white mb-2">{step.title}</h2>

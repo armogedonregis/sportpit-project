@@ -136,9 +136,15 @@ const mapStyles = [
 
 interface MapModuleProps {
     selectedLocation?: typeof locations[0];
+    userPosition?: { lat: number; lng: number } | null;
+    onLocationSelect?: (location: typeof locations[0]) => void;
 }
 
-export const MapModule: React.FC<MapModuleProps> = ({ selectedLocation }) => {
+export const MapModule: React.FC<MapModuleProps> = ({ 
+    selectedLocation, 
+    userPosition,
+    onLocationSelect 
+ }) => {
     const mapRef = useRef<HTMLDivElement>(null);
     const [map, setMap] = useState<google.maps.Map | null>(null);
     const markersRef = useRef<google.maps.Marker[]>([]);
@@ -218,6 +224,60 @@ export const MapModule: React.FC<MapModuleProps> = ({ selectedLocation }) => {
                     infoWindow.open(mapInstance, marker);
                     currentInfoWindow.current = infoWindow;
 
+                    markersRef.current.push(marker);
+                    mapInstance.setCenter(position);
+                } else if (userPosition) {
+                    // Ищем ближайший магазин
+                    let nearestStore = locations[0];
+                    let shortestDistance = Number.MAX_VALUE;
+    
+                    locations.forEach(location => {
+                        const distance = google.maps.geometry.spherical.computeDistanceBetween(
+                            new google.maps.LatLng(userPosition.lat, userPosition.lng),
+                            new google.maps.LatLng(parseFloat(location.lat), parseFloat(location.lng))
+                        );
+    
+                        if (distance < shortestDistance) {
+                            shortestDistance = distance;
+                            nearestStore = location;
+                        }
+                    });
+    
+                    if (onLocationSelect) {
+                        onLocationSelect(nearestStore);
+                    }
+    
+                    // Показываем ближайший магазин
+                    const position = new google.maps.LatLng(
+                        parseFloat(nearestStore.lat),
+                        parseFloat(nearestStore.lng)
+                    );
+    
+                    const marker = new google.maps.Marker({
+                        position,
+                        map: mapInstance,
+                        title: nearestStore.name,
+                        icon: {
+                            url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(activeIcon),
+                            scaledSize: new google.maps.Size(20, 27),
+                            labelOrigin: new google.maps.Point(10, 12)
+                        },
+                        zIndex: 2
+                    });
+    
+                    const content = `
+                        <div class="p-4">
+                            <p class="font-bold mb-2">${nearestStore.name}</p>
+                            ${nearestStore.phone ? `<p class="text-sm">Phone: ${nearestStore.phone}</p>` : ''}
+                            <p class="text-sm mt-2">${nearestStore.address}</p>
+                            <p class="text-sm mt-2">Ближайший к вам магазин</p>
+                        </div>
+                    `;
+    
+                    const infoWindow = new google.maps.InfoWindow({ content });
+                    infoWindow.open(mapInstance, marker);
+                    currentInfoWindow.current = infoWindow;
+    
                     markersRef.current.push(marker);
                     mapInstance.setCenter(position);
                 } else {
@@ -301,10 +361,10 @@ export const MapModule: React.FC<MapModuleProps> = ({ selectedLocation }) => {
             markersRef.current.forEach(marker => marker.setMap(null));
             markersRef.current = [];
         };
-    }, [selectedLocation]);
+    }, [selectedLocation, userPosition]);
 
     return (
-        <div className="relative w-full h-[600px] bg-gray-100">
+        <div className="relative w-full h-[600px] bg-gray-100 text-black">
             {/* Контейнер карты */}
             <div ref={mapRef} className="absolute inset-0" />
 
