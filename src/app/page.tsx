@@ -23,10 +23,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <BicarbSystemBlock />
       <SolidsBlock />
       <DrinkMixes />
       <GelsBlock />
-      <BicarbSystemBlock />
       <ProductShowcaseBlock />
       <AthletesAndRetailerBlock />
       <HeroBlock />

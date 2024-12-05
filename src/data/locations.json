@@ -1,0 +1,6274 @@
+[
+  {
+    "lat": "30.2183238",
+    "lng": "-81.6148472",
+    "name": "1st Place Sports",
+    "phone": "",
+    "address": "3931 Baymeadows Road, Jacksonville, Florida"
+  },
+  {
+    "lat": "38.7173661",
+    "lng": "-90.7025516",
+    "name": "40K Cycles",
+    "phone": "",
+    "address": "4623 State Highway K, O'Fallon, MO"
+  },
+  {
+    "lat": "38.5368638",
+    "lng": "-105.99224",
+    "name": "7000 Feet Running Company",
+    "phone": "",
+    "address": "140 W. First Street<br>\nUnit A, Salida, CO"
+  },
+  {
+    "lat": "37.57814",
+    "lng": "-122.344105",
+    "name": "A Runners Mind",
+    "phone": "",
+    "address": "111 Howard avenue, burlingame, 94010, CA, Burlingame"
+  },
+  {
+    "lat": "37.7874273",
+    "lng": "-122.4514345",
+    "name": "A Runners Mind",
+    "phone": "",
+    "address": "3575 Sacramento St., San Francisco, CA, San francisco"
+  },
+  {
+    "lat": "37.3782127",
+    "lng": "-122.1175821",
+    "name": "A Runners Mind",
+    "phone": "",
+    "address": "378 Main St, Los Altos, CA 94022, los altos"
+  },
+  {
+    "lat": "33.9119351",
+    "lng": "-117.8909428",
+    "name": "A Snail's Pace",
+    "phone": "",
+    "address": "1040 E Imperial Hwy, Brea, CA"
+  },
+  {
+    "lat": "33.7151924",
+    "lng": "-117.9752838",
+    "name": "A Snail's Pace",
+    "phone": "",
+    "address": "8780 Warner Ave, Fountain Valley, CA"
+  },
+  {
+    "lat": "33.6076063",
+    "lng": "-117.6911958",
+    "name": "A Snail's Pace",
+    "phone": "",
+    "address": "24451 Alicia Pkwy, Mission Viejo, CA"
+  },
+  {
+    "lat": "34.1439553",
+    "lng": "-118.0006475",
+    "name": "A Snail's Pace",
+    "phone": "",
+    "address": "750 South Myrtle Avenue, Monrovia, CA"
+  },
+  {
+    "lat": "41.256398",
+    "lng": "-73.6842017",
+    "name": "Acme Bicycle Co.",
+    "phone": "",
+    "address": "215 Katonah Ave, Katonah, NY"
+  },
+  {
+    "lat": "35.3694429",
+    "lng": "-119.1092834",
+    "name": "Action Sports",
+    "phone": "",
+    "address": "9500 Brimhall Rd<br>\nSTE 400, Bakersfield, CA"
+  },
+  {
+    "lat": "40.8696724",
+    "lng": "-124.0847873",
+    "name": "Adventure's Edge",
+    "phone": "",
+    "address": "650 10th Street, Arcata"
+  },
+  {
+    "lat": "40.8005502",
+    "lng": "-124.1741336",
+    "name": "Adventure's Edge",
+    "phone": "",
+    "address": "125 W 5th Street, Eureka"
+  },
+  {
+    "lat": "38.6414054",
+    "lng": "-121.1889236",
+    "name": "AE Service Course",
+    "phone": "",
+    "address": "309 Iron Point Road, Folsom, CA"
+  },
+  {
+    "lat": "61.600536",
+    "lng": "-149.115502",
+    "name": "Aktive Soles Performance Footwear",
+    "phone": "",
+    "address": "642 S Alaska St.<br>\nSuite 100, Palmer"
+  },
+  {
+    "lat": "61.5911709",
+    "lng": "-149.3589601",
+    "name": "Aktive Soles Performance Footwear",
+    "phone": "",
+    "address": "984 N Meridian Place<br>\nSuite B, Wasilla"
+  },
+  {
+    "lat": "26.1247504",
+    "lng": "-80.3620989",
+    "name": "Alex's Bicycle Pro Shop",
+    "phone": "",
+    "address": "16098 W St Rd 84<br>\nUnit 3, Weston, FL"
+  },
+  {
+    "lat": "33.9926763",
+    "lng": "-84.3419625",
+    "name": "All3Sports Inc.",
+    "phone": "",
+    "address": "8601 Dunwoody Place<br>\nSuite 420, Atlanta, GA"
+  },
+  {
+    "lat": "21.3959635",
+    "lng": "-157.7416046",
+    "name": "Aloha Friday Wheelworks and Running Company",
+    "phone": "",
+    "address": "326-4 Kuulei Road, Kailua"
+  },
+  {
+    "lat": "39.1698578",
+    "lng": "-120.1427628",
+    "name": "Alpenglow Sports",
+    "phone": "(530) 583-6917",
+    "address": "415 N Lake Blvd, Tahoe City"
+  },
+  {
+    "lat": "25.5793216",
+    "lng": "-80.3351059",
+    "name": "Andante Bikes",
+    "phone": "786-303-6735",
+    "address": "20283 Old Cutler Rd, Cutler Bay, FL"
+  },
+  {
+    "lat": "42.2801607",
+    "lng": "-83.7495862",
+    "name": "Ann Arbor Running Company",
+    "phone": "",
+    "address": "209 S Ashley, Ann Arbor, MI"
+  },
+  {
+    "lat": "42.2455328",
+    "lng": "-83.7590751",
+    "name": "Ann Arbor Running Company",
+    "phone": "",
+    "address": "901 W Eisenhower Pkwy, Ann Arbor, MI"
+  },
+  {
+    "lat": "42.3038851",
+    "lng": "-83.7093331",
+    "name": "Ann Arbor Running Company",
+    "phone": "",
+    "address": "2621 Plymouth Rd, Ann Arbor, MI"
+  },
+  {
+    "lat": "40.4843732",
+    "lng": "-78.3988867",
+    "name": "Appalachian Running Company",
+    "phone": "",
+    "address": "3415 Pleasant Valley Blvd, Suite 108 A, Altoona, PA"
+  },
+  {
+    "lat": "40.1989616",
+    "lng": "-77.1825751",
+    "name": "Appalachian Running Company",
+    "phone": "",
+    "address": "290 East Pomfret Street, Carlisle, PA"
+  },
+  {
+    "lat": "40.4081451",
+    "lng": "-79.9160495",
+    "name": "Appalachian Running Company",
+    "phone": "",
+    "address": "112 West Bridge Street, Homestead, PA"
+  },
+  {
+    "lat": "40.6128606",
+    "lng": "-80.0541501",
+    "name": "Appalachian Running Company",
+    "phone": "",
+    "address": "10616 Perry Hwy, Wexford, PA"
+  },
+  {
+    "lat": "38.9269744",
+    "lng": "-104.7229735",
+    "name": "Ascent Cycling",
+    "phone": "",
+    "address": "6472 Templeton Gap Rd, Colorado Springs"
+  },
+  {
+    "lat": "41.1382739",
+    "lng": "-73.3097917",
+    "name": "ASF Sports & Outdoors",
+    "phone": "(203) 255-4460",
+    "address": "1560 Post Rd E, Westport, CT"
+  },
+  {
+    "lat": "39.9150938",
+    "lng": "-86.1404484",
+    "name": "Athletic Annex",
+    "phone": "",
+    "address": "1300 E 86th Street, #29A, Indianapolis, IN"
+  },
+  {
+    "lat": "39.9561983",
+    "lng": "-86.0006821",
+    "name": "Athletic Annex",
+    "phone": "",
+    "address": "11591 Yard Street, Suite 500, Fishers, IN"
+  },
+  {
+    "lat": "40.6968997",
+    "lng": "-73.3193689",
+    "name": "Babylon Bike Shop",
+    "phone": "(631) 587-6709",
+    "address": "218 E Main St, Babylon, NY"
+  },
+  {
+    "lat": "41.0439985",
+    "lng": "-73.5917787",
+    "name": "Bax Cycles",
+    "phone": "",
+    "address": "78 Valley Road, Greenwich"
+  },
+  {
+    "lat": "32.932974",
+    "lng": "-97.226791",
+    "name": "Bear Creek Running Company",
+    "phone": "",
+    "address": "101 Town Center Ln Suite 115, Keller, TX"
+  },
+  {
+    "lat": "35.8719182",
+    "lng": "-78.6783803",
+    "name": "Bell Lap Cycleworks",
+    "phone": "",
+    "address": "6300 Creedmoor Road, Raleigh"
+  },
+  {
+    "lat": "46.8816499",
+    "lng": "-96.7880463",
+    "name": "Beyond Running",
+    "phone": "",
+    "address": "516 Broadway, Fargo, ND"
+  },
+  {
+    "lat": "33.49378",
+    "lng": "-111.9278195",
+    "name": "Bicycle Haus",
+    "phone": "",
+    "address": "7113 E 1st Ave, Scottsdale, AZ"
+  },
+  {
+    "lat": "33.6269447",
+    "lng": "-111.8880353",
+    "name": "Bicycle Ranch",
+    "phone": "",
+    "address": "15454 N Frank Lloyd Wright Blvd, Scottsdale, AZ"
+  },
+  {
+    "lat": "29.7910446",
+    "lng": "-95.3870637",
+    "name": "Bicycle Speed Shop",
+    "phone": "713-876-6984",
+    "address": "1123 East 11th Street, Houston, TX"
+  },
+  {
+    "lat": "40.7747726",
+    "lng": "-73.957275",
+    "name": "Bicycles NYC",
+    "phone": "",
+    "address": "1400 3rd Avenue, New York, NY"
+  },
+  {
+    "lat": "34.0876405",
+    "lng": "-84.2670961",
+    "name": "Big Peach Running Company",
+    "phone": "",
+    "address": "5530 Windward Parkway, Suite 420, Alpharetta, GA"
+  },
+  {
+    "lat": "33.8700766",
+    "lng": "-84.3371868",
+    "name": "Big Peach Running Company",
+    "phone": "",
+    "address": "705 Town Blvd, Ste. Q340, Brookhaven, GA"
+  },
+  {
+    "lat": "33.7931182",
+    "lng": "-84.2829744",
+    "name": "Big Peach Running Company",
+    "phone": "",
+    "address": "1565 Church Street, Suite 520, Decatur, GA"
+  },
+  {
+    "lat": "33.9945879",
+    "lng": "-84.5927745",
+    "name": "Big Peach Running Company",
+    "phone": "",
+    "address": "1625 Ridenour Boulevard, Suite 304, Kennesaw, GA"
+  },
+  {
+    "lat": "33.9752987",
+    "lng": "-84.4139017",
+    "name": "Big Peach Running Company",
+    "phone": "",
+    "address": "1062 Johnson Ferry Road, Suite 170, Marietta, GA"
+  },
+  {
+    "lat": "33.7763668",
+    "lng": "-84.3848366",
+    "name": "Big Peach Running Company",
+    "phone": "",
+    "address": "800 Peachtree St., Suites B &amp; C, Atlanta, GA"
+  },
+  {
+    "lat": "34.0557606",
+    "lng": "-84.0631983",
+    "name": "Big Peach Running Company",
+    "phone": "",
+    "address": "320 Town Center Ave., Ste C-2, Suwanee, GA"
+  },
+  {
+    "lat": "34.1746585",
+    "lng": "-84.1859273",
+    "name": "Big Peach Running Company",
+    "phone": "",
+    "address": "5485 Bethelview Rd.<br>\nSuite 430, Cumming, GA"
+  },
+  {
+    "lat": "33.3611258",
+    "lng": "-86.8262163",
+    "name": "Bike Link of Hoover",
+    "phone": "",
+    "address": "2766 John Hawkins Parkway, #104, Hoover, AL"
+  },
+  {
+    "lat": "37.1308002",
+    "lng": "-121.652262",
+    "name": "Bike Therapy",
+    "phone": "",
+    "address": "17540 Depot St, Morgan Hill, CA"
+  },
+  {
+    "lat": "19.6431831",
+    "lng": "-155.9937086",
+    "name": "Bike Works",
+    "phone": "",
+    "address": "Kopiko Street 1A, Hawaii, Kailua-Kona"
+  },
+  {
+    "lat": "19.913621",
+    "lng": "-155.8798365",
+    "name": "Bike Works",
+    "phone": "",
+    "address": "69-201 Waikoloa Beach Drive, Waikoloa"
+  },
+  {
+    "lat": "42.0672409",
+    "lng": "-70.9491786",
+    "name": "bike barn racing",
+    "phone": "(781) 447-7223",
+    "address": "242 Bedford Street, Whitman, MA"
+  },
+  {
+    "lat": "40.0674615",
+    "lng": "-83.0918735",
+    "name": "BikeSource",
+    "phone": "",
+    "address": "4840 Sawmill Rd, Columbus, OH"
+  },
+  {
+    "lat": "39.5648449",
+    "lng": "-104.9566365",
+    "name": "BikeSource",
+    "phone": "",
+    "address": "2690 E County Line Rd, Highlands Ranch, CO"
+  },
+  {
+    "lat": "39.6696322",
+    "lng": "-104.9330448",
+    "name": "BikeSource",
+    "phone": "",
+    "address": "2540 S Colorado Blvd, Denver, CO"
+  },
+  {
+    "lat": "40.4795904",
+    "lng": "-88.9812618",
+    "name": "Bloomington Cycle & Fitness",
+    "phone": "",
+    "address": "915 E Washington St<br>\nSuite 1, Bloomington, IL"
+  },
+  {
+    "lat": "32.7923783",
+    "lng": "-79.8682948",
+    "name": "Blue Sky Endurance",
+    "phone": "",
+    "address": "725 Coleman Blvd.<br>\nSuite 116, Mount Pleasant, SC"
+  },
+  {
+    "lat": "32.8832363",
+    "lng": "-79.7700931",
+    "name": "Blue Sky Endurance",
+    "phone": "",
+    "address": "3510 Park Avenue Blvd.<br>\nSuite 102, Mount Pleasant, SC"
+  },
+  {
+    "lat": "39.7550345",
+    "lng": "-105.1113072",
+    "name": "BPRUNCO",
+    "phone": "",
+    "address": "10105 West 26th Avenue, Wheat Ridge, CO"
+  },
+  {
+    "lat": "40.6721625",
+    "lng": "-73.510567",
+    "name": "Brands Cycle and Fitness",
+    "phone": "",
+    "address": "1966 Wantagh Ave, Wantagh, NY"
+  },
+  {
+    "lat": "30.6242204",
+    "lng": "-96.3396756",
+    "name": "Brazos Running Company",
+    "phone": "",
+    "address": "1037 University Dr #103, College Station, TX"
+  },
+  {
+    "lat": "35.1366136",
+    "lng": "-89.9912701",
+    "name": "Breakaway Running",
+    "phone": "",
+    "address": "2109 Madsion Avenue Memphis, TN 38104, Memphis"
+  },
+  {
+    "lat": "35.1158615",
+    "lng": "-89.8021121",
+    "name": "Breakaway Running",
+    "phone": "",
+    "address": "1223 S. Germantown Road, Germantown"
+  },
+  {
+    "lat": "25.7623791",
+    "lng": "-80.1943996",
+    "name": "Brickell Bikes",
+    "phone": "",
+    "address": "70 SW 12th St, Miami, FL"
+  },
+  {
+    "lat": "39.2812852",
+    "lng": "-80.2570645",
+    "name": "Bridgeport Running",
+    "phone": "",
+    "address": "317 S. Virginia Ave., Bridgeport, WV"
+  },
+  {
+    "lat": "40.713615",
+    "lng": "-73.959733",
+    "name": "Brooklyn Running Company",
+    "phone": "",
+    "address": "(Williamsburg) 222 Grand St, Brooklyn, NY"
+  },
+  {
+    "lat": "40.6806662",
+    "lng": "-73.9754684",
+    "name": "Brooklyn Running Company",
+    "phone": "",
+    "address": "(Park Slope) 480 Bergen Street, Brooklyn, NY"
+  },
+  {
+    "lat": "40.0217243",
+    "lng": "-75.3190986",
+    "name": "Bryn Mawr Running Co.",
+    "phone": "",
+    "address": "828 W Lancaster Ave, Bryn Mawr, PA"
+  },
+  {
+    "lat": "39.9190676",
+    "lng": "-75.389354",
+    "name": "Bryn Mawr Running Co.",
+    "phone": "",
+    "address": "1 W Front St, Media, PA"
+  },
+  {
+    "lat": "40.5352476",
+    "lng": "-75.4904071",
+    "name": "Bryn Mawr Running Co.",
+    "phone": "",
+    "address": "(Emmaus Run Inn) - 322 Main St, Emmaus, PA"
+  },
+  {
+    "lat": "39.9591763",
+    "lng": "-75.6040086",
+    "name": "Bryn Mawr Running Co.",
+    "phone": "",
+    "address": "24 S High St, West Chester, PA"
+  },
+  {
+    "lat": "39.7809193",
+    "lng": "-75.5993257",
+    "name": "Bryn Mawr Running Co.",
+    "phone": "",
+    "address": "(Delaware Running Company) 4021-C Kennett Pike, Wilmington, DE"
+  },
+  {
+    "lat": "35.2125131",
+    "lng": "-97.4444526",
+    "name": "Buchanan Bicycles",
+    "phone": "",
+    "address": "561 Buchanan Ave, Norman"
+  },
+  {
+    "lat": "35.9129948",
+    "lng": "-78.9357027",
+    "name": "Bull City Running Co.",
+    "phone": "",
+    "address": "202 W NC Highway 54, Suite 109, Durham, NC"
+  },
+  {
+    "lat": "36.0028123",
+    "lng": "-78.9040978",
+    "name": "Bull City Running Co.",
+    "phone": "",
+    "address": "501 Washington Street, Suite D, Durham, NC"
+  },
+  {
+    "lat": "39.9500785",
+    "lng": "-75.1807308",
+    "name": "Cadence Cycling Centers",
+    "phone": "",
+    "address": "201 South 25th Street, Philadelphia, PA"
+  },
+  {
+    "lat": "40.0166922",
+    "lng": "-75.2121153",
+    "name": "Cadence Cycling Centers",
+    "phone": "",
+    "address": "3740 Main Street, Philadelphia, PA"
+  },
+  {
+    "lat": "33.293131",
+    "lng": "-111.7890269",
+    "name": "Cadence Running Company",
+    "phone": "",
+    "address": "3107 S. Gilbert Rd, Ste 103, Gilbert, AZ"
+  },
+  {
+    "lat": "35.7353882",
+    "lng": "-81.3258022",
+    "name": "Carolina Pedal Works",
+    "phone": "",
+    "address": "883 Highland Ave SE, Hickory, NC"
+  },
+  {
+    "lat": "37.6589413",
+    "lng": "-77.6362957",
+    "name": "Carytown Bicycle Co",
+    "phone": "",
+    "address": "301b Maltyby Blvd, Henrico, VA"
+  },
+  {
+    "lat": "37.5534537",
+    "lng": "-77.4804818",
+    "name": "Carytown Bicycle Co",
+    "phone": "",
+    "address": "3112 W Cary St, Richmond, VA"
+  },
+  {
+    "lat": "61.108311",
+    "lng": "-149.8591332",
+    "name": "Chain Reaction Cycles",
+    "phone": "",
+    "address": "1148 Huffman Road, Alaska 99515, Anchorage, AK"
+  },
+  {
+    "lat": "35.5856289",
+    "lng": "-80.8704252",
+    "name": "Charlotte Running Company",
+    "phone": "",
+    "address": "146 Mooresville Commons Way, Suite I, Mooresville, NC"
+  },
+  {
+    "lat": "35.0627686",
+    "lng": "-80.7738728",
+    "name": "Charlotte Running Company",
+    "phone": "",
+    "address": "5355 Ballantyne Commons Pkwy, Suite 200, Charlotte, NC"
+  },
+  {
+    "lat": "34.983348",
+    "lng": "-80.972497",
+    "name": "Charlotte Running Company",
+    "phone": "",
+    "address": "829 Terrace Park, #102, Rock Hill, SC"
+  },
+  {
+    "lat": "35.2001393",
+    "lng": "-80.8438435",
+    "name": "Charlotte Running Company",
+    "phone": "",
+    "address": "1412 East Blvd., Ste. G, Charlotte, NC"
+  },
+  {
+    "lat": "39.1760899",
+    "lng": "-76.8394368",
+    "name": "Charm City Run LLC",
+    "phone": "",
+    "address": "7090 Deepage Drive, Columbia, MD"
+  },
+  {
+    "lat": "25.9641676",
+    "lng": "-80.1438178",
+    "name": "City Bikes Miami",
+    "phone": "",
+    "address": "20335 Biscayne Blvd, Aventura, FL"
+  },
+  {
+    "lat": "26.0145084",
+    "lng": "-80.2796996",
+    "name": "City Bikes Miami",
+    "phone": "",
+    "address": "671 NW 100th Pl, Pembroke Pines, FL"
+  },
+  {
+    "lat": "25.8037644",
+    "lng": "-80.188945",
+    "name": "City Bikes Miami",
+    "phone": "",
+    "address": "2801 Biscayne Blvd, Miami, FL"
+  },
+  {
+    "lat": "34.0744667",
+    "lng": "-83.9866952",
+    "name": "Classic City Running",
+    "phone": "",
+    "address": "3480 Financial Center Way,  Suite M1060, Georgia"
+  },
+  {
+    "lat": "41.22082",
+    "lng": "-74.04718",
+    "name": "Clubhaus X The Cyclery",
+    "phone": "",
+    "address": "606 Willow Grove Road, Stony Point, NY"
+  },
+  {
+    "lat": "38.7797859",
+    "lng": "-76.0781238",
+    "name": "Coastal Run Easton",
+    "phone": "",
+    "address": "106 Marlboro Ave.<br>\nSTE 4, Easton, MD"
+  },
+  {
+    "lat": "38.7858926",
+    "lng": "-76.2240689",
+    "name": "Coastal Run St. Michaels",
+    "phone": "",
+    "address": "205 S. Talbot Street, St. Michaels, MD"
+  },
+  {
+    "lat": "38.9728179",
+    "lng": "-76.2693298",
+    "name": "Coastal Run Kent Island",
+    "phone": "(410) 690-8638",
+    "address": "110 S Piney Road #112, Chester"
+  },
+  {
+    "lat": "43.5891886",
+    "lng": "-70.3361451",
+    "name": "Coastal Run Maine",
+    "phone": "(207) 503-0325",
+    "address": "6 Westwood Ave.<br>\nSte 1, Scarborough"
+  },
+  {
+    "lat": "40.0169607",
+    "lng": "-105.2616583",
+    "name": "Colorado Multisport",
+    "phone": "",
+    "address": "Canyon Boulevard, Boulder, CO"
+  },
+  {
+    "lat": "38.906045",
+    "lng": "-104.8173757",
+    "name": "Colorado Running Company",
+    "phone": "",
+    "address": "5262 N Nevada Ave, Ste 140, Colorado Springs, CO"
+  },
+  {
+    "lat": "40.1272709",
+    "lng": "-82.9319255",
+    "name": "Columbus Running Company",
+    "phone": "",
+    "address": "50 N State Street, Westerville, OH"
+  },
+  {
+    "lat": "39.977978",
+    "lng": "-83.003896",
+    "name": "Columbus Running Company",
+    "phone": "",
+    "address": "765 N High Street Unit B, Columbus, OH"
+  },
+  {
+    "lat": "40.1045664",
+    "lng": "-83.1623461",
+    "name": "Columbus Running Company",
+    "phone": "",
+    "address": "6465 Perimeter Drive, Dublin, OH"
+  },
+  {
+    "lat": "39.9135178",
+    "lng": "-82.7786504",
+    "name": "Columbus Running Company",
+    "phone": "",
+    "address": "1250 Hill Road North, Pickerington, OH"
+  },
+  {
+    "lat": "40.157584",
+    "lng": "-83.0790446",
+    "name": "Columbus Running Company",
+    "phone": "",
+    "address": "141 Greenside Street, Unit A., Powell, OH"
+  },
+  {
+    "lat": "42.1198879",
+    "lng": "-75.9768166",
+    "name": "Confluence Running",
+    "phone": "",
+    "address": "130 Oakdale Road, Johnson City, NY"
+  },
+  {
+    "lat": "42.1434653",
+    "lng": "-77.0558842",
+    "name": "Confluence Running",
+    "phone": "",
+    "address": "32 W. Market Street, Corning, NY"
+  },
+  {
+    "lat": "41.4016403",
+    "lng": "-74.3251808",
+    "name": "Confluence Running",
+    "phone": "",
+    "address": "1 Railroad Ave., Goshen, NY"
+  },
+  {
+    "lat": "38.9185894",
+    "lng": "-104.8174639",
+    "name": "Criterium Bicycles",
+    "phone": "",
+    "address": "6150 Corporate Drive, Colorado Springs, CO"
+  },
+  {
+    "lat": "41.2822975",
+    "lng": "-73.4988192",
+    "name": "CT Run Co. - Ridgefield Running",
+    "phone": "",
+    "address": "423 Main St, Ridgefield, CT"
+  },
+  {
+    "lat": "41.0756757",
+    "lng": "-73.4724166",
+    "name": "CT Run Co. - Darien Running",
+    "phone": "(203) 202- 7492",
+    "address": "14 Brook Street, Darien"
+  },
+  {
+    "lat": "41.476767",
+    "lng": "-73.406869",
+    "name": "CT Run Co. - Brookfield Running",
+    "phone": "(203) 775-1065",
+    "address": "731 Federal Road, Brookfield"
+  },
+  {
+    "lat": "41.0529239",
+    "lng": "-73.515189",
+    "name": "CT Run Co. - Darien Running @ Chelsea Piers",
+    "phone": "",
+    "address": "1 Blanchley Road, Stamford"
+  },
+  {
+    "lat": "36.1448021",
+    "lng": "-86.812031",
+    "name": "Cumberland Transit",
+    "phone": "",
+    "address": "2807 West End Ave, Nashville, TN"
+  },
+  {
+    "lat": "41.1380881",
+    "lng": "-73.3102116",
+    "name": "Cycleology",
+    "phone": "",
+    "address": "1554 Post Rd E, Westport, CT"
+  },
+  {
+    "lat": "45.5400909",
+    "lng": "-122.6611349",
+    "name": "Cyclepath PDX",
+    "phone": "",
+    "address": "2436 NE MLK Blvd, Portland OR 97212, Portland"
+  },
+  {
+    "lat": "25.8252482",
+    "lng": "-80.3335933",
+    "name": "Cycles and Coffee House",
+    "phone": "",
+    "address": "5695 NW 84th Avenue, Doral, FL"
+  },
+  {
+    "lat": "26.2724651",
+    "lng": "-80.2269916",
+    "name": "Cycling Forza",
+    "phone": "",
+    "address": "7547 West Sample Road, Coral Springs, FL"
+  },
+  {
+    "lat": "32.8547007",
+    "lng": "-96.7316289",
+    "name": "Dallas Bike Works",
+    "phone": "",
+    "address": "4875 W. Lawther Dr., Dallas, TX"
+  },
+  {
+    "lat": "28.5550554",
+    "lng": "-81.7675829",
+    "name": "Dash Sports",
+    "phone": "",
+    "address": "741 W Montrose St, Clermont, FL"
+  },
+  {
+    "lat": "41.5379252",
+    "lng": "-83.6378072",
+    "name": "Dave's Running Shop",
+    "phone": "",
+    "address": "26567 N. Dixie Highway, Perrysburg, OH"
+  },
+  {
+    "lat": "41.052088",
+    "lng": "-83.6134117",
+    "name": "Dave's Running Shop",
+    "phone": "",
+    "address": "1817 Tiffin Avenue, Findlay, OH"
+  },
+  {
+    "lat": "41.5739977",
+    "lng": "-84.0081866",
+    "name": "Dave's Running Shop",
+    "phone": "",
+    "address": "203 Main Street, Delta, OH"
+  },
+  {
+    "lat": "41.711526",
+    "lng": "-83.6762087",
+    "name": "Dave's Running Shop",
+    "phone": "",
+    "address": "5700 Monroe Street, Sylvania, OH"
+  },
+  {
+    "lat": "41.9023857",
+    "lng": "-88.1431132",
+    "name": "Dick Pond Athletics",
+    "phone": "",
+    "address": "26W515 St Charles Rd, Carol Stream, IL"
+  },
+  {
+    "lat": "42.092683",
+    "lng": "-88.122506",
+    "name": "Dick Pond Athletics",
+    "phone": "",
+    "address": "1772 W Algonquin Rd, Hoffman Estates, IL"
+  },
+  {
+    "lat": "41.7790074",
+    "lng": "-88.1065408",
+    "name": "Dick Pond Athletics",
+    "phone": "",
+    "address": "2775 Maple Ave, Lisle, IL"
+  },
+  {
+    "lat": "42.0195382",
+    "lng": "-87.8472846",
+    "name": "Dick Pond Athletics",
+    "phone": "",
+    "address": "575 Busse Hwy, Park Ridge, IL"
+  },
+  {
+    "lat": "41.9156521",
+    "lng": "-88.3170216",
+    "name": "Dick Pond Athletics",
+    "phone": "",
+    "address": "303 N 2nd St, St. Charles, IL"
+  },
+  {
+    "lat": "46.7970871",
+    "lng": "-92.0845683",
+    "name": "Duluth Running Company",
+    "phone": "",
+    "address": "1026 East Superior Street, Duluth, MN"
+  },
+  {
+    "lat": "43.6793131",
+    "lng": "-114.3648762",
+    "name": "Durance",
+    "phone": "",
+    "address": "131 E. 2nd Street, Ketchum"
+  },
+  {
+    "lat": "26.0066548",
+    "lng": "-80.3462666",
+    "name": "Durango Bikes",
+    "phone": "",
+    "address": "14828 Pines Blvd, Pembroke Pines, FL"
+  },
+  {
+    "lat": "37.2692989",
+    "lng": "-107.8766448",
+    "name": "Durango Running Company",
+    "phone": "",
+    "address": "473 E College Dr, Durango"
+  },
+  {
+    "lat": "30.655821",
+    "lng": "-87.9051064",
+    "name": "Eastern Shore Cycles",
+    "phone": "",
+    "address": "6845 U.S. 90, Suite 102, Daphne, AL"
+  },
+  {
+    "lat": "39.4924211",
+    "lng": "-119.8073548",
+    "name": "Eclipse Running",
+    "phone": "",
+    "address": "3438 Lakeside Dr, Reno, NV"
+  },
+  {
+    "lat": "41.9141699",
+    "lng": "-87.6645021",
+    "name": "Edge Athlete Lounge",
+    "phone": "",
+    "address": "1747 N Elston Ave, Chicago, IL"
+  },
+  {
+    "lat": "47.6760056",
+    "lng": "-122.1277081",
+    "name": "Element Cycles",
+    "phone": "425 881 8442",
+    "address": "15932 Redmond Way Suite 103, Redmond"
+  },
+  {
+    "lat": "25.6480291",
+    "lng": "-80.3330824",
+    "name": "Elite Cycling and Fitness",
+    "phone": "(786) 242-3733",
+    "address": "13108 S. Dixie Hwy, Miami, FL"
+  },
+  {
+    "lat": "37.5954267",
+    "lng": "-77.5742378",
+    "name": "Endorphin Fitness",
+    "phone": "",
+    "address": "8910 Patterson Avenue, Richmond, VA"
+  },
+  {
+    "lat": "25.9277654",
+    "lng": "-80.1383407",
+    "name": "Endurance Culture",
+    "phone": "",
+    "address": "3169 NE 163rd Street, North Miami Beach, FL"
+  },
+  {
+    "lat": "26.4543755",
+    "lng": "-80.1891568",
+    "name": "Epic-Cycles",
+    "phone": "",
+    "address": "14851 Lyons Road, Delray Beach, FL"
+  },
+  {
+    "lat": "39.7989948",
+    "lng": "-104.8820117",
+    "name": "Epic-Cycles",
+    "phone": "",
+    "address": "5665 N Beeler St, Denver, CO"
+  },
+  {
+    "lat": "27.4043002",
+    "lng": "-82.5055157",
+    "name": "Espresso Bicycle Repairs",
+    "phone": "",
+    "address": "7632 Lockwood Ridge Road, Sarasota, FL"
+  },
+  {
+    "lat": "28.3318466",
+    "lng": "-81.5259867",
+    "name": "Evolve Bicycles",
+    "phone": "",
+    "address": "13 Blake Blvd., Celebration, FL"
+  },
+  {
+    "lat": "48.7204831",
+    "lng": "-122.5030938",
+    "name": "Fairhaven Runners",
+    "phone": "",
+    "address": "1209 11th Street, Bellingham, WA"
+  },
+  {
+    "lat": "39.3849037",
+    "lng": "-76.6568116",
+    "name": "Falls Road Running Store",
+    "phone": "(410) 296-5050",
+    "address": "6247 Falls Rd, Baltimore, MD"
+  },
+  {
+    "lat": "37.6844342",
+    "lng": "-97.3455371",
+    "name": "Fartleks Running Shop",
+    "phone": "",
+    "address": "535 W Douglas Ave #130<br>\nSuite 110, Wichita, KS"
+  },
+  {
+    "lat": "35.0723372",
+    "lng": "-85.3076617",
+    "name": "Fast Break Athletics",
+    "phone": "",
+    "address": "802 Hamilton Avenue, Chattanooga, TN"
+  },
+  {
+    "lat": "30.219512",
+    "lng": "-85.87075",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "204 Bluefish Drive <br>\nSuite 105, Panama City"
+  },
+  {
+    "lat": "29.625028",
+    "lng": "-82.395335",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "4871 Celebration Pointe Ave. <br>\nSuite 40, Gainesville"
+  },
+  {
+    "lat": "30.1850156",
+    "lng": "-81.735113",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "1910 Wells Road <br>\nSpace E09, Orange Park"
+  },
+  {
+    "lat": "30.1845565",
+    "lng": "-81.5539865",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "10300 Southside Boulevard <br>\nSpace 2185, Jacksonville"
+  },
+  {
+    "lat": "29.1590819",
+    "lng": "-82.1730628",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "3100 SW College Road <br>\nSuite 390A, Ocala"
+  },
+  {
+    "lat": "28.0170595",
+    "lng": "-82.7355688",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "27001 US Hwy 19 N <br>\nSpace # 1062, Clearwater"
+  },
+  {
+    "lat": "28.1874326",
+    "lng": "-82.3511227",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "28139 Paseo Drive <br>\nSuite #125, Wesley Chapel"
+  },
+  {
+    "lat": "27.9656353",
+    "lng": "-82.521205",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "2223 N Westshore Blvd <br>\nSpace B230, Tampa"
+  },
+  {
+    "lat": "27.7746819",
+    "lng": "-82.6358807",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "256 2nd St N, St. Petersburg"
+  },
+  {
+    "lat": "27.9306687",
+    "lng": "-82.3253918",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "459 Brandon Town Center Mall<br>\nSpace 628, Brandon"
+  },
+  {
+    "lat": "27.462028",
+    "lng": "-82.6107339",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "4951 Cortez Road West, Bradenton"
+  },
+  {
+    "lat": "27.5335083",
+    "lng": "-82.5071001",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "5545 Factory Shops Blvd, Ellenton"
+  },
+  {
+    "lat": "28.6666123",
+    "lng": "-81.3774043",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "451 E Altamonte Dr<br>\nSte. 2321, Altamonte Springs"
+  },
+  {
+    "lat": "28.3800011",
+    "lng": "-81.6183214",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "102 Ruby Red<br>\nPlace #B, Winter Garden"
+  },
+  {
+    "lat": "28.4855369",
+    "lng": "-81.4315048",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "4200 Conroy Rd<br>\nSpace #H204, Orlando"
+  },
+  {
+    "lat": "27.3362523",
+    "lng": "-82.5421542",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "1400 Main St, Sarasota"
+  },
+  {
+    "lat": "28.3696911",
+    "lng": "-81.5178963",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "1520 East Buena Vista Drive<br>\nSpace 107, Lake Buena Vista"
+  },
+  {
+    "lat": "27.3845581",
+    "lng": "-82.4531037",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "140 University Town Center Dr <br>\nSpace 110, Sarasota"
+  },
+  {
+    "lat": "28.557035",
+    "lng": "-81.2059366",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "789 N Alafaya Trail, Orlando"
+  },
+  {
+    "lat": "28.091738",
+    "lng": "-80.622236",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "1700 W. New Haven Ave. <br>\nUnit 540B, Melbourne"
+  },
+  {
+    "lat": "26.4004342",
+    "lng": "-81.8077522",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "23190 Fashion Dr <br>\nSuite 109, Estero"
+  },
+  {
+    "lat": "26.1696147",
+    "lng": "-81.7954044",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "1810 Tamiami Trail N, Naples"
+  },
+  {
+    "lat": "26.8451303",
+    "lng": "-80.0840991",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "3101 PGA Blvd <br>\nSuite N221, Palm Beach Gardens"
+  },
+  {
+    "lat": "26.646149",
+    "lng": "-80.2081005",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "10300 W Forest Hill Blvd <br>\nSuite 287, Wellington"
+  },
+  {
+    "lat": "26.2844845",
+    "lng": "-80.1870488",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "4449 Lyons Road <br>\nSuite 102, Coconut Creek"
+  },
+  {
+    "lat": "26.0534916",
+    "lng": "-80.1607843",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "1811 Pointe Blvd, Dania Beach"
+  },
+  {
+    "lat": "24.5587696",
+    "lng": "-81.8048554",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "211 Duval Street <br>\nUnit B, Key West"
+  },
+  {
+    "lat": "25.955848",
+    "lng": "-80.1436708",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "19505 Biscayne Blvd. <br>\nSuite 3260, Miami"
+  },
+  {
+    "lat": "18.1555043",
+    "lng": "-67.1435972",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "975 Av. Eugenio Maria de Hostos <br>\nSpace 118, Mayaguez"
+  },
+  {
+    "lat": "18.4399841",
+    "lng": "-66.5409597",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "1 Premium Outlets Blvd <br>\nSuite 345, Barceloneta"
+  },
+  {
+    "lat": "17.9932934",
+    "lng": "-66.6126488",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "2050 Ponce Bypass <br>\nSpace 284, Ponce"
+  },
+  {
+    "lat": "18.4074023",
+    "lng": "-66.1625569",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "725 W Main Ave, Bayamon"
+  },
+  {
+    "lat": "18.4122549",
+    "lng": "-66.0259518",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "1000 The Mall of San Juan Blvd <br>\nSpace 250, San Juan"
+  },
+  {
+    "lat": "18.3430313",
+    "lng": "-65.674245",
+    "name": "Fit2Run",
+    "phone": "",
+    "address": "150 Carr 940 <br>\nUnit E113, Fajardo"
+  },
+  {
+    "lat": "42.5635864",
+    "lng": "-72.0097551",
+    "name": "Fitness Concepts Health Club",
+    "phone": "",
+    "address": "696 West Broadway, Gardner, MA"
+  },
+  {
+    "lat": "39.7171652",
+    "lng": "-104.9580593",
+    "name": "Fleet Feet - Boulder Running Company",
+    "phone": "",
+    "address": "2500 East 1st Avenue, Denver, CO"
+  },
+  {
+    "lat": "39.6091325",
+    "lng": "-105.0887138",
+    "name": "Fleet Feet - Boulder Running Company",
+    "phone": "",
+    "address": "8116 West Bowles Avenue, Littleton, CO"
+  },
+  {
+    "lat": "39.5951937",
+    "lng": "-104.8904999",
+    "name": "Fleet Feet - Boulder Running Company",
+    "phone": "",
+    "address": "8545 E Arapahoe Road, Greenwood Village, CO"
+  },
+  {
+    "lat": "40.0225241",
+    "lng": "-105.2591116",
+    "name": "Fleet Feet - Boulder Running Company",
+    "phone": "",
+    "address": "2775 Pearl Street, Boulder, CO"
+  },
+  {
+    "lat": "34.145855",
+    "lng": "-118.7788813",
+    "name": "Fleet Feet Agoura Hills",
+    "phone": "",
+    "address": "30125 Agoura Road, Agoura Hills, CA"
+  },
+  {
+    "lat": "42.720827",
+    "lng": "-73.8020942",
+    "name": "Fleet Feet Albany",
+    "phone": "518-459-3338",
+    "address": "155 Wolf Road, Albany, NY"
+  },
+  {
+    "lat": "42.9743822",
+    "lng": "-73.7947514",
+    "name": "Fleet Feet Malta",
+    "phone": "518-459-3338",
+    "address": "37 Kendall Way, Ballston Spa, NY"
+  },
+  {
+    "lat": "35.1474707",
+    "lng": "-106.5554779",
+    "name": "Fleet Feet Albuquerque",
+    "phone": "",
+    "address": "5901 Wyoming Blvd NE, Albuquerque, NM"
+  },
+  {
+    "lat": "42.2796908",
+    "lng": "-83.7475035",
+    "name": "Fleet Feet Ann Arbor",
+    "phone": "",
+    "address": "123 East Liberty Street, Ann Arbor, MI"
+  },
+  {
+    "lat": "42.2895536",
+    "lng": "-83.8423717",
+    "name": "Fleet Feet Ann Arbor",
+    "phone": "",
+    "address": "5700 Jackson Road, Ann Arbor, MI"
+  },
+  {
+    "lat": "36.9763303",
+    "lng": "-121.9058473",
+    "name": "Fleet Feet Aptos",
+    "phone": "",
+    "address": "7960 Soquel Drive, Suite I, Aptos, CA"
+  },
+  {
+    "lat": "35.4853592",
+    "lng": "-82.5557003",
+    "name": "Fleet Feet Asheville",
+    "phone": "",
+    "address": "8 Town Square Blvd #165, Asheville, NC"
+  },
+  {
+    "lat": "33.937577",
+    "lng": "-83.3877236",
+    "name": "Fleet Feet Athens",
+    "phone": "",
+    "address": "1694 S Lumpkin St, Athens, GA"
+  },
+  {
+    "lat": "33.5177232",
+    "lng": "-82.0593986",
+    "name": "Fleet Feet Augusta",
+    "phone": "",
+    "address": "229 Furys Ferry Road, Suite 107, Augusta, GA"
+  },
+  {
+    "lat": "30.2674966",
+    "lng": "-97.7527899",
+    "name": "Fleet Feet Austin",
+    "phone": "",
+    "address": "211 Walter Seaholm Dr. LR110, Austin, TX"
+  },
+  {
+    "lat": "30.2018652",
+    "lng": "-97.8804512",
+    "name": "Fleet Feet Austin",
+    "phone": "",
+    "address": "5900 West Slaughter Lane, Suite 430, Austin, TX"
+  },
+  {
+    "lat": "30.3905724",
+    "lng": "-97.7401781",
+    "name": "Fleet Feet Austin",
+    "phone": "",
+    "address": "9901 N Capital of Texas Hwy, Austin, TX"
+  },
+  {
+    "lat": "30.2723997",
+    "lng": "-97.7614916",
+    "name": "Fleet Feet Austin",
+    "phone": "",
+    "address": "410 Pressler Street, Austin, TX"
+  },
+  {
+    "lat": "33.429771453798",
+    "lng": "-86.736186146736",
+    "name": "Fleet Feet Birmingham",
+    "phone": "",
+    "address": "3060 Healthy Way Suite 100, Birmingham, AL"
+  },
+  {
+    "lat": "40.480994",
+    "lng": "-88.950932",
+    "name": "Fleet Feet Bloomington",
+    "phone": "",
+    "address": "105 Krispy Kreme Drive #5, Bloomington, IL"
+  },
+  {
+    "lat": "47.1688279",
+    "lng": "-122.1675276",
+    "name": "Fleet Feet Bonney Lake",
+    "phone": "",
+    "address": "19685 WA-410, Bonney Lake"
+  },
+  {
+    "lat": "42.9460875",
+    "lng": "-78.8689615",
+    "name": "Fleet Feet Buffalo",
+    "phone": "",
+    "address": "2290 Delaware Ave., Buffalo, NY"
+  },
+  {
+    "lat": "34.1749762",
+    "lng": "-118.3252467",
+    "name": "Fleet Feet Burbank",
+    "phone": "",
+    "address": "1516 West Magnolia Blvd, Burbank, CA"
+  },
+  {
+    "lat": "34.1749158",
+    "lng": "-118.3251723",
+    "name": "Fleet Feet Burbank",
+    "phone": "",
+    "address": "1516 West Magnolia Blvd, Burbank, CA"
+  },
+  {
+    "lat": "44.494236",
+    "lng": "-73.119585",
+    "name": "Fleet Feet Burlington",
+    "phone": "",
+    "address": "77 Pearl St, Essex Junction, VT"
+  },
+  {
+    "lat": "40.0004729",
+    "lng": "-86.1193304",
+    "name": "Fleet Feet Carmel",
+    "phone": "",
+    "address": "2452 East 146th Street, Carmel, IN"
+  },
+  {
+    "lat": "35.9102611",
+    "lng": "-79.069228",
+    "name": "Fleet Feet Carrboro",
+    "phone": "",
+    "address": "310 E. Main Street, Carrboro, NC"
+  },
+  {
+    "lat": "35.0485555",
+    "lng": "-80.7664083",
+    "name": "Fleet Feet Charlotte",
+    "phone": "",
+    "address": "7711 Waverly Walk Ave, B2, Charlotte, NC"
+  },
+  {
+    "lat": "35.0625816",
+    "lng": "-85.3139085",
+    "name": "Fleet Feet Chattanooga",
+    "phone": "",
+    "address": "307 Manufacturer's Road<br>\nSuite 105, Chattanooga, TN"
+  },
+  {
+    "lat": "41.913183",
+    "lng": "-87.634966",
+    "name": "Fleet Feet Chicago",
+    "phone": "",
+    "address": "(Old Town) 1706 N Wells St, Chicago, IL"
+  },
+  {
+    "lat": "41.9681363",
+    "lng": "-87.688524",
+    "name": "Fleet Feet Chicago",
+    "phone": "",
+    "address": "(Lincoln Square) 4762 North Lincoln Avenue, Chicago, IL"
+  },
+  {
+    "lat": "41.8683735",
+    "lng": "-87.6322614",
+    "name": "Fleet Feet Chicago",
+    "phone": "",
+    "address": "(South Loop) 150 West Roosevelt Road, Chicago, IL"
+  },
+  {
+    "lat": "41.9433064",
+    "lng": "-87.6636023",
+    "name": "Fleet Feet Chicago",
+    "phone": "",
+    "address": "(Lakeview) 3359 North Southport Avenue, Chicago, IL"
+  },
+  {
+    "lat": "41.9008601",
+    "lng": "-87.9387143",
+    "name": "Fleet Feet Chicago",
+    "phone": "",
+    "address": "(Elmhurst) 124 East Schiller Street, Elmhurst, IL"
+  },
+  {
+    "lat": "41.8875633",
+    "lng": "-87.8021913",
+    "name": "Fleet Feet Chicago",
+    "phone": "",
+    "address": "(Oak Park) 102 North Marion Street, Oak Park, IL"
+  },
+  {
+    "lat": "42.1674854",
+    "lng": "-87.8461296",
+    "name": "Fleet Feet Chicago",
+    "phone": "",
+    "address": "(Deerfield) 800 Waukegan Road, Deerfield, IL"
+  },
+  {
+    "lat": "42.286577",
+    "lng": "-89.0270512",
+    "name": "Fleet Feet Chicago",
+    "phone": "",
+    "address": "(Rockford) 1653 N Alpine Road, Rockford, IL"
+  },
+  {
+    "lat": "39.7300147",
+    "lng": "-121.8394769",
+    "name": "Fleet Feet Chcio",
+    "phone": "(530) 345-1000",
+    "address": "241 Main St, Chico"
+  },
+  {
+    "lat": "39.1547151",
+    "lng": "-84.4267235",
+    "name": "Fleet Feet Cincinnati",
+    "phone": "",
+    "address": "3235 Madison Rd, Cincinnati, OH"
+  },
+  {
+    "lat": "39.230524",
+    "lng": "-84.378152",
+    "name": "Fleet Feet Cincinnati",
+    "phone": "",
+    "address": "9525 Kenwood Road, Suite 42, Cincinnati, OH"
+  },
+  {
+    "lat": "39.3553619",
+    "lng": "-84.3629774",
+    "name": "Fleet Feet Cincinnati",
+    "phone": "",
+    "address": "7661 Voice of America Centre Dr, West Chester, OH"
+  },
+  {
+    "lat": "39.1384458",
+    "lng": "-84.3532",
+    "name": "Fleet Feet Cincinnati",
+    "phone": "",
+    "address": "7667 Wooster Pike, Cincinnati, OH"
+  },
+  {
+    "lat": "39.1317015",
+    "lng": "-84.4631859",
+    "name": "Fleet Feet Cincinnati",
+    "phone": "",
+    "address": "1993 Madison Rd, Cincinnati, OH"
+  },
+  {
+    "lat": "39.2719528",
+    "lng": "-84.4591092",
+    "name": "Fleet Feet Cincinnati",
+    "phone": "",
+    "address": "267 E. Sharon Rd, Glendale, OH"
+  },
+  {
+    "lat": "39.2674759",
+    "lng": "-84.2583229",
+    "name": "Fleet Feet Cincinnati",
+    "phone": "",
+    "address": "127 W. Loveland Avenue, Loveland, OH"
+  },
+  {
+    "lat": "39.0937645",
+    "lng": "-84.4952404",
+    "name": "Fleet Feet Cincinnati",
+    "phone": "",
+    "address": "317 Monmouth Street, Newport, KY"
+  },
+  {
+    "lat": "36.5637485",
+    "lng": "-87.3105616",
+    "name": "Fleet Feet Clarksville",
+    "phone": "",
+    "address": "2141 Wilma Rudolph Blvd<br>\nSuite I, 37040"
+  },
+  {
+    "lat": "36.5637485",
+    "lng": "-87.3105616",
+    "name": "Fleet Feet Clarksville",
+    "phone": "",
+    "address": "2141 Wilma Rudolph Blvd Suite, Clarksville, TN"
+  },
+  {
+    "lat": "41.3138237",
+    "lng": "-81.5347285",
+    "name": "Fleet Feet Cleveland",
+    "phone": "",
+    "address": "114 East Aurora Road, Northfield, OH"
+  },
+  {
+    "lat": "41.4681902",
+    "lng": "-81.9094679",
+    "name": "Fleet Feet Cleveland",
+    "phone": "",
+    "address": "26149 Detroit Road, Westlake, OH"
+  },
+  {
+    "lat": "41.462931",
+    "lng": "-81.461819",
+    "name": "Fleet Feet Cleveland",
+    "phone": "",
+    "address": "30679 Pinetree Road, Pepper Pike, OH"
+  },
+  {
+    "lat": "41.3159618",
+    "lng": "-81.8358322",
+    "name": "Fleet Feet Cleveland",
+    "phone": "",
+    "address": "13500 Pearl Road, Strongsville, OH"
+  },
+  {
+    "lat": "38.8902292",
+    "lng": "-104.7592332",
+    "name": "Fleet Feet Colorado Springs",
+    "phone": "",
+    "address": "3659 Austin Bluffs Parkway, Colorado Springs, CO"
+  },
+  {
+    "lat": "34.0896399",
+    "lng": "-81.1727804",
+    "name": "Fleet Feet Columbia",
+    "phone": "(803) 407-1223",
+    "address": "945 Lake Murray Blvd., Irmo, SC"
+  },
+  {
+    "lat": "34.0207027",
+    "lng": "-80.971954",
+    "name": "Fleet Feet Columbia",
+    "phone": "(803) 708-0o26",
+    "address": "4525 Forest Drive, Columbia, SC"
+  },
+  {
+    "lat": "33.9947084",
+    "lng": "-81.2263365",
+    "name": "Fleet Feet Columbia",
+    "phone": "(804) 490-0601",
+    "address": "5594 Sunset Blvd, Lexington, SC"
+  },
+  {
+    "lat": "38.9076546",
+    "lng": "-92.339498",
+    "name": "Fleet Feet Columbia",
+    "phone": "",
+    "address": "10 W Nifong Blvd Ste 113, Columbia, MO"
+  },
+  {
+    "lat": "40.1561038",
+    "lng": "-83.0009034",
+    "name": "Fleet Feet Columbus",
+    "phone": "",
+    "address": "1270 East Powell Road, Lewis Center, OH"
+  },
+  {
+    "lat": "40.0752477",
+    "lng": "-82.8563795",
+    "name": "Fleet Feet Columbus",
+    "phone": "",
+    "address": "5792 N Hamilton Road, Columbus, OH"
+  },
+  {
+    "lat": "40.0072413",
+    "lng": "-83.0464999",
+    "name": "Fleet Feet Columbus",
+    "phone": "",
+    "address": "1344 West Lane Ave, Columbus, OH"
+  },
+  {
+    "lat": "33.103505",
+    "lng": "-96.8121038",
+    "name": "Fleet Feet Dallas",
+    "phone": "",
+    "address": "8300 Gaylord Parkway, Frisco, TX"
+  },
+  {
+    "lat": "32.8358672",
+    "lng": "-96.7750402",
+    "name": "Fleet Feet Dallas",
+    "phone": "",
+    "address": "5400 East Mockingbird Lane, Dallas, TX"
+  },
+  {
+    "lat": "33.1743325",
+    "lng": "-96.6860755",
+    "name": "Fleet Feet Dallas",
+    "phone": "",
+    "address": "5180 West Eldorado Parkway, McKinney, TX"
+  },
+  {
+    "lat": "32.9851515",
+    "lng": "-96.9927083",
+    "name": "Fleet Feet Dallas",
+    "phone": "",
+    "address": "680 North Denton Tap Road, Coppell, TX"
+  },
+  {
+    "lat": "32.9781809",
+    "lng": "-96.7673516",
+    "name": "Fleet Feet Dallas",
+    "phone": "",
+    "address": "1465 West Campbell Road, Richardson, TX"
+  },
+  {
+    "lat": "32.9104725",
+    "lng": "-96.8044124",
+    "name": "Fleet Feet Dallas",
+    "phone": "",
+    "address": "11811 Preston Road, Dallas, TX"
+  },
+  {
+    "lat": "41.5640649",
+    "lng": "-90.5249595",
+    "name": "Fleet Feet Davenport",
+    "phone": "",
+    "address": "4257 Elmore Ave, Davenport, IA"
+  },
+  {
+    "lat": "38.5434827",
+    "lng": "-121.7404859",
+    "name": "Fleet Feet Davis",
+    "phone": "",
+    "address": "615 2nd Street, Davis, CA"
+  },
+  {
+    "lat": "33.7759486",
+    "lng": "-84.3036655",
+    "name": "Fleet Feet Decatur",
+    "phone": "",
+    "address": "431 W Ponce de Leon Ave #1, Decatur, GA"
+  },
+  {
+    "lat": "26.4411031",
+    "lng": "-80.0693622",
+    "name": "Fleet Feet Delray Beach",
+    "phone": "",
+    "address": "1705 S Federal Hwy #5,, Delray Beach, FL"
+  },
+  {
+    "lat": "41.5896918",
+    "lng": "-93.609948",
+    "name": "Fleet Feet Des Moines",
+    "phone": "",
+    "address": "521 E. Locust Street, #100, Des Moines, IA"
+  },
+  {
+    "lat": "35.9047657",
+    "lng": "-78.9354537",
+    "name": "Fleet Feet Durham",
+    "phone": "",
+    "address": "6807 Fayetteville Road #105, Durham, NC"
+  },
+  {
+    "lat": "38.4218035",
+    "lng": "-121.4015411",
+    "name": "Fleet Feet Elk Grove",
+    "phone": "",
+    "address": "8238 Laguna Blvd, Suite 200, Elk Grove, CA"
+  },
+  {
+    "lat": "34.1581437",
+    "lng": "-118.4932278",
+    "name": "Fleet Feet Encino",
+    "phone": "",
+    "address": "16545 Ventura Blvd<br>\nSuite 17, Encino, CA"
+  },
+  {
+    "lat": "35.0565863",
+    "lng": "-78.8998976",
+    "name": "Fleet Feet Fayetteville",
+    "phone": "",
+    "address": "1221 Hay Street, Fayetteville, NC"
+  },
+  {
+    "lat": "39.9558676",
+    "lng": "-86.010883",
+    "name": "Fleet Feet Fishers",
+    "phone": "",
+    "address": "8965 E. 116th Street, Fishers, IN"
+  },
+  {
+    "lat": "38.7439861",
+    "lng": "-121.2568861",
+    "name": "Fleet Feet Folsom",
+    "phone": "",
+    "address": "1850 Douglas Boulevard, Roseville, CA"
+  },
+  {
+    "lat": "38.6866568",
+    "lng": "-121.1792261",
+    "name": "Fleet Feet Folsom",
+    "phone": "",
+    "address": "6610 Folsom-Auburn Road, Folsom, CA"
+  },
+  {
+    "lat": "35.0353706",
+    "lng": "-80.9706308",
+    "name": "Fleet Feet Fort Mill",
+    "phone": "",
+    "address": "1750 W Highway 160, Suite 117, Fort Mill, SC"
+  },
+  {
+    "lat": "26.5498259",
+    "lng": "-81.8693207",
+    "name": "Fleet Feet Fort Myers",
+    "phone": "",
+    "address": "13499 South Cleveland Ave, unit 209, Fort Myers, FL"
+  },
+  {
+    "lat": "41.0347612",
+    "lng": "-85.2581068",
+    "name": "Fleet Feet Fort Wayne",
+    "phone": "260-705-5591",
+    "address": "5661 Coventry Lane, Fort Wayne, IN"
+  },
+  {
+    "lat": "32.7521225",
+    "lng": "-97.3528039",
+    "name": "Fleet Feet Fort Worth",
+    "phone": "",
+    "address": "2600 W 7th Street, Fort Worth, TX"
+  },
+  {
+    "lat": "44.2635965",
+    "lng": "-88.4574265",
+    "name": "Fleet Feet Fox Valley",
+    "phone": "",
+    "address": "3404 West College Avenue, Appleton, WI"
+  },
+  {
+    "lat": "36.8743762",
+    "lng": "-119.7780709",
+    "name": "Fleet Feet Fresno",
+    "phone": "",
+    "address": "9447 N Fort Washington Rd #106, Fresno, CA"
+  },
+  {
+    "lat": "39.121856",
+    "lng": "-77.235648",
+    "name": "Fleet Feet Gaithersburg",
+    "phone": "",
+    "address": "201 Market Street West, Gaithersburg, MD"
+  },
+  {
+    "lat": "38.905234",
+    "lng": "-77.0679815",
+    "name": "Fleet Feet Georgetown",
+    "phone": "",
+    "address": "3401 M Street NW, Washington, DC"
+  },
+  {
+    "lat": "42.541477",
+    "lng": "-83.359155",
+    "name": "Fleet Feet Greater Detroit",
+    "phone": "",
+    "address": "6623 Orchard Lake Road, West Bloomfield, MI"
+  },
+  {
+    "lat": "42.4135911",
+    "lng": "-83.4335864",
+    "name": "Fleet Feet Greater Detroit",
+    "phone": "",
+    "address": "17783 Haggerty Road, Ste C, Northville, MI"
+  },
+  {
+    "lat": "36.119284",
+    "lng": "-79.830373",
+    "name": "Fleet Feet Greensboro",
+    "phone": "(336) 288-7071",
+    "address": "3731 Lawndale Drive, Greensboro, NC"
+  },
+  {
+    "lat": "36.040649636717",
+    "lng": "-79.962068796158",
+    "name": "Fleet Feet High Point",
+    "phone": "(336) 858-5580",
+    "address": "2762 Highway 68 North Unit 111, High Point, NC"
+  },
+  {
+    "lat": "35.589102",
+    "lng": "-77.3743871",
+    "name": "Fleet Feet Greenville",
+    "phone": "",
+    "address": "207 East Arlington Blvd., Greenville, NC"
+  },
+  {
+    "lat": "34.8369154",
+    "lng": "-82.4057492",
+    "name": "Fleet Feet Greenville, SC",
+    "phone": "",
+    "address": "635 Augusta Street, Greenville, SC"
+  },
+  {
+    "lat": "39.6336205",
+    "lng": "-86.1216003",
+    "name": "Fleet Feet Greenwood",
+    "phone": "",
+    "address": "1251 US 31 South, Greenwood, IN"
+  },
+  {
+    "lat": "40.246623",
+    "lng": "-76.8046509",
+    "name": "Fleet Feet Harrisburg",
+    "phone": "",
+    "address": "4640 High Pointe Blvd #A6, Harrisburg, PA"
+  },
+  {
+    "lat": "41.7603388",
+    "lng": "-72.7462786",
+    "name": "Fleet Feet Hartford",
+    "phone": "",
+    "address": "1003 Farmington Ave., West Hartford, CT"
+  },
+  {
+    "lat": "35.7728231",
+    "lng": "-81.3273025",
+    "name": "Fleet Feet Hickory",
+    "phone": "",
+    "address": "3022 B North Center St, Hickory, NC"
+  },
+  {
+    "lat": "40.7437316",
+    "lng": "-74.0292434",
+    "name": "Fleet Feet Hoboken",
+    "phone": "",
+    "address": "604 Washington Street, Hoboken, NJ"
+  },
+  {
+    "lat": "30.1694154",
+    "lng": "-95.4704087",
+    "name": "Fleet Feet Houston",
+    "phone": "",
+    "address": "1925 Hughes Landing Blvd, Suite 900, The Woodlands, TX"
+  },
+  {
+    "lat": "29.7431777",
+    "lng": "-95.7758254",
+    "name": "Fleet Feet Houston",
+    "phone": "",
+    "address": "23501 Cinco Ranch Blvd, Katy, TX"
+  },
+  {
+    "lat": "29.9950302",
+    "lng": "-95.5713392",
+    "name": "Fleet Feet Houston",
+    "phone": "",
+    "address": "122 Vintage Park Blvd. Ste. B, Houston, TX"
+  },
+  {
+    "lat": "29.7252693",
+    "lng": "-95.4129977",
+    "name": "Fleet Feet Houston",
+    "phone": "",
+    "address": "4502 Greenbriar Drive, Houston, TX"
+  },
+  {
+    "lat": "29.7548826",
+    "lng": "-95.5006786",
+    "name": "Fleet Feet Houston",
+    "phone": "",
+    "address": "6590 Woodway Drive, Houston, TX"
+  },
+  {
+    "lat": "35.4448811",
+    "lng": "-80.876996",
+    "name": "Fleet Feet Huntersville",
+    "phone": "704-896-2202",
+    "address": "16620 Cranlyn Road #100, Huntersville, NC"
+  },
+  {
+    "lat": "34.6760259",
+    "lng": "-86.5480727",
+    "name": "Fleet Feet Huntsville",
+    "phone": "",
+    "address": "2722 Carl T. Jones Drive Suite 2B, Huntsville, AL"
+  },
+  {
+    "lat": "34.7025917",
+    "lng": "-86.7412775",
+    "name": "Fleet Feet Huntsville",
+    "phone": "",
+    "address": "181 Hughes Road, Madison, AL"
+  },
+  {
+    "lat": "39.8689852",
+    "lng": "-86.1398016",
+    "name": "Fleet Feet Indianapolis",
+    "phone": "",
+    "address": "1079 Broad Ripple Avenue, Indianapolis, IN"
+  },
+  {
+    "lat": "30.2742189",
+    "lng": "-85.9998262",
+    "name": "Fleet Feet Inlet Beach",
+    "phone": "",
+    "address": "11299 US-98, C-104, Inlet Beach, FL"
+  },
+  {
+    "lat": "38.9133301",
+    "lng": "-94.7245454",
+    "name": "Fleet Feet Kansas City",
+    "phone": "",
+    "address": "11908 W 119th Street, Overland Park, KS"
+  },
+  {
+    "lat": "38.9679304",
+    "lng": "-95.236191",
+    "name": "Fleet Feet Kansas City",
+    "phone": "",
+    "address": "839 Massachusetts Street, Lawrence, KS"
+  },
+  {
+    "lat": "38.9709537",
+    "lng": "-94.6066268",
+    "name": "Fleet Feet Kansas City",
+    "phone": "",
+    "address": "8600 Ward Parkway, Kansas City, MO"
+  },
+  {
+    "lat": "39.0273664",
+    "lng": "-95.7594439",
+    "name": "Fleet Feet Kansas City",
+    "phone": "",
+    "address": "2130 SW Wanamaker Road, Topeka, KS"
+  },
+  {
+    "lat": "35.8965702",
+    "lng": "-84.1711625",
+    "name": "Fleet Feet Knoxville",
+    "phone": "(865) 675 - 3338",
+    "address": "11619 Parkside Drive, Knoxville, TN"
+  },
+  {
+    "lat": "33.4934027",
+    "lng": "-117.6973577",
+    "name": "Fleet Feet Laguna Niguel",
+    "phone": "",
+    "address": "32341 Golden Lantern St.<br>\nSuite E, Laguna Niguel, CA"
+  },
+  {
+    "lat": "40.769103",
+    "lng": "-96.6146612",
+    "name": "Fleet Feet Lincoln",
+    "phone": "",
+    "address": "7701 Pioneers Blvd, STE 2, Lincoln, NE"
+  },
+  {
+    "lat": "41.232419",
+    "lng": "-96.1877794",
+    "name": "Fleet Feet Lincoln",
+    "phone": "",
+    "address": "17760 Wright Street, Omaha, NE"
+  },
+  {
+    "lat": "34.7938947",
+    "lng": "-92.4026584",
+    "name": "Fleet Feet Little Rock",
+    "phone": "",
+    "address": "11525 Cantrell Rd #102, Little Rock, AR"
+  },
+  {
+    "lat": "42.0572306",
+    "lng": "-72.5557666",
+    "name": "Fleet Feet Longmeadow",
+    "phone": "",
+    "address": "680 Bliss Rd, Longmeadow, MA"
+  },
+  {
+    "lat": "38.2523317",
+    "lng": "-85.6544197",
+    "name": "Fleet Feet Louisville",
+    "phone": "",
+    "address": "117 Breckenridge Lane, Louisville, KY"
+  },
+  {
+    "lat": "43.0753133",
+    "lng": "-89.5292345",
+    "name": "Fleet Feet Madison",
+    "phone": "",
+    "address": "8440 Old Sauk Road, Middleton, WI"
+  },
+  {
+    "lat": "43.9165512",
+    "lng": "-69.9655552",
+    "name": "Fleet Feet Maine",
+    "phone": "",
+    "address": "89 Maine Street, Brunswick, ME"
+  },
+  {
+    "lat": "43.6674509",
+    "lng": "-70.2582363",
+    "name": "Fleet Feet Maine",
+    "phone": "",
+    "address": "309 Marginal Way, Portland, ME"
+  },
+  {
+    "lat": "40.2487957",
+    "lng": "-77.0089109",
+    "name": "Fleet Feet Mechanicsburg",
+    "phone": "",
+    "address": "6416 Carlisle Pike #700, Mechanicsburg, PA"
+  },
+  {
+    "lat": "40.2477599",
+    "lng": "-77.0064007",
+    "name": "Fleet Feet Mechanicsburg",
+    "phone": "",
+    "address": "6416 Carlisle Pike, Mechanicsburg, PA"
+  },
+  {
+    "lat": "37.450226",
+    "lng": "-122.1853585",
+    "name": "Fleet Feet Menlo Park",
+    "phone": "",
+    "address": "859 Santa Cruz Ave, Menlo Park, CA"
+  },
+  {
+    "lat": "43.6213377",
+    "lng": "-116.3496744",
+    "name": "Fleet Feet Meridian",
+    "phone": "",
+    "address": "3573 E Longwing #105, Meridian, ID"
+  },
+  {
+    "lat": "30.005796",
+    "lng": "-90.1597031",
+    "name": "Fleet Feet Metairie",
+    "phone": "(504) 598-5444",
+    "address": "3020 Severn Avenue<br>\nSTE 3, Metairie, LA"
+  },
+  {
+    "lat": "44.9125638",
+    "lng": "-93.3093471",
+    "name": "Fleet Feet Minneapolis",
+    "phone": "",
+    "address": "2312 W 50th Street, Minneapolis, MN"
+  },
+  {
+    "lat": "41.6924725",
+    "lng": "-86.1865342",
+    "name": "Fleet Feet Mishawaka",
+    "phone": "",
+    "address": "3522 N. Grape Road, Mishawaka, IN"
+  },
+  {
+    "lat": "30.6760926",
+    "lng": "-88.1515213",
+    "name": "Fleet Feet Mobile",
+    "phone": "",
+    "address": "3972 Airport Blvd, Mobile, AL"
+  },
+  {
+    "lat": "32.5303142",
+    "lng": "-92.1151723",
+    "name": "Fleet Feet Monroe",
+    "phone": "",
+    "address": "1866 Forsythe Ave, Monroe, LA"
+  },
+  {
+    "lat": "40.8162263",
+    "lng": "-74.2202285",
+    "name": "Fleet Feet Montclair",
+    "phone": "",
+    "address": "603 Bloomfield Ave., Montclair, NJ"
+  },
+  {
+    "lat": "36.5983638",
+    "lng": "-121.8949469",
+    "name": "Fleet Feet Monterey",
+    "phone": "",
+    "address": "472 Alvarado Street, Monterey, CA"
+  },
+  {
+    "lat": "32.3405454",
+    "lng": "-86.1728115",
+    "name": "Fleet Feet Montgomery",
+    "phone": "",
+    "address": "8107 Vaughn Road, Montgomery, AL"
+  },
+  {
+    "lat": "33.0188518",
+    "lng": "-80.1750606",
+    "name": "Fleet Feet Mount Pleasant",
+    "phone": "",
+    "address": "117 E Richardson Ave, Summerville, SC"
+  },
+  {
+    "lat": "32.8038164",
+    "lng": "-79.890651",
+    "name": "Fleet Feet Mount Pleasant",
+    "phone": "",
+    "address": "881 Houston Northcutt Boulevard, Mount Pleasant, SC"
+  },
+  {
+    "lat": "33.0574637",
+    "lng": "-80.0981526",
+    "name": "Fleet Feet Mount Pleasant",
+    "phone": "",
+    "address": "2509 North Main Street, Summerville, SC"
+  },
+  {
+    "lat": "35.8571824",
+    "lng": "-86.4289636",
+    "name": "Fleet Feet Murfreesboro",
+    "phone": "",
+    "address": "544 N. Thompson Ln, C, Murfreesboro, TN"
+  },
+  {
+    "lat": "33.7500388",
+    "lng": "-78.8160277",
+    "name": "Fleet Feet Myrtle Beach",
+    "phone": "",
+    "address": "7931 N Kings Hwy, Suite 120, Myrtle Beach, SC"
+  },
+  {
+    "lat": "42.7653398",
+    "lng": "-71.4968372",
+    "name": "Fleet Feet Nashua",
+    "phone": "",
+    "address": "4 Coliseum Ave., Nashua, NH"
+  },
+  {
+    "lat": "36.026336",
+    "lng": "-86.791156",
+    "name": "Fleet Feet Nashville",
+    "phone": "",
+    "address": "330 Franklin Rd, Suite 262B, Brentwood, TN"
+  },
+  {
+    "lat": "36.3292382",
+    "lng": "-86.5920346",
+    "name": "Fleet Feet Nashville",
+    "phone": "",
+    "address": "300 Indian Lake Blvd #220D, Hendersonville, TN"
+  },
+  {
+    "lat": "36.1055671",
+    "lng": "-86.8129387",
+    "name": "Fleet Feet Nashville",
+    "phone": "",
+    "address": "3900 Hillsboro Pike #18, Nashville, TN"
+  },
+  {
+    "lat": "40.9407833",
+    "lng": "-73.8339345",
+    "name": "Fleet Feet New York City",
+    "phone": "",
+    "address": "52 Pondfield Rd, Bronxville, NY"
+  },
+  {
+    "lat": "40.7685526",
+    "lng": "-73.9831866",
+    "name": "Fleet Feet New York City",
+    "phone": "",
+    "address": "10 Columbus Circle, New York, NY"
+  },
+  {
+    "lat": "40.7635378",
+    "lng": "-73.9648527",
+    "name": "Fleet Feet New York City",
+    "phone": "",
+    "address": "1051 3rd Avenue, New York, NY"
+  },
+  {
+    "lat": "40.672498",
+    "lng": "-73.9766094",
+    "name": "Fleet Feet New York City",
+    "phone": "",
+    "address": "151 7th Avenue, Brooklyn, NY"
+  },
+  {
+    "lat": "40.7778115",
+    "lng": "-73.9803973",
+    "name": "Fleet Feet New York City",
+    "phone": "",
+    "address": "140 West 72nd Street, New York, NY"
+  },
+  {
+    "lat": "40.7367098",
+    "lng": "-73.9956982",
+    "name": "Fleet Feet New York City",
+    "phone": "",
+    "address": "42-B West 14th Street, New York, NY"
+  },
+  {
+    "lat": "40.7182795",
+    "lng": "-74.3569832",
+    "name": "Fleet Feet North Jersey",
+    "phone": "",
+    "address": "355 Springfield Avenue, Summit, NJ"
+  },
+  {
+    "lat": "40.6508208",
+    "lng": "-74.3475439",
+    "name": "Fleet Feet North Jersey",
+    "phone": "",
+    "address": "123 Quimby Street, Westfield, NJ"
+  },
+  {
+    "lat": "40.7953236",
+    "lng": "-74.4802908",
+    "name": "Fleet Feet North Jersey",
+    "phone": "",
+    "address": "31 South Street, Morristown, NJ"
+  },
+  {
+    "lat": "40.9784993",
+    "lng": "-74.1137039",
+    "name": "Fleet Feet North Jersey",
+    "phone": "",
+    "address": "258 E. Ridgewood Ave, Ridgewood, NJ"
+  },
+  {
+    "lat": "38.6483409",
+    "lng": "-77.3026181",
+    "name": "Fleet Feet Northern Virginia",
+    "phone": "",
+    "address": "14210 Smoketown Road, Woodbridge, VA"
+  },
+  {
+    "lat": "38.309984",
+    "lng": "-77.5137054",
+    "name": "Fleet Feet Northern Virginia",
+    "phone": "",
+    "address": "1993 Carl D. Silver Pkwy, Fredericksburg, VA"
+  },
+  {
+    "lat": "28.627281",
+    "lng": "-81.3643783",
+    "name": "Fleet Feet Orlando",
+    "phone": "",
+    "address": "120 Independence Lane, Maitland, FL"
+  },
+  {
+    "lat": "28.5151308",
+    "lng": "-81.3774967",
+    "name": "Fleet Feet Orlando",
+    "phone": "",
+    "address": "25 W. Crystal Lake St., Orlando, FL"
+  },
+  {
+    "lat": "33.3949759",
+    "lng": "-84.5925307",
+    "name": "Fleet Feet Peachtree City",
+    "phone": "",
+    "address": "230 City Circle, #740, Peachtree City, GA"
+  },
+  {
+    "lat": "30.4126093",
+    "lng": "-87.219756",
+    "name": "Fleet Feet Pensacola",
+    "phone": "",
+    "address": "236 W. Garden Street, Pensacola, FL"
+  },
+  {
+    "lat": "40.3495872",
+    "lng": "-80.0528363",
+    "name": "Fleet Feet Pittsburgh",
+    "phone": "",
+    "address": "1751 N. Highland Road, Pittsburgh, PA"
+  },
+  {
+    "lat": "33.0282522",
+    "lng": "-96.7936365",
+    "name": "Fleet Feet Plano",
+    "phone": "",
+    "address": "Preston Towne Crossing, 2100 Preston Road, Suite 604, Plano, TX"
+  },
+  {
+    "lat": "37.6578726",
+    "lng": "-121.8771559",
+    "name": "Fleet Feet Pleasanton",
+    "phone": "",
+    "address": "234 A Main Street, Pleasanton, CA"
+  },
+  {
+    "lat": "32.0881004",
+    "lng": "-81.2782058",
+    "name": "Fleet Feet Pooler",
+    "phone": "",
+    "address": "1702 Pooler Pkwy, Pooler, GA"
+  },
+  {
+    "lat": "45.5350703",
+    "lng": "-122.6949363",
+    "name": "Fleet Feet Portland",
+    "phone": "",
+    "address": "2111 NW Savier Street, Portland, OR"
+  },
+  {
+    "lat": "41.6172599",
+    "lng": "-73.9175656",
+    "name": "Fleet Feet Poughkeepsie",
+    "phone": "",
+    "address": "1895 South Road, Poughkeepsie, NY"
+  },
+  {
+    "lat": "40.3500368",
+    "lng": "-74.6591965",
+    "name": "Fleet Feet Princeton",
+    "phone": "",
+    "address": "108 Nassau Street, Princeton, NJ"
+  },
+  {
+    "lat": "35.8015215",
+    "lng": "-78.6858939",
+    "name": "Fleet Feet Raleigh",
+    "phone": "",
+    "address": "3524 Wade Avenue, Raleigh, NC"
+  },
+  {
+    "lat": "35.8981375",
+    "lng": "-78.6502012",
+    "name": "Fleet Feet Raleigh",
+    "phone": "",
+    "address": "8511 Colonnade Center Dr, Raleigh, NC"
+  },
+  {
+    "lat": "35.8069953",
+    "lng": "-78.8186254",
+    "name": "Fleet Feet Raleigh",
+    "phone": "",
+    "address": "3027 Village Market Place, Morrisville, NC"
+  },
+  {
+    "lat": "35.7903871",
+    "lng": "-78.6586679",
+    "name": "Fleet Feet Raleigh",
+    "phone": "",
+    "address": "430 Woodburn Road, Raleigh, NC"
+  },
+  {
+    "lat": "34.1231495",
+    "lng": "-117.573675",
+    "name": "Fleet Feet Rancho Cucamonga",
+    "phone": "909-215-3027",
+    "address": "7233 Haven Ave<br>\nSuite A, Rancho Cucamonga, CA"
+  },
+  {
+    "lat": "37.578089",
+    "lng": "-77.5121078",
+    "name": "Fleet Feet Richmond",
+    "phone": "",
+    "address": "5600 Patterson Ave., Richmond, VA"
+  },
+  {
+    "lat": "37.6520742",
+    "lng": "-77.6184119",
+    "name": "Fleet Feet Richmond",
+    "phone": "",
+    "address": "11651 West Broad St., Henrico, VA"
+  },
+  {
+    "lat": "37.5072734",
+    "lng": "-77.6660144",
+    "name": "Fleet Feet Richmond",
+    "phone": "",
+    "address": "14308 Winterview Parkway, Midlothian, VA"
+  },
+  {
+    "lat": "37.6520701",
+    "lng": "-77.6184167",
+    "name": "Fleet Feet Richmond",
+    "phone": "",
+    "address": "11651 West Broad Street, Henrico, VA"
+  },
+  {
+    "lat": "37.5780296",
+    "lng": "-77.512148",
+    "name": "Fleet Feet Richmond",
+    "phone": "",
+    "address": "5600 Patterson Avenue, Richmond, VA"
+  },
+  {
+    "lat": "37.5528733",
+    "lng": "-77.4788515",
+    "name": "Fleet Feet Richmond Road Runner",
+    "phone": "",
+    "address": "3002 W Cary Street, Richmond, VA"
+  },
+  {
+    "lat": "29.7534693",
+    "lng": "-95.4088559",
+    "name": "Fleet Feet River Oaks",
+    "phone": "",
+    "address": "2012 W Gray Street, Houston, TX"
+  },
+  {
+    "lat": "37.2249675",
+    "lng": "-79.9694919",
+    "name": "Fleet Feet Roanoke",
+    "phone": "",
+    "address": "4347 Franklin Road SW, Roanoke, VA"
+  },
+  {
+    "lat": "43.1418402",
+    "lng": "-77.5784855",
+    "name": "Fleet Feet Rochester",
+    "phone": "",
+    "address": "155 Culver Road, Suite 110, Rochester, NY"
+  },
+  {
+    "lat": "43.0259037",
+    "lng": "-77.4369754",
+    "name": "Fleet Feet Rochester",
+    "phone": "",
+    "address": "237 High Street Extension, Victor, NY"
+  },
+  {
+    "lat": "30.498959",
+    "lng": "-97.614882",
+    "name": "Fleet Feet Round Rock",
+    "phone": "",
+    "address": "3750 Gattis School Road #500, Round Rock, TX"
+  },
+  {
+    "lat": "38.5757967",
+    "lng": "-121.4752954",
+    "name": "Fleet Feet Sacramento",
+    "phone": "",
+    "address": "2311 J Street, Sacramento, CA"
+  },
+  {
+    "lat": "29.4984904",
+    "lng": "-98.4804944",
+    "name": "Fleet Feet San Antonio",
+    "phone": "",
+    "address": "7322 Jones Maltsberger Rd #152, San Antonio, TX"
+  },
+  {
+    "lat": "29.6092009",
+    "lng": "-98.5969657",
+    "name": "Fleet Feet San Antonio",
+    "phone": "",
+    "address": "17603 La Cantera Pkwy, Suite 117, San Antonio, TX"
+  },
+  {
+    "lat": "29.5709234",
+    "lng": "-98.3273669",
+    "name": "Fleet Feet San Antonio",
+    "phone": "",
+    "address": "8251 Agora Parkway, Suite 102, Selma, TX"
+  },
+  {
+    "lat": "32.9620796",
+    "lng": "-117.1898425",
+    "name": "Fleet Feet San Diego",
+    "phone": "",
+    "address": "5980 Village Way<br>\nSte B108, San Diego, CA"
+  },
+  {
+    "lat": "27.3296552",
+    "lng": "-82.5340643",
+    "name": "Fleet Feet Sarasota",
+    "phone": "",
+    "address": "711 S. Osprey Ave. #1, Sarasota, FL"
+  },
+  {
+    "lat": "32.0427365",
+    "lng": "-81.0874679",
+    "name": "Fleet Feet Savannah",
+    "phone": "",
+    "address": "3405 Waters Ave., Savannah, GA"
+  },
+  {
+    "lat": "47.6150833",
+    "lng": "-122.3201657",
+    "name": "Fleet Feet Seattle",
+    "phone": "",
+    "address": "911 E. Pine Street, Seattle, WA"
+  },
+  {
+    "lat": "47.6679122",
+    "lng": "-122.3844886",
+    "name": "Fleet Feet Seattle",
+    "phone": "",
+    "address": "5404 22nd Ave NW, Seattle, WA"
+  },
+  {
+    "lat": "47.661711",
+    "lng": "-117.4314341",
+    "name": "Fleet Feet Spokane",
+    "phone": "",
+    "address": "1315 W Summit Pkwy, Spokane, WA"
+  },
+  {
+    "lat": "47.6759276",
+    "lng": "-117.2151128",
+    "name": "Fleet Feet Spokane",
+    "phone": "",
+    "address": "13910 E. Indiana Ave, Spokane Valley, WA"
+  },
+  {
+    "lat": "47.750403",
+    "lng": "-117.4098271",
+    "name": "Fleet Feet Spokane",
+    "phone": "",
+    "address": "10208 N Division St. #103, Spokane, WA"
+  },
+  {
+    "lat": "37.137091",
+    "lng": "-93.276815",
+    "name": "Fleet Feet Springfield",
+    "phone": "",
+    "address": "1254 E Republic Rd, Springfield, MO"
+  },
+  {
+    "lat": "39.9306677",
+    "lng": "-75.3201878",
+    "name": "Fleet Feet Springfield",
+    "phone": "",
+    "address": "133 South State Road, Springfield, PA"
+  },
+  {
+    "lat": "38.6661519",
+    "lng": "-90.6007092",
+    "name": "Fleet Feet St Louis",
+    "phone": "",
+    "address": "278 THF Blvd, Chesterfield, MO"
+  },
+  {
+    "lat": "38.601444",
+    "lng": "-90.428769",
+    "name": "Fleet Feet St Louis",
+    "phone": "",
+    "address": "11731 Manchester Road, Des Peres, MO"
+  },
+  {
+    "lat": "38.7198633",
+    "lng": "-90.7029855",
+    "name": "Fleet Feet St Louis",
+    "phone": "",
+    "address": "4619 Highway K, O'Fallon, MO"
+  },
+  {
+    "lat": "38.79004",
+    "lng": "-90.562397",
+    "name": "Fleet Feet St Louis",
+    "phone": "",
+    "address": "3813 Mexico Road, Saint Charles, MO"
+  },
+  {
+    "lat": "38.5087485",
+    "lng": "-90.3757473",
+    "name": "Fleet Feet St Louis",
+    "phone": "",
+    "address": "12494 Tesson Ferry Road, St. Louis, MO"
+  },
+  {
+    "lat": "27.2347964",
+    "lng": "-80.2699249",
+    "name": "Fleet Feet Stuart",
+    "phone": "",
+    "address": "2440 NW Federal Hwy, Stuart, FL"
+  },
+  {
+    "lat": "27.2550445",
+    "lng": "-80.4270451",
+    "name": "Fleet Feet Stuart",
+    "phone": "",
+    "address": "11586 SW Village Parkway, Port St. Lucie, FL"
+  },
+  {
+    "lat": "29.6002577",
+    "lng": "-95.6228311",
+    "name": "Fleet Feet Sugarland",
+    "phone": "",
+    "address": "15890 Southwest Freeway, Sugarland, TX"
+  },
+  {
+    "lat": "43.1689404",
+    "lng": "-89.268139",
+    "name": "Fleet Feet Sun Prairie",
+    "phone": "",
+    "address": "2816 Prairie Lakes Drive, Sun Prairie, WI"
+  },
+  {
+    "lat": "43.1835609",
+    "lng": "-76.2273902",
+    "name": "Fleet Feet Syracuse",
+    "phone": "",
+    "address": "4136 State Route 31, Clay, NY"
+  },
+  {
+    "lat": "43.0515744",
+    "lng": "-76.069681",
+    "name": "Fleet Feet Syracuse",
+    "phone": "",
+    "address": "5800 Bridge Street, East Syracuse, NY"
+  },
+  {
+    "lat": "47.2707883",
+    "lng": "-122.4879621",
+    "name": "Fleet Feet Tacoma",
+    "phone": "",
+    "address": "3812 N 26th St, Tacoma"
+  },
+  {
+    "lat": "30.4646341",
+    "lng": "-84.2697401",
+    "name": "Fleet Feet Tallahassee",
+    "phone": "",
+    "address": "1845 Thomasville Road, Tallahassee, FL"
+  },
+  {
+    "lat": "27.8944339",
+    "lng": "-82.2514877",
+    "name": "Fleet Feet Tampa",
+    "phone": "",
+    "address": "(Brandon) 1934 E Bloomingdale Ave, Valrico, FL"
+  },
+  {
+    "lat": "28.139281",
+    "lng": "-82.3590722",
+    "name": "Fleet Feet Tampa",
+    "phone": "",
+    "address": "(Flatwoods) 8604 Hunters Village Road, Tampa, FL"
+  },
+  {
+    "lat": "28.000732",
+    "lng": "-81.9811043",
+    "name": "Fleet Feet Tampa",
+    "phone": "",
+    "address": "(Lakeland) 1523 Town Center Drive, Lakeland, FL"
+  },
+  {
+    "lat": "44.7222546",
+    "lng": "-85.6407973",
+    "name": "Fleet Feet Traverse City",
+    "phone": "",
+    "address": "3301 South Airport Road, Traverse City South, MI"
+  },
+  {
+    "lat": "44.7638678",
+    "lng": "-85.6179095",
+    "name": "Fleet Feet Traverse City",
+    "phone": "",
+    "address": "300 East Front Street, Traverse City, MI"
+  },
+  {
+    "lat": "46.2738358",
+    "lng": "-119.2734828",
+    "name": "Fleet Feet Tri Cities",
+    "phone": "",
+    "address": "620 George Washington Way, Richland"
+  },
+  {
+    "lat": "36.0773364",
+    "lng": "-95.9222788",
+    "name": "Fleet Feet Tulsa",
+    "phone": "",
+    "address": "5968 South Yale Avenue, Tulsa, OK"
+  },
+  {
+    "lat": "36.1561112",
+    "lng": "-95.9859292",
+    "name": "Fleet Feet Tulsa",
+    "phone": "",
+    "address": "418 East 2nd Street, Tulsa, OK"
+  },
+  {
+    "lat": "36.0499704",
+    "lng": "-95.7905661",
+    "name": "Fleet Feet Tulsa",
+    "phone": "",
+    "address": "303 S Main Street, Broken Arrow, OK"
+  },
+  {
+    "lat": "33.2108318",
+    "lng": "-87.5665048",
+    "name": "Fleet Feet Tuscaloosa",
+    "phone": "",
+    "address": "2218 University Blvd., Tuscaloosa, AL"
+  },
+  {
+    "lat": "41.0858232",
+    "lng": "-111.9728826",
+    "name": "Fleet Feet Utah",
+    "phone": "",
+    "address": "1776 N Hill Field Road, Layton, UT"
+  },
+  {
+    "lat": "41.232429",
+    "lng": "-111.9706003",
+    "name": "Fleet Feet Utah",
+    "phone": "",
+    "address": "1937 Washington Blvd, Ogden, UT"
+  },
+  {
+    "lat": "40.4542",
+    "lng": "-86.9122434",
+    "name": "Fleet Feet West Lafayette",
+    "phone": "",
+    "address": "500 Sagamore Parkway West, Suite 3E, West Lafayette, IN"
+  },
+  {
+    "lat": "40.3360532",
+    "lng": "-75.9519826",
+    "name": "Fleet Feet West Reading",
+    "phone": "",
+    "address": "705 Penn Avenue, West Reading, PA"
+  },
+  {
+    "lat": "41.1387739",
+    "lng": "-73.3442647",
+    "name": "Fleet Feet Westport",
+    "phone": "",
+    "address": "633 Post Rd. East, Westport, CT"
+  },
+  {
+    "lat": "37.7260893",
+    "lng": "-97.2070652",
+    "name": "Fleet Feet Wichita",
+    "phone": "",
+    "address": "2350 N Greenwich Rd Suite 1300, Wichita, KS"
+  },
+  {
+    "lat": "37.729816",
+    "lng": "-97.461967",
+    "name": "Fleet Feet Wichita",
+    "phone": "",
+    "address": "2556 N Maize Rd #108, Wichita, KS"
+  },
+  {
+    "lat": "34.2364785",
+    "lng": "-77.8273546",
+    "name": "Fleet Feet Wilmington",
+    "phone": "",
+    "address": "1125 Military Cutoff Road, Wilmington, NC"
+  },
+  {
+    "lat": "36.0366578",
+    "lng": "-80.3875832",
+    "name": "Fleet Feet Winston-Salem",
+    "phone": "",
+    "address": "6339 Jessie Lane, Clemmons, NC"
+  },
+  {
+    "lat": "36.0847557",
+    "lng": "-80.2958467",
+    "name": "Fleet Feet Winston-Salem",
+    "phone": "",
+    "address": "278 Harvey Street, Winston Salem, NC"
+  },
+  {
+    "lat": "44.0584532",
+    "lng": "-121.3141578",
+    "name": "Foot Zone",
+    "phone": "",
+    "address": "842 NW Wall Street, Bend, OR"
+  },
+  {
+    "lat": "25.7042454",
+    "lng": "-80.2858437",
+    "name": "FootWorks",
+    "phone": "",
+    "address": "5724 Sunset Drive, Miami, FL"
+  },
+  {
+    "lat": "42.5495408",
+    "lng": "-82.9589182",
+    "name": "Fraser Bicycle and Fitness",
+    "phone": "",
+    "address": "34501 Utica Rd, Fraser, MI"
+  },
+  {
+    "lat": "33.1554875",
+    "lng": "-96.848629",
+    "name": "Frisco Running Company",
+    "phone": "",
+    "address": "9359 Legacy Dr, Frisco, TX"
+  },
+  {
+    "lat": "40.6900491",
+    "lng": "-73.9919151",
+    "name": "Super Runners",
+    "phone": "",
+    "address": "123 COURT ST. 11201, Brooklyn, NY, NY"
+  },
+  {
+    "lat": "40.7604859",
+    "lng": "-73.9831465",
+    "name": "Super Runners",
+    "phone": "",
+    "address": "745 7th AVE. NY, 10019, NY"
+  },
+  {
+    "lat": "40.7821643",
+    "lng": "-73.9794365",
+    "name": "Super Runners",
+    "phone": "",
+    "address": "360 Amsterdam Ave, New York, 10024, USA, NY"
+  },
+  {
+    "lat": "40.7554247",
+    "lng": "-73.9705623",
+    "name": "Super Runners",
+    "phone": "",
+    "address": "805 THIRD AVE. 10022, NY, NY"
+  },
+  {
+    "lat": "33.8428827",
+    "lng": "-118.3541846",
+    "name": "Front Runners",
+    "phone": "",
+    "address": "20611 Hawthorne Blvd, Torrance"
+  },
+  {
+    "lat": "34.0534382",
+    "lng": "-118.4621707",
+    "name": "Front Runners",
+    "phone": "",
+    "address": "11620 San Vicente Blvd, Los Angeles"
+  },
+  {
+    "lat": "40.0246411",
+    "lng": "-105.2541237",
+    "name": "Full Cycle Bikes & Colorado Multisport",
+    "phone": "",
+    "address": "30th Street, Boulder, CO"
+  },
+  {
+    "lat": "44.0134285",
+    "lng": "-88.580848",
+    "name": "Fusion Footwear Corp",
+    "phone": "",
+    "address": "520 S Koeller Street, Oshkosh, WI"
+  },
+  {
+    "lat": "31.9570663",
+    "lng": "-81.3268337",
+    "name": "Game Changers Running Company",
+    "phone": "",
+    "address": "8872 Ford Avenue<br>\nSte 207, Richmond Hill, GA"
+  },
+  {
+    "lat": "42.9110709",
+    "lng": "-85.5709322",
+    "name": "Gazelle Sports",
+    "phone": "",
+    "address": "3930 28th St SE, Grand Rapids, MI"
+  },
+  {
+    "lat": "42.7900416",
+    "lng": "-86.1083947",
+    "name": "Gazelle Sports",
+    "phone": "",
+    "address": "24 W 8th St, Holland, MI"
+  },
+  {
+    "lat": "42.2903887",
+    "lng": "-85.5835094",
+    "name": "Gazelle Sports",
+    "phone": "",
+    "address": "214 S Kalamazoo Mall, Kalamazoo, MI"
+  },
+  {
+    "lat": "42.4238448",
+    "lng": "-83.4365181",
+    "name": "Gazelle Sports",
+    "phone": "",
+    "address": "39737 Traditions Dr, Northville, MI"
+  },
+  {
+    "lat": "42.5464845",
+    "lng": "-83.2147413",
+    "name": "Gazelle Sports",
+    "phone": "",
+    "address": "99 W Maple Rd, Birmingham, MI"
+  },
+  {
+    "lat": "42.964375",
+    "lng": "-85.6685128",
+    "name": "Gazelle Sports",
+    "phone": "",
+    "address": "52 Monroe Center Street NW, Grand Rapids, MI"
+  },
+  {
+    "lat": "29.5775718",
+    "lng": "-95.3850631",
+    "name": "Gear Monkey Bike Repair",
+    "phone": "",
+    "address": "1910 Country Pl Pkwy #158, Pearland, TX 77584"
+  },
+  {
+    "lat": "39.9446008",
+    "lng": "-75.1584257",
+    "name": "General Classification",
+    "phone": "",
+    "address": "1002 Pine Street, Philadelphia, PA"
+  },
+  {
+    "lat": "35.1938846",
+    "lng": "-101.8656411",
+    "name": "Get Fit (off and running)",
+    "phone": "",
+    "address": "1911 S Georgia St, Amarillo, TX"
+  },
+  {
+    "lat": "38.4045864",
+    "lng": "-96.1799849",
+    "name": "Get in high gear",
+    "phone": "",
+    "address": "High Gear Cyclery, Inc., 520 Commercial Street, Emporia, Kansas"
+  },
+  {
+    "lat": "34.6906738",
+    "lng": "-82.8090698",
+    "name": "Gotta Run",
+    "phone": "",
+    "address": "530 Old Greenville Highway, Suite 1, Clemson, SC"
+  },
+  {
+    "lat": "34.9509977",
+    "lng": "-81.9186009",
+    "name": "Gotta Run",
+    "phone": "",
+    "address": "159 South Pine Street, Suite D, Spartanburg, SC"
+  },
+  {
+    "lat": "34.80822",
+    "lng": "-82.2337539",
+    "name": "Gotta Run",
+    "phone": "",
+    "address": "2531 Woodruff Road, Suite 110, Simpsonville, SC"
+  },
+  {
+    "lat": "34.5301579",
+    "lng": "-82.6609396",
+    "name": "Gotta Run",
+    "phone": "",
+    "address": "2702 N Main Street, Anderson, SC"
+  },
+  {
+    "lat": "25.7910391",
+    "lng": "-80.2254325",
+    "name": "Graciano's Bicycle Center",
+    "phone": "",
+    "address": "10891 NW 17th Street, Unit 139, Miami, FL"
+  },
+  {
+    "lat": "35.6248887",
+    "lng": "-82.5531045",
+    "name": "Gravelo",
+    "phone": "(828) 209-8798",
+    "address": "793 Merrimon Ave, Asheville, NC"
+  },
+  {
+    "lat": "42.784552",
+    "lng": "-83.239497",
+    "name": "Hansons Running Shop",
+    "phone": "",
+    "address": "3 South Broadway, Lake Orion, MI"
+  },
+  {
+    "lat": "42.6262305",
+    "lng": "-83.0279978",
+    "name": "Hansons Running Shop",
+    "phone": "",
+    "address": "8409 Hall Rd., Utica, Mi"
+  },
+  {
+    "lat": "42.5203073",
+    "lng": "-83.1391771",
+    "name": "Hansons Running Shop",
+    "phone": "",
+    "address": "3407 Rochester Rd., Royal Oak, MI"
+  },
+  {
+    "lat": "42.4478387",
+    "lng": "-82.9053558",
+    "name": "Hansons Running Shop",
+    "phone": "",
+    "address": "20964 Mack Ave, Grosse Pointe, MI"
+  },
+  {
+    "lat": "35.1135271",
+    "lng": "-106.5867135",
+    "name": "Heart & Sole Sports",
+    "phone": "",
+    "address": "2817 San Mateo Blvd NE, Albuquerque, NM"
+  },
+  {
+    "lat": "42.3621846",
+    "lng": "-71.0986535",
+    "name": "Heartbreak Hill Running Company",
+    "phone": "",
+    "address": "294 Massachusetts Avenue, Cambridge, MA"
+  },
+  {
+    "lat": "42.3359004",
+    "lng": "-71.1931174",
+    "name": "Heartbreak Hill Running Company",
+    "phone": "",
+    "address": "638 Commonwealth Avenue, Newton, MA"
+  },
+  {
+    "lat": "42.3418132",
+    "lng": "-71.0752848",
+    "name": "Heartbreak Hill Running Company",
+    "phone": "",
+    "address": "652 Tremont Street, Boston, MA"
+  },
+  {
+    "lat": "41.921412",
+    "lng": "-87.6489215",
+    "name": "Heartbreak Hill Running Company",
+    "phone": "",
+    "address": "2148 N Halsted Street, Chicago, IL"
+  },
+  {
+    "lat": "39.634361",
+    "lng": "-106.521219",
+    "name": "High Gear Cyclery",
+    "phone": "",
+    "address": "82 E. Beaver Creek Blvd, Unit 103, Avon, CO"
+  },
+  {
+    "lat": "41.0983274",
+    "lng": "-73.4041647",
+    "name": "High Road Cycling & Performance",
+    "phone": "",
+    "address": "21 1st Street, Norwalk, CT"
+  },
+  {
+    "lat": "33.7921966",
+    "lng": "-84.3522948",
+    "name": "Highland Runners",
+    "phone": "",
+    "address": "1393 N. Highland Ave. NE, Atlanta, GA"
+  },
+  {
+    "lat": "40.7203721",
+    "lng": "-73.9620779",
+    "name": "Hilltop Bicycles",
+    "phone": "",
+    "address": "50 N 7th St, Brooklyn, NY"
+  },
+  {
+    "lat": "40.7595963",
+    "lng": "-74.4178",
+    "name": "Hilltop Bicycles",
+    "phone": "",
+    "address": "14a Kings Rd, Madison, NJ"
+  },
+  {
+    "lat": "40.7181227",
+    "lng": "-74.3550129",
+    "name": "Hilltop Bicycles",
+    "phone": "",
+    "address": "314 Springfield Ave, Summit, NJ"
+  },
+  {
+    "lat": "40.7170383",
+    "lng": "-73.9857531",
+    "name": "Hilltop Bicycles Lower East Side",
+    "phone": "(212)-254-8503",
+    "address": "128 Clinton St, New York"
+  },
+  {
+    "lat": "33.4488993",
+    "lng": "-112.0651858",
+    "name": "Hilltop Williamsburg",
+    "phone": "",
+    "address": "50 N 7th St, Brooklyn"
+  },
+  {
+    "lat": "39.3480578",
+    "lng": "-76.461945",
+    "name": "Holabird Sports",
+    "phone": "",
+    "address": "9220 Pulaski Highway, Baltimore, MD"
+  },
+  {
+    "lat": "32.0007168",
+    "lng": "-81.2839708",
+    "name": "Howe2Run",
+    "phone": "",
+    "address": "11 Gateway Blvd South, Savannah, GA"
+  },
+  {
+    "lat": "39.4074551",
+    "lng": "-107.2207366",
+    "name": "Independence Run And Hike",
+    "phone": "",
+    "address": "586 Highway 133, Carbondale, CO"
+  },
+  {
+    "lat": "35.800321",
+    "lng": "-78.8156555",
+    "name": "Inside Out Sports",
+    "phone": "",
+    "address": "2002 Grisdale Lane, Cary, NC"
+  },
+  {
+    "lat": "35.1860123",
+    "lng": "-80.8769096",
+    "name": "Inside Out Sports",
+    "phone": "",
+    "address": "4208 South Blvd., Suite J, Charlotte, NC"
+  },
+  {
+    "lat": "25.8222468",
+    "lng": "-80.1876373",
+    "name": "iRun Miami",
+    "phone": "",
+    "address": "5050 Biscayne Blvd, Unit #103, Miami, FL"
+  },
+  {
+    "lat": "29.6435825",
+    "lng": "-98.4893757",
+    "name": "iRun Texas",
+    "phone": "",
+    "address": "20079 Stone Oak Pkwy<br>\nSte 3120, San Antonio, TX"
+  },
+  {
+    "lat": "31.3200206",
+    "lng": "-89.4150047",
+    "name": "Jed's Perfect Endurance Bikes",
+    "phone": "",
+    "address": "37 King Road, Hattiesburg, MS"
+  },
+  {
+    "lat": "35.6166682",
+    "lng": "-82.554063",
+    "name": "Jus' Running",
+    "phone": "",
+    "address": "523 Merrimon Ave, Asheville, NC"
+  },
+  {
+    "lat": "38.8832092",
+    "lng": "-94.5933799",
+    "name": "KC Running Compay",
+    "phone": "",
+    "address": "200 E. 135th Street, Kansas City, MO"
+  },
+  {
+    "lat": "41.3732566",
+    "lng": "-71.9560184",
+    "name": "Kelleys Pace",
+    "phone": "",
+    "address": "27 Coogan Blvd<br>\n#15C, Mystic, CT"
+  },
+  {
+    "lat": "40.10755",
+    "lng": "-75.147287",
+    "name": "Keswick Cycles",
+    "phone": "",
+    "address": "408 N Easton Rd, Glenside, PA"
+  },
+  {
+    "lat": "40.0419134",
+    "lng": "-75.4731148",
+    "name": "Keswick Cycles",
+    "phone": "",
+    "address": "1740 E Lancaster Ave, Paoli, PA"
+  },
+  {
+    "lat": "42.536086",
+    "lng": "-83.2030855",
+    "name": "KLM Bike & Fitness Birmingham",
+    "phone": "",
+    "address": "33600 Woodward Avenue, Birmingham, MI"
+  },
+  {
+    "lat": "42.6411627",
+    "lng": "-83.1324747",
+    "name": "KLM Bike & Fitness Rochester",
+    "phone": "",
+    "address": "2680 Rochester Rd, Rochester Hills, MI"
+  },
+  {
+    "lat": "28.2016777",
+    "lng": "-82.4632489",
+    "name": "KONA Swim Bike Run",
+    "phone": "",
+    "address": "3016 Land O' Lakes Blvd., Land O' Lakes, FL"
+  },
+  {
+    "lat": "25.8005456",
+    "lng": "-80.1973964",
+    "name": "La Byci CC",
+    "phone": "",
+    "address": "114 NW 25th Street, Miami, FL"
+  },
+  {
+    "lat": "41.8021215",
+    "lng": "-87.6182115",
+    "name": "Last Lap Cornerstore",
+    "phone": "",
+    "address": "332 E 51st Street, Box #13, Chicago, IL"
+  },
+  {
+    "lat": "37.784459",
+    "lng": "-79.4428967",
+    "name": "Lex Running Shop LLC",
+    "phone": "",
+    "address": "41 S. Main Street, Lexington, VA"
+  },
+  {
+    "lat": "29.6658629",
+    "lng": "-82.3395807",
+    "name": "Lloyd Clarke Sports",
+    "phone": "",
+    "address": "1504 NW 13th Street, Gainesville, FL"
+  },
+  {
+    "lat": "39.1097165",
+    "lng": "-77.5624345",
+    "name": "LoCo Tri",
+    "phone": "703-945-2226",
+    "address": "400 Madison Trade Plaza SE, Leesburg, VA"
+  },
+  {
+    "lat": "38.1346615",
+    "lng": "-121.2738355",
+    "name": "Lodi Cyclery",
+    "phone": "",
+    "address": "9 N School St, Lodi"
+  },
+  {
+    "lat": "29.9756184",
+    "lng": "-90.1015097",
+    "name": "Louisiana Running Company",
+    "phone": "",
+    "address": "4153 Canal Street, New Orleans, LA"
+  },
+  {
+    "lat": "34.0808814",
+    "lng": "-118.2549704",
+    "name": "LSD Running",
+    "phone": "310 658 1371",
+    "address": "1539 Echo Park Avenue, Los Angeles, CA"
+  },
+  {
+    "lat": "32.7098878",
+    "lng": "-97.4008356",
+    "name": "Lukes' Locker",
+    "phone": "",
+    "address": "Monahans Avenue, Fort Worth, Forth Worth, TX"
+  },
+  {
+    "lat": "32.8898386",
+    "lng": "-79.79117",
+    "name": "M2 Endurance",
+    "phone": "",
+    "address": "3286 John Bartram Place, Mount Pleasant, SC"
+  },
+  {
+    "lat": "25.7044841",
+    "lng": "-80.2910577",
+    "name": "Mack Cycle and Fitness",
+    "phone": "",
+    "address": "5995 Sunset Drive, Miami, FL"
+  },
+  {
+    "lat": "42.3499758",
+    "lng": "-71.0789562",
+    "name": "Marathon Sports",
+    "phone": "",
+    "address": "671 Boylston Street, Boston, MA"
+  },
+  {
+    "lat": "42.313566",
+    "lng": "-71.2736754",
+    "name": "Marathon Sports",
+    "phone": "",
+    "address": "255 Washington Street, Wellesley, MA"
+  },
+  {
+    "lat": "42.3816767",
+    "lng": "-71.1200173",
+    "name": "Marathon Sports",
+    "phone": "",
+    "address": "1654 Massachusetts Avenue, Cambridge, MA"
+  },
+  {
+    "lat": "42.4531396",
+    "lng": "-71.0664512",
+    "name": "Marathon Sports",
+    "phone": "",
+    "address": "401 Main Street, Melrose, MA"
+  },
+  {
+    "lat": "42.1696915",
+    "lng": "-70.8763493",
+    "name": "Marathon Sports",
+    "phone": "",
+    "address": "134 Washington Street, Norwell, MA"
+  },
+  {
+    "lat": "42.0155204",
+    "lng": "-71.2304376",
+    "name": "Marathon Sports",
+    "phone": "",
+    "address": "287 School Street, Suite A, Mansfield, MA"
+  },
+  {
+    "lat": "42.2727787",
+    "lng": "-71.7530069",
+    "name": "Marathon Sports",
+    "phone": "",
+    "address": "50 Boston Turnpike, Unit B12, Shrewsbury, MA"
+  },
+  {
+    "lat": "42.3394829",
+    "lng": "-71.1361664",
+    "name": "Marathon Sports",
+    "phone": "",
+    "address": "1638 Beacon Street, Brookline, MA"
+  },
+  {
+    "lat": "42.3193042",
+    "lng": "-72.6290438",
+    "name": "Marathon Sports",
+    "phone": "",
+    "address": "28 Pleasant Street, Northampton, MA"
+  },
+  {
+    "lat": "41.9573756",
+    "lng": "-70.6653854",
+    "name": "Marathon Sports",
+    "phone": "",
+    "address": "9 Court Street, Plymouth, MA"
+  },
+  {
+    "lat": "41.6873547",
+    "lng": "-70.2090215",
+    "name": "Marathon Sports",
+    "phone": "",
+    "address": "484 Station Avenue, South Yarmouth, MA"
+  },
+  {
+    "lat": "42.4470728",
+    "lng": "-71.2268909",
+    "name": "Marathon Sports",
+    "phone": "(781) 863-0200",
+    "address": "1728 Massachusetts Ave, Lexington, MA"
+  },
+  {
+    "lat": "42.8118147",
+    "lng": "-70.8679281",
+    "name": "Marathon Sports",
+    "phone": "(978) 255-1737",
+    "address": "27 Water St, Newburyport, MA"
+  },
+  {
+    "lat": "42.4859301",
+    "lng": "-70.899704",
+    "name": "Marathon Sports",
+    "phone": "978-306-7260",
+    "address": "9 Paradise Rd, Salem, MA"
+  },
+  {
+    "lat": "41.8277428",
+    "lng": "-71.4165083",
+    "name": "Marathon Sports",
+    "phone": "(401) 270-3071",
+    "address": "One Providence Place, Providence, RI"
+  },
+  {
+    "lat": "41.1412362",
+    "lng": "-73.2597409",
+    "name": "Marathon Sports",
+    "phone": "(203) 292-9466",
+    "address": "1596 Post Rd, Fairfield, CT"
+  },
+  {
+    "lat": "41.71307",
+    "lng": "-72.6071661",
+    "name": "Marathon Sports",
+    "phone": "(860) 430-6712",
+    "address": "63 Hebron Ave, Glastonbury, CT"
+  },
+  {
+    "lat": "41.2915893",
+    "lng": "-72.375809",
+    "name": "Marathon Sports",
+    "phone": "(860) 388-3800",
+    "address": "238 Main St, Old Saybrook, CT"
+  },
+  {
+    "lat": "41.2830276",
+    "lng": "-72.8106735",
+    "name": "Marathon Sports",
+    "phone": "(203) 483-8222",
+    "address": "1088 Main St, Branford, CT"
+  },
+  {
+    "lat": "37.9856005",
+    "lng": "-122.5894274",
+    "name": "Marin Service Course",
+    "phone": "",
+    "address": "85 Bolinas Rd #6, Fairfax"
+  },
+  {
+    "lat": "21.2943513",
+    "lng": "-157.8274977",
+    "name": "McCully Bicycle & Sporting goods",
+    "phone": "",
+    "address": "2124 S King St., Honolulu, HI"
+  },
+  {
+    "lat": "39.1289102",
+    "lng": "-123.199403",
+    "name": "Mendo Muscle",
+    "phone": "",
+    "address": "1252 Airport Park Blvd, Ukiah"
+  },
+  {
+    "lat": "47.6126716",
+    "lng": "-122.3186614",
+    "name": "Métier Racing and Coffee",
+    "phone": "",
+    "address": "1017 E Union St, Seattle, WA"
+  },
+  {
+    "lat": "25.9263859",
+    "lng": "-80.1592211",
+    "name": "Miami Bikes and Repair",
+    "phone": "",
+    "address": "2037 NE 163rd Street, North Miami Beach, FL"
+  },
+  {
+    "lat": "25.8888486",
+    "lng": "-80.1704744",
+    "name": "Miami Bikes and Repair",
+    "phone": "",
+    "address": "1640 NE 123rd Street, North Miami, FL"
+  },
+  {
+    "lat": "34.273538",
+    "lng": "-119.2678063",
+    "name": "Mile 26 Running Company",
+    "phone": "(805) 628-9501",
+    "address": "2222 E Thompson Blvd, Ventura"
+  },
+  {
+    "lat": "32.7549865",
+    "lng": "-117.1365645",
+    "name": "Milestone Running",
+    "phone": "",
+    "address": "2545 El Cajon Blvd, San Diego, CA"
+  },
+  {
+    "lat": "32.8017862",
+    "lng": "-117.2359786",
+    "name": "Milestone Running",
+    "phone": "",
+    "address": "1892 Garnet Ave, San Diego, CA"
+  },
+  {
+    "lat": "44.988791",
+    "lng": "-93.254419",
+    "name": "Mill City Running",
+    "phone": "",
+    "address": "411 E Hennepin Ave, Minneapolis, MN"
+  },
+  {
+    "lat": "42.9397962",
+    "lng": "-71.523593",
+    "name": "Millennium Running",
+    "phone": "",
+    "address": "138 Bedford Center Road, Bedford, NH"
+  },
+  {
+    "lat": "27.5741177",
+    "lng": "-99.4746346",
+    "name": "Momentum Running Co.",
+    "phone": "",
+    "address": "1202 E Del Mar Blvd<br>\nSuite 103, Laredo, TX"
+  },
+  {
+    "lat": "39.6410335",
+    "lng": "-79.9619907",
+    "name": "Morgantown Running",
+    "phone": "",
+    "address": "709 Beechurst Ave, Suite 1A, Morgantown, WV"
+  },
+  {
+    "lat": "35.5284357",
+    "lng": "-82.6059224",
+    "name": "Motion Makers Asheville",
+    "phone": "",
+    "address": "878 Brevard Rd, Asheville, NC"
+  },
+  {
+    "lat": "40.7212801",
+    "lng": "-73.9958868",
+    "name": "MOTIV NY Physical Therapy",
+    "phone": "",
+    "address": "199 Mott Street, Front A, New York, NY"
+  },
+  {
+    "lat": "35.5828775",
+    "lng": "-82.5249846",
+    "name": "Mountain Running Company",
+    "phone": "",
+    "address": "4 S. Tunnel Road, Asheville, NC"
+  },
+  {
+    "lat": "35.6175619",
+    "lng": "-82.3210863",
+    "name": "Mountain Running Company",
+    "phone": "",
+    "address": "106 West State Street, Black Mountain, NC"
+  },
+  {
+    "lat": "36.2189347",
+    "lng": "-81.6847382",
+    "name": "Mountain Running Company",
+    "phone": "",
+    "address": "691 West King Street, Boone, NC"
+  },
+  {
+    "lat": "43.0612737",
+    "lng": "-89.4011362",
+    "name": "Movin Shoes",
+    "phone": "",
+    "address": "528 S Park St, Madison, WI"
+  },
+  {
+    "lat": "33.4814163",
+    "lng": "-111.9099066",
+    "name": "Moxie Multisport",
+    "phone": "",
+    "address": "2952 N Hayden Rd, Scottsdale, AZ"
+  },
+  {
+    "lat": "42.3389358",
+    "lng": "-71.0355155",
+    "name": "MYSTRYDE",
+    "phone": "",
+    "address": "800 Summer Street, Boston, MA"
+  },
+  {
+    "lat": "41.2784671",
+    "lng": "-70.0993678",
+    "name": "Nantucket Run Centre",
+    "phone": "",
+    "address": "36 Pleasant Street, Nantucket, MA"
+  },
+  {
+    "lat": "41.7726467",
+    "lng": "-88.1490762",
+    "name": "Naperville Running Company",
+    "phone": "",
+    "address": "34 W. Jefferson Ave., Naperville, IL"
+  },
+  {
+    "lat": "41.7035046",
+    "lng": "-88.2046476",
+    "name": "Naperville Running Company",
+    "phone": "",
+    "address": "3416 S Route 59, #116, Naperville, IL"
+  },
+  {
+    "lat": "41.8647527",
+    "lng": "-88.1076246",
+    "name": "Naperville Running Company",
+    "phone": "",
+    "address": "102 W. Front Street, Wheaton, IL"
+  },
+  {
+    "lat": "26.2522113",
+    "lng": "-81.8052916",
+    "name": "Naples Cyclery",
+    "phone": "",
+    "address": "813 Vanderbilt Beach Rd, Naples, FL"
+  },
+  {
+    "lat": "30.2986609",
+    "lng": "-81.3942907",
+    "name": "Neutral Service",
+    "phone": "904-349-5832",
+    "address": "323 10th Avenue North, Jacksonville Beach"
+  },
+  {
+    "lat": "30.2986609",
+    "lng": "-81.3942907",
+    "name": "Neutral Service",
+    "phone": "",
+    "address": "323 10th Avenue North, Jacksonville Beach"
+  },
+  {
+    "lat": "42.5873295",
+    "lng": "-70.8836685",
+    "name": "New England Running Company",
+    "phone": "",
+    "address": "43 Enon Street, Beverly, MA"
+  },
+  {
+    "lat": "46.0212291",
+    "lng": "-91.4705501",
+    "name": "New Moon Ski & Bike",
+    "phone": "",
+    "address": "15569 US Hwy 63 N, Hayward, WI"
+  },
+  {
+    "lat": "25.7502318",
+    "lng": "-80.2592708",
+    "name": "No Boundaries Sport",
+    "phone": "",
+    "address": "220 Aragon Ave, Coral Gables, FL"
+  },
+  {
+    "lat": "25.8097122",
+    "lng": "-80.3312438",
+    "name": "No Boundaries Sport",
+    "phone": "",
+    "address": "8351 NW 36th Street, Doral, FL"
+  },
+  {
+    "lat": "26.096356",
+    "lng": "-80.1362813",
+    "name": "No Boundaries Sport",
+    "phone": "",
+    "address": "2000 S Federal Hwy, Fort Lauderdale, FL"
+  },
+  {
+    "lat": "38.4460962",
+    "lng": "-122.7325501",
+    "name": "Norcal Bike Sport",
+    "phone": "",
+    "address": "425 College Ave, Santa Rosa, CA"
+  },
+  {
+    "lat": "39.730954",
+    "lng": "-121.8401182",
+    "name": "North Rim Adventure Sports, Inc.",
+    "phone": "",
+    "address": "178 E 2nd St, Chico, CA"
+  },
+  {
+    "lat": "41.2332696",
+    "lng": "-111.9707175",
+    "name": "Ogden Running Company",
+    "phone": "",
+    "address": "1895 Washington Blvd<br>\nSuite 200, Ogden, UT"
+  },
+  {
+    "lat": "35.2583694",
+    "lng": "-97.494781",
+    "name": "OK Runner",
+    "phone": "",
+    "address": "3408 36th Ave NW, Suite 100, Norman"
+  },
+  {
+    "lat": "35.4743562",
+    "lng": "-97.513789",
+    "name": "OK Runner",
+    "phone": "",
+    "address": "708 N Broadway Ave, Oklahoma City"
+  },
+  {
+    "lat": "29.5744033",
+    "lng": "-95.1090423",
+    "name": "On The Run",
+    "phone": "",
+    "address": "2427 Bay Area Blvd, Houston, TX"
+  },
+  {
+    "lat": "30.078324",
+    "lng": "-94.1717715",
+    "name": "On The Run",
+    "phone": "",
+    "address": "227 Dowlen Rd, Beaumont, TX"
+  },
+  {
+    "lat": "37.5211852",
+    "lng": "-77.4878087",
+    "name": "Outpost Richmond",
+    "phone": "",
+    "address": "4813 Forest Hill Ave, Richmond, VA"
+  },
+  {
+    "lat": "27.960045",
+    "lng": "-82.7440839",
+    "name": "Outspokin",
+    "phone": "",
+    "address": "2241 Gulf to Bay Blvd, Clearwater, FL"
+  },
+  {
+    "lat": "27.9154305",
+    "lng": "-82.5056872",
+    "name": "Outspokin",
+    "phone": "",
+    "address": "3300 S Dale Mabry Hwy, Tampa, FL"
+  },
+  {
+    "lat": "35.649523",
+    "lng": "-78.8338884",
+    "name": "Pace Yourself Run Company",
+    "phone": "",
+    "address": "242 S Main St, Suite 102, Holly Springs, NC"
+  },
+  {
+    "lat": "35.1744548",
+    "lng": "-79.3903075",
+    "name": "Pace Yourself Run Company",
+    "phone": "",
+    "address": "205 NE Broad Street, Southern Pines, NC"
+  },
+  {
+    "lat": "35.7807898",
+    "lng": "-78.369483",
+    "name": "Pace Yourself Run Company",
+    "phone": "(919) 366-6937",
+    "address": "8 E 3rd St, Wendell"
+  },
+  {
+    "lat": "38.8863497",
+    "lng": "-77.0952071",
+    "name": "Pacers Running",
+    "phone": "",
+    "address": "3100 Clarendon Blvd, Arlington, VA"
+  },
+  {
+    "lat": "38.8061512",
+    "lng": "-77.0536355",
+    "name": "Pacers Running",
+    "phone": "",
+    "address": "1301 King Street, Alexandria, VA"
+  },
+  {
+    "lat": "38.9147478",
+    "lng": "-77.0315961",
+    "name": "Pacers Running",
+    "phone": "",
+    "address": "1821 14th Street NW, Washington, DC"
+  },
+  {
+    "lat": "38.8751743",
+    "lng": "-77.0014765",
+    "name": "Pacers Running",
+    "phone": "",
+    "address": "300 Tingey Street, SE #160, Washington, DC"
+  },
+  {
+    "lat": "38.905311",
+    "lng": "-77.064982",
+    "name": "Pacers Running",
+    "phone": "",
+    "address": "3273 M Street NW, Washington, DC"
+  },
+  {
+    "lat": "41.1050516",
+    "lng": "-73.5488786",
+    "name": "Pacific Cycling & Triathlon",
+    "phone": "",
+    "address": "984 High Ridge Road, Stamford, CT"
+  },
+  {
+    "lat": "39.3247029",
+    "lng": "-120.2218169",
+    "name": "Paco's Bike and Ski",
+    "phone": "",
+    "address": "12047 Donner Pass Rd B4, Truckee, CA"
+  },
+  {
+    "lat": "38.5750882",
+    "lng": "-121.4794039",
+    "name": "Paco's Bike and Ski",
+    "phone": "",
+    "address": "2028 K St, Sacramento, CA"
+  },
+  {
+    "lat": "29.0324212",
+    "lng": "-80.9178692",
+    "name": "Paddleboard New Smyrna Beach",
+    "phone": "(386) 361-8008",
+    "address": "175 North Causeway, New Smyrna Beach, FL"
+  },
+  {
+    "lat": "40.7377239",
+    "lng": "-73.9905581",
+    "name": "Paragon Sports",
+    "phone": "",
+    "address": "867 Broadway, New York, NY"
+  },
+  {
+    "lat": "37.7713248",
+    "lng": "-122.4352161",
+    "name": "Pas Normal Studios",
+    "phone": "",
+    "address": "799 Haight Street, San Francisco"
+  },
+  {
+    "lat": "39.3768941",
+    "lng": "-77.1535719",
+    "name": "Patapsco Bicycles",
+    "phone": "",
+    "address": "5 North Main Street, Mount Airy, MD"
+  },
+  {
+    "lat": "39.2164688",
+    "lng": "-76.7091927",
+    "name": "Patapsco Bicycles",
+    "phone": "",
+    "address": "5746 Main Street, Elkridge, MD"
+  },
+  {
+    "lat": "39.1488071",
+    "lng": "-76.9078138",
+    "name": "Patapsco Bicycles",
+    "phone": "",
+    "address": "11710 East Market Place, Suite C, Fulton, MD"
+  },
+  {
+    "lat": "33.8790855",
+    "lng": "-84.380516",
+    "name": "Peachtree Bikes",
+    "phone": "(404) 254-4116",
+    "address": "4540 Roswell Road, Atlanta"
+  },
+  {
+    "lat": "33.7908613",
+    "lng": "-84.3066178",
+    "name": "Peachtree Bikes",
+    "phone": "(404) 595-2345",
+    "address": "2074 North Decatur Road, Decatur"
+  },
+  {
+    "lat": "41.7948",
+    "lng": "-88.009581",
+    "name": "Peak Running",
+    "phone": "",
+    "address": "945 Burlington Ave, Downers Grove, IL"
+  },
+  {
+    "lat": "41.7524851",
+    "lng": "-87.9126327",
+    "name": "Peak Running",
+    "phone": "",
+    "address": "555 Village Center Dr, Burr Ridge, IL"
+  },
+  {
+    "lat": "41.8155294",
+    "lng": "-87.8705877",
+    "name": "Peak Running",
+    "phone": "",
+    "address": "18 W Burlington Ave, La Grange, IL"
+  },
+  {
+    "lat": "39.4772635",
+    "lng": "-106.044501",
+    "name": "Peak Running Breck",
+    "phone": "",
+    "address": "500 South Main Street<br>\nSpace 1B, Breckenridge, CO"
+  },
+  {
+    "lat": "39.4772635",
+    "lng": "-106.044501",
+    "name": "Peak Running Breckenridge",
+    "phone": "(970) 771-2986",
+    "address": "500 S Main St<br>\nSpace 1B, Breckenridge, CO"
+  },
+  {
+    "lat": "41.8020115",
+    "lng": "-87.9287884",
+    "name": "Peak Lifestyle",
+    "phone": "(630) 908-7536",
+    "address": "45 S Washington St, Hinsdale, IL"
+  },
+  {
+    "lat": "36.7166693",
+    "lng": "-76.1879737",
+    "name": "Peake Endurance",
+    "phone": "",
+    "address": "1464 Mt. Pleasant Road<br>\n#25, Chesapeake, VA"
+  },
+  {
+    "lat": "32.5534168",
+    "lng": "-117.0466526",
+    "name": "Peninsula Bikes",
+    "phone": "",
+    "address": "161 W San Ysidro Blvd Suite A, San Diego, CA"
+  },
+  {
+    "lat": "43.0589172",
+    "lng": "-88.1288766",
+    "name": "Performance Running Outfitters",
+    "phone": "",
+    "address": "2205 N Calhoun Rd, Brookfield, WI"
+  },
+  {
+    "lat": "43.0490694",
+    "lng": "-88.3768154",
+    "name": "Performance Running Outfitters",
+    "phone": "",
+    "address": "2566 Sun Valley Drive, Delafield, WI"
+  },
+  {
+    "lat": "43.099087",
+    "lng": "-87.8877739",
+    "name": "Performance Running Outfitters",
+    "phone": "",
+    "address": "4533 North Oakland Avenue, Shorewood, WI"
+  },
+  {
+    "lat": "42.9002746",
+    "lng": "-87.9175068",
+    "name": "Performance Running Outfitters",
+    "phone": "",
+    "address": "7956 S Main St, Oak Creek, WI"
+  },
+  {
+    "lat": "43.03378",
+    "lng": "-87.9058067",
+    "name": "Performance Running Outfitters",
+    "phone": "",
+    "address": "403 E Buffalo St, Milwaukee, WI"
+  },
+  {
+    "lat": "44.517428",
+    "lng": "-88.0207925",
+    "name": "Pete's Garage",
+    "phone": "",
+    "address": "142 N Broadway, Green Bay, WI"
+  },
+  {
+    "lat": "39.8643122",
+    "lng": "-75.5425023",
+    "name": "Philadelphia Runner",
+    "phone": "",
+    "address": "(Glen Mills) 505 Glen Eagle Square, Glen Mills, PA"
+  },
+  {
+    "lat": "39.9502641",
+    "lng": "-75.1695637",
+    "name": "Philadelphia Runner",
+    "phone": "",
+    "address": "(Center City) 1711 Walnut St, Philadelphia, PA"
+  },
+  {
+    "lat": "39.95356",
+    "lng": "-75.196293",
+    "name": "Philadelphia Runner",
+    "phone": "",
+    "address": "(University City) 3621 Walnut Street, Philadelphia, PA"
+  },
+  {
+    "lat": "40.0254226",
+    "lng": "-75.2238912",
+    "name": "Philadelphia Runner",
+    "phone": "",
+    "address": "(Manayunk) 4358 Main Street, Philadelphia, PA"
+  },
+  {
+    "lat": "40.0861291",
+    "lng": "-75.395411",
+    "name": "Philadelphia Runner",
+    "phone": "",
+    "address": "(King of Prussia) 160 N Gulph Rd. #2909, King of Prussia, PA"
+  },
+  {
+    "lat": "27.4441096",
+    "lng": "-82.5059215",
+    "name": "Playtri",
+    "phone": "",
+    "address": "5434 Lockwood Ridge Road, Bradenton, FL"
+  },
+  {
+    "lat": "32.8365407",
+    "lng": "-96.7520142",
+    "name": "Playtri",
+    "phone": "",
+    "address": "6465 E Mockingbird Lane, Dallas, TX"
+  },
+  {
+    "lat": "43.0917857",
+    "lng": "-89.5254332",
+    "name": "Playtri",
+    "phone": "",
+    "address": "1661 Deming Way, Middleton, WI"
+  },
+  {
+    "lat": "33.1703059",
+    "lng": "-117.3575849",
+    "name": "Playtri",
+    "phone": "",
+    "address": "2110 S Coast Hwy, Oceanside, CA"
+  },
+  {
+    "lat": "33.0554249",
+    "lng": "-96.8473433",
+    "name": "Playtri Cycling",
+    "phone": "",
+    "address": "6800 Windhaven Pkwy #137, The Colony, TX"
+  },
+  {
+    "lat": "43.0474318",
+    "lng": "-88.3731378",
+    "name": "PlayTri Delafield",
+    "phone": "",
+    "address": "2736 Hillside Drive, Delafield, WI"
+  },
+  {
+    "lat": "39.9434781",
+    "lng": "-104.9929774",
+    "name": "PlayTri Westminster",
+    "phone": "",
+    "address": "13600 Orchard Parkway, Westminster, CO"
+  },
+  {
+    "lat": "37.101877",
+    "lng": "-76.4911586",
+    "name": "Point 2 Running LLC",
+    "phone": "",
+    "address": "12080 Jefferson Avenue<br>\nSte 910, Newport News, VA"
+  },
+  {
+    "lat": "36.7713574",
+    "lng": "-76.2353742",
+    "name": "Point 2 Running LLC",
+    "phone": "",
+    "address": "741 Eden Way N<br>\nSte 310, Chesapeake, VA"
+  },
+  {
+    "lat": "38.5807042",
+    "lng": "-109.5517416",
+    "name": "Poison Spider Bicycles",
+    "phone": "",
+    "address": "Poison Spider Bicycles<br>\n497 N. Main St., Moab"
+  },
+  {
+    "lat": "45.5170245",
+    "lng": "-122.6605224",
+    "name": "Portland Running Company",
+    "phone": "",
+    "address": "800 SE Grand Ave., Portland, OR"
+  },
+  {
+    "lat": "45.4473979",
+    "lng": "-122.7910208",
+    "name": "Portland Running Company",
+    "phone": "",
+    "address": "10029 SW Nimbus Ave., Suite 100, Beaverton, OR"
+  },
+  {
+    "lat": "43.523921",
+    "lng": "-114.3182081",
+    "name": "Power House",
+    "phone": "",
+    "address": "502 N Main Street, Hailey, ID"
+  },
+  {
+    "lat": "38.8788598",
+    "lng": "-77.1106824",
+    "name": "PR Run and Walk",
+    "phone": "",
+    "address": "4238 Wilson Blvd. Ste. 1235, Arlington, VA"
+  },
+  {
+    "lat": "39.0507931",
+    "lng": "-77.4535772",
+    "name": "PR Run and Walk",
+    "phone": "",
+    "address": "20432 Exchange Street, Ashburn, VA"
+  },
+  {
+    "lat": "38.7997287",
+    "lng": "-77.3220702",
+    "name": "PR Run and Walk",
+    "phone": "",
+    "address": "5715 Burke Centre Pkwy, Burke, VA"
+  },
+  {
+    "lat": "38.8581696",
+    "lng": "-77.3551564",
+    "name": "PR Run and Walk",
+    "phone": "",
+    "address": "11895 Grand Commons Ave, Fairfax, VA"
+  },
+  {
+    "lat": "39.0902554",
+    "lng": "-77.5265609",
+    "name": "PR Run and Walk",
+    "phone": "",
+    "address": "1601 Village Market Blvd. SE, Unit 120, Leesburg, VA"
+  },
+  {
+    "lat": "38.9014081",
+    "lng": "-77.2656491",
+    "name": "PR Run and Walk",
+    "phone": "",
+    "address": "111 Maple Avenue W, Vienna, VA"
+  },
+  {
+    "lat": "38.9576227",
+    "lng": "-77.3580096",
+    "name": "PR Run and Walk",
+    "phone": "",
+    "address": "11911 Democracy Drive, Reston, VA"
+  },
+  {
+    "lat": "38.9134839",
+    "lng": "-77.4898315",
+    "name": "PR Run and Walk",
+    "phone": "",
+    "address": "25401 Eastern Marketplace Plaza, #170, South Riding, VA"
+  },
+  {
+    "lat": "38.779506",
+    "lng": "-77.191169",
+    "name": "PR Run and Walk",
+    "phone": "",
+    "address": "7289 Commerce Street, Springfield, VA"
+  },
+  {
+    "lat": "37.5152928",
+    "lng": "-77.6909515",
+    "name": "PR Run and Walk",
+    "phone": "",
+    "address": "15712 WC Main Street, Midlothian, VA"
+  },
+  {
+    "lat": "40.6715443",
+    "lng": "-73.9839754",
+    "name": "Priority Fitness Training",
+    "phone": "",
+    "address": "339 5th Street, Brooklyn, NY"
+  },
+  {
+    "lat": "40.4396721",
+    "lng": "-79.7621549",
+    "name": "Pro Bike + Run",
+    "phone": "(412) 229-8473",
+    "address": "4201 William Penn Highway, Monroeville"
+  },
+  {
+    "lat": "40.5926146",
+    "lng": "-80.0156808",
+    "name": "Pro Bike + Run",
+    "phone": "(724) 719-6833",
+    "address": "9999 Kummer Rd, Allison Park"
+  },
+  {
+    "lat": "40.4520124",
+    "lng": "-80.1649237",
+    "name": "Pro Bike + Run",
+    "phone": "(412) 490-0881",
+    "address": "3100 Robinson Lane, Pittsburgh"
+  },
+  {
+    "lat": "40.3406149",
+    "lng": "-80.0518789",
+    "name": "Pro Bike",
+    "phone": "(412) 851-1109",
+    "address": "102 Fort Couch Road, Bethel Park"
+  },
+  {
+    "lat": "40.4539396",
+    "lng": "-79.9810248",
+    "name": "Pro Bike + run",
+    "phone": "(412) 742-4420",
+    "address": "2400 Smallman St<br>\nSuite 200, Pittsburgh"
+  },
+  {
+    "lat": "41.1385211",
+    "lng": "-80.1569006",
+    "name": "Pro Bike + Run",
+    "phone": "(412) 838-7379",
+    "address": "1911 Leesburg Grove City Rd<br>\nSpace #800, Grove City"
+  },
+  {
+    "lat": "33.2321589",
+    "lng": "-111.6865228",
+    "name": "Queen Creek Running Company",
+    "phone": "",
+    "address": "23858 S Power Road <br>\nSuite 103, Queen Creek, AZ"
+  },
+  {
+    "lat": "39.4660588",
+    "lng": "-74.4956674",
+    "name": "R3 Sports Recovery",
+    "phone": "",
+    "address": "323 S Pitney Rd, Galloway, NJ"
+  },
+  {
+    "lat": "40.4668162",
+    "lng": "-106.8243827",
+    "name": "Rabbit Ears Running Company",
+    "phone": "",
+    "address": "345 Anglers Drive<br>\nUnit C, Steamboat Springs, CO"
+  },
+  {
+    "lat": "25.8109385",
+    "lng": "-80.382335",
+    "name": "RB Cycles",
+    "phone": "",
+    "address": "11402 Northwest 41st Street<br>\nSuite 117, Doral, FL"
+  },
+  {
+    "lat": "40.6882354",
+    "lng": "-89.5908321",
+    "name": "RC Outfitters",
+    "phone": "",
+    "address": "311 Southwest Water Street, FLR #1, Peoria, IL"
+  },
+  {
+    "lat": "44.2579487",
+    "lng": "-88.285422",
+    "name": "Recyclist Bicycle Co.",
+    "phone": "",
+    "address": "631 Saunders Rd, Kaukauna, WI"
+  },
+  {
+    "lat": "35.530097",
+    "lng": "-97.534425",
+    "name": "Red Coyote",
+    "phone": "",
+    "address": "5720 N. Classen Blvd., Oklahoma City, OK"
+  },
+  {
+    "lat": "36.2709503",
+    "lng": "-115.2681772",
+    "name": "Red Rock Running Company",
+    "phone": "",
+    "address": "7930 W. Tropical Parkway Suite 150, Las vegas, Nevada"
+  },
+  {
+    "lat": "36.0225204",
+    "lng": "-115.082717",
+    "name": "Red Rock Running Company",
+    "phone": "",
+    "address": "120 S Green Valley Parkway Suite 144, Henderson"
+  },
+  {
+    "lat": "36.0541913",
+    "lng": "-115.2450716",
+    "name": "Red Rock Running Company",
+    "phone": "",
+    "address": "7379 South Rainbow Blvd Suite 165, Las Vegas"
+  },
+  {
+    "lat": "37.8112316",
+    "lng": "-122.2656989",
+    "name": "Renegade Running",
+    "phone": "",
+    "address": "45 Grand Avenue, Oakland, CA"
+  },
+  {
+    "lat": "39.4044868",
+    "lng": "-119.7501397",
+    "name": "Reno Running Company",
+    "phone": "",
+    "address": "Reno Running Company LLC<br>\n13987 S. Virginia St. Ste 704<br>\nReno NV 89511, reno"
+  },
+  {
+    "lat": "39.577535",
+    "lng": "-119.722319",
+    "name": "Reno Running Company",
+    "phone": "",
+    "address": "Reno Running Company - Sparks<br>\n1276 Disc Dr.<br>\nSparks NV 89436, reno"
+  },
+  {
+    "lat": "25.8982147",
+    "lng": "-80.3746077",
+    "name": "Revolt Cyclery",
+    "phone": "",
+    "address": "10830 NW 138th Street, Unit B, Hialeah Gardens, FL"
+  },
+  {
+    "lat": "41.838638",
+    "lng": "-71.4088316",
+    "name": "Rhode Runner",
+    "phone": "401-831-6346",
+    "address": "657 North Main Street, Providence, RI"
+  },
+  {
+    "lat": "37.4351665",
+    "lng": "-79.170307",
+    "name": "Riverside Runners",
+    "phone": "(434) 846-7449",
+    "address": "2480 Rivermont Avenue, Lynchburg, VA"
+  },
+  {
+    "lat": "39.051497",
+    "lng": "-77.107192",
+    "name": "RNJ Sports",
+    "phone": "",
+    "address": "11910 Parklawn Drive, Rockville, MD"
+  },
+  {
+    "lat": "38.9822476",
+    "lng": "-77.0978844",
+    "name": "RNJ Sports",
+    "phone": "",
+    "address": "4945 Elm Street, Bethesda, MD"
+  },
+  {
+    "lat": "39.4790775",
+    "lng": "-104.7606283",
+    "name": "RNK Running & Walking",
+    "phone": "",
+    "address": "13019 S Parker, Parker"
+  },
+  {
+    "lat": "39.5267931",
+    "lng": "-104.670443",
+    "name": "RNK Running & Walking",
+    "phone": "",
+    "address": "440 4th Street, Castle Rock"
+  },
+  {
+    "lat": "40.9201148",
+    "lng": "-74.0657895",
+    "name": "Road Runner Sports",
+    "phone": "",
+    "address": "65 Rte 4, Paramus, NJ 07652, Paramus"
+  },
+  {
+    "lat": "39.887553",
+    "lng": "-105.0754691",
+    "name": "Road Runner Sports",
+    "phone": "",
+    "address": "10442 Town Center Dr Suite 300, Westminster, CO 80021, Westminster"
+  },
+  {
+    "lat": "32.8406475",
+    "lng": "-117.1646175",
+    "name": "Road Runner Sports",
+    "phone": "",
+    "address": "5553 Copley Dr, San Diego, CA 92111"
+  },
+  {
+    "lat": "37.6478435",
+    "lng": "-122.3939654",
+    "name": "Roaring Mouse Cycles",
+    "phone": "",
+    "address": "350 Littlefield Ave, South San Francisco, CA"
+  },
+  {
+    "lat": "43.1227034",
+    "lng": "-77.6189383",
+    "name": "Rochester Running Company",
+    "phone": "",
+    "address": "1387 Mt Hope Ave, Rochester, NY"
+  },
+  {
+    "lat": "34.7705094",
+    "lng": "-92.3973314",
+    "name": "Rock City Running",
+    "phone": "",
+    "address": "11121 N. Rodney Parham Rd.<br>\nSuite 37B, Little Rock, AR"
+  },
+  {
+    "lat": "34.7705094",
+    "lng": "-92.3973314",
+    "name": "Rock City Running",
+    "phone": "",
+    "address": "11121 N. Rodney Parham Rd.<br>\nSuite 37B, Little Rock, AR"
+  },
+  {
+    "lat": "42.9782101",
+    "lng": "-89.5409545",
+    "name": "Rocket Bicycle Studios",
+    "phone": "",
+    "address": "507 Bruce St, Suite 101, Verona, WI"
+  },
+  {
+    "lat": "40.5393421",
+    "lng": "-105.0752866",
+    "name": "Rocky Mountain Running Company",
+    "phone": "",
+    "address": "3500 S College Ave Suite 178, Fort Collins, CO"
+  },
+  {
+    "lat": "42.1965248",
+    "lng": "-122.7131004",
+    "name": "Rogue Valley Runners",
+    "phone": "",
+    "address": "161 East Main Street, Ashland, OR"
+  },
+  {
+    "lat": "44.2454108",
+    "lng": "-88.3489017",
+    "name": "Run Away Shoes",
+    "phone": "",
+    "address": "W3192 County Road KK, Appleton, WI"
+  },
+  {
+    "lat": "44.4702658",
+    "lng": "-88.0752236",
+    "name": "Run Away Shoes",
+    "phone": "",
+    "address": "2901 Ramada Way, #101, Green Bay, WI"
+  },
+  {
+    "lat": "44.013268",
+    "lng": "-88.5808641",
+    "name": "Run Away Shoes",
+    "phone": "",
+    "address": "520 S Koeller Street, Oshkosh, WI"
+  },
+  {
+    "lat": "35.1969689",
+    "lng": "-111.6465575",
+    "name": "Run Flagstaff",
+    "phone": "",
+    "address": "204-A East Historic Rte 66, Flagstaff, AZ"
+  },
+  {
+    "lat": "35.3366334",
+    "lng": "-80.7543493",
+    "name": "Run for your life",
+    "phone": "",
+    "address": "1816 East Arbors Drive, Charlotte, NC"
+  },
+  {
+    "lat": "35.2066202",
+    "lng": "-80.8357293",
+    "name": "Run for your life",
+    "phone": "",
+    "address": "901 South Kings Drive, Charlotte, NC"
+  },
+  {
+    "lat": "35.07896",
+    "lng": "-80.8179131",
+    "name": "Run for your life",
+    "phone": "",
+    "address": "6416 Rea Road, Charlotte, NC"
+  },
+  {
+    "lat": "44.0539572",
+    "lng": "-123.0879346",
+    "name": "Run Hub Northwest",
+    "phone": "",
+    "address": "515 High St, Eugene"
+  },
+  {
+    "lat": "34.8501287",
+    "lng": "-82.3834315",
+    "name": "Run In",
+    "phone": "",
+    "address": "1301 E Washington Street, Greenville, SC"
+  },
+  {
+    "lat": "34.7374821",
+    "lng": "-82.2550001",
+    "name": "Run In",
+    "phone": "",
+    "address": "102 E. Curtis Street, Simpsonville, SC"
+  },
+  {
+    "lat": "41.4886406",
+    "lng": "-71.3153647",
+    "name": "Run Newport",
+    "phone": "",
+    "address": "131 Swinburne Row, Newport, RI"
+  },
+  {
+    "lat": "34.8653962",
+    "lng": "-111.7638416",
+    "name": "Run Sedona",
+    "phone": "",
+    "address": "150 SR-179, #5, Sedona, AZ"
+  },
+  {
+    "lat": "31.2769218",
+    "lng": "-92.480856",
+    "name": "Run Wild",
+    "phone": "",
+    "address": "4611 Jackson St. Ext. #B, Alexandria, LA"
+  },
+  {
+    "lat": "32.3951824",
+    "lng": "-93.7289786",
+    "name": "Run Wild",
+    "phone": "",
+    "address": "9462 Ellerbe Road, Suite 140, Shreveport, LA"
+  },
+  {
+    "lat": "34.1605451",
+    "lng": "-118.1508721",
+    "name": "Run With Us",
+    "phone": "",
+    "address": "235 N Lake Ave, Pasadena, CA"
+  },
+  {
+    "lat": "37.2137446",
+    "lng": "-80.4022891",
+    "name": "RunAbout",
+    "phone": "",
+    "address": "1470 S. Main Street Suite 100, Blacksburg, VA"
+  },
+  {
+    "lat": "37.2351688",
+    "lng": "-79.9712641",
+    "name": "RunAbout Sports Roanoke",
+    "phone": "",
+    "address": "3635 Franklin Road SW, Roanoke, VA"
+  },
+  {
+    "lat": "42.351174",
+    "lng": "-83.065679",
+    "name": "RUNdetroit",
+    "phone": "",
+    "address": "441 W Canfield St #5, Detroit, MI"
+  },
+  {
+    "lat": "43.2078871",
+    "lng": "-71.5365167",
+    "name": "Runner's Alley",
+    "phone": "",
+    "address": "142 North Main Street, Concord, NH"
+  },
+  {
+    "lat": "42.987737",
+    "lng": "-71.4626347",
+    "name": "Runner's Alley",
+    "phone": "",
+    "address": "669 Elm Street, Manchester, NH"
+  },
+  {
+    "lat": "43.0759798",
+    "lng": "-70.7596382",
+    "name": "Runner's Alley",
+    "phone": "",
+    "address": "104 Congress Street, Portsmouth, NH"
+  },
+  {
+    "lat": "26.0935021",
+    "lng": "-80.2521645",
+    "name": "Runner's Depot",
+    "phone": "",
+    "address": "2233 S University Dr, Davie, FL"
+  },
+  {
+    "lat": "26.100923019348",
+    "lng": "-80.128333568573",
+    "name": "Runner's Depot",
+    "phone": "",
+    "address": "1489-1E SE 17th St. Causeway, Fort Lauderdale, FL"
+  },
+  {
+    "lat": "25.9560451",
+    "lng": "-80.1414865",
+    "name": "Runner's Depot",
+    "phone": "",
+    "address": "19575 Biscayne Blvd, Suite 1499, Aventura, FL"
+  },
+  {
+    "lat": "26.3002702",
+    "lng": "-80.2768525",
+    "name": "Runner's Depot",
+    "phone": "",
+    "address": "5679 Coral Ridge Drive, Coral Springs, FL"
+  },
+  {
+    "lat": "26.1029594",
+    "lng": "-80.3659214",
+    "name": "Runner's Depot",
+    "phone": "",
+    "address": "1378 Weston Road, Weston, FL"
+  },
+  {
+    "lat": "40.733397",
+    "lng": "-73.4460813",
+    "name": "Runner's Edge NY",
+    "phone": "",
+    "address": "242 Main Street, Farmingdale, NY"
+  },
+  {
+    "lat": "40.8701847",
+    "lng": "-73.4264212",
+    "name": "Runner's Edge NY",
+    "phone": "",
+    "address": "355 New York Ave, Huntington, NY"
+  },
+  {
+    "lat": "40.8626735",
+    "lng": "-74.5668393",
+    "name": "Runner's Haven",
+    "phone": "",
+    "address": "477 NJ-10 East, Randolph, NJ"
+  },
+  {
+    "lat": "40.2393656",
+    "lng": "-74.2810178",
+    "name": "Runner's High",
+    "phone": "",
+    "address": "130 Schanck Rd., Freehold, NJ"
+  },
+  {
+    "lat": "40.28169",
+    "lng": "-111.678205",
+    "name": "Runner’s corner",
+    "phone": "",
+    "address": "835 South 700 East, Orem, UT"
+  },
+  {
+    "lat": "43.4749956",
+    "lng": "-83.9763277",
+    "name": "Runners Athletic Company",
+    "phone": "",
+    "address": "4605 Bay Rd, Saginaw, MI"
+  },
+  {
+    "lat": "43.6553258",
+    "lng": "-84.225243",
+    "name": "Runners Athletic Company",
+    "phone": "",
+    "address": "215 E. Wackerly, Midland, MI"
+  },
+  {
+    "lat": "43.6232628",
+    "lng": "-83.8918257",
+    "name": "Runners Athletic Company",
+    "phone": "",
+    "address": "4104 Wilder Rd, Bay City, MI"
+  },
+  {
+    "lat": "43.5758511",
+    "lng": "-84.7585674",
+    "name": "Runners Athletic Company",
+    "phone": "",
+    "address": "4459 E. Blue Grass Rd., Mount Pleasant, MI"
+  },
+  {
+    "lat": "40.1239331",
+    "lng": "-82.9463855",
+    "name": "Runners Plus",
+    "phone": "",
+    "address": "8970 Kingsridge Drive, Dayton, OH"
+  },
+  {
+    "lat": "39.7784354",
+    "lng": "-84.0538048",
+    "name": "Runners Plus",
+    "phone": "",
+    "address": "2604 Colonel Glenn Hwy, Fairborn, OH"
+  },
+  {
+    "lat": "39.7412545",
+    "lng": "-84.1818779",
+    "name": "Runners Plus",
+    "phone": "",
+    "address": "1200 Brown Street, Suite 120, Dayton, OH"
+  },
+  {
+    "lat": "39.709466",
+    "lng": "-105.0842864",
+    "name": "Runners Roost",
+    "phone": "",
+    "address": "7978 W. Alameda Ave, Lakewood, CO"
+  },
+  {
+    "lat": "40.5393421",
+    "lng": "-105.0752866",
+    "name": "Runners Roost",
+    "phone": "",
+    "address": "Runners Roost, 3500 South College Avenue, Fort Collins, Colorado, 80525, USA, Fort Collins"
+  },
+  {
+    "lat": "39.686387",
+    "lng": "-104.9426727",
+    "name": "Runners Roost",
+    "phone": "",
+    "address": "1685 S. Colorado Blvd., Denver"
+  },
+  {
+    "lat": "39.5351957",
+    "lng": "-104.8807705",
+    "name": "Runners Roost",
+    "phone": "",
+    "address": "9994 Commons St., Ste. 230, Lone Tree"
+  },
+  {
+    "lat": "39.9839392",
+    "lng": "-105.2488741",
+    "name": "Runners Roost",
+    "phone": "",
+    "address": "629 South Broadway, Suite E, Boulder"
+  },
+  {
+    "lat": "39.5929004",
+    "lng": "-104.8063894",
+    "name": "Runners Roost",
+    "phone": "",
+    "address": "6790 S Cornerstar Way, Suite E, Aurora"
+  },
+  {
+    "lat": "39.765709",
+    "lng": "-104.9020603",
+    "name": "Runners Roost",
+    "phone": "",
+    "address": "7305 E. 35th Ave., Suite 150, Denver"
+  },
+  {
+    "lat": "39.7485116",
+    "lng": "-105.2121447",
+    "name": "Runners Roost",
+    "phone": "",
+    "address": "2120 Ford St, Golden"
+  },
+  {
+    "lat": "39.9648577",
+    "lng": "-105.1641366",
+    "name": "Runners Roost",
+    "phone": "",
+    "address": "459 S McCaslin Blvd, Louisville"
+  },
+  {
+    "lat": "36.1054401",
+    "lng": "-95.9759368",
+    "name": "Runners World Tulsa",
+    "phone": "",
+    "address": "3920 S Peoria, Tulsa, OK"
+  },
+  {
+    "lat": "39.8978099",
+    "lng": "-75.0330495",
+    "name": "Running Company of South Jersey",
+    "phone": "",
+    "address": "121 Kings Hwy E., Haddonfield, NJ"
+  },
+  {
+    "lat": "39.9616388",
+    "lng": "-74.9519327",
+    "name": "Running Company of South Jersey",
+    "phone": "",
+    "address": "115 W Main St., Moorestown, NJ"
+  },
+  {
+    "lat": "39.7420765",
+    "lng": "-75.2252303",
+    "name": "Running Company of South Jersey",
+    "phone": "",
+    "address": "86 N Main St., Mullica Hill, NJ"
+  },
+  {
+    "lat": "39.897356",
+    "lng": "-74.8238227",
+    "name": "Running Company of South Jersey",
+    "phone": "",
+    "address": "62 S Main St., Medford, NJ"
+  },
+  {
+    "lat": "38.6203034",
+    "lng": "-90.2558298",
+    "name": "Running Niche",
+    "phone": "",
+    "address": "1601 Tower Grove Avenue, Saint Louis, MO"
+  },
+  {
+    "lat": "37.287726",
+    "lng": "-121.940886",
+    "name": "Running Revolution",
+    "phone": "",
+    "address": "511 E Campbell Ave, Campbell, CA"
+  },
+  {
+    "lat": "26.1386703",
+    "lng": "-80.111566",
+    "name": "Running Wild",
+    "phone": "",
+    "address": "2563 E Sunrise Blvd., Fort Lauderdale, FL"
+  },
+  {
+    "lat": "28.1665554",
+    "lng": "-80.6725284",
+    "name": "Running Zone",
+    "phone": "",
+    "address": "3696 North Wickham Road, Melbourne, FL"
+  },
+  {
+    "lat": "35.8000913",
+    "lng": "-78.6235819",
+    "name": "Runologie",
+    "phone": "",
+    "address": "1614 Automotive Way, Raleigh, NC"
+  },
+  {
+    "lat": "36.3550116",
+    "lng": "-94.1974811",
+    "name": "Rush Running Company",
+    "phone": "",
+    "address": "1600-2 SE J Street, Bentonville, AR"
+  },
+  {
+    "lat": "36.0987966",
+    "lng": "-94.1503768",
+    "name": "Rush Running Company",
+    "phone": "",
+    "address": "2600 North College Avenue, Fayetteville, AR"
+  },
+  {
+    "lat": "41.7297571",
+    "lng": "-93.6075328",
+    "name": "Rynovelo",
+    "phone": "",
+    "address": "604 Southwest 3rd Street, Ankeny, IA"
+  },
+  {
+    "lat": "44.0460396",
+    "lng": "-121.3317865",
+    "name": "Sagebrush Cycles",
+    "phone": "",
+    "address": "345 SW Century Dr #100, 97702"
+  },
+  {
+    "lat": "44.9183599",
+    "lng": "-93.1875886",
+    "name": "Saint City Running",
+    "phone": "",
+    "address": "767 Cleveland Ave S, Saint Paul, MN"
+  },
+  {
+    "lat": "40.7178233",
+    "lng": "-111.8717169",
+    "name": "Salt Lake Running Company",
+    "phone": "",
+    "address": "2454 S 700 E, Salt Lake City"
+  },
+  {
+    "lat": "40.6252592",
+    "lng": "-111.265984",
+    "name": "Salt Lake Running Company",
+    "phone": "",
+    "address": "1356 S Foothill Dr, Kamas"
+  },
+  {
+    "lat": "40.5435584",
+    "lng": "-111.889137",
+    "name": "Salt Lake Running Company",
+    "phone": "",
+    "address": "78 E 11400 S, Draper"
+  },
+  {
+    "lat": "40.5888531",
+    "lng": "-111.8909364",
+    "name": "Salt Lake Running Company",
+    "phone": "",
+    "address": "8946 S State St, Sandy"
+  },
+  {
+    "lat": "40.920015",
+    "lng": "-111.8863423",
+    "name": "Salt Lake Running Company",
+    "phone": "",
+    "address": "316 Marketplace Drive, Centerville"
+  },
+  {
+    "lat": "37.8811402",
+    "lng": "-122.5247374",
+    "name": "San Francisco Running Company",
+    "phone": "",
+    "address": "247 Shoreline Highway, Unit B1, Mill Valley, CA"
+  },
+  {
+    "lat": "37.9741774",
+    "lng": "-122.5628206",
+    "name": "San Francisco Running Company",
+    "phone": "",
+    "address": "115 Tunstead Ave, San Anselmo, CA"
+  },
+  {
+    "lat": "34.4146642",
+    "lng": "-119.6894336",
+    "name": "Santa Barbara Running Company",
+    "phone": "",
+    "address": "110 Anacapa St, Santa Barbara, CA"
+  },
+  {
+    "lat": "40.7358173",
+    "lng": "-73.0830715",
+    "name": "Sayville Running Company",
+    "phone": "",
+    "address": "(Sayville) 19 Main St,, Sayville, NY"
+  },
+  {
+    "lat": "40.8561453",
+    "lng": "-73.1909215",
+    "name": "Sayville Running Company",
+    "phone": "",
+    "address": "(Smithtown) 91 E Main St,, Smithtown, NY"
+  },
+  {
+    "lat": "30.4992087",
+    "lng": "-84.245043",
+    "name": "Science of Speed",
+    "phone": "",
+    "address": "3361 Raymond Diehl Business Lane Rd, Tallahassee, FL"
+  },
+  {
+    "lat": "41.4173052",
+    "lng": "-75.664105",
+    "name": "Scranton Running Company",
+    "phone": "",
+    "address": "3 W Olive St, Scranton, PA"
+  },
+  {
+    "lat": "41.6738895",
+    "lng": "-81.3251069",
+    "name": "Second Sole",
+    "phone": "",
+    "address": "8791 Mentor Ave, Mentor, OH"
+  },
+  {
+    "lat": "41.5189658",
+    "lng": "-81.4954051",
+    "name": "Second Sole",
+    "phone": "",
+    "address": "5114 Mayfield Rd, Lyndhurst, OH"
+  },
+  {
+    "lat": "41.480556",
+    "lng": "-81.838293",
+    "name": "Second Sole",
+    "phone": "",
+    "address": "18636 Detroit Rd, Lakewood, OH"
+  },
+  {
+    "lat": "41.1347046",
+    "lng": "-81.5485893",
+    "name": "Second Sole",
+    "phone": "",
+    "address": "1466 N Portage Path, Akron, OH"
+  },
+  {
+    "lat": "40.8487878",
+    "lng": "-81.4352013",
+    "name": "Second Sole",
+    "phone": "",
+    "address": "4667 Dressler Rd NW, Canton, OH"
+  },
+  {
+    "lat": "41.0236215",
+    "lng": "-80.6850359",
+    "name": "Second Sole",
+    "phone": "",
+    "address": "755 Boardman-Canfield Rd, Youngstown, OH"
+  },
+  {
+    "lat": "40.0509358",
+    "lng": "-82.8648195",
+    "name": "Second Sole",
+    "phone": "",
+    "address": "1245 N Hamilton Rd, Gahanna, OH"
+  },
+  {
+    "lat": "40.8116045",
+    "lng": "-81.5283142",
+    "name": "Second Sole",
+    "phone": "",
+    "address": "115 Lake Ave NW, Massillon, OH"
+  },
+  {
+    "lat": "41.1392872",
+    "lng": "-81.8636524",
+    "name": "Second Sole",
+    "phone": "",
+    "address": "122 Public Square, Medina, OH"
+  },
+  {
+    "lat": "41.5275326",
+    "lng": "-83.6451961",
+    "name": "Second Sole",
+    "phone": "",
+    "address": "4190 Levis Commons Blvd, Perrysburg, OH"
+  },
+  {
+    "lat": "29.7898945",
+    "lng": "-95.4538663",
+    "name": "Shama Cycles",
+    "phone": "",
+    "address": "2000 Edwards St <br>\nB150, Houston, TX"
+  },
+  {
+    "lat": "42.9473773",
+    "lng": "-78.8401307",
+    "name": "Shickluna Bikes",
+    "phone": "716-837-6122",
+    "address": "1835 Hertel Avenue, Buffalo, NY"
+  },
+  {
+    "lat": "40.158043",
+    "lng": "-105.107575",
+    "name": "Shoes & Brews",
+    "phone": "",
+    "address": "63 S Pratt Pkwy Unit B, Longmont, CO"
+  },
+  {
+    "lat": "41.0215234",
+    "lng": "-73.6260168",
+    "name": "Signature Cycles",
+    "phone": "(203) 485-0500",
+    "address": "14 Railroad Avenue, Greenwich, CT"
+  },
+  {
+    "lat": "34.107766",
+    "lng": "-118.2679421",
+    "name": "Silver Lake Track Club",
+    "phone": "",
+    "address": "2894 ROWENA AVENUE, LOS ANGELES"
+  },
+  {
+    "lat": "35.6880497",
+    "lng": "-105.9441697",
+    "name": "Sincere Cycles",
+    "phone": "505-983-8081",
+    "address": "411 West Water Street<br>\nSuite B, Santa Fe, NM"
+  },
+  {
+    "lat": "44.4755753",
+    "lng": "-73.2157499",
+    "name": "Ski Rack Inc.",
+    "phone": "",
+    "address": "85 Main Street, Burlington, VT 05401, Burlington, VT"
+  },
+  {
+    "lat": "44.1470341",
+    "lng": "-71.1902011",
+    "name": "Ski the Whites",
+    "phone": "",
+    "address": "211 Main Street, Jackson, NH"
+  },
+  {
+    "lat": "61.2143704",
+    "lng": "-149.8977702",
+    "name": "Skinny Raven",
+    "phone": "",
+    "address": "800 H Street, Anchorage"
+  },
+  {
+    "lat": "61.1377841",
+    "lng": "-149.930825",
+    "name": "Skinny Raven",
+    "phone": "",
+    "address": "2727 W. Dimond Blvd, Anchorage"
+  },
+  {
+    "lat": "43.4804538",
+    "lng": "-110.7632983",
+    "name": "Skinny Skis",
+    "phone": "",
+    "address": "65 West Deloney, Jackson, WY"
+  },
+  {
+    "lat": "25.7871979",
+    "lng": "-80.3685832",
+    "name": "Skyros Sport",
+    "phone": "",
+    "address": "1455 NW 107th Ave, STE 732, Doral, FL"
+  },
+  {
+    "lat": "40.6249553",
+    "lng": "-111.81991",
+    "name": "SkyRun/Skimo",
+    "phone": "",
+    "address": "2477 Fort Union Blvd #104, Salt Lake City, UT"
+  },
+  {
+    "lat": "38.453547",
+    "lng": "-78.8676462",
+    "name": "Sole Focus Running",
+    "phone": "",
+    "address": "421 N Main Street, Harrisonburg, VA"
+  },
+  {
+    "lat": "33.7563827",
+    "lng": "-84.3648383",
+    "name": "Specialized Atlanta",
+    "phone": "",
+    "address": "112 Krog St Northeast<br>\nSuite 10, Atlanta, GA"
+  },
+  {
+    "lat": "41.8853456",
+    "lng": "-87.6505979",
+    "name": "Specialized Fulton Market",
+    "phone": "",
+    "address": "925 W Lake St, Chicago, IL"
+  },
+  {
+    "lat": "29.7924429",
+    "lng": "-95.4559125",
+    "name": "Specialized Houston",
+    "phone": "",
+    "address": "4486 W 12th St, Houston, TX"
+  },
+  {
+    "lat": "41.9201913",
+    "lng": "-87.6489022",
+    "name": "Specialized Lincoln Park",
+    "phone": "",
+    "address": "2104 N Halsted St, Chicago, IL"
+  },
+  {
+    "lat": "30.3976667",
+    "lng": "-88.8977985",
+    "name": "Sportif Ventures",
+    "phone": "",
+    "address": "993 Howard Ave, Biloxi, MS"
+  },
+  {
+    "lat": "39.7656215",
+    "lng": "-89.7112131",
+    "name": "Springfield Running Center",
+    "phone": "",
+    "address": "2943 West White Oaks Dr. #1, Springfield, IL"
+  },
+  {
+    "lat": "37.1256472",
+    "lng": "-113.5275432",
+    "name": "St George Running Center",
+    "phone": "",
+    "address": "2736 E Red Cliffs Dr #5, St George, UT"
+  },
+  {
+    "lat": "27.7907202",
+    "lng": "-82.7358967",
+    "name": "St Pete Running Company",
+    "phone": "",
+    "address": "6986 22nd Ave N, St. Petersburg, FL"
+  },
+  {
+    "lat": "42.909592",
+    "lng": "-85.764149",
+    "name": "Striders",
+    "phone": "",
+    "address": "4045 Chicago DR SW, Grandville, MI"
+  },
+  {
+    "lat": "33.3349541",
+    "lng": "-111.7837772",
+    "name": "Suffer City",
+    "phone": "",
+    "address": "263 E Warner Rd c103, Gilbert"
+  },
+  {
+    "lat": "37.1811492",
+    "lng": "-93.2592231",
+    "name": "Sunshine Bike Shop",
+    "phone": "",
+    "address": "1926 E Sunshine Street, Springfield, MO"
+  },
+  {
+    "lat": "35.2712556",
+    "lng": "-82.6718007",
+    "name": "Sycamore Cycles",
+    "phone": "",
+    "address": "112 New Hendersonville Hwy, Pisgah Forest, NC"
+  },
+  {
+    "lat": "40.2975249",
+    "lng": "-111.7161599",
+    "name": "T3 Endurance Sports",
+    "phone": "(801) 769-3576",
+    "address": "870 W Center St, Orem"
+  },
+  {
+    "lat": "44.887559",
+    "lng": "-93.4178367",
+    "name": "TC Running",
+    "phone": "",
+    "address": "6405 City W Pkwy B5, Eden Prairie, MN"
+  },
+  {
+    "lat": "45.0661137",
+    "lng": "-93.4427382",
+    "name": "TC Running",
+    "phone": "",
+    "address": "12862 Bass Lake Rd, Maple Grove, MN"
+  },
+  {
+    "lat": "44.9267936",
+    "lng": "-93.1367867",
+    "name": "TC Running",
+    "phone": "",
+    "address": "868 Randolph Ave, St. Paul, MN"
+  },
+  {
+    "lat": "44.7434595",
+    "lng": "-93.2726878",
+    "name": "TC Running",
+    "phone": "",
+    "address": "14240 Plymouth Ave, Burnsville, MN"
+  },
+  {
+    "lat": "44.9373604",
+    "lng": "-92.9535783",
+    "name": "TC Running",
+    "phone": "",
+    "address": "779 Bielenberg Drive, Woodbury, MN"
+  },
+  {
+    "lat": "44.000395",
+    "lng": "-92.4794394",
+    "name": "TerraLoco",
+    "phone": "",
+    "address": "1190 16th Street SW<br>\n#150, Rochester, MN"
+  },
+  {
+    "lat": "28.0104717",
+    "lng": "-82.7884816",
+    "name": "The Bike Lab",
+    "phone": "",
+    "address": "357 Scotland Street, Dunedin"
+  },
+  {
+    "lat": "28.0189243",
+    "lng": "-81.7309664",
+    "name": "The Bike Shop of Winter Haven",
+    "phone": "",
+    "address": "249 3rd Street SW, Winter Haven, FL"
+  },
+  {
+    "lat": "27.7699034",
+    "lng": "-82.6637653",
+    "name": "The Bikery",
+    "phone": "",
+    "address": "2222 1st Avenue South, St. Petersburg, FL"
+  },
+  {
+    "lat": "36.1766179",
+    "lng": "-86.7520505",
+    "name": "THE EXCHANGE RUNNING COLLECTIVE",
+    "phone": "",
+    "address": "966 Woodland Street, Nashville, TN"
+  },
+  {
+    "lat": "35.9549736",
+    "lng": "-83.9554536",
+    "name": "The Long Run",
+    "phone": "",
+    "address": "2452 Sutherland Ave., Knoxville, TN"
+  },
+  {
+    "lat": "30.2674025",
+    "lng": "-97.7550849",
+    "name": "The Loop Running Supply",
+    "phone": "",
+    "address": "115 Sandra Muraida Way, Ste 105B, Austin, TX"
+  },
+  {
+    "lat": "30.248496",
+    "lng": "-97.7505149",
+    "name": "The Meteor Cafe",
+    "phone": "",
+    "address": "2114 1/2 S Congress Ave, Austin, TX"
+  },
+  {
+    "lat": "36.3679839",
+    "lng": "-94.2039868",
+    "name": "The Meteor Cafe",
+    "phone": "",
+    "address": "401 SE D Street, Bentonville, AK"
+  },
+  {
+    "lat": "40.3398988",
+    "lng": "-74.0409841",
+    "name": "The Outpost Running & Walking Co.",
+    "phone": "732-383-6047",
+    "address": "32 Church st., Little Silver"
+  },
+  {
+    "lat": "26.3699184",
+    "lng": "-80.0842206",
+    "name": "The Racer's Edge",
+    "phone": "",
+    "address": "2212 N. Dixie Hwy, Boca Raton, FL"
+  },
+  {
+    "lat": "42.5371855",
+    "lng": "-92.4452246",
+    "name": "The Runner's Flat",
+    "phone": "",
+    "address": "120 Main Street, Cedar Falls, IA"
+  },
+  {
+    "lat": "42.7694399",
+    "lng": "-78.7445247",
+    "name": "The Runner's Roost",
+    "phone": "(716) 662-1331",
+    "address": "4190 North Buffalo Road, Orchard Park, NY"
+  },
+  {
+    "lat": "43.0079027",
+    "lng": "-78.6962207",
+    "name": "The Runner's Roost",
+    "phone": "(716) 639-7231",
+    "address": "5841 Transit Road, East Amherst, NY"
+  },
+  {
+    "lat": "39.9609885",
+    "lng": "-86.1162899",
+    "name": "The Runners Forum",
+    "phone": "",
+    "address": "620 Station Drive, Carmel, IN"
+  },
+  {
+    "lat": "39.764723",
+    "lng": "-86.3795654",
+    "name": "The Runners Forum",
+    "phone": "",
+    "address": "8100 E. US 36, Suite 6, Avon, IN"
+  },
+  {
+    "lat": "39.870843",
+    "lng": "-86.1427614",
+    "name": "The Runners Forum",
+    "phone": "",
+    "address": "902 E Westfield Blvd., Indianapolis, IN"
+  },
+  {
+    "lat": "39.99212",
+    "lng": "-86.0022776",
+    "name": "The Runners Forum",
+    "phone": "",
+    "address": "14033 Mundy Drive, Fishers, IN"
+  },
+  {
+    "lat": "39.6302714",
+    "lng": "-86.1566554",
+    "name": "The Runners Forum",
+    "phone": "",
+    "address": "1001 N SR 135, Suite D9, Greenwood, IN"
+  },
+  {
+    "lat": "39.9399367",
+    "lng": "-86.2346159",
+    "name": "The Runners Forum",
+    "phone": "",
+    "address": "4335 W 106th St, Suite 700, Carmel, IN"
+  },
+  {
+    "lat": "28.0792179",
+    "lng": "-82.5061762",
+    "name": "The Running Center Tampa Bay LLC",
+    "phone": "",
+    "address": "14427 N. Dale Mabry Hwy, Tampa, FL"
+  },
+  {
+    "lat": "29.1952224",
+    "lng": "-81.0721274",
+    "name": "The Running Elements",
+    "phone": "",
+    "address": "260 Daytona Blvd D-410, Daytona Beach, FL"
+  },
+  {
+    "lat": "29.18773",
+    "lng": "-82.1357935",
+    "name": "The Running Elements",
+    "phone": "",
+    "address": "29 NE 1st Ave #E, Ocala, FL"
+  },
+  {
+    "lat": "39.9868005",
+    "lng": "-75.3976376",
+    "name": "The Running Place",
+    "phone": "",
+    "address": "3551 West Chester Pike, Newtown Square, PA"
+  },
+  {
+    "lat": "43.073987",
+    "lng": "-75.2873472",
+    "name": "The Sneaker Store",
+    "phone": "",
+    "address": "24 Genesee Street, New Hartford, NY"
+  },
+  {
+    "lat": "37.8028535",
+    "lng": "-122.4592551",
+    "name": "The Sports Basement",
+    "phone": "",
+    "address": "610 Old Mason St, San Francisco"
+  },
+  {
+    "lat": "37.767102",
+    "lng": "-122.4112523",
+    "name": "The Sports Basement",
+    "phone": "",
+    "address": "1590 Bryant St, San Francisco"
+  },
+  {
+    "lat": "37.3830536",
+    "lng": "-121.9968056",
+    "name": "The Sports Basement",
+    "phone": "",
+    "address": "1177 Kern Avenue, Sunnyvale"
+  },
+  {
+    "lat": "37.9173594",
+    "lng": "-122.03833",
+    "name": "The Sports Basement",
+    "phone": "",
+    "address": "1881 Ygnacio Valley Road, Walnut Creek"
+  },
+  {
+    "lat": "37.2879973",
+    "lng": "-121.9331783",
+    "name": "The Sports Basement",
+    "phone": "",
+    "address": "1875 South Bascom Ave, Ste. #240, Campbell"
+  },
+  {
+    "lat": "37.8596569",
+    "lng": "-122.2686676",
+    "name": "The Sports Basement",
+    "phone": "",
+    "address": "2727 Milvia Street, Berkeley"
+  },
+  {
+    "lat": "38.419369",
+    "lng": "-122.712374",
+    "name": "The Sports Basement",
+    "phone": "",
+    "address": "1970 Santa Rosa Ave, Santa Rosa"
+  },
+  {
+    "lat": "37.7619906",
+    "lng": "-121.953088",
+    "name": "The Sports Basement",
+    "phone": "",
+    "address": "1041 Market Place, San Ramon"
+  },
+  {
+    "lat": "38.0926055",
+    "lng": "-122.5546854",
+    "name": "The Sports Basement",
+    "phone": "",
+    "address": "100 Vintage Way, Novato"
+  },
+  {
+    "lat": "37.4930742",
+    "lng": "-122.2262122",
+    "name": "The Sports Basement",
+    "phone": "",
+    "address": "202 Walnut Street, Redwood City"
+  },
+  {
+    "lat": "37.7291913",
+    "lng": "-122.4772691",
+    "name": "The Sports Basement",
+    "phone": "",
+    "address": "3251 20th Ave, Suite 390, San Francisco"
+  },
+  {
+    "lat": "33.6993579",
+    "lng": "-117.9405522",
+    "name": "The Sports Basement",
+    "phone": "",
+    "address": "10800 Kalama River Ave, Fountain Valley"
+  },
+  {
+    "lat": "33.4799198",
+    "lng": "-86.7914495",
+    "name": "The Trak Shak",
+    "phone": "",
+    "address": "2839 18th Street South, Birmingham, AL"
+  },
+  {
+    "lat": "35.1954169",
+    "lng": "-80.8259795",
+    "name": "The Ultra Running Company",
+    "phone": "",
+    "address": "1027 Providence Rd, Charlotte, NC"
+  },
+  {
+    "lat": "35.2129366",
+    "lng": "-80.8592322",
+    "name": "The Ultra Running Company",
+    "phone": "",
+    "address": "110 West Blvd, Charlotte, NC"
+  },
+  {
+    "lat": "35.8954727",
+    "lng": "-78.6210893",
+    "name": "TLC for Bikes",
+    "phone": "",
+    "address": "8480 Honeycutt Rd., #126, Raleigh, NC"
+  },
+  {
+    "lat": "33.644296",
+    "lng": "-112.221928",
+    "name": "Tortoise & Hare Sports",
+    "phone": "(623) 792-7900",
+    "address": "17570 N 75th Ave #605, Glendale"
+  },
+  {
+    "lat": "25.8268157",
+    "lng": "-80.3608613",
+    "name": "Total Cycling Mechanical",
+    "phone": "(786) 762-2069",
+    "address": "10181 NW 58th St #1, Doral, FL"
+  },
+  {
+    "lat": "28.5605977",
+    "lng": "-81.3645998",
+    "name": "Track Shack Orlando",
+    "phone": "",
+    "address": "1104 North Mills Ave., Orlando, FL"
+  },
+  {
+    "lat": "42.3491822",
+    "lng": "-71.084763",
+    "name": "Tracksmith",
+    "phone": "",
+    "address": "285 Newbury St, Boston, MA"
+  },
+  {
+    "lat": "34.0931555",
+    "lng": "-118.1315948",
+    "name": "trailheadbikesshop@gmail.com",
+    "phone": "(949) 491 5708",
+    "address": "411 West Main Street, Alhambra, CA"
+  },
+  {
+    "lat": "39.1096364",
+    "lng": "-77.5624345",
+    "name": "Transition Tri Sports",
+    "phone": "",
+    "address": "400 Madison Trade Plaza SE, Leesburg, VA"
+  },
+  {
+    "lat": "39.9998077",
+    "lng": "-105.2610505",
+    "name": "Trek Bicycle Boulder",
+    "phone": "",
+    "address": "2626 Baseline Rd, Boulder, CO"
+  },
+  {
+    "lat": "40.5239595",
+    "lng": "-105.0744341",
+    "name": "Trek Bicycle Ft. Collins",
+    "phone": "",
+    "address": "226 E Harmony Rd Unit 3, Fort Collins, CO"
+  },
+  {
+    "lat": "36.028199",
+    "lng": "-115.0496906",
+    "name": "Trek Bicycle Henderson",
+    "phone": "",
+    "address": "19 South Stephanie St<br>\nSte 100, Henderson, NV"
+  },
+  {
+    "lat": "39.5421291",
+    "lng": "-104.9424902",
+    "name": "Trek Bicycle Highlands Ranch",
+    "phone": "",
+    "address": "9567 S University Blvd Suite #E2, Highlands Ranch, CO"
+  },
+  {
+    "lat": "30.2801988",
+    "lng": "-81.7269906",
+    "name": "Trek Bicycle Jacksonville Lakeshore",
+    "phone": "",
+    "address": "2108 Blanding Blvd, Jacksonville, FL"
+  },
+  {
+    "lat": "36.1165621",
+    "lng": "-115.2974577",
+    "name": "Trek Bicycle Las Vegas West",
+    "phone": "",
+    "address": "4035 South Fort Apache, Las Vegas, NV"
+  },
+  {
+    "lat": "28.5742612",
+    "lng": "-81.3891506",
+    "name": "Trek Bicycle Orlando College Park",
+    "phone": "",
+    "address": "2517 Edgewater Dr, Orlando, FL"
+  },
+  {
+    "lat": "28.6507808",
+    "lng": "-81.2423319",
+    "name": "Trek Bicycle Oviedo",
+    "phone": "",
+    "address": "7505 Red Bug Lake Rd, Oviedo, FL"
+  },
+  {
+    "lat": "30.490373",
+    "lng": "-84.2419153",
+    "name": "Trek Bicycle Tallahassee",
+    "phone": "",
+    "address": "2784 Capital Cir NE, Tallahassee, FL"
+  },
+  {
+    "lat": "27.9388568",
+    "lng": "-82.4930843",
+    "name": "Trek Bicycle Tampa",
+    "phone": "",
+    "address": "530 S MacDill Ave, Tampa, FL"
+  },
+  {
+    "lat": "43.6296737",
+    "lng": "-116.2030909",
+    "name": "Tri Town Bicycles",
+    "phone": "",
+    "address": "1510 N 13th St, Boise, ID"
+  },
+  {
+    "lat": "26.7067698",
+    "lng": "-80.0526093",
+    "name": "Triforz",
+    "phone": "",
+    "address": "701 S Olive Avenue, Suite 110, West Palm Beach, FL"
+  },
+  {
+    "lat": "34.0661433",
+    "lng": "-84.423238",
+    "name": "Try Bike Shop",
+    "phone": "",
+    "address": "4750 Alabama Rd #106, Roswell, GA"
+  },
+  {
+    "lat": "41.7282911",
+    "lng": "-71.2852233",
+    "name": "TTBikeFit",
+    "phone": "",
+    "address": "337 Water Street, Warren, RI"
+  },
+  {
+    "lat": "36.0226011",
+    "lng": "-95.9501063",
+    "name": "Tulsa Runner",
+    "phone": "",
+    "address": "9708 Riverside Pkwy, Tulsa, OK"
+  },
+  {
+    "lat": "27.5628533",
+    "lng": "-99.452641",
+    "name": "Twin City Cyclery",
+    "phone": "",
+    "address": "2402 Jacaman Rd<br>\nSte 5, Laredo, TX"
+  },
+  {
+    "lat": "32.770625",
+    "lng": "-108.276532",
+    "name": "Twin Sisters Cycling And Fitness",
+    "phone": "",
+    "address": "303 North Bullard Street, Silver City, NM"
+  },
+  {
+    "lat": "38.8972604",
+    "lng": "-104.8234339",
+    "name": "Twisted Spoke Apothecary",
+    "phone": "",
+    "address": "140 East Garden Of The Gods Rd, Colorado Springs, CO"
+  },
+  {
+    "lat": "40.484908",
+    "lng": "-106.8328803",
+    "name": "Twisted Trail Running Company",
+    "phone": "",
+    "address": "601 Lincoln Ave Unit C2, Steamboat Springs, CO"
+  },
+  {
+    "lat": "29.6995204",
+    "lng": "-98.1175361",
+    "name": "Two Rivers Running",
+    "phone": "",
+    "address": "1265 N Academy Ave, New Braunfels, TX"
+  },
+  {
+    "lat": "21.2941944",
+    "lng": "-157.8596076",
+    "name": "Uloha",
+    "phone": "(808) 979 4463",
+    "address": "15 Ward Ave, Honolulu"
+  },
+  {
+    "lat": "41.8120844",
+    "lng": "-87.9503668",
+    "name": "Urban Tri Gear",
+    "phone": "",
+    "address": "804 E Ogden, Westmont, IL"
+  },
+  {
+    "lat": "40.3764881",
+    "lng": "-111.792599",
+    "name": "UtahRUN",
+    "phone": "",
+    "address": "211 E State St, American Fork, UT"
+  },
+  {
+    "lat": "40.1809018",
+    "lng": "-75.4542249",
+    "name": "Valley Forge Running Co.",
+    "phone": "(601) 489-8090",
+    "address": "305 2nd Avenue<br>\nSuite 207, Collegeville, PA"
+  },
+  {
+    "lat": "41.2734271",
+    "lng": "-75.877432",
+    "name": "Valley Running Company",
+    "phone": "",
+    "address": "900 Rutter Avenue, Forty Fort, PA"
+  },
+  {
+    "lat": "26.2543528",
+    "lng": "-98.2299872",
+    "name": "Valley Running Company",
+    "phone": "",
+    "address": "1701 W Dove<br>\nSuite J, McAllen, TX"
+  },
+  {
+    "lat": "30.4304125",
+    "lng": "-91.1608102",
+    "name": "Varsity Sports",
+    "phone": "",
+    "address": "2055 Perkins Road, Baton Rouge, LA"
+  },
+  {
+    "lat": "30.3546802",
+    "lng": "-90.0683812",
+    "name": "Varsity Sports",
+    "phone": "",
+    "address": "2021 Claiborne St., Mandeville, LA"
+  },
+  {
+    "lat": "29.9222709",
+    "lng": "-90.0902575",
+    "name": "Varsity Sports",
+    "phone": "",
+    "address": "3450 Magazine St., New Orleans, LA"
+  },
+  {
+    "lat": "45.5647992",
+    "lng": "-122.5738949",
+    "name": "Velotech INC",
+    "phone": "",
+    "address": "5741 NE 87th Ave, Portland, OR"
+  },
+  {
+    "lat": "40.7967396",
+    "lng": "-81.9397401",
+    "name": "Vertical Runners of Wooster",
+    "phone": "",
+    "address": "207 S Market St, Wooster, OH"
+  },
+  {
+    "lat": "33.8922596",
+    "lng": "-118.3955376",
+    "name": "Village Runner",
+    "phone": "",
+    "address": "1840 N. Sepulveda Blvd., Manhattan Beach, CA"
+  },
+  {
+    "lat": "33.8183442",
+    "lng": "-118.386654",
+    "name": "Village Runner",
+    "phone": "",
+    "address": "255 Avenida Del Norte, Redondo Beach, CA"
+  },
+  {
+    "lat": "31.5542197",
+    "lng": "-97.1324716",
+    "name": "Waco Running Company",
+    "phone": "",
+    "address": "700 Franklin Ave, Waco, TX"
+  },
+  {
+    "lat": "33.2123669",
+    "lng": "-87.5609066",
+    "name": "Wagner's Tuscaloosa",
+    "phone": "",
+    "address": "420 Queen City Ave, Tuscaloosa, AL"
+  },
+  {
+    "lat": "41.440944",
+    "lng": "-71.489411",
+    "name": "Wakefield Running Company LLC",
+    "phone": "",
+    "address": "20 Main Street<br>\nSuite B, Wakefield, RI"
+  },
+  {
+    "lat": "40.5889211",
+    "lng": "-111.8925255",
+    "name": "Wasatch Running Center",
+    "phone": "",
+    "address": "8946 State St, Sandy, UT"
+  },
+  {
+    "lat": "40.9200454",
+    "lng": "-111.886328",
+    "name": "Wasatch Running Center",
+    "phone": "",
+    "address": "316 N Marketplace Dr, Centerville, UT"
+  },
+  {
+    "lat": "30.5212081",
+    "lng": "-87.9031394",
+    "name": "We Run Wild",
+    "phone": "",
+    "address": "72A South Section Street, Fairhope, AL"
+  },
+  {
+    "lat": "30.4254892",
+    "lng": "-87.1811198",
+    "name": "We Run Wild",
+    "phone": "",
+    "address": "3012 E. Cervantes Street, Pensacola, FL"
+  },
+  {
+    "lat": "35.3412112",
+    "lng": "-82.6079294",
+    "name": "Weevil Outdoor Inc.",
+    "phone": "",
+    "address": "4 Caroline Drive, Horse Shoe, NC"
+  },
+  {
+    "lat": "47.5779904",
+    "lng": "-122.38709",
+    "name": "West Seattle Runner",
+    "phone": "2069380545",
+    "address": "2743 California Ave SW, Seattle, WA"
+  },
+  {
+    "lat": "33.8507187",
+    "lng": "-84.429112",
+    "name": "West Stride",
+    "phone": "",
+    "address": "3517 Northside Pkwy. #11, Atlanta, GA"
+  },
+  {
+    "lat": "41.0294302",
+    "lng": "-73.7643565",
+    "name": "Westchester Road Runner",
+    "phone": "",
+    "address": "179 East Post Road, White Plains, NY"
+  },
+  {
+    "lat": "47.6217976",
+    "lng": "-122.312972",
+    "name": "Windthrow",
+    "phone": "",
+    "address": "345 15th Ave E #103, Seattle, WA 98112, Seattle"
+  },
+  {
+    "lat": "28.565737",
+    "lng": "-81.5866418",
+    "name": "Winter Garden Wheel Works",
+    "phone": "",
+    "address": "101 W Plant Street, Winter Garden, FL"
+  },
+  {
+    "lat": "28.556452",
+    "lng": "-81.3330226",
+    "name": "Winter Park Cycles LLC",
+    "phone": "",
+    "address": "835 Bennett Road<br>\nSTE 101, Orlando, FL"
+  },
+  {
+    "lat": "25.4401498",
+    "lng": "-80.4760426",
+    "name": "World of Cycling",
+    "phone": "(786) 478-2101",
+    "address": "35202 S Dixie Hwy<br>\nUnit 100, Homestead, FL"
+  },
+  {
+    "lat": "34.1927614",
+    "lng": "-118.9438125",
+    "name": "Worldwide Cyclery",
+    "phone": "",
+    "address": "3225 Grande Vista Dr., Newbury Park"
+  },
+  {
+    "lat": "41.2934429",
+    "lng": "-72.7854074",
+    "name": "Zane's Cycles",
+    "phone": "",
+    "address": "330 East Main Street, Branford, CT"
+  },
+  {
+    "lat": "25.7343417",
+    "lng": "-80.2604507",
+    "name": "Ziel Miami",
+    "phone": "",
+    "address": "4100 Salzedo Street, Suite 17, Miami, FL"
+  },
+  {
+    "lat": "30.2183238",
+    "lng": "-81.6148472",
+    "name": "1st Place Sports",
+    "phone": "",
+    "address": "3931 Baymeadows Road, Jacksonville, Florida"
+  },
+  {
+    "lat": "38.7173661",
+    "lng": "-90.7025516",
+    "name": "40K Cycles",
+    "phone": "",
+    "address": "4623 State Highway K, O'Fallon, MO"
+  },
+  {
+    "lat": "38.5368638",
+    "lng": "-105.99224",
+    "name": "7000 Feet Running Company",
+    "phone": "",
+    "address": "140 W. First Street<br>\nUnit A, Salida, CO"
+  },
+  {
+    "lat": "37.57814",
+    "lng": "-122.344105",
+    "name": "A Runners Mind",
+    "phone": "",
+    "address": "111 Howard avenue, burlingame, 94010, CA, Burlingame"
+  },
+  {
+    "lat": "37.7874273",
+    "lng": "-122.4514345",
+    "name": "A Runners Mind",
+    "phone": "",
+    "address": "3575 Sacramento St., San Francisco, CA, San francisco"
+  },
+  {
+    "lat": "37.3782127",
+    "lng": "-122.1175821",
+    "name": "A Runners Mind",
+    "phone": "",
+    "address": "378 Main St, Los Altos, CA 94022, los altos"
+  },
+  {
+    "lat": "33.9119351",
+    "lng": "-117.8909428",
+    "name": "A Snail's Pace",
+    "phone": "",
+    "address": "1040 E Imperial Hwy, Brea, CA"
+  },
+  {
+    "lat": "33.7151924",
+    "lng": "-117.9752838",
+    "name": "A Snail's Pace",
+    "phone": "",
+    "address": "8780 Warner Ave, Fountain Valley, CA"
+  },
+  {
+    "lat": "33.6076063",
+    "lng": "-117.6911958",
+    "name": "A Snail's Pace",
+    "phone": "",
+    "address": "24451 Alicia Pkwy, Mission Viejo, CA"
+  },
+  {
+    "lat": "34.1439553",
+    "lng": "-118.0006475",
+    "name": "A Snail's Pace",
+    "phone": "",
+    "address": "750 South Myrtle Avenue, Monrovia, CA"
+  },
+  {
+    "lat": "41.256398",
+    "lng": "-73.6842017",
+    "name": "Acme Bicycle Co.",
+    "phone": "",
+    "address": "215 Katonah Ave, Katonah, NY"
+  },
+  {
+    "lat": "35.3694429",
+    "lng": "-119.1092834",
+    "name": "Action Sports",
+    "phone": "",
+    "address": "9500 Brimhall Rd<br>\nSTE 400, Bakersfield, CA"
+  },
+  {
+    "lat": "40.8696724",
+    "lng": "-124.0847873",
+    "name": "Adventure's Edge",
+    "phone": "",
+    "address": "650 10th Street, Arcata"
+  },
+  {
+    "lat": "40.8005502",
+    "lng": "-124.1741336",
+    "name": "Adventure's Edge",
+    "phone": "",
+    "address": "125 W 5th Street, Eureka"
+  },
+  {
+    "lat": "38.6414054",
+    "lng": "-121.1889236",
+    "name": "AE Service Course",
+    "phone": "",
+    "address": "309 Iron Point Road, Folsom, CA"
+  },
+  {
+    "lat": "61.600536",
+    "lng": "-149.115502",
+    "name": "Aktive Soles Performance Footwear",
+    "phone": "",
+    "address": "642 S Alaska St.<br>\nSuite 100, Palmer"
+  },
+  {
+    "lat": "61.5911709",
+    "lng": "-149.3589601",
+    "name": "Aktive Soles Performance Footwear",
+    "phone": "",
+    "address": "984 N Meridian Place<br>\nSuite B, Wasilla"
+  },
+  {
+    "lat": "26.1247504",
+    "lng": "-80.3620989",
+    "name": "Alex's Bicycle Pro Shop",
+    "phone": "",
+    "address": "16098 W St Rd 84<br>\nUnit 3, Weston, FL"
+  },
+  {
+    "lat": "33.9926763",
+    "lng": "-84.3419625",
+    "name": "All3Sports Inc.",
+    "phone": "",
+    "address": "8601 Dunwoody Place<br>\nSuite 420, Atlanta, GA"
+  },
+  {
+    "lat": "21.3959635",
+    "lng": "-157.7416046",
+    "name": "Aloha Friday Wheelworks and Running Company",
+    "phone": "",
+    "address": "326-4 Kuulei Road, Kailua"
+  },
+  {
+    "lat": "39.1698578",
+    "lng": "-120.1427628",
+    "name": "Alpenglow Sports",
+    "phone": "(530) 583-6917",
+    "address": "415 N Lake Blvd, Tahoe City"
+  },
+  {
+    "lat": "25.5793216",
+    "lng": "-80.3351059",
+    "name": "Andante Bikes",
+    "phone": "786-303-6735",
+    "address": "20283 Old Cutler Rd, Cutler Bay, FL"
+  },
+  {
+    "lat": "42.2801607",
+    "lng": "-83.7495862",
+    "name": "Ann Arbor Running Company",
+    "phone": "",
+    "address": "209 S Ashley, Ann Arbor, MI"
+  },
+  {
+    "lat": "42.2455328",
+    "lng": "-83.7590751",
+    "name": "Ann Arbor Running Company",
+    "phone": "",
+    "address": "901 W Eisenhower Pkwy, Ann Arbor, MI"
+  },
+  {
+    "lat": "42.3038851",
+    "lng": "-83.7093331",
+    "name": "Ann Arbor Running Company",
+    "phone": "",
+    "address": "2621 Plymouth Rd, Ann Arbor, MI"
+  },
+  {
+    "lat": "40.4843732",
+    "lng": "-78.3988867",
+    "name": "Appalachian Running Company",
+    "phone": "",
+    "address": "3415 Pleasant Valley Blvd, Suite 108 A, Altoona, PA"
+  },
+  {
+    "lat": "40.1989616",
+    "lng": "-77.1825751",
+    "name": "Appalachian Running Company",
+    "phone": "",
+    "address": "290 East Pomfret Street, Carlisle, PA"
+  },
+  {
+    "lat": "40.4081451",
+    "lng": "-79.9160495",
+    "name": "Appalachian Running Company",
+    "phone": "",
+    "address": "112 West Bridge Street, Homestead, PA"
+  },
+  {
+    "lat": "40.6128606",
+    "lng": "-80.0541501",
+    "name": "Appalachian Running Company",
+    "phone": "",
+    "address": "10616 Perry Hwy, Wexford, PA"
+  },
+  {
+    "lat": "38.9269744",
+    "lng": "-104.7229735",
+    "name": "Ascent Cycling",
+    "phone": "",
+    "address": "6472 Templeton Gap Rd, Colorado Springs"
+  },
+  {
+    "lat": "41.1382739",
+    "lng": "-73.3097917",
+    "name": "ASF Sports & Outdoors",
+    "phone": "(203) 255-4460",
+    "address": "1560 Post Rd E, Westport, CT"
+  },
+  {
+    "lat": "39.9150938",
+    "lng": "-86.1404484",
+    "name": "Athletic Annex",
+    "phone": "",
+    "address": "1300 E 86th Street, #29A, Indianapolis, IN"
+  },
+  {
+    "lat": "39.9561983",
+    "lng": "-86.0006821",
+    "name": "Athletic Annex",
+    "phone": "",
+    "address": "11591 Yard Street, Suite 500, Fishers, IN"
+  },
+  {
+    "lat": "40.6968997",
+    "lng": "-73.3193689",
+    "name": "Babylon Bike Shop",
+    "phone": "(631) 587-6709",
+    "address": "218 E Main St, Babylon, NY"
+  },
+  {
+    "lat": "41.0439985",
+    "lng": "-73.5917787",
+    "name": "Bax Cycles",
+    "phone": "",
+    "address": "78 Valley Road, Greenwich"
+  },
+  {
+    "lat": "32.932974",
+    "lng": "-97.226791",
+    "name": "Bear Creek Running Company",
+    "phone": "",
+    "address": "101 Town Center Ln Suite 115, Keller, TX"
+  },
+  {
+    "lat": "35.8719182",
+    "lng": "-78.6783803",
+    "name": "Bell Lap Cycleworks",
+    "phone": "",
+    "address": "6300 Creedmoor Road, Raleigh"
+  }
+]

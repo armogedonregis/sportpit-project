@@ -48,3 +48,15 @@
 .swiper-slide {
     height: 100vh;
 }
+
+
+.marker-icon {
+    width: 24px;
+    height: 32px;
+    cursor: pointer;
+  }
+  
+  .marker-icon svg {
+    width: 100%;
+    height: 100%;
+  }
