@@ -4,14 +4,19 @@ import { useEffect, useState } from 'react';
 import quizSteps from '@/data/quiz-steps.json';
 import { Product } from '@/types/product';
 import { getAllProducts } from '@/utils/productData';
-import { useCartDispatch } from '@/context/cartContext';
+import { useCartDispatch, useCartState } from '@/context/cartContext';
 import Link from 'next/link';
 
 export const QuizModule = () => {
   const [currentStep, setCurrentStep] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string[]>>({});
   const [recommendedProducts, setRecommendedProducts] = useState<Product[]>([]);
+  const { items } = useCartState();
   const dispatch = useCartDispatch();
+
+  const isInCart = (product: Product) => {
+    return items.some(item => item.id === product.id);
+  };
 
   const addToCart = (product: Product) => {
     const price = parseFloat(product.price.replace(/[^\d.-]/g, ''));
@@ -113,9 +118,10 @@ export const QuizModule = () => {
                 </Link>
                 <button
                   onClick={() => addToCart(product)}
+                  disabled={isInCart(product)}
                   className="w-full px-4 py-2 bg-black text-white rounded-md text-sm hover:bg-black/80 transition-colors"
                 >
-                  Add to Cart
+                  {isInCart(product) ? 'In Cart' : 'Add to Cart'}
                 </button>
               </div>
             ))}
