@@ -22,6 +22,10 @@ async function downloadImage(url: string, outputPath: string): Promise<void> {
   
   await sharp(response.data)
     .grayscale() // Делаем черно-белым
+    .resize(100, 100, { // Устанавливаем фиксированный размер
+      fit: 'contain', // Сохраняем пропорции
+      background: { r: 255, g: 255, b: 255, alpha: 0 } // Прозрачный фон
+    })
     .toFile(outputPath);
 }
 

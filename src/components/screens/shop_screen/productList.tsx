@@ -4,6 +4,7 @@ import { useCartDispatch } from '@/context/cartContext';
 import { Product } from '@/types/product';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 
 interface ProductListProps {
     products: Product[];
@@ -12,6 +13,8 @@ interface ProductListProps {
 
 export const ProductList: React.FC<ProductListProps> = ({ products }) => {
     const dispatch = useCartDispatch();
+    const searchParams = useSearchParams();
+    const selectedSubCategory = searchParams.get('subCategory') || '';
 
     const addToCart = (product: Product) => {
         const price = parseFloat(product.price.replace(/[^\d.-]/g, ''));
@@ -19,14 +22,18 @@ export const ProductList: React.FC<ProductListProps> = ({ products }) => {
         dispatch({ type: 'ADD_ITEM', payload: productWithNumericPrice });
     };
 
+    const filteredProducts = selectedSubCategory
+        ? products.filter(product => product?.subCategory?.toLowerCase() === selectedSubCategory.toLowerCase())
+        : products;
+
     const rows: Product[][] = [];
     let currentRow: Product[] = [];
     let currentCategory = '';
 
-    products.forEach((product) => {
+
+    filteredProducts.forEach((product) => {
         if (currentCategory !== product.category) {
             if (currentRow.length > 0) {
-
                 rows.push(currentRow);
                 currentRow = [];
             }

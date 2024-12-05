@@ -7,6 +7,15 @@ import { getAllProducts } from '@/utils/productData';
 import { useCartDispatch, useCartState } from '@/context/cartContext';
 import Link from 'next/link';
 
+
+type QuizOption = {
+  id: string;
+  title: string;
+  imageUrl: string;
+  resize?: boolean;
+  big?: boolean;
+}
+
 export const QuizModule = () => {
   const [currentStep, setCurrentStep] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string[]>>({});
@@ -128,7 +137,7 @@ export const QuizModule = () => {
           </div>
         ) : (
           <div className={`grid ${getGridCols(step.options?.length || 0)} gap-4 animate-slideIn`}>
-            {step.options?.map((option) => (
+            {step.options?.map((option: QuizOption) => (
               <button
                 key={option.id}
                 onClick={() => handleOptionClick(option.id)}
@@ -140,7 +149,10 @@ export const QuizModule = () => {
                 `}
               >
                 <div
-                  className="w-[30px] h-[30px] mb-4 bg-contain bg-center bg-no-repeat"
+                  className={`w-[30px] h-[30px] mb-4 bg-contain bg-center bg-no-repeat ${
+                    option.resize ? 'scale-75' : ''
+                  } ${option.big ? 'scale-150' : ''}
+                  `}
                   style={{ backgroundImage: `url(${option.imageUrl})` }}
                 />
                 <span className="text-center text-sm font-medium text-gray-900">

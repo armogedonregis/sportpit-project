@@ -142,7 +142,7 @@ export const Header = () => {
                     <div className="p-8 pt-24 h-full overflow-y-auto">
                         <nav className="space-y-4">
                             <Link href="/products" className="block text-2xl">Shop</Link>
-                            <Link href="/quiz" className="block text-2xl">Quiz</Link>
+                            <Link href="/quiz" className="block text-2xl">Find Your Products</Link>
                             <Link href="/innovation" className="block text-2xl">Innovation</Link>
                             <Link href="/fuel-guides" className="block text-2xl">The Fuel Guides</Link>
                             <Link href="/race-partners" className="block text-2xl">Race Partners</Link>

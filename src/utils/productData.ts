@@ -25,7 +25,7 @@ const allProducts: Product[] = [
             "/video/ground_product.mp4",
             "/images/people/1.png"
         ],
-        subCategory: 'Cleansers' // укажите один из трех типов 'Cleansers' или 'Wellness' или 'Relaxation'
+        subCategory: 'Wellness' // укажите один из трех типов 'Cleansers' или 'Wellness' или 'Relaxation'
     },
     {
         id: 2,
@@ -72,7 +72,8 @@ const allProducts: Product[] = [
             "/images/herbal/ground_puck_3.png", // порошок
             "/video/ground_product.mp4",
             "/images/people/3.png"
-        ]
+        ],
+        subCategory: 'Relaxation'
     },
     {
         id: 4,
@@ -95,7 +96,8 @@ const allProducts: Product[] = [
             "/images/herbal/ground_puck_4.png", // порошок
             "/video/ground_product.mp4",
             "/images/people/4.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 5,
@@ -118,7 +120,8 @@ const allProducts: Product[] = [
             "/images/herbal/ground_puck_5.png", // порошок
             "/video/ground_product.mp4",
             "/images/people/5.png"
-        ]
+        ],
+        subCategory: 'Relaxation'
     },
     // {
     //     id: 6,
@@ -234,7 +237,8 @@ const allProducts: Product[] = [
             "/images/core/core_puck_2.png", // порошок
             "/video/core_product.mp4",
             "/images/people/9.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 11,
@@ -280,7 +284,8 @@ const allProducts: Product[] = [
             "/images/core/core_puck_4.png", // порошок
             "/video/core_product.mp4",
             "/images/people/11.png"
-        ]
+        ],
+        subCategory: 'Relaxation'
     },
     {
         id: 13,
@@ -303,7 +308,8 @@ const allProducts: Product[] = [
             "/images/core/core_puck_5.png", // порошок
             "/video/core_product.mp4",
             "/images/people/12.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 14,
@@ -326,7 +332,8 @@ const allProducts: Product[] = [
             "/images/core/core_puck_6.png", // порошок
             "/video/core_product.mp4",
             "/images/people/13.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 15,
@@ -349,7 +356,8 @@ const allProducts: Product[] = [
             "/images/core/core_puck_7.png", // порошок
             "/video/core_product.mp4",
             "/images/people/14.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 16,
@@ -372,7 +380,8 @@ const allProducts: Product[] = [
             "/images/core/core_puck_8.png", // порошок
             "/video/core_product.mp4",
             "/images/people/1.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 17,
@@ -395,7 +404,8 @@ const allProducts: Product[] = [
             "/images/core/core_puck_9.png", // порошок
             "/video/core_product.mp4",
             "/images/people/2.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 18,
@@ -418,7 +428,8 @@ const allProducts: Product[] = [
             "/images/core/core_puck_10.png", // порошок
             "/video/core_product.mp4",
             "/images/people/3.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 19,
@@ -441,7 +452,8 @@ const allProducts: Product[] = [
             "/images/core/core_puck_11.png", // порошок
             "/video/core_product.mp4",
             "/images/people/4.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 20,
@@ -464,7 +476,8 @@ const allProducts: Product[] = [
             "/images/core/core_puck_12.png", // порошок
             "/video/core_product.mp4",
             "/images/people/5.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 21,
@@ -487,7 +500,8 @@ const allProducts: Product[] = [
             "/images/rise/rise_puck_1.png", // порошок
             "/video/rise_product.mp4",
             "/images/people/6.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 22,
@@ -510,7 +524,8 @@ const allProducts: Product[] = [
             "/images/rise/rise_puck_2.png", // порошок
             "/video/rise_product.mp4",
             "/images/people/7.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 23,
@@ -533,7 +548,8 @@ const allProducts: Product[] = [
             "/images/rise/rise_puck_3.png", // порошок
             "/video/rise_product.mp4",
             "/images/people/8.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 24,
@@ -557,7 +573,8 @@ const allProducts: Product[] = [
             "/images/rise/rise_plant_blend_protein_sachet.png",
             "/images/rise/rise_puck_4.png",
             "/video/rise_product.mp4",
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 25,
@@ -580,7 +597,8 @@ const allProducts: Product[] = [
             "/images/rise/rise_puck_5.png", // порошок
             "/video/rise_product.mp4",
             "/images/people/10.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 26,
@@ -603,7 +621,8 @@ const allProducts: Product[] = [
             "/images/rise/rise_puck_6.png", // порошок
             "/video/rise_product.mp4",
             "/images/people/11.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 27,
@@ -626,7 +645,8 @@ const allProducts: Product[] = [
             "/images/rise/rise_puck_7.png", // порошок
             "/video/rise_product.mp4",
             "/images/people/12.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 28,
@@ -649,7 +669,8 @@ const allProducts: Product[] = [
             "/images/rise/rise_puck_8.png", // порошок
             "/video/rise_product.mp4",
             "/images/people/13.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 29,
@@ -672,7 +693,8 @@ const allProducts: Product[] = [
             "/images/rise/rise_puck_9.png", // порошок
             "/video/rise_product.mp4",
             "/images/people/14.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 30,
@@ -695,7 +717,8 @@ const allProducts: Product[] = [
             "/images/rise/rise_puck_10.png", // порошок
             "/video/rise_product.mp4",
             "/images/people/1.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 31,
@@ -718,7 +741,8 @@ const allProducts: Product[] = [
             "/images/summit/summit_puck_1.png", // порошок
             "/video/summit_product.mp4",
             "/images/people/2.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 32,
@@ -741,7 +765,8 @@ const allProducts: Product[] = [
             "/images/summit/summit_puck_2.png", // порошок
             "/video/summit_product.mp4",
             "/images/people/3.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 33,
@@ -764,7 +789,8 @@ const allProducts: Product[] = [
             "/images/summit/summit_puck_3.png", // порошок
             "/video/summit_product.mp4",
             "/images/people/4.png"
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 34,
@@ -788,7 +814,8 @@ const allProducts: Product[] = [
             "/images/summit/plant_protein_perfomance_banoffee_flavour_sachet.png",
             "/images/summit/summit_puck_4.png",
             "/video/summit_product.mp4",
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 35,
@@ -812,7 +839,8 @@ const allProducts: Product[] = [
             "/images/summit/plant_protein_perfomance_chocolate_flavour_sachet.png",
             "/images/summit/summit_puck_5.png",
             "/video/summit_product.mp4",
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 36,
@@ -836,7 +864,8 @@ const allProducts: Product[] = [
             "/images/summit/plant_protein_perfomance_tiramisu_flavour_sachet.png",
             "/images/summit/summit_puck_6.png",
             "/video/summit_product.mp4",
-        ]
+        ],
+        subCategory: 'Wellness'
     },
     {
         id: 37,

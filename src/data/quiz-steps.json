@@ -39,7 +39,8 @@
       {
         "id": "choice-0Xh3NQb",
         "title": "I don't",
-        "imageUrl": "/quiz_icons/choice-0Xh3NQb.webp"
+        "imageUrl": "/quiz_icons/choice-0Xh3NQb.webp",
+        "resize": true
       },
       {
         "id": "choice-kBhgyBN",
@@ -59,7 +60,8 @@
       {
         "id": "choice-36hkmbj",
         "title": "You can't get me out of the gym!",
-        "imageUrl": "/quiz_icons/choice-36hkmbj.webp"
+        "imageUrl": "/quiz_icons/choice-36hkmbj.webp",
+        "resize": true
       }
     ]
   },
@@ -106,7 +108,8 @@
       {
         "id": "choice-l0hJxQ0",
         "title": "Other",
-        "imageUrl": "/quiz_icons/choice-l0hJxQ0.webp"
+        "imageUrl": "/quiz_icons/choice-l0hJxQ0.webp",
+        "resize": true
       }
     ]
   },
@@ -219,7 +222,8 @@
       {
         "id": "choice-g5hZ49o",
         "title": "None",
-        "imageUrl": "/quiz_icons/choice-g5hZ49o.webp"
+        "imageUrl": "/quiz_icons/choice-g5hZ49o.webp",
+        "resize": true
       },
       {
         "id": "choice-mkhqdDY",
@@ -244,7 +248,8 @@
       {
         "id": "choice-7mhqrB2",
         "title": "I've some other allergies",
-        "imageUrl": "/quiz_icons/choice-7mhqrB2.webp"
+        "imageUrl": "/quiz_icons/choice-7mhqrB2.webp",
+        "resize": true
       }
     ]
   },
@@ -286,7 +291,8 @@
       {
         "id": "choice-QwhJWYZ",
         "title": "Other",
-        "imageUrl": "/quiz_icons/choice-QwhJWYZ.webp"
+        "imageUrl": "/quiz_icons/choice-QwhJWYZ.webp",
+        "resize": true
       },
       {
         "id": "choice-jPhOw8A",
@@ -303,17 +309,20 @@
       {
         "id": "choice-GahwW5Y",
         "title": "Yes, I'm always busy",
-        "imageUrl": "/quiz_icons/choice-GahwW5Y.webp"
+        "imageUrl": "/quiz_icons/choice-GahwW5Y.webp",
+        "big": true
       },
       {
         "id": "choice-JNhwqoE",
         "title": "No, I have plenty of time",
-        "imageUrl": "/quiz_icons/choice-JNhwqoE.webp"
+        "imageUrl": "/quiz_icons/choice-JNhwqoE.webp",
+        "big": true
       },
       {
         "id": "choice-WOh7Xmo",
         "title": "Sometimes, on big days",
-        "imageUrl": "/quiz_icons/choice-WOh7Xmo.webp"
+        "imageUrl": "/quiz_icons/choice-WOh7Xmo.webp",
+        "big": true
       }
     ]
   },
@@ -335,7 +344,8 @@
       {
         "id": "choice-xohE8Qp",
         "title": "Neither",
-        "imageUrl": "/quiz_icons/choice-xohE8Qp.webp"
+        "imageUrl": "/quiz_icons/choice-xohE8Qp.webp",
+        "resize": true
       },
       {
         "id": "choice-PWhJkXY",
@@ -357,12 +367,14 @@
       {
         "id": "choice-0Xh3r45",
         "title": "Yes, every day!",
-        "imageUrl": "/quiz_icons/choice-0Xh3r45.webp"
+        "imageUrl": "/quiz_icons/choice-0Xh3r45.webp",
+        "big": true
       },
       {
         "id": "choice-kBhgQey",
         "title": "Occassionally",
-        "imageUrl": "/quiz_icons/choice-kBhgQey.webp"
+        "imageUrl": "/quiz_icons/choice-kBhgQey.webp",
+        "big": true
       },
       {
         "id": "choice-l0hJV2V",
@@ -448,7 +460,8 @@
       {
         "id": "choice-QwhJWgE",
         "title": "Prefer not to say",
-        "imageUrl": "/quiz_icons/choice-QwhJWgE.webp"
+        "imageUrl": "/quiz_icons/choice-QwhJWgE.webp",
+        "resize": true
       }
     ]
   },
@@ -460,7 +473,8 @@
       {
         "id": "choice-jPhOwp0",
         "title": "Under 18",
-        "imageUrl": "/quiz_icons/choice-jPhOwp0.webp"
+        "imageUrl": "/quiz_icons/choice-jPhOwp0.webp",
+        "resize": true
       },
       {
         "id": "choice-GahwW2l",
@@ -485,7 +499,8 @@
       {
         "id": "choice-DlhEjWy",
         "title": "56 or over",
-        "imageUrl": "/quiz_icons/choice-DlhEjWy.webp"
+        "imageUrl": "/quiz_icons/choice-DlhEjWy.webp",
+        "resize": true
       }
     ]
   },
