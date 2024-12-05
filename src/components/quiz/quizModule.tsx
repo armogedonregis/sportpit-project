@@ -1,13 +1,46 @@
 'use client'
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import quizSteps from '@/data/quiz-steps.json';
+import { Product } from '@/types/product';
+import { getAllProducts } from '@/utils/productData';
+import { useCartDispatch } from '@/context/cartContext';
+import Link from 'next/link';
 
 export const QuizModule = () => {
   const [currentStep, setCurrentStep] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string[]>>({});
+  const [recommendedProducts, setRecommendedProducts] = useState<Product[]>([]);
+  const dispatch = useCartDispatch();
+
+  const addToCart = (product: Product) => {
+    const price = parseFloat(product.price.replace(/[^\d.-]/g, ''));
+    const productWithNumericPrice = { ...product, price: price.toString() };
+    dispatch({ type: 'ADD_ITEM', payload: productWithNumericPrice });
+  };
+
+  const addAllToCart = () => {
+    recommendedProducts.forEach(product => {
+      addToCart(product);
+    });
+  };
+
+  const restartQuiz = () => {
+    setCurrentStep(0);
+    setAnswers({});
+    setRecommendedProducts([]);
+  };
 
   const step = quizSteps[currentStep];
+
+
+  useEffect(() => {
+    if (currentStep === quizSteps.length - 1) {
+      const allProducts = getAllProducts();
+      const randomProducts = allProducts.sort(() => 0.5 - Math.random()).slice(0, 4);
+      setRecommendedProducts(randomProducts);
+    }
+  }, [currentStep]);
 
   const handleOptionClick = (optionId: string) => {
     setAnswers(prev => {
@@ -62,28 +95,55 @@ export const QuizModule = () => {
           )}
         </div>
 
-        <div className={`grid ${getGridCols(step.options?.length || 0)} gap-4 animate-slideIn`}>
-          {step.options?.map((option) => (
-            <button
-              key={option.id}
-              onClick={() => handleOptionClick(option.id)}
-              className={`
-                flex flex-col items-center p-4 rounded-lg border-2 transition-all
-                ${isOptionSelected(option.id)
-                  ? 'border-black bg-black/20'
-                  : 'border-gray-200 hover:border-black/50 bg-white'}
-              `}
-            >
-              <div
-                className="w-[30px] h-[30px] mb-4 bg-contain bg-center bg-no-repeat"
-                style={{ backgroundImage: `url(${option.imageUrl})` }}
-              />
-              <span className="text-center text-sm font-medium text-gray-900">
-                {option.title}
-              </span>
-            </button>
-          ))}
-        </div>
+        {currentStep === quizSteps.length - 1 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            {recommendedProducts.map(product => (
+              <div key={product.id} className="p-4 border rounded-lg bg-white flex flex-col justify-between">
+                <Link
+                  href={`/product/${product.link}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-grow cursor-pointer"
+                >
+                  <div>
+                    <img src={product.img} alt={product.name} className="w-full h-40 object-cover mb-2" />
+                    <h3 className="text-lg font-bold">{product.name}</h3>
+                    <p className="text-sm mb-2">{product.price}</p>
+                  </div>
+                </Link>
+                <button
+                  onClick={() => addToCart(product)}
+                  className="w-full px-4 py-2 bg-black text-white rounded-md text-sm hover:bg-black/80 transition-colors"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className={`grid ${getGridCols(step.options?.length || 0)} gap-4 animate-slideIn`}>
+            {step.options?.map((option) => (
+              <button
+                key={option.id}
+                onClick={() => handleOptionClick(option.id)}
+                className={`
+                  flex flex-col items-center p-4 rounded-lg border-2 transition-all
+                  ${isOptionSelected(option.id)
+                    ? 'border-black bg-black/20'
+                    : 'border-gray-200 hover:border-black/50 bg-white'}
+                `}
+              >
+                <div
+                  className="w-[30px] h-[30px] mb-4 bg-contain bg-center bg-no-repeat"
+                  style={{ backgroundImage: `url(${option.imageUrl})` }}
+                />
+                <span className="text-center text-sm font-medium text-gray-900">
+                  {option.title}
+                </span>
+              </button>
+            ))}
+          </div>
+        )}
 
         <div className="mt-8">
           <div className="relative pt-1">
@@ -118,6 +178,23 @@ export const QuizModule = () => {
               Next
             </button>
           </div>
+
+          {currentStep === quizSteps.length - 1 && (
+            <div className="flex justify-center gap-4 mt-8">
+              <button
+                onClick={addAllToCart}
+                className="px-6 py-3 bg-black text-white rounded-md font-medium hover:bg-black/80 transition-colors"
+              >
+                Add All to Cart
+              </button>
+              <button
+                onClick={restartQuiz}
+                className="px-6 py-3 border border-white text-white rounded-md font-medium hover:bg-white/10 transition-colors"
+              >
+                Retake Quiz
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>

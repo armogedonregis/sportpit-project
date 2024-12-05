@@ -39,9 +39,27 @@ export const Header = () => {
     useEffect(() => {
         setIsMenuOpen(false);
         window.addEventListener('scroll', handleScroll);
-        handleScroll(); // Вызываем handleScroll сразу при монтировании компонента
+        handleScroll();
         return () => window.removeEventListener('scroll', handleScroll);
     }, [pathname, handleScroll]);
+
+    const handleMobileAppsClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+        e.preventDefault();
+        setIsMenuOpen(false);
+        
+        if (pathname !== '/') {
+            window.location.href = '/#mob_apps';
+            return;
+        }
+        
+        const element = document.querySelector('#mob_apps');
+        if (element) {
+            element.scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'end'
+            });
+        }
+    };
 
 
     return (
@@ -129,6 +147,7 @@ export const Header = () => {
                             <Link href="/fuel-guides" className="block text-2xl">The Fuel Guides</Link>
                             <Link href="/race-partners" className="block text-2xl">Race Partners</Link>
                             <Link href="/magazine" className="block text-2xl">Magazine</Link>
+                            <Link onClick={handleMobileAppsClick} href="/#mob_apps" className="block text-2xl">Mobile apps</Link>
                         </nav>
                         <div className="mt-8 space-y-4">
                             <Link href="/my-page" className="block text-sm">My Page</Link>

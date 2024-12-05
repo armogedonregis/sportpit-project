@@ -9,7 +9,7 @@ const athleteImages = [
 
 export const AthletesAndRetailerBlock = () => {
   return (
-    <section className="py-16 px-3 lg:px-8 bg-white">
+    <section className="pt-16 px-3 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold mb-8">Mamostong Athletes</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-4">
