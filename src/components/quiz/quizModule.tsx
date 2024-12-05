@@ -70,8 +70,8 @@ export const QuizModule = () => {
               className={`
                 flex flex-col items-center p-4 rounded-lg border-2 transition-all
                 ${isOptionSelected(option.id)
-                  ? 'border-yellow-400 bg-yellow-50'
-                  : 'border-gray-200 hover:border-yellow-200 bg-white'}
+                  ? 'border-black bg-black/20'
+                  : 'border-gray-200 hover:border-black/50 bg-white'}
               `}
             >
               <div
@@ -97,7 +97,7 @@ export const QuizModule = () => {
             <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-200">
               <div
                 style={{ width: `${progress}%` }}
-                className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-yellow-400 transition-all duration-500"
+                className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-black transition-all duration-500"
               />
             </div>
           </div>
@@ -113,7 +113,7 @@ export const QuizModule = () => {
             <button
               onClick={() => setCurrentStep(prev => Math.min(quizSteps.length - 1, prev + 1))}
               disabled={currentStep === quizSteps.length - 1 || !answers[step.title]?.length}
-              className="px-4 py-2 bg-yellow-400 border border-transparent rounded-md text-sm font-medium text-white disabled:opacity-50"
+              className="px-4 py-2 bg-black border border-transparent rounded-md text-sm font-medium text-white disabled:opacity-50"
             >
               Next
             </button>
