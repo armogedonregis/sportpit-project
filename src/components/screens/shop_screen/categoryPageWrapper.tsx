@@ -11,11 +11,15 @@ export default function ProductPageWrapper({ category, children }: ProductPageWr
 
     return (
         <section>
-            <h1 className="text-[54px]">{categoryInfo.title}</h1>
-            <p className="pt-3 font-light text-base">{categoryInfo.description}</p>
+            <div className="container">
+                <h1 className="text-[54px]">{categoryInfo.title}</h1>
+                <p className="pt-3 font-light text-base">{categoryInfo.description}</p>
+            </div>
             <div className="mt-10">
                 <CategoryNavigation />
-                {children}
+                <div className="container">
+                    {children}
+                </div>
             </div>
         </section>
     );

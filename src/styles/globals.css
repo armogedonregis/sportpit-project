@@ -63,3 +63,36 @@ body {
     width: 100%;
     height: 100%;
   }
+
+
+
+  .dietary-icons ul li .icon-wrapper {
+    content: "";
+    background: url('/images/form_dietary.png');
+    background-size: 150px 2550px;
+    background-position: 0 0;
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.dietary-icons ul li.vegan .icon-wrapper {
+    background-position-y: -50px;
+}
+
+.dietary-icons ul li.dairyfree .icon-wrapper {
+    background-position-y: -100px;
+}
+
+.dietary-icons ul li.glutenfree .icon-wrapper {
+    background-position-y: -150px;
+}
+
+.dietary-icons ul li.gmo .icon-wrapper {
+    background-position-y: -200px;
+}
+
+.dietary-icons ul li.compostable .icon-wrapper {
+    background-position-y: -250px;
+}
