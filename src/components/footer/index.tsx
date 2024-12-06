@@ -42,7 +42,7 @@ export const Footer = () => {
                             <input
                                 type="email"
                                 placeholder="name@company.com"
-                                className="w-full p-2 bg-transparent border-b border-white mb-4 text-sm"
+                                className="w-full p-2 bg-transparent border-b border-white mb-4 text-sm outline-none focus:outline-none focus:ring-0"
                             />
                             <p className="text-xs mb-4 text-gray-400">
                                 By signing up you agree to our terms and conditions and privacy policies. We dont send a lot of newsletters, and you wont get spammed. You can opt out anytime.
