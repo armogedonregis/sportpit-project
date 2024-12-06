@@ -6270,5 +6270,215 @@
     "name": "Bell Lap Cycleworks",
     "phone": "",
     "address": "6300 Creedmoor Road, Raleigh"
+  },
+  {
+    "lat": "48.8566",
+    "lng": "2.3522",
+    "name": "Paris Running Club",
+    "phone": "+33 1 42 44 55 66",
+    "address": "123 Avenue des Champs-Élysées, Paris, France"
+  },
+  {
+    "lat": "51.5074",
+    "lng": "-0.1278",
+    "name": "London Fleet",
+    "phone": "+44 20 7123 4567",
+    "address": "45 Oxford Street, London, UK"
+  },
+  {
+    "lat": "41.9028",
+    "lng": "12.4964",
+    "name": "Roma Running Store",
+    "phone": "+39 06 1234 5678",
+    "address": "Via del Corso 100, Rome, Italy"
+  },
+  {
+    "lat": "52.5200",
+    "lng": "13.4050",
+    "name": "Berlin Runners Hub",
+    "phone": "+49 30 1234 5678",
+    "address": "Unter den Linden 10, Berlin, Germany"
+  },
+  {
+    "lat": "40.4168",
+    "lng": "-3.7038",
+    "name": "Madrid Running Co",
+    "phone": "+34 91 123 4567",
+    "address": "Calle Gran Vía 25, Madrid, Spain"
+  },
+  {
+    "lat": "55.7558",
+    "lng": "37.6173",
+    "name": "Moscow Running Club",
+    "phone": "+7 495 123 4567",
+    "address": "Tverskaya Street 15, Moscow, Russia"
+  },
+  {
+    "lat": "59.9139",
+    "lng": "10.7522",
+    "name": "Oslo Sports",
+    "phone": "+47 22 12 34 56",
+    "address": "Karl Johans gate 25, Oslo, Norway"
+  },
+  {
+    "lat": "52.3676",
+    "lng": "4.9041",
+    "name": "Amsterdam Runners",
+    "phone": "+31 20 123 4567",
+    "address": "Kalverstraat 100, Amsterdam, Netherlands"
+  },
+  {
+    "lat": "48.2082",
+    "lng": "16.3738",
+    "name": "Vienna Running Store",
+    "phone": "+43 1 234 5678",
+    "address": "Kärntner Straße 30, Vienna, Austria"
+  },
+  {
+    "lat": "50.0755",
+    "lng": "14.4378",
+    "name": "Prague Athletics",
+    "phone": "+420 2 1234 5678",
+    "address": "Václavské náměstí 15, Prague, Czech Republic"
+  },
+  {
+    "lat": "45.4642",
+    "lng": "9.1900",
+    "name": "Milano Running",
+    "phone": "+39 02 1234 5678",
+    "address": "Via Montenapoleone 10, Milan, Italy"
+  },
+  {
+    "lat": "59.3293",
+    "lng": "18.0686",
+    "name": "Stockholm Runners",
+    "phone": "+46 8 123 4567",
+    "address": "Drottninggatan 50, Stockholm, Sweden"
+  },
+  {
+    "lat": "38.7223",
+    "lng": "-9.1393",
+    "name": "Lisbon Running Club",
+    "phone": "+351 21 123 4567",
+    "address": "Rua Augusta 100, Lisbon, Portugal"
+  },
+  {
+    "lat": "53.3498",
+    "lng": "-6.2603",
+    "name": "Dublin Fleet Store",
+    "phone": "+353 1 123 4567",
+    "address": "Grafton Street 25, Dublin, Ireland"
+  },
+  {
+    "lat": "55.6761",
+    "lng": "12.5683",
+    "name": "Copenhagen Runners",
+    "phone": "+45 33 12 34 56",
+    "address": "Strøget 50, Copenhagen, Denmark"
+  },
+  {
+    "lat": "44.4268",
+    "lng": "26.1025",
+    "name": "Bucharest Running",
+    "phone": "+40 21 123 4567",
+    "address": "Calea Victoriei 100, Bucharest, Romania"
+  },
+  {
+    "lat": "37.9838",
+    "lng": "23.7275",
+    "name": "Athens Sports Club",
+    "phone": "+30 21 1234 5678",
+    "address": "Ermou 50, Athens, Greece"
+  },
+  {
+    "lat": "50.8503",
+    "lng": "4.3517",
+    "name": "Brussels Running Store",
+    "phone": "+32 2 123 4567",
+    "address": "Rue Neuve 25, Brussels, Belgium"
+  },
+  {
+    "lat": "47.4979",
+    "lng": "19.0402",
+    "name": "Budapest Runners",
+    "phone": "+36 1 234 5678",
+    "address": "Váci utca 30, Budapest, Hungary"
+  },
+  {
+    "lat": "64.1265",
+    "lng": "-21.8174",
+    "name": "Reykjavik Running",
+    "phone": "+354 512 3456",
+    "address": "Laugavegur 50, Reykjavik, Iceland"
+  },
+  {
+    "lat": "41.3851",
+    "lng": "2.1734",
+    "name": "Barcelona Fleet",
+    "phone": "+34 93 123 4567",
+    "address": "Passeig de Gràcia 50, Barcelona, Spain"
+  },
+  {
+    "lat": "45.8150",
+    "lng": "15.9819",
+    "name": "Zagreb Runners",
+    "phone": "+385 1 234 5678",
+    "address": "Ilica 50, Zagreb, Croatia"
+  },
+  {
+    "lat": "46.0569",
+    "lng": "14.5058",
+    "name": "Ljubljana Running",
+    "phone": "+386 1 234 5678",
+    "address": "Slovenska cesta 30, Ljubljana, Slovenia"
+  },
+  {
+    "lat": "54.6872",
+    "lng": "25.2797",
+    "name": "Vilnius Sports",
+    "phone": "+370 5 123 4567",
+    "address": "Gedimino prospektas 20, Vilnius, Lithuania"
+  },
+  {
+    "lat": "56.9496",
+    "lng": "24.1052",
+    "name": "Riga Runners Club",
+    "phone": "+371 67 123 456",
+    "address": "Brīvības iela 50, Riga, Latvia"
+  },
+  {
+    "lat": "59.4370",
+    "lng": "24.7536",
+    "name": "Tallinn Running",
+    "phone": "+372 612 3456",
+    "address": "Viru tänav 15, Tallinn, Estonia"
+  },
+  {
+    "lat": "46.9480",
+    "lng": "7.4474",
+    "name": "Bern Athletics",
+    "phone": "+41 31 123 4567",
+    "address": "Marktgasse 25, Bern, Switzerland"
+  },
+  {
+    "lat": "48.1486",
+    "lng": "17.1077",
+    "name": "Bratislava Runners",
+    "phone": "+421 2 123 4567",
+    "address": "Obchodná 20, Bratislava, Slovakia"
+  },
+  {
+    "lat": "42.6977",
+    "lng": "23.3219",
+    "name": "Sofia Running Club",
+    "phone": "+359 2 123 4567",
+    "address": "Vitosha Boulevard 50, Sofia, Bulgaria"
+  },
+  {
+    "lat": "35.1856",
+    "lng": "33.3823",
+    "name": "Nicosia Sports",
+    "phone": "+357 22 123 456",
+    "address": "Ledra Street 30, Nicosia, Cyprus"
   }
 ]
