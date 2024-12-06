@@ -9,7 +9,7 @@ export default function QuizPage() {
                 <div className="text-xs text-gray-400 mb-4">
                     <Link href="/" className="hover:text-black">HOME</Link>
                     <span className="mx-2">/</span>
-                    <span className="text-black">QUIZ</span>
+                    <span className="text-black">Find Your Products</span>
                 </div>
             </div>
             <QuizModule />

@@ -10,12 +10,14 @@ import ProductDetails from '@/components/screens/product_screen/ProductDetails';
 import ProductFeatures from '@/components/screens/product_screen/ProductFeatures';
 import ProductInfo from '@/components/screens/product_screen/ProductInfo';
 import ProductUsage from '@/components/screens/product_screen/ProductUsage';
-// import ProductSocial from '@/components/screens/product_screen/ProductSocial';
+import { MapModule } from '@/components/mapModule';
+
 
 export default function ProductPage() {
     const [quantity, setQuantity] = useState(1);
     const [product, setProduct] = useState<Product | null>(null);
     const [selectedOption, setSelectedOption] = useState('');
+    const [userPosition, setUserPosition] = useState<{ lat: number, lng: number } | null>(null);
     const dispatch = useCartDispatch();
 
     const params = useParams();
@@ -30,17 +32,35 @@ export default function ProductPage() {
         }
     }, [productId]);
 
+
+    useEffect(() => {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    setUserPosition({
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    });
+                },
+                (error) => {
+                    console.error("Error getting location:", error);
+                }
+            );
+        }
+    }, [])
+
     if (!product) {
         return <div>Loading...</div>;
     }
 
     const handleOptionSelect = (option: string | undefined) => {
-        setSelectedOption(option || '');  // Если option undefined, используем пустую строку
+        setSelectedOption(option || ''); 
     };
 
     const handleAddToCart = () => {
         dispatch({ type: 'ADD_ITEM', payload: { ...product } });
     };
+
 
     return (
         <>
@@ -53,10 +73,15 @@ export default function ProductPage() {
                 onAddToCart={handleAddToCart}
             />
             <ProductDetails product={product} />
-            <ProductFeatures category={product.category}  />
+            <ProductFeatures category={product.category} />
             <ProductUsage />
             <ProductInfo product={product} />
             {/* <ProductSocial /> */}
+
+            <div className="container mx-auto pb-20">
+                <h1 className="text-3xl font-bold mb-8">Store locator</h1>
+                <MapModule userPosition={userPosition} />
+            </div>
         </>
     );
 }

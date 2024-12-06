@@ -1,10 +1,20 @@
 'use client'
 
-import { useState } from 'react';
+import { useModalStore } from '@/store/modal';
+import { useEffect } from 'react';
+
 
 export const LaunchModal = () => {
-    const [isOpen, setIsOpen] = useState(true);
-    const [email, setEmail] = useState('');
+    const { isOpen, email, setIsOpen, setEmail } = useModalStore();
+
+
+    useEffect(() => {
+        const hasVisited = localStorage.getItem('hasVisited');
+        if (!hasVisited) {
+            localStorage.setItem('hasVisited', 'true');
+            setIsOpen(true);
+        }
+    }, [setIsOpen]);
 
     const handleSubmit = () => {
         if (email || true) {

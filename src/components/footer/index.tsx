@@ -70,21 +70,21 @@ export const Footer = () => {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             <div>
                                 <h3 className="text-lg font-bold mb-4 text-gray-400">Supplements</h3>
-                                <Link href="#" className="hover:text-[#5B4458] block mb-2 text-sm text-white hover:underline">Summit</Link>
-                                <Link href="#" className="hover:text-[#E78041] block mb-2 text-sm text-white hover:underline">Rise</Link>
-                                <Link href="#" className="hover:text-[#929292] block mb-2 text-sm text-white hover:underline">Core</Link>
-                                <Link href="#" className="hover:text-[#74806E] block mb-2 text-sm text-white hover:underline">Ground</Link>
+                                <Link href="/products/summit" className="hover:text-[#5B4458] block mb-2 text-sm text-white hover:underline">Summit</Link>
+                                <Link href="/products/rise" className="hover:text-[#E78041] block mb-2 text-sm text-white hover:underline">Rise</Link>
+                                <Link href="/products/core" className="hover:text-[#929292] block mb-2 text-sm text-white hover:underline">Core</Link>
+                                <Link href="/products/ground" className="hover:text-[#74806E] block mb-2 text-sm text-white hover:underline">Ground</Link>
                             </div>
                             <div>
                                 <h3 className="text-lg font-bold mb-4 text-gray-400">Clothes</h3>
-                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Male</Link>
-                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Female</Link>
-                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Non-binary</Link>
+                                <Link href="/products/7516m" className="block mb-2 text-sm text-white hover:underline">Male</Link>
+                                <Link href="/products/7516m" className="block mb-2 text-sm text-white hover:underline">Female</Link>
+                                <Link href="/products/7516m" className="block mb-2 text-sm text-white hover:underline">Non-binary</Link>
                             </div>
                             <div>
                                 <h3 className="text-lg font-bold mb-4 text-gray-400">Pages</h3>
-                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Company</Link>
-                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Shop</Link>
+                                <Link href="/products" className="block mb-2 text-sm text-white hover:underline">Company</Link>
+                                <Link href="/products" className="block mb-2 text-sm text-white hover:underline">Shop</Link>
                             </div>
                         </div>
                         <div className="mx-auto mt-16">
@@ -113,7 +113,7 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mx-auto mt-16 flex justify-between items-center">
+                <div className="mt-16 flex justify-between items-center mr-32">
                     <p className="text-xs text-gray-400">Copyright © 2024 Mamostong. All rights reserved.</p>
                     {/* <Image
                         src="/logo.svg"

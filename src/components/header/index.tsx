@@ -3,22 +3,75 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useCartState } from '@/context/cartContext';
-import { usePathname } from 'next/navigation';
-// import dynamic from 'next/dynamic';
-// import { Canvas } from '@react-three/fiber';
+import { usePathname, useRouter } from 'next/navigation';
 import Image from 'next/image';
+import { getAllProducts } from '@/utils/productData';
 
-// const DynamicCanvas = dynamic(() => import('../../utils/headerLogo').then((mod) => mod.HeaderLogo), {
-//     ssr: false,
-// })
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(true);
     const [scrollY, setScrollY] = useState(0);
     const hasScrolled = useRef(false);
+    const router = useRouter();
 
-    const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+    // search
+
+    const [searchQuery, setSearchQuery] = useState('');
+    const [searchResults, setSearchResults] = useState<any[]>([]);
+    const [showResults, setShowResults] = useState(false);
+
+    // Добавляем эффект для управления скроллом
+    useEffect(() => {
+        if (isMenuOpen || (showResults && searchResults.length > 0)) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+
+        return () => {
+            document.body.style.overflow = 'unset';
+        };
+    }, [isMenuOpen, showResults, searchResults.length]);
+
+    const handleSearch = (query: string) => {
+        setSearchQuery(query);
+        if (query.length > 0) {
+            const products = getAllProducts();
+            const results = products.filter(product => {
+                const searchStr = `${product.name} ${product.category} ${product.subCategory?.join(' ')}`.toLowerCase();
+                return searchStr.includes(query.toLowerCase());
+            }).slice(0, 6);
+            setSearchResults(results);
+            setShowResults(true);
+        } else {
+            setSearchResults([]);
+            setShowResults(false);
+        }
+    };
+
+    const handleProductClick = (link: string) => {
+        setIsMenuOpen(false);
+        setShowResults(false);
+        setSearchQuery('');
+        document.body.style.overflow = 'unset'; // Возвращаем скролл при клике на продукт
+        router.push(`/product/${link}`);
+    };
+
+    // end search
+
+    const toggleMenu = () => {
+        const newMenuState = !isMenuOpen;
+        setIsMenuOpen(newMenuState);
+        
+        // Если меню закрывается, также сбрасываем состояние поиска
+        if (!newMenuState) {
+            setShowResults(false);
+            setSearchResults([]);
+            setSearchQuery('');
+            document.body.style.overflow = 'unset';
+        }
+    };
 
     const { items } = useCartState();
     const cartItemCount = items.length;
@@ -46,15 +99,15 @@ export const Header = () => {
     const handleMobileAppsClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
         e.preventDefault();
         setIsMenuOpen(false);
-        
+
         if (pathname !== '/') {
             window.location.href = '/#mob_apps';
             return;
         }
-        
+
         const element = document.querySelector('#mob_apps');
         if (element) {
-            element.scrollIntoView({ 
+            element.scrollIntoView({
                 behavior: 'smooth',
                 block: 'end'
             });
@@ -75,12 +128,6 @@ export const Header = () => {
                             className="object-contain"
                         />
                     ) : (
-                        // <Canvas
-                        //     camera={{ position: [0, 0, 7], fov: 50 }}
-                        //     style={{ width: '120px', height: '75px' }}
-                        // >
-                        //     <DynamicCanvas isScrolled={isScrolled} scrollY={scrollY} />
-                        // </Canvas>
                         <div className="w-[150px] h-[100px] relative">
                             <video
                                 autoPlay
@@ -92,13 +139,6 @@ export const Header = () => {
                                 <source src="/video/logo_anim.mp4" type="video/mp4" />
                             </video>
                         </div>
-                        //     <Image
-                        //     src="/logo.svg"
-                        //     alt="MAMOSTONG"
-                        //     width={60}
-                        //     height={40}
-                        //     className="object-contain"
-                        // />
                     )}
                 </Link>
                 <nav className="flex items-center gap-7">
@@ -138,7 +178,10 @@ export const Header = () => {
                         <span className={`block absolute h-0.5 w-8 bg-current transform transition duration-300 ease-in-out ${isMenuOpen ? '-rotate-45 translate-y-0' : 'translate-y-1.5'}`}></span>
                     </button>
                 </nav>
-                <div className={`bg-black absolute top-0 left-0 w-screen text-white transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-y-0' : '-translate-y-full'}`} style={{ height: '80vh' }}>
+                <div
+                    className={`bg-black absolute top-0 left-0 w-screen text-white transition-transform duration-300 ease-in-out ${isMenuOpen ? 'translate-y-0' : '-translate-y-full'}`}
+                    style={{ height: showResults && searchResults.length > 0 ? '100vh' : '80vh' }}
+                >
                     <div className="p-8 pt-24 h-full overflow-y-auto">
                         <nav className="space-y-4">
                             <Link href="/products" className="block text-2xl">Shop</Link>
@@ -155,12 +198,55 @@ export const Header = () => {
                             <Link href="/faq" className="block text-sm">FAQ</Link>
                             <Link href="/store-locator" className="block text-sm">Store Locator</Link>
                         </div>
-                        <div className="mt-8">
-                            <input
-                                type="text"
-                                placeholder="products, athletes, articles"
-                                className="w-full bg-transparent border-b border-white py-2 text-sm outline-none focus:outline-none focus:ring-0"
-                            />
+                        <div className="mt-8 relative">
+                            <div className="flex items-center gap-4">
+                                <div className="relative flex-1 max-w-3xl">
+                                    <input
+                                        type="text"
+                                        value={searchQuery}
+                                        onChange={(e) => handleSearch(e.target.value)}
+                                        placeholder="products, athletes, articles"
+                                        className="w-full bg-transparent border-b border-white py-2 text-sm outline-none focus:outline-none focus:ring-0"
+                                    />
+                                </div>
+                                <button
+                                    onClick={() => handleSearch(searchQuery)}
+                                    className="px-6 py-2 border border-white hover:bg-white hover:text-black transition-colors duration-300 text-sm"
+                                >
+                                    Find
+                                </button>
+                            </div>
+
+                            {showResults && searchResults.length > 0 && (
+                                <div className="absolute pb-12 left-0 right-0 mt-2 rounded-lg overflow-hidden">
+                                    <div className="grid grid-cols-2 gap-4 p-4">
+                                        {searchResults.map((product) => (
+                                            <div
+                                                key={product.id}
+                                                onClick={() => handleProductClick(product.link)}
+                                                className="flex items-center gap-4 p-2 hover:bg-gray-800 rounded-lg cursor-pointer transition-colors"
+                                            >
+                                                <div className="w-16 h-16 relative flex-shrink-0">
+                                                    <Image
+                                                        src={product.img}
+                                                        alt={product.name}
+                                                        fill
+                                                        className="object-contain"
+                                                    />
+                                                </div>
+                                                <div className="flex-1 min-w-0">
+                                                    <h3 className="font-medium text-sm truncate">
+                                                        {product.name}
+                                                    </h3>
+                                                    <p className="text-xs text-gray-400 capitalize">
+                                                        {product.category}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

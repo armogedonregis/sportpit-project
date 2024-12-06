@@ -38,10 +38,10 @@ export function CategoryNavigation() {
     const router = useRouter();
     const currentSubCategory = searchParams.get('subCategory') || '';
 
-    const handleSubCategoryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const handleSubCategoryChange = (value: string) => {
         const params = new URLSearchParams(searchParams.toString());
-        if (e.target.value) {
-            params.set('subCategory', e.target.value);
+        if (value) {
+            params.set('subCategory', value);
         } else {
             params.delete('subCategory');
         }
@@ -54,34 +54,39 @@ export function CategoryNavigation() {
             <div className="flex flex-wrap justify-between items-center gap-4">
                 <div className="flex flex-wrap gap-2">
                     {categories.map((category) => {
-                        const href = category.slug ? `/products/${category.slug}` : '/products';
-                        const isActive = pathname === href;
+                        const href = category.slug
+                            ? `/products/${category.slug}${currentSubCategory ? `?subCategory=${currentSubCategory}` : ''}`
+                            : `/products${currentSubCategory ? `?subCategory=${currentSubCategory}` : ''}`;
+                        const isActive = pathname === (category.slug ? `/products/${category.slug}` : '/products');
+
                         return (
                             <Link
-                            key={category.name}
+                                key={category.name}
                                 href={href}
-                                className={`px-4 py-2 border text-sm transition-colors ${
-                                    isActive 
-                                    ? "bg-black text-white" 
-                                    : "border-black hover:bg-black hover:text-white"
-                                }`}
+                                className={`px-4 py-2 border text-sm transition-colors ${isActive
+                                        ? "bg-black text-white"
+                                        : "border-black hover:bg-black hover:text-white"
+                                    }`}
                             >
                                 {category.name}
                             </Link>
                         );
                     })}
                 </div>
-                <select
-                    value={currentSubCategory}
-                    onChange={handleSubCategoryChange}
-                    className="px-4 py-2 h-[38px] border border-black text-sm rounded-none focus:outline-none"
-                >
+                <div className="flex flex-wrap gap-2">
                     {subCategories.map((subCategory) => (
-                        <option key={subCategory.value} value={subCategory.value}>
+                        <button
+                            key={subCategory.value}
+                            onClick={() => handleSubCategoryChange(subCategory.value)}
+                            className={`px-4 py-2 border text-sm transition-colors ${currentSubCategory === subCategory.value
+                                    ? "bg-black text-white"
+                                    : "border-black hover:bg-black hover:text-white"
+                                }`}
+                        >
                             {subCategory.name}
-                        </option>
+                        </button>
                     ))}
-                </select>
+                </div>
             </div>
         </div>
     );
