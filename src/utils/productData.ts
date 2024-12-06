@@ -27,6 +27,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Metabolism Boost', 'Focus', 'Wellness'],
         type: 'Powder',
+        productFilter: 'Supplements',
     },
     {
         id: 2,
@@ -52,6 +53,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Detox', 'Metabolism Boost'],
         type: 'Herbs',
+        productFilter: 'Supplements',
     },
     {
         id: 3,
@@ -77,6 +79,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Relaxation'],
         type: 'Herbs',
+        productFilter: 'Supplements',
     },
     {
         id: 4,
@@ -102,6 +105,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Wellness', 'Relaxation', 'Anti-Age'],
         type: 'Herbs',
+        productFilter: 'Supplements',
     },
     {
         id: 5,
@@ -127,6 +131,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Focus', 'Relaxation', 'Wellness'],
         type: 'Herbs',
+        productFilter: 'Supplements',
     },
     // {
     //     id: 6,
@@ -222,6 +227,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Joint Care', 'Wellness', 'Anti-Age'],
         type: 'Powder',
+        productFilter: 'Supplements',
     },
     {
         id: 10,
@@ -247,6 +253,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Joint Care', 'Anti-Age'],
         type: 'Powder',
+        productFilter: 'Supplements',
     },
     {
         id: 11,
@@ -272,6 +279,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Wellness', 'Metabolism Boost'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 12,
@@ -297,6 +305,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Relaxation', 'Wellness', 'Anti-Age'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 13,
@@ -322,6 +331,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Detox', 'Metabolism Boost'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 14,
@@ -347,6 +357,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Wellness', 'Focus'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 15,
@@ -372,6 +383,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Wellness', 'Joint Care'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 16,
@@ -397,6 +409,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Joint Care', 'Wellness', 'Anti-Age'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 17,
@@ -422,6 +435,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Wellness', 'Anti-Age'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 18,
@@ -447,6 +461,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Metabolism Boost', 'Wellness', 'Detox'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 19,
@@ -472,6 +487,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Wellness', 'Anti-Age'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 20,
@@ -497,6 +513,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Wellness'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 21,
@@ -522,6 +539,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Metabolism Boost', 'Energy Boost', 'Endurance', 'Lose weight'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 22,
@@ -547,6 +565,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Wellness', 'Joint Care'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 23,
@@ -572,6 +591,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Endurance', 'Wellness'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 24,
@@ -598,6 +618,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Strength', 'Wellness', 'Endurance'],
         type: 'Powder',
+        productFilter: 'Supplements',
     },
     {
         id: 25,
@@ -623,6 +644,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Energy Boost', 'Focus', 'Strength'],
         type: 'Powder',
+        productFilter: 'Supplements',
     },
     {
         id: 26,
@@ -648,6 +670,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Wellness', 'Recovery'],
         type: 'Powder',
+        productFilter: 'Meal replacement',
     },
     {
         id: 27,
@@ -673,6 +696,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Endurance', 'Food replacement'],
         type: 'Powder',
+        productFilter: 'Meal replacement',
     },
     {
         id: 28,
@@ -698,6 +722,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Endurance', 'Food replacement'],
         type: 'Powder',
+        productFilter: 'Meal replacement',
     },
     {
         id: 29,
@@ -723,6 +748,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Endurance', 'Metabolism Boost', 'Food replacement'],
         type: 'Powder',
+        productFilter: 'Meal replacement',
     },
     {
         id: 30,
@@ -748,6 +774,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Endurance', 'Strength', 'Wellness', 'Food replacement'],
         type: 'Powder',
+        productFilter: 'Meal replacement',
     },
     {
         id: 31,
@@ -773,6 +800,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Strength', 'Endurance', 'Focus'],
         type: 'Powder',
+        productFilter: 'Supplements',
     },
     {
         id: 32,
@@ -798,6 +826,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Wellness', 'Metabolism Boost'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 33,
@@ -823,6 +852,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Energy Boost', 'Focus'],
         type: 'Capsules',
+        productFilter: 'Supplements',
     },
     {
         id: 34,
@@ -849,6 +879,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Strength', 'Endurance', 'Wellness'],
         type: 'Powder',
+        productFilter: 'Protein',
     },
     {
         id: 35,
@@ -875,6 +906,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Strength', 'Endurance', 'Wellness'],
         type: 'Powder',
+        productFilter: 'Protein',
     },
     {
         id: 36,
@@ -901,6 +933,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Strength', 'Endurance'],
         type: 'Powder',
+        productFilter: 'Protein',
     },
     {
         id: 37,
@@ -927,6 +960,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Strength', 'Endurance'],
         type: 'Powder',
+        productFilter: 'Protein',
     },
     {
         id: 38,
@@ -953,6 +987,7 @@ const allProducts: Product[] = [
         ],
         subCategory: ['Strength', 'Endurance', 'Wellness', 'Recovery'],
         type: 'Powder',
+        productFilter: 'Protein',
     },
     {
         id: 39,
@@ -975,7 +1010,8 @@ const allProducts: Product[] = [
             "/images/7516m/mens_shorts/m6127r_01_b1_s3_a1_1_m93_750x.png",
             "/images/7516m/mens_shorts/m6127r_01_b1_s3_a2_1_m93_750x.png",
             "/images/7516m/mens_shorts/m6127r_01_b1_s3_a3_1_m93_750x.png"
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 40,
@@ -1003,7 +1039,8 @@ const allProducts: Product[] = [
             "/images/7516m/mens_zip_neck_long_sleeve/m3193r_03842_b1_s3_a3_1_m195_750x.png",
             "/images/7516m/mens_zip_neck_long_sleeve/m3193r_03842_b1_s3_a4_1_m195_750x.png",
             "/images/7516m/mens_zip_neck_long_sleeve/m3193r_03842_b1_s3_a5_1_m195_750x.png"
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 41,
@@ -1027,7 +1064,8 @@ const allProducts: Product[] = [
             "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a2_1_m204_750x.png",
             "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a3_1_m204_750x.png",
             "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a4_1_m204_750x.png"
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 42,
@@ -1050,7 +1088,8 @@ const allProducts: Product[] = [
             "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a1_1_m214_b70d5037-9ab5-4974-aca1-c5380804242e_750.png",
             "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a2_1_m214_7bd81931-e8d2-4b99-955f-fd5b40f6640d_750.png",
             "/images/7516m/mens_cargo_pants/m1243r_03040_b1_s1_a3_1_m214_87d2419a-9515-456a-978a-2434960abee4_750.png"
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 43,
@@ -1074,7 +1113,8 @@ const allProducts: Product[] = [
             "/images/7516m/mens_sports_tank/m2033r_10061_b1_s3_a2_1_m12_750x.png",
             "/images/7516m/mens_sports_tank/m2033r_10061_b1_s3_a3_1_m12_750x.png",
             "/images/7516m/mens_sports_tank/m2033r_10061_b1_s4_a3_1_m12_750x.png"
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 44,
@@ -1094,7 +1134,8 @@ const allProducts: Product[] = [
             "/images/7516m/mens_2_in_1_shorts/m3193r_0101_b1_s1_a3_1.png",
             "/images/7516m/mens_2_in_1_shorts/m3193r_0101_b1_s1_a4_1.png",
             "/images/7516m/mens_2_in_1_shorts/m6114r_04660_b1_s1_a1_1.png"
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 45,
@@ -1114,7 +1155,8 @@ const allProducts: Product[] = [
             "/images/7516m/mens_standard_long_sleeve/m3181r_04064_b1_s3_a3_1_m195_750x.png",
             "/images/7516m/mens_standard_long_sleeve/m3181r_04064_b1_s3_a4_1_m195_750x.png",
             "/images/7516m/mens_standard_long_sleeve/m3181r_04064_b1_s3_a5_1_m195_750x.png"
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 46,
@@ -1136,7 +1178,8 @@ const allProducts: Product[] = [
             "/images/7516m/mens_sports_hoodie/m3199r_01300_b1_s3_a1_1_m93_750x.png",
             "/images/7516m/mens_sports_hoodie/m3199r_01300_b1_s3_a2_1_m93_750x.png",
             "/images/7516m/mens_sports_hoodie/m3199r_01300_b1_s3_a3_1_m93_750x.png"
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 47,
@@ -1158,7 +1201,8 @@ const allProducts: Product[] = [
             "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a2_1_m204_750x.png",
             "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a3_1_m204_750x.png",
             "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a4_1_m204_750x.png"
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 48,
@@ -1179,7 +1223,8 @@ const allProducts: Product[] = [
             "/images/7516m/womens_sport_skirt/w9601r_01_b1_s1_a1_1_m18_750x.png",
             "/images/7516m/womens_sport_skirt/w9601r_01_b1_s1_a2_1_m18_750x.png",
             "/images/7516m/womens_sport_skirt/w9601r_01_b1_s1_a3_1_m18_750x.png",
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 49,
@@ -1199,7 +1244,8 @@ const allProducts: Product[] = [
             "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a1_1_m76_750x.png",
             "/images/7516m/womens_gym_suit/w3735r_05541_b1_s1_a4_1_m76_750x.png",
             "/images/7516m/womens_gym_suit/w3735r01_b1_s1_a4_1_m174_750x.jpg"
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 50,
@@ -1222,7 +1268,8 @@ const allProducts: Product[] = [
             "/images/7516m/womens_yoga_suit/w9681r_05602_b1_s1_a1_1_m199_750x.png",
             "/images/7516m/womens_yoga_suit/w9681r_05602_b1_s1_a2_1_m199_750x.png",
             "/images/7516m/womens_yoga_suit/w9681r_05602_b1_s1_a3_1_m199_750x.png"
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 51,
@@ -1243,7 +1290,8 @@ const allProducts: Product[] = [
             "/images/7516m/womens_tracksuit/w9679r_05602_b1_s1_a3_1_m199_750x.png",
             "/images/7516m/womens_tracksuit/w9679r_05602_b1_s1_a4_1_m199_750x.jpg",
             "/images/7516m/womens_tracksuit/w9679r_05602_b1_s1_a5_1_m199_750x.jpg"
-        ]
+        ],
+        productFilter: 'Clothes',
     },
     {
         id: 52,
@@ -1264,7 +1312,8 @@ const allProducts: Product[] = [
             "/images/7516m/womens_yoga_costume/w9679r_05541_b1_s1_a4_1_m191_750x.png",
             "/images/7516m/womens_yoga_costume/w9679r_05541_b1_s1_a5_1_m191_750x.png",
             "/images/7516m/womens_yoga_costume/w9679r_05541_b2_s1_a1_1_m209_750x.png"
-        ]
+        ],
+        productFilter: 'Clothes',
     }
 
     // {

@@ -21,6 +21,13 @@ export type ProductType =
     | 'Capsules'
     ;
 
+export type ProductFilter =
+    | 'Supplements'
+    | 'Protein'
+    | 'Meal replacement'
+    | 'Clothes'
+    ;
+
 export interface Product {
     id: number;
     name: string;
@@ -30,6 +37,7 @@ export interface Product {
     category: string;
     subCategory?: ProductCategories[];
     type?: ProductType;
+    productFilter?: ProductFilter;
     img: string;
     link: string;
     cloth?: boolean;

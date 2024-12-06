@@ -5,7 +5,7 @@ import { getAllProducts } from "@/utils/productData";
 export default function AllProductsPage({
     searchParams,
 }: {
-    searchParams: { subCategory?: string; type?: string; }
+    searchParams: { subCategory?: string; type?: string; productFilter?: string; }
 }) {
     const products = getAllProducts();
     const filteredProducts = products.filter(product => {
@@ -13,11 +13,15 @@ export default function AllProductsPage({
             product.subCategory?.some(subCat => 
                 subCat?.toLowerCase() === searchParams.subCategory?.toLowerCase()
             );
-
+    
         const matchesType = !searchParams.type || 
             product.type?.toLowerCase() === searchParams.type?.toLowerCase();
-
-        return matchesSubCategory && matchesType;
+    
+        const matchesProductFilter = !searchParams.productFilter || 
+            product.productFilter === undefined || 
+            product.productFilter === searchParams.productFilter;
+    
+        return matchesSubCategory && matchesType && matchesProductFilter;
     });
 
     return (

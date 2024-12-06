@@ -1,6 +1,6 @@
 'use client';
 
-import { ProductCategories, ProductType } from '@/types/product';
+import { ProductCategories, ProductFilter, ProductType } from '@/types/product';
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
@@ -40,12 +40,31 @@ const productTypes = [
     { name: 'Capsules', value: 'Capsules' as ProductType },
 ];
 
+const productFilters = [
+    { name: 'All Products', value: '' },
+    { name: 'Supplements', value: 'Supplements' as ProductFilter },
+    { name: 'Protein', value: 'Protein' as ProductFilter },
+    { name: 'Meal replacement', value: 'Meal replacement' as ProductFilter },
+    { name: 'Clothes', value: 'Clothes' as ProductFilter },
+];
+
 export function CategoryNavigation() {
     const pathname = usePathname();
     const searchParams = useSearchParams();
     const router = useRouter();
     const currentSubCategory = searchParams.get('subCategory') || '';
     const currentType = searchParams.get('type') || '';
+    const currentProductFilter = searchParams.get('productFilter') || '';
+
+    const handleProductFilterChange = (value: string) => {
+        const params = new URLSearchParams(searchParams.toString());
+        if (value) {
+            params.set('productFilter', value);
+        } else {
+            params.delete('productFilter');
+        }
+        router.push(`${pathname}?${params.toString()}`);
+    };
 
     const handleSubCategoryChange = (value: string) => {
         const params = new URLSearchParams(searchParams.toString());
@@ -70,12 +89,27 @@ export function CategoryNavigation() {
     return (
         <div className="mb-8">
             <h2 className="text-sm font-semibold mb-4">FILTER BY CATEGORY:</h2>
-            <div className="flex flex-wrap justify-between items-center gap-4">
+            <div className="flex flex-col flex-wrap justify-between gap-4">
+                <div className="flex flex-wrap gap-2">
+                    {productFilters.map((filter) => (
+                        <button
+                            key={filter.value}
+                            onClick={() => handleProductFilterChange(filter.value)}
+                            className={`px-4 py-2 border text-sm transition-colors ${currentProductFilter === filter.value
+                                ? "bg-black text-white"
+                                : "border-black hover:bg-black hover:text-white"
+                                }`}
+                        >
+                            {filter.name}
+                        </button>
+                    ))}
+                </div>
                 <div className="flex flex-wrap gap-2">
                     {categories.map((category) => {
                         const params = new URLSearchParams();
                         if (currentSubCategory) params.set('subCategory', currentSubCategory);
                         if (currentType) params.set('type', currentType);
+                        if (currentProductFilter) params.set('productFilter', currentProductFilter);
                         const queryString = params.toString() ? `?${params.toString()}` : '';
 
                         const href = category.slug
