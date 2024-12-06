@@ -1,5 +1,6 @@
 'use client';
 
+import { ProductCategories } from '@/types/product';
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
@@ -16,9 +17,19 @@ const categories = [
 
 const subCategories = [
     { name: 'All', value: '' },
-    { name: 'Cleansers', value: 'cleansers' },
-    { name: 'Wellness', value: 'wellness' },
-    { name: 'Relaxation', value: 'relaxation' }
+    { name: 'Metabolism Boost', value: 'Metabolism Boost' as ProductCategories },
+    { name: 'Focus', value: 'Focus' as ProductCategories },
+    { name: 'Wellness', value: 'Wellness' as ProductCategories },
+    { name: 'Joint Care', value: 'Joint Care' as ProductCategories },
+    { name: 'Anti-Age', value: 'Anti-Age' as ProductCategories },
+    { name: 'Detox', value: 'Detox' as ProductCategories },
+    { name: 'Endurance', value: 'Endurance' as ProductCategories },
+    { name: 'Strength', value: 'Strength' as ProductCategories },
+    { name: 'Recovery', value: 'Recovery' as ProductCategories },
+    { name: 'Relaxation', value: 'Relaxation' as ProductCategories },
+    { name: 'Energy Boost', value: 'Energy Boost' as ProductCategories },
+    { name: 'Food replacement', value: 'Food replacement' as ProductCategories },
+    { name: 'Lose weight', value: 'Lose weight' as ProductCategories }
 ];
 
 export function CategoryNavigation() {

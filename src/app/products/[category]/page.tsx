@@ -7,8 +7,9 @@ export default function ProductCategory({ params, searchParams }: { params: { ca
 
     const filteredProducts = searchParams.subCategory
     ? products.filter(product => 
-        product?.subCategory && 
-        product.subCategory.toLowerCase() === searchParams.subCategory?.toLowerCase()
+        product.subCategory?.some(subCat => 
+            subCat.toLowerCase() === searchParams.subCategory?.toLowerCase()
+        )
       )
     : products;
 

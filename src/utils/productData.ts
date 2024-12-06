@@ -25,7 +25,7 @@ const allProducts: Product[] = [
             "/video/ground_product.mp4",
             "/images/people/1.png"
         ],
-        subCategory: 'Wellness' // укажите один из трех типов 'Cleansers' или 'Wellness' или 'Relaxation'
+        subCategory: ['Metabolism Boost', 'Focus', 'Wellness']
     },
     {
         id: 2,
@@ -49,7 +49,7 @@ const allProducts: Product[] = [
             "/video/ground_product.mp4",
             "/images/people/2.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Detox', 'Metabolism Boost']
     },
     {
         id: 3,
@@ -73,7 +73,7 @@ const allProducts: Product[] = [
             "/video/ground_product.mp4",
             "/images/people/3.png"
         ],
-        subCategory: 'Relaxation'
+        subCategory: ['Relaxation']
     },
     {
         id: 4,
@@ -97,7 +97,7 @@ const allProducts: Product[] = [
             "/video/ground_product.mp4",
             "/images/people/4.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Wellness', 'Relaxation', 'Anti-Age']
     },
     {
         id: 5,
@@ -121,7 +121,7 @@ const allProducts: Product[] = [
             "/video/ground_product.mp4",
             "/images/people/5.png"
         ],
-        subCategory: 'Relaxation'
+        subCategory: ['Focus', 'Relaxation', 'Wellness']
     },
     // {
     //     id: 6,
@@ -214,7 +214,8 @@ const allProducts: Product[] = [
             "/images/core/core_puck_1.png", // порошок
             "/video/core_product.mp4",
             "/images/people/9.png"
-        ]
+        ],
+        subCategory: ['Joint Care', 'Wellness', 'Anti-Age']
     },
     {
         id: 10,
@@ -238,7 +239,7 @@ const allProducts: Product[] = [
             "/video/core_product.mp4",
             "/images/people/9.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Joint Care', 'Anti-Age']
     },
     {
         id: 11,
@@ -261,7 +262,8 @@ const allProducts: Product[] = [
             "/images/core/core_puck_3.png", // порошок
             "/video/core_product.mp4",
             "/images/people/10.png"
-        ]
+        ],
+        subCategory: ['Wellness', 'Metabolism Boost']
     },
     {
         id: 12,
@@ -285,7 +287,7 @@ const allProducts: Product[] = [
             "/video/core_product.mp4",
             "/images/people/11.png"
         ],
-        subCategory: 'Relaxation'
+        subCategory: ['Relaxation', 'Wellness', 'Anti-Age']
     },
     {
         id: 13,
@@ -309,7 +311,7 @@ const allProducts: Product[] = [
             "/video/core_product.mp4",
             "/images/people/12.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Detox', 'Metabolism Boost']
     },
     {
         id: 14,
@@ -333,7 +335,7 @@ const allProducts: Product[] = [
             "/video/core_product.mp4",
             "/images/people/13.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Wellness', 'Focus']
     },
     {
         id: 15,
@@ -357,7 +359,7 @@ const allProducts: Product[] = [
             "/video/core_product.mp4",
             "/images/people/14.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Wellness', 'Joint Care']
     },
     {
         id: 16,
@@ -381,7 +383,7 @@ const allProducts: Product[] = [
             "/video/core_product.mp4",
             "/images/people/1.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Joint Care', 'Wellness', 'Anti-Age']
     },
     {
         id: 17,
@@ -405,7 +407,7 @@ const allProducts: Product[] = [
             "/video/core_product.mp4",
             "/images/people/2.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Wellness', 'Anti-Age']
     },
     {
         id: 18,
@@ -429,7 +431,7 @@ const allProducts: Product[] = [
             "/video/core_product.mp4",
             "/images/people/3.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Metabolism Boost', 'Wellness', 'Detox']
     },
     {
         id: 19,
@@ -453,7 +455,7 @@ const allProducts: Product[] = [
             "/video/core_product.mp4",
             "/images/people/4.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Wellness', 'Anti-Age']
     },
     {
         id: 20,
@@ -477,7 +479,7 @@ const allProducts: Product[] = [
             "/video/core_product.mp4",
             "/images/people/5.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Wellness']
     },
     {
         id: 21,
@@ -501,7 +503,7 @@ const allProducts: Product[] = [
             "/video/rise_product.mp4",
             "/images/people/6.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Metabolism Boost', 'Energy Boost', 'Endurance', 'Lose weight']
     },
     {
         id: 22,
@@ -525,7 +527,7 @@ const allProducts: Product[] = [
             "/video/rise_product.mp4",
             "/images/people/7.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Wellness', 'Joint Care']
     },
     {
         id: 23,
@@ -549,7 +551,7 @@ const allProducts: Product[] = [
             "/video/rise_product.mp4",
             "/images/people/8.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Endurance', 'Wellness']
     },
     {
         id: 24,
@@ -574,7 +576,7 @@ const allProducts: Product[] = [
             "/images/rise/rise_puck_4.png",
             "/video/rise_product.mp4",
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Strength', 'Wellness', 'Endurance']
     },
     {
         id: 25,
@@ -598,7 +600,7 @@ const allProducts: Product[] = [
             "/video/rise_product.mp4",
             "/images/people/10.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Energy Boost', 'Focus', 'Strength']
     },
     {
         id: 26,
@@ -622,7 +624,7 @@ const allProducts: Product[] = [
             "/video/rise_product.mp4",
             "/images/people/11.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Wellness', 'Recovery']
     },
     {
         id: 27,
@@ -646,7 +648,7 @@ const allProducts: Product[] = [
             "/video/rise_product.mp4",
             "/images/people/12.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Endurance', 'Food replacement']
     },
     {
         id: 28,
@@ -670,7 +672,7 @@ const allProducts: Product[] = [
             "/video/rise_product.mp4",
             "/images/people/13.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Endurance', 'Food replacement']
     },
     {
         id: 29,
@@ -694,7 +696,7 @@ const allProducts: Product[] = [
             "/video/rise_product.mp4",
             "/images/people/14.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Endurance', 'Metabolism Boost', 'Food replacement']
     },
     {
         id: 30,
@@ -718,7 +720,7 @@ const allProducts: Product[] = [
             "/video/rise_product.mp4",
             "/images/people/1.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Endurance', 'Strength', 'Wellness', 'Food replacement']
     },
     {
         id: 31,
@@ -742,7 +744,7 @@ const allProducts: Product[] = [
             "/video/summit_product.mp4",
             "/images/people/2.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Strength', 'Endurance', 'Focus']
     },
     {
         id: 32,
@@ -766,7 +768,7 @@ const allProducts: Product[] = [
             "/video/summit_product.mp4",
             "/images/people/3.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Wellness', 'Metabolism Boost']
     },
     {
         id: 33,
@@ -790,7 +792,7 @@ const allProducts: Product[] = [
             "/video/summit_product.mp4",
             "/images/people/4.png"
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Energy Boost', 'Focus']
     },
     {
         id: 34,
@@ -815,7 +817,7 @@ const allProducts: Product[] = [
             "/images/summit/summit_puck_4.png",
             "/video/summit_product.mp4",
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Strength', 'Endurance', 'Wellness']
     },
     {
         id: 35,
@@ -840,7 +842,7 @@ const allProducts: Product[] = [
             "/images/summit/summit_puck_5.png",
             "/video/summit_product.mp4",
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Strength', 'Endurance', 'Wellness']
     },
     {
         id: 36,
@@ -865,7 +867,7 @@ const allProducts: Product[] = [
             "/images/summit/summit_puck_6.png",
             "/video/summit_product.mp4",
         ],
-        subCategory: 'Wellness'
+        subCategory: ['Strength', 'Endurance']
     },
     {
         id: 37,
@@ -889,7 +891,8 @@ const allProducts: Product[] = [
             "/images/summit/plant_protein_perfomance_chocolate_peanut_flavour_sachet.png",
             "/images/summit/summit_puck_7.png", // порошок
             "/video/summit_product.mp4",
-        ]
+        ],
+        subCategory: ['Strength', 'Endurance']
     },
     {
         id: 38,
@@ -913,7 +916,8 @@ const allProducts: Product[] = [
             "/images/summit/pure_blend_protein_sachet.png",
             "/images/summit/summit_puck_8.png", // порошок
             "/video/summit_product.mp4",
-        ]
+        ],
+        subCategory: ['Strength', 'Endurance', 'Wellness', 'Recovery']
     },
     {
         id: 39,

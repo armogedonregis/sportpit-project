@@ -1,3 +1,19 @@
+export type ProductCategories = 
+    | 'Metabolism Boost'
+    | 'Focus'
+    | 'Wellness'
+    | 'Joint Care'
+    | 'Anti-Age'
+    | 'Detox'
+    | 'Endurance'
+    | 'Strength'
+    | 'Recovery'
+    | 'Relaxation'
+    | 'Energy Boost'
+    | 'Food replacement'
+    | 'Lose weight'
+    ;
+
 export interface Product {
     id: number;
     name: string;
@@ -5,7 +21,7 @@ export interface Product {
     servings?: string;
     pricePerUnit?: string;
     category: string;
-    subCategory?: 'Cleansers' | 'Wellness' | 'Relaxation'; 
+    subCategory?: ProductCategories[]; 
     img: string;
     link: string;
     cloth?: boolean;
