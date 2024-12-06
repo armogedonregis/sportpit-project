@@ -5,7 +5,7 @@ interface ProductBannerProps {
 
 export function ProductBanner({ title, description }: ProductBannerProps) {
     return (
-        <div className="pb-12 pt-[50px] mb-5 font-jost">
+        <div className="pb-12 pt-[50px] mb-5 font-jost bg-[#f7f7f7]">
             <div className="pb-3">
                 <div className="text-center">
                     <div className="flex justify-center">
