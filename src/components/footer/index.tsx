@@ -70,19 +70,16 @@ export const Footer = () => {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                             <div>
                                 <h3 className="text-lg font-bold mb-4 text-gray-400">Supplements</h3>
-                                {[
-                                    'Summit',
-                                    'Rise',
-                                    'Core',
-                                    'Ground'
-                                ].map((product) => (
-                                    <Link key={product} href="#" className="block mb-2 text-sm text-white hover:underline">{product}</Link>
-                                ))}
+                                <Link href="#" className="hover:text-[#5B4458] block mb-2 text-sm text-white hover:underline">Summit</Link>
+                                <Link href="#" className="hover:text-[#E78041] block mb-2 text-sm text-white hover:underline">Rise</Link>
+                                <Link href="#" className="hover:text-[#929292] block mb-2 text-sm text-white hover:underline">Core</Link>
+                                <Link href="#" className="hover:text-[#74806E] block mb-2 text-sm text-white hover:underline">Ground</Link>
                             </div>
                             <div>
                                 <h3 className="text-lg font-bold mb-4 text-gray-400">Clothes</h3>
-                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Men</Link>
-                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Women</Link>
+                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Male</Link>
+                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Female</Link>
+                                <Link href="#" className="block mb-2 text-sm text-white hover:underline">Non-binary</Link>
                             </div>
                             <div>
                                 <h3 className="text-lg font-bold mb-4 text-gray-400">Pages</h3>

@@ -14,7 +14,7 @@ import Image from 'next/image';
 
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [isScrolled, setIsScrolled] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(true);
     const [scrollY, setScrollY] = useState(0);
     const hasScrolled = useRef(false);
 
@@ -159,7 +159,7 @@ export const Header = () => {
                             <input
                                 type="text"
                                 placeholder="products, athletes, articles"
-                                className="w-full bg-transparent border-b border-white py-2 text-sm"
+                                className="w-full bg-transparent border-b border-white py-2 text-sm outline-none focus:outline-none focus:ring-0"
                             />
                         </div>
                     </div>

@@ -8,6 +8,7 @@ import { CartProvider } from "@/context/cartContext";
 import { Assistant } from "@/components/assistant";
 import { Jost } from 'next/font/google'
 import { AssistantProvider } from "@/context/AssistantContext";
+import { LaunchModal } from "@/components/LaunchModal";
 
 export const jost = Jost({
   subsets: ['latin'],
@@ -36,8 +37,8 @@ export const MamostongSans = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Hydrogel Sports Fuel – New Carbohydrate fuel for endurance… / Mamostong",
-  description: "Hydrogel Sports Fuel – Carbohydrate-rich fuel for endurance sports, based on natural ingredients for energy, hydration and recovery.",
+  title: "Plant-Based Sports Nutrition – Innovative Fuel for Strength, Endurance, and Recovery | Mamostong",
+  description: "Plant-Based Sports Nutrition – Innovative Fuel for Strength, Endurance, and Recovery | Mamostong",
 };
 
 export default function RootLayout({
@@ -58,6 +59,7 @@ export default function RootLayout({
               </main>
               <Footer />
               <Assistant />
+              <LaunchModal />
             </div>
           </AssistantProvider>
         </CartProvider>
