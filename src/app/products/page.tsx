@@ -5,16 +5,20 @@ import { getAllProducts } from "@/utils/productData";
 export default function AllProductsPage({
     searchParams,
 }: {
-    searchParams: { subCategory?: string }
+    searchParams: { subCategory?: string; type?: string; }
 }) {
     const products = getAllProducts();
-    const filteredProducts = searchParams.subCategory
-    ? products.filter(product => 
-        product.subCategory?.some(subCat => 
-            subCat.toLowerCase() === searchParams.subCategory?.toLowerCase()
-        )
-      )
-    : products;
+    const filteredProducts = products.filter(product => {
+        const matchesSubCategory = !searchParams.subCategory || 
+            product.subCategory?.some(subCat => 
+                subCat?.toLowerCase() === searchParams.subCategory?.toLowerCase()
+            );
+
+        const matchesType = !searchParams.type || 
+            product.type?.toLowerCase() === searchParams.type?.toLowerCase();
+
+        return matchesSubCategory && matchesType;
+    });
 
     return (
         <ProductPageWrapper category="all">

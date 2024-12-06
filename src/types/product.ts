@@ -1,4 +1,4 @@
-export type ProductCategories = 
+export type ProductCategories =
     | 'Metabolism Boost'
     | 'Focus'
     | 'Wellness'
@@ -14,6 +14,13 @@ export type ProductCategories =
     | 'Lose weight'
     ;
 
+export type ProductType =
+    | 'Powder'
+    | 'Herbs'
+    | 'Liquids'
+    | 'Capsules'
+    ;
+
 export interface Product {
     id: number;
     name: string;
@@ -21,7 +28,8 @@ export interface Product {
     servings?: string;
     pricePerUnit?: string;
     category: string;
-    subCategory?: ProductCategories[]; 
+    subCategory?: ProductCategories[];
+    type?: ProductType;
     img: string;
     link: string;
     cloth?: boolean;

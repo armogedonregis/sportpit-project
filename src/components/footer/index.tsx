@@ -13,9 +13,9 @@ import Image from 'next/image';
 export const Footer = () => {
     return (
         <footer className="bg-black relative text-white py-16 px-8">
-            <div className="absolute inset-0 -left-1/2 z-0 opacity-30">
+            <div className="absolute inset-0 -left-1/2 z-0">
                 <Image
-                    src="/images/footer_bg.png"
+                    src="/images/footer_bg.jpg"
                     alt="Footer background"
                     fill
                     className="object-contain mix-blend-overlay"
