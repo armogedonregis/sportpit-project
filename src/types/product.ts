@@ -53,4 +53,5 @@ export interface Product {
     fabrication?: string;
     fit?: string;
     sizes?: string[];
+    video?: string;
 }
