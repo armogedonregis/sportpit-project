@@ -35,7 +35,7 @@ export const AssistantButton = ({ onClick }: AssistantButtonProps) => {
                     loop
                     muted
                     playsInline
-                    className="absolute inset-0 w-full h-full object-contain rounded-2xl pointer-events-none [&::-webkit-media-controls-start-playback-button]:hidden [&::-webkit-media-controls]:hidden [&::-webkit-media-controls-panel]:hidden"
+                    className="absolute inset-0 w-full h-full object-cover rounded-2xl pointer-events-none [&::-webkit-media-controls-start-playback-button]:hidden [&::-webkit-media-controls]:hidden [&::-webkit-media-controls-panel]:hidden"
                 >
                     <source src={selectedVideo} type="video/mp4" />
                 </video>
@@ -92,7 +92,7 @@ export const AssistantButton = ({ onClick }: AssistantButtonProps) => {
                         loop
                         muted
                         playsInline
-                        className="absolute inset-0 w-full h-full object-contain rounded-2xl pointer-events-none [&::-webkit-media-controls-start-playback-button]:hidden [&::-webkit-media-controls]:hidden [&::-webkit-media-controls-panel]:hidden"
+                        className="absolute inset-0 w-full h-full object-cover rounded-2xl pointer-events-none [&::-webkit-media-controls-start-playback-button]:hidden [&::-webkit-media-controls]:hidden [&::-webkit-media-controls-panel]:hidden"
                     >
                         <source src="/video/anim_ai_women.mp4" type="video/mp4" />
                     </video>
@@ -118,7 +118,7 @@ export const AssistantButton = ({ onClick }: AssistantButtonProps) => {
                         loop
                         muted
                         playsInline
-                        className="absolute inset-0 w-full h-full object-contain rounded-2xl pointer-events-none [&::-webkit-media-controls-start-playback-button]:hidden [&::-webkit-media-controls]:hidden [&::-webkit-media-controls-panel]:hidden"
+                        className="absolute inset-0 w-full h-full object-cover rounded-2xl pointer-events-none [&::-webkit-media-controls-start-playback-button]:hidden [&::-webkit-media-controls]:hidden [&::-webkit-media-controls-panel]:hidden"
                     >
                         <source src="/video/anim_ai.mp4" type="video/mp4" />
                     </video>

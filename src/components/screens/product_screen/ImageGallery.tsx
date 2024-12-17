@@ -6,8 +6,8 @@ interface ImageGalleryProps {
 }
 
 
-const isVideo = (url: string) => {
-    return url.match(/\.(mp4|webm|ogg)$/i) !== null;
+const isVideo = (url: string | undefined) => {
+    return url &&url.match(/\.(mp4|webm|ogg)$/i) !== null;
 };
 
 const MediaElement = ({ src, alt, width, height }: { src: string; alt: string; width: number; height: number }) => {
