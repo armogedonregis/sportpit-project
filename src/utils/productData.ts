@@ -1650,6 +1650,7 @@ const allProducts: Product[] = [
     category: "ground",
     spray: true,
     img: "/images/spray/1.png",
+    video: "/images/spray/1_3.mp4",
     link: "/ground-drops-spray-youth",
     description:
       "Mamostong GROUND Drops / Spray Youth is a rejuvenating formula designed to promote skin health and support anti-aging. This concentrated spray is rich in antioxidants and collagen-boosting ingredients to keep your skin looking youthful and radiant.",
@@ -1671,6 +1672,7 @@ const allProducts: Product[] = [
     pricePerUnit: "€1.50 / serving",
     category: "ground",
     spray: true,
+    video: "/images/spray/2_3.mp4",
     img: "/images/spray/2.png",
     link: "/ground-drops-spray-calm",
     description:
@@ -1692,6 +1694,7 @@ const allProducts: Product[] = [
     servings: "5 Calories, 2mg Melatonin, 100mg Chamomile",
     pricePerUnit: "€1.50 / serving",
     category: "ground",
+    video: "/images/spray/3_3.mp4",
     img: "/images/spray/3.png",
     spray: true,
     link: "/ground-drops-spray-dream",
