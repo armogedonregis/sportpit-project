@@ -1648,6 +1648,7 @@ const allProducts: Product[] = [
     servings: "10 Calories, 2mg Hyaluronic Acid, 200mg Vitamin C",
     pricePerUnit: "€1.50 / serving",
     category: "ground",
+    spray: true,
     img: "/images/spray/1.png",
     link: "/ground-drops-spray-youth",
     description:
@@ -1669,6 +1670,7 @@ const allProducts: Product[] = [
     servings: "5 Calories, 50mg L-Theanine, 100mg Lemon Balm",
     pricePerUnit: "€1.50 / serving",
     category: "ground",
+    spray: true,
     img: "/images/spray/2.png",
     link: "/ground-drops-spray-calm",
     description:
@@ -1691,6 +1693,7 @@ const allProducts: Product[] = [
     pricePerUnit: "€1.50 / serving",
     category: "ground",
     img: "/images/spray/3.png",
+    spray: true,
     link: "/ground-drops-spray-dream",
     description:
       "Mamostong GROUND Drops / Spray Dream is a sleep-enhancing formula that helps you relax and achieve deep, restful sleep. Its natural ingredients promote a calm mind and body for a peaceful nights rest.",

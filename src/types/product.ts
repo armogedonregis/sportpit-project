@@ -55,4 +55,5 @@ export interface Product {
     fit?: string;
     sizes?: string[];
     video?: string;
+    spray?: boolean;
 }

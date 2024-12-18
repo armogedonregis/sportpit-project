@@ -56,7 +56,7 @@ export default function ProductHeader({
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row gap-8">
           <div className="md:w-1/2">
-            {product.category === "ground" ? (
+            {product.category === "ground" && !product.spray ? (
               <video
                 src="/video/GROUND.mp4"
                 autoPlay
@@ -86,6 +86,15 @@ export default function ProductHeader({
             ) : product.category === "summit" ? (
               <video
                 src="/video/SUMMIT.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full"
+              />
+            ) : product.video ? (
+              <video
+                src={product.video}
                 autoPlay
                 loop
                 muted
