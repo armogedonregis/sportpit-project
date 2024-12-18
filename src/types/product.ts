@@ -26,6 +26,7 @@ export type ProductFilter =
     | 'Protein'
     | 'Meal replacement'
     | 'Clothes'
+    | 'Other'
     ;
 
 export interface Product {

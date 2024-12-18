@@ -48,7 +48,7 @@ const productFilters = [
     { name: 'Protein', value: 'Protein' as ProductFilter },
     { name: 'Meal replacement', value: 'Meal replacement' as ProductFilter },
     { name: 'Clothes', value: 'Clothes' as ProductFilter },
-    { name: 'Taste Box', value: 'Taste Box' as ProductFilter },
+    { name: 'Other products', value: 'Other products' as ProductFilter },
 ];
 
 export function CategoryNavigation() {
