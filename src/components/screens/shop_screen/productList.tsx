@@ -54,7 +54,7 @@ export const ProductList: React.FC<ProductListProps> = ({ products }) => {
               )}
               <div className="relative overflow-hidden">
                 <div className="relative aspect-square">
-                  {product.video ? (
+                  {product.video && !product.spray ? (
                     <video
                       autoPlay
                       loop

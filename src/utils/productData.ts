@@ -1500,6 +1500,8 @@ const allProducts: Product[] = [
     pricePerUnit: "€1.87 / serving",
     category: "taste",
     img: "/images/taste_boxes/6.png",
+    video: "/images/taste_boxes/nuts_spices.mp4",
+    spray: true,
     link: "/taste-box-nuts-spices",
     description:
       "Mamostong TASTE BOX Nuts & Spices offers a flavorful blend of nutty and spicy essences to elevate your protein shakes and recipes. With ingredients like matcha, chili pepper, and macadamia, it provides natural antioxidants and a rich taste experience.",
@@ -1515,6 +1517,8 @@ const allProducts: Product[] = [
       "/images/taste_boxes/6.png",
       "/images/taste_boxes/Open_2.png",
       "/images/taste_boxes/7.png",
+      "/images/taste_boxes/sub_1.png",
+      "/images/7516m/m_1.mp4"
     ],
   },
   {
@@ -1525,6 +1529,8 @@ const allProducts: Product[] = [
     pricePerUnit: "€1.87 / serving",
     category: "taste",
     img: "/images/taste_boxes/1.png",
+    video: "/images/taste_boxes/berries.mp4",
+    spray: true,
     link: "/taste-box-berries",
     description:
       "Mamostong TASTE BOX Berries brings the essence of nature's finest berries to your protein routine. Featuring raspberry, strawberry, and cranberry, it offers refreshing and vibrant flavors packed with antioxidants.",
@@ -1540,6 +1546,8 @@ const allProducts: Product[] = [
       "/images/taste_boxes/1.png",
       "/images/taste_boxes/Open_1.png",
       "/images/taste_boxes/8.png",
+      "/images/taste_boxes/sub_2.png",
+      "/images/7516m/m_2.mp4"
     ],
   },
   {
@@ -1550,6 +1558,8 @@ const allProducts: Product[] = [
     pricePerUnit: "€1.87 / serving",
     category: "taste",
     img: "/images/taste_boxes/4.png",
+    video: "/images/taste_boxes/fruit.mp4",
+    spray: true,
     link: "/taste-box-fruit",
     description:
       "Mamostong TASTE BOX Fruit captures the vibrant flavors of tropical and orchard fruits, bringing a refreshing twist to your protein shakes. Perfect for creating unique fruity combinations every day.",
@@ -1565,6 +1575,8 @@ const allProducts: Product[] = [
       "/images/taste_boxes/4.png",
       "/images/taste_boxes/Open_5.png",
       "/images/taste_boxes/11.png",
+      "/images/taste_boxes/sub_3.png",
+      "/images/7516m/w_1.mp4"
     ],
   },
   {
@@ -1575,6 +1587,8 @@ const allProducts: Product[] = [
     pricePerUnit: "€1.87 / serving",
     category: "taste",
     img: "/images/taste_boxes/5.png",
+    video: "/images/taste_boxes/herbs.mp4",
+    spray: true,
     link: "/taste-box-herbs",
     description:
       "Mamostong TASTE BOX Herbs adds herbal sophistication to your protein routine. With notes of basil, mint, and lavender, it offers a calming, aromatic experience for drinks and recipes.",
@@ -1590,6 +1604,8 @@ const allProducts: Product[] = [
       "/images/taste_boxes/5.png",
       "/images/taste_boxes/Open_6.png",
       "/images/taste_boxes/12.png",
+      "/images/taste_boxes/sub_4.png",
+      "/images/7516m/w_2.mp4"
     ],
   },
   {
@@ -1600,6 +1616,8 @@ const allProducts: Product[] = [
     pricePerUnit: "€1.87 / serving",
     category: "taste",
     img: "/images/taste_boxes/3.png",
+    video: "/images/taste_boxes/citrus.mp4",
+    spray: true,
     link: "/taste-box-citrus",
     description:
       "Mamostong TASTE BOX Citrus bursts with zesty, refreshing flavors of pineapple, orange, and pomegranate. Perfect for revitalizing your protein shakes with a splash of citrus.",
@@ -1614,6 +1632,8 @@ const allProducts: Product[] = [
       "/images/taste_boxes/3.png",
       "/images/taste_boxes/Open_4.png",
       "/images/taste_boxes/10.png",
+      "/images/taste_boxes/sub_5.png",
+      "/images/7516m/w_3.mp4"
     ],
   },
   {
@@ -1624,6 +1644,8 @@ const allProducts: Product[] = [
     pricePerUnit: "€1.87 / serving",
     category: "taste",
     img: "/images/taste_boxes/2.png",
+    spray: true,
+    video: "/images/taste_boxes/chocolate.mp4",
     link: "/taste-box-chocolate",
     description:
       "Mamostong TASTE BOX Chocolate offers indulgent flavors like milk chocolate, white chocolate, and coffee to elevate your protein shakes or recipes with a rich, satisfying taste.",
@@ -1639,6 +1661,8 @@ const allProducts: Product[] = [
       "/images/taste_boxes/2.png",
       "/images/taste_boxes/Open_3.png",
       "/images/taste_boxes/9.png",
+      "/images/taste_boxes/sub_6.png",
+      "/images/7516m/m_2.mp4"
     ],
   },
   {
@@ -1662,7 +1686,7 @@ const allProducts: Product[] = [
     finalMessage:
       "Stay youthful and radiant with Mamostong GROUND Drops / Spray Youth. This anti-aging spray rejuvenates your skin, keeping it looking fresh and glowing.",
     size: "30ml",
-    images: ["/images/spray/1.png", "/images/spray/1_2.png"],
+    images: ["/images/spray/1.png", "/images/spray/1_2.png", "/images/spray/spray_main.jpg", "/images/7516m/w_1.mp4"],
   },
   {
     id: 60,
@@ -1685,7 +1709,7 @@ const allProducts: Product[] = [
     finalMessage:
       "Calm your mind and relax with Mamostong GROUND Drops / Spray Calm. This natural spray helps relieve stress and promote relaxation, perfect for unwinding after a busy day.",
     size: "30ml",
-    images: ["/images/spray/2.png", "/images/spray/2_2.png"],
+    images: ["/images/spray/2.png", "/images/spray/2_2.png", "/images/spray/spray_main.jpg", "/images/7516m/m_2.mp4"],
   },
   {
     id: 61,
@@ -1708,7 +1732,7 @@ const allProducts: Product[] = [
     finalMessage:
       "Achieve a deep and restful sleep with Mamostong GROUND Drops / Spray Dream. This sleep-enhancing formula helps you relax and enjoy a peaceful nights rest.",
     size: "30ml",
-    images: ["/images/spray/3.png", "/images/spray/3_2.png"],
+    images: ["/images/spray/3.png", "/images/spray/3_2.png", "/images/spray/spray_main.jpg", "/images/7516m/m_1.mp4"],
   },
 ];
 
