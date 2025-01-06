@@ -1345,31 +1345,6 @@ const allProducts: Product[] = [
     productFilter: "Clothes",
   },
   {
-    id: 47,
-    name: "MEN'S RECOVER HOODIE",
-    price: "€94.99",
-    category: "7516m",
-    img: "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a2_1_m204_750x.png",
-    link: "/mens-recover-hoodie",
-    description:
-      "Recovery-focused hoodie designed for post-workout relaxation and all-day comfort.",
-    description2:
-      "This hoodie supports recovery with ultra-soft fabric, crafted for a cozy feel and gentle stretch. Bamboo fiber provides natural breathability, making it ideal for cooling down after training or as an everyday piece with a wellness focus.",
-    fabrication: "75% Organic Cotton, 25% Bamboo Fiber",
-    fit: "Relaxed",
-    sizes: ["S", "M", "L", "XL"],
-    cloth: true,
-    images: [
-      "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a2_1_m204_750x.png",
-      "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a3_1_m204_750x.png",
-      "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a4_1_m204_750x.png",
-      "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a2_1_m204_750x.png",
-      "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a3_1_m204_750x.png",
-      "/images/7516m/mens_recover_hoodie/m3243r_01_b1_s1_a4_1_m204_750x.png",
-    ],
-    productFilter: "Clothes",
-  },
-  {
     id: 48,
     name: "WOMEN'S SPORT SKIRT",
     price: "€74.99",
