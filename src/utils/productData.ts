@@ -1137,7 +1137,7 @@ const allProducts: Product[] = [
   {
     id: 39,
     name: "MEN'S SHORTS",
-    price: "€89.99",
+    price: "€87.90",
     category: "7516m",
     img: "/images/7516m/mens_shorts/m6095r_01320_b1_s3_a1_1_m93_750x.png",
     link: "/mens-shorts",
@@ -1163,7 +1163,7 @@ const allProducts: Product[] = [
   {
     id: 40,
     name: "MEN'S ZIP-NECK LONG SLEEVE",
-    price: "€109.99",
+    price: "€126.90",
     category: "7516m",
     img: "/images/7516m/mens_zip_neck_long_sleeve/m3193r_01_b1_s3_a1_1_m93_750x.png",
     link: "/mens-zip-neck-long-sleeve",
@@ -1194,7 +1194,7 @@ const allProducts: Product[] = [
   {
     id: 41,
     name: "MEN'S SWEATSHIRT",
-    price: "€104.99",
+    price: "€136.90",
     category: "7516m",
     img: "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a1_1_m204_750x.png",
     link: "/mens-sweatshirt",
@@ -1221,7 +1221,7 @@ const allProducts: Product[] = [
   {
     id: 42,
     name: "MEN'S CARGO PANTS",
-    price: "€104.99",
+    price: "€178.90",
     category: "7516m",
     img: "/images/7516m/mens_cargo_pants/ezgif-4-86ffbd5984.jpg",
     link: "/mens-cargo-pants",
@@ -1247,7 +1247,7 @@ const allProducts: Product[] = [
   {
     id: 43,
     name: "MEN'S SPORTS TANK",
-    price: "€99.99",
+    price: "€74.90",
     category: "7516m",
     video: "/images/7516m/m_2.mp4",
     img: "/images/7516m/mens_sports_tank/m2033r_05541_b1_s1_a1_1_m93_750x.jpg",
@@ -1275,7 +1275,7 @@ const allProducts: Product[] = [
   {
     id: 44,
     name: "MEN'S 2-IN-1 SHORTS",
-    price: "€109.99",
+    price: "€99.90",
     category: "7516m",
     img: "/images/7516m/mens_2_in_1_shorts/m3193r_0101_b1_s1_a1_1.png",
     link: "/mens-2-in-1-shorts",
@@ -1298,7 +1298,7 @@ const allProducts: Product[] = [
   {
     id: 45,
     name: "MEN'S STANDARD LONG SLEEVE",
-    price: "€119.99",
+    price: "€126.90",
     category: "7516m",
     video: "/images/7516m/m_1.mp4",
     img: "/images/7516m/mens_standard_long_sleeve/m3181r_04064_b1_s3_a1_1_m195_750x.png",
@@ -1322,7 +1322,7 @@ const allProducts: Product[] = [
   {
     id: 46,
     name: "MEN'S SPORTS HOODIE",
-    price: "€89.99",
+    price: "€139.90",
     category: "7516m",
     img: "/images/7516m/mens_sports_hoodie/m3199r_00_b1_s3_a1_1_m108_750x.png",
     link: "/mens-sports-hoodie",
@@ -1347,7 +1347,7 @@ const allProducts: Product[] = [
   {
     id: 48,
     name: "WOMEN'S SPORT SKIRT",
-    price: "€74.99",
+    price: "€113.90",
     category: "7516m",
     video: "/images/7516m/w_1.mp4",
     img: "/images/7516m/womens_sport_skirt/w4593r_01_b1_s1_a1_1_m18_750x.png",
@@ -1372,7 +1372,7 @@ const allProducts: Product[] = [
   {
     id: 49,
     name: "WOMEN'S YOGA TOP",
-    price: "€89.99",
+    price: "€99.90",
     category: "7516m",
     video: "/images/7516m/w_3.mp4",
     img: "/images/7516m/womens_gym_suit/w3735r_01_b1_s1_a1_1_m174_750x.jpg",
@@ -1422,7 +1422,7 @@ const allProducts: Product[] = [
   {
     id: 51,
     name: "WOMEN'S TRACKSUIT",
-    price: "€79.99",
+    price: "€253.90",
     category: "7516m",
     img: "/images/7516m/womens_tracksuit/w9679r_05602_b1_s1_a1_1_m199_750x.png",
     link: "/womens-tracksuit",
@@ -1446,7 +1446,7 @@ const allProducts: Product[] = [
   {
     id: 52,
     name: "WOMEN'S YOGA COSTUME",
-    price: "€69.99",
+    price: "€253.90",
     category: "7516m",
     img: "/images/7516m/womens_yoga_costume/w9679r_03842_b1_s1_a1_1_m173_750x.png",
     link: "/womens-yoga-costume",
