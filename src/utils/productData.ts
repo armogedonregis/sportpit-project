@@ -1136,7 +1136,7 @@ const allProducts: Product[] = [
   },
   {
     id: 39,
-    name: "MEN'S SHORTS",
+    name: "Summit Shorts",
     price: "€87.90",
     category: "7516m",
     img: "/images/7516m/mens_shorts/m6095r_01320_b1_s3_a1_1_m93_750x.png",
@@ -1162,7 +1162,7 @@ const allProducts: Product[] = [
   },
   {
     id: 40,
-    name: "MEN'S ZIP-NECK LONG SLEEVE",
+    name: "Base Layer Zip Long Sleeve",
     price: "€126.90",
     category: "7516m",
     img: "/images/7516m/mens_zip_neck_long_sleeve/m3193r_01_b1_s3_a1_1_m93_750x.png",
@@ -1193,7 +1193,7 @@ const allProducts: Product[] = [
   },
   {
     id: 41,
-    name: "MEN'S SWEATSHIRT",
+    name: "Summit Crew Sweatshirt",
     price: "€136.90",
     category: "7516m",
     img: "/images/7516m/mens_sweatshirt/m3243r_01_b1_s1_a1_1_m204_750x.png",
@@ -1220,7 +1220,7 @@ const allProducts: Product[] = [
   },
   {
     id: 42,
-    name: "MEN'S CARGO PANTS",
+    name: "Explorer Cargo Pants",
     price: "€178.90",
     category: "7516m",
     img: "/images/7516m/mens_cargo_pants/ezgif-4-86ffbd5984.jpg",
@@ -1246,7 +1246,7 @@ const allProducts: Product[] = [
   },
   {
     id: 43,
-    name: "MEN'S SPORTS TANK",
+    name: "Summit Sports Tank",
     price: "€74.90",
     category: "7516m",
     video: "/images/7516m/m_2.mp4",
@@ -1274,7 +1274,7 @@ const allProducts: Product[] = [
   },
   {
     id: 44,
-    name: "MEN'S 2-IN-1 SHORTS",
+    name: "Trail 2-in-1 Shorts",
     price: "€99.90",
     category: "7516m",
     img: "/images/7516m/mens_2_in_1_shorts/m3193r_0101_b1_s1_a1_1.png",
@@ -1297,7 +1297,7 @@ const allProducts: Product[] = [
   },
   {
     id: 45,
-    name: "MEN'S STANDARD LONG SLEEVE",
+    name: "Peak Standard Long Sleeve",
     price: "€126.90",
     category: "7516m",
     video: "/images/7516m/m_1.mp4",
@@ -1321,7 +1321,7 @@ const allProducts: Product[] = [
   },
   {
     id: 46,
-    name: "MEN'S SPORTS HOODIE",
+    name: "Summit Sports Hoodie",
     price: "€139.90",
     category: "7516m",
     img: "/images/7516m/mens_sports_hoodie/m3199r_00_b1_s3_a1_1_m108_750x.png",
@@ -1346,7 +1346,7 @@ const allProducts: Product[] = [
   },
   {
     id: 48,
-    name: "WOMEN'S SPORT SKIRT",
+    name: "Summit Sport Skirt",
     price: "€113.90",
     category: "7516m",
     video: "/images/7516m/w_1.mp4",
@@ -1371,7 +1371,7 @@ const allProducts: Product[] = [
   },
   {
     id: 49,
-    name: "WOMEN'S YOGA TOP",
+    name: "Yoga Flow Top",
     price: "€99.90",
     category: "7516m",
     video: "/images/7516m/w_3.mp4",
@@ -1394,8 +1394,8 @@ const allProducts: Product[] = [
   },
   {
     id: 50,
-    name: "WOMEN'S YOGA PANTS",
-    price: "€44.99",
+    name: "Summit Yoga Pants",
+    price: "€113.90",
     category: "7516m",
     video: "/images/7516m/w_2.mp4",
     img: "/images/7516m/womens_yoga_suit/w9681r_05131_b1_s1_a1_1_m191_750x.png",
@@ -1421,7 +1421,7 @@ const allProducts: Product[] = [
   },
   {
     id: 51,
-    name: "WOMEN'S TRACKSUIT",
+    name: "Trail Tracksuit",
     price: "€253.90",
     category: "7516m",
     img: "/images/7516m/womens_tracksuit/w9679r_05602_b1_s1_a1_1_m199_750x.png",
@@ -1445,7 +1445,7 @@ const allProducts: Product[] = [
   },
   {
     id: 52,
-    name: "WOMEN'S YOGA COSTUME",
+    name: "Summit Yoga Costume",
     price: "€253.90",
     category: "7516m",
     img: "/images/7516m/womens_yoga_costume/w9679r_03842_b1_s1_a1_1_m173_750x.png",
