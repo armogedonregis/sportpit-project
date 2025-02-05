@@ -1,66 +1,66 @@
 'use client'
 
-import React, { useState } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { useCartDispatch, useCartState } from '@/context/cartContext';
-import { Modal } from '@/components/Modal';
-import { MapModule } from '@/components/mapModule';
-import locations from '@/data/locations.json';
+// import React, { useState } from 'react';
+// import Image from 'next/image';
+// import Link from 'next/link';
+// import { useCartDispatch, useCartState } from '@/context/cartContext';
+// import { Modal } from '@/components/Modal';
+// import { MapModule } from '@/components/mapModule';
+// import locations from '@/data/locations.json';
 
 
 export default function CartPage() {
-    const { items } = useCartState();
-    const dispatch = useCartDispatch();
-    const [isEditing, setIsEditing] = useState(false);
-    const [isMapOpen, setIsMapOpen] = useState(false);
-    const [selectedLocation, setSelectedLocation] = useState<typeof locations[0] | undefined>();
-    const [userPosition, setUserPosition] = useState<{ lat: number, lng: number } | null>(null);
+    // const { items } = useCartState();
+    // const dispatch = useCartDispatch();
+    // const [isEditing, setIsEditing] = useState(false);
+    // const [isMapOpen, setIsMapOpen] = useState(false);
+    // const [selectedLocation, setSelectedLocation] = useState<typeof locations[0] | undefined>();
+    // const [userPosition, setUserPosition] = useState<{ lat: number, lng: number } | null>(null);
 
-    const handleFindInStores = () => {
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(
-                (position) => {
-                    setUserPosition({
-                        lat: position.coords.latitude,
-                        lng: position.coords.longitude
-                    });
-                    setIsMapOpen(true);
-                },
-                (error) => {
-                    console.error("Error getting location:", error);
-                    setIsMapOpen(true);
-                }
-            );
-        } else {
-            setIsMapOpen(true);
-        }
-    };
+    // const handleFindInStores = () => {
+    //     if (navigator.geolocation) {
+    //         navigator.geolocation.getCurrentPosition(
+    //             (position) => {
+    //                 setUserPosition({
+    //                     lat: position.coords.latitude,
+    //                     lng: position.coords.longitude
+    //                 });
+    //                 setIsMapOpen(true);
+    //             },
+    //             (error) => {
+    //                 console.error("Error getting location:", error);
+    //                 setIsMapOpen(true);
+    //             }
+    //         );
+    //     } else {
+    //         setIsMapOpen(true);
+    //     }
+    // };
 
-    const totalPrice = items.reduce((sum, item) => {
-        const price = item.price && parseFloat(item.price.replace('$', ''));
-        return sum + Number(price) * item.quantity;
-    }, 0);
+    // const totalPrice = items.reduce((sum, item) => {
+    //     const price = item.price && parseFloat(item.price.replace('$', ''));
+    //     return sum + Number(price) * item.quantity;
+    // }, 0);
 
-    const shippingCost = 5.00;
-    const freeShippingThreshold = 100.00;
-    const salesTax = 0.00;
+    // const shippingCost = 5.00;
+    // const freeShippingThreshold = 100.00;
+    // const salesTax = 0.00;
 
-    const handleQuantityChange = (id: number, newQuantity: number) => {
-        if (newQuantity === 0) {
-            dispatch({ type: 'REMOVE_ITEM', payload: id });
-        } else {
-            dispatch({ type: 'UPDATE_QUANTITY', payload: { id, quantity: newQuantity } });
-        }
-    };
+    // const handleQuantityChange = (id: number, newQuantity: number) => {
+    //     if (newQuantity === 0) {
+    //         dispatch({ type: 'REMOVE_ITEM', payload: id });
+    //     } else {
+    //         dispatch({ type: 'UPDATE_QUANTITY', payload: { id, quantity: newQuantity } });
+    //     }
+    // };
 
-    const handleRemoveItem = (id: number) => {
-        dispatch({ type: 'REMOVE_ITEM', payload: id });
-    };
+    // const handleRemoveItem = (id: number) => {
+    //     dispatch({ type: 'REMOVE_ITEM', payload: id });
+    // };
 
     return (
         <div className="container mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold mb-2">Checkout</h1>
+            {/* <h1 className="text-3xl font-bold mb-2">Checkout</h1>
             <p className="text-lg mb-4">{items.length} items | ${totalPrice.toFixed(2)}</p>
 
             <div className="flex justify-between mb-8 relative">
@@ -169,15 +169,15 @@ export default function CartPage() {
                         <Link href="/reviews" className="text-blue-600 hover:underline">More reviews</Link>
                     </div>
                 </div>
-            </div>
-
+            </div> */}
+{/* 
             <Modal isOpen={isMapOpen} onClose={() => setIsMapOpen(false)}>
                 <MapModule 
                     selectedLocation={selectedLocation}
                     onLocationSelect={setSelectedLocation}
                     userPosition={userPosition}
                 />
-            </Modal>
+            </Modal> */}
         </div>
     );
 };

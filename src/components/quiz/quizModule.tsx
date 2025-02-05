@@ -16,7 +16,7 @@ type QuizOption = {
   big?: boolean;
 }
 
-export const QuizModule = () => {
+export default function QuizModule() {
   const [currentStep, setCurrentStep] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string[]>>({});
   const [recommendedProducts, setRecommendedProducts] = useState<Product[]>([]);

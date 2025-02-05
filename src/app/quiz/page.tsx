@@ -1,6 +1,11 @@
-import { QuizModule } from "@/components/quiz/quizModule";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 
+
+const QuizModule = dynamic(
+    () => import("@/components/quiz/quizModule"),
+    { ssr: false }
+  );
 
 export default function QuizPage() {
     return (
