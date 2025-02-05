@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
-import { Header } from "@/components/header";
-import { Footer } from "@/components/footer";
-import { HeaderRaiting } from "@/components/headerRaiting";
+// import { Header } from "@/components/header";
+// import { Footer } from "@/components/footer";
+// import { HeaderRaiting } from "@/components/headerRaiting";
 import localFont from 'next/font/local'
-import { CartProvider } from "@/context/cartContext";
-import { Assistant } from "@/components/assistant";
+// import { CartProvider } from "@/context/cartContext";
+// import { Assistant } from "@/components/assistant";
 import { Jost } from 'next/font/google'
-import { AssistantProvider } from "@/context/AssistantContext";
-import { LaunchModal } from "@/components/LaunchModal";
+// import { AssistantProvider } from "@/context/AssistantContext";
+// import { LaunchModal } from "@/components/LaunchModal";
 
 export const jost = Jost({
   subsets: ['latin'],
@@ -49,7 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${MamostongSans.variable} ${jost.variable}`}>
       <body className={MamostongSans.className}>
-        <CartProvider>
+        {/* <CartProvider>
           <AssistantProvider>
             <div className="min-h-screen flex flex-col bg-white text-black overflow-hidden">
               <HeaderRaiting />
@@ -62,7 +62,10 @@ export default function RootLayout({
               <LaunchModal />
             </div>
           </AssistantProvider>
-        </CartProvider>
+        </CartProvider> */}
+        <main className="min-h-screen">
+          {children}
+        </main>
       </body>
     </html>
   );

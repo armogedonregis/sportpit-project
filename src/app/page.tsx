@@ -1,17 +1,26 @@
-import { AthletesAndRetailerBlock } from "@/components/screens/home_screen/athletes_retailer_block";
-import { BicarbSystemBlock } from "@/components/screens/home_screen/bicarb_system_block";
-import { DrinkMixes } from "@/components/screens/home_screen/drink_mixes_block";
-import { GelsBlock } from "@/components/screens/home_screen/gels_block";
-import { HeroBlock } from "@/components/screens/home_screen/hero_block";
-import { ProductShowcaseBlock } from "@/components/screens/home_screen/product_show_case_block";
-import { SolidsBlock } from "@/components/screens/home_screen/solids_block";
+// import { AthletesAndRetailerBlock } from "@/components/screens/home_screen/athletes_retailer_block";
+// import { BicarbSystemBlock } from "@/components/screens/home_screen/bicarb_system_block";
+// import { DrinkMixes } from "@/components/screens/home_screen/drink_mixes_block";
+// import { GelsBlock } from "@/components/screens/home_screen/gels_block";
+// import { HeroBlock } from "@/components/screens/home_screen/hero_block";
+// import { ProductShowcaseBlock } from "@/components/screens/home_screen/product_show_case_block";
+// import { SolidsBlock } from "@/components/screens/home_screen/solids_block";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <section
+      <section className="relative w-full h-screen">
+        <Image
+          src="/images/time_banner.png"
+          alt=""
+          fill
+          className="object-cover"
+          priority
+        />
+      </section>
+      {/* <section
         className="relative bg-white h-[416px] lg:min-h-screen flex flex-col justify-between">
         <Image
           src="/images/summit_bg.jpeg"
@@ -40,7 +49,7 @@ export default function Home() {
       <GelsBlock />
       <ProductShowcaseBlock />
       <AthletesAndRetailerBlock />
-      <HeroBlock />
+      <HeroBlock /> */}
     </>
   );
 }
