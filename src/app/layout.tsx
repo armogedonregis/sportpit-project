@@ -10,12 +10,12 @@ import { Jost } from 'next/font/google'
 // import { AssistantProvider } from "@/context/AssistantContext";
 // import { LaunchModal } from "@/components/LaunchModal";
 
-export const jost = Jost({
+const jost = Jost({
   subsets: ['latin'],
   variable: '--font-jost',
 })
 
-export const MamostongSans = localFont({
+const MamostongSans = localFont({
   src: [
     {
       path: '../styles/fonts/MaurtenSansRegular.woff2',
